@@ -163,6 +163,31 @@ body {
   text-align: right;
 }
 
+.view-toggle {
+  display: flex;
+  gap: 4px;
+}
+.view-toggle button {
+  flex: 1;
+  padding: 5px 0;
+  font-size: 10px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--fg2);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.view-toggle button.active {
+  background: rgba(255,255,255,0.08);
+  color: var(--fg);
+  border-color: rgba(255,255,255,0.2);
+}
+.view-toggle button:hover:not(.active) {
+  background: rgba(255,255,255,0.04);
+}
+
 .gradient-legend {
   display: flex;
   align-items: center;
@@ -231,7 +256,12 @@ canvas#canvas {
 <div id="sidebar">
   <div>
     <h1>AI Exposure of the US Job Market</h1>
-    <div class="subtitle">342 occupations &middot; area = employment &middot; color = AI exposure<br>Data from <a href="https://www.bls.gov/ooh/">BLS</a>, scored by Gemini Flash<br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
+    <div class="subtitle">342 occupations &middot; color = AI exposure<br>Data from <a href="https://www.bls.gov/ooh/">BLS</a>, scored by Gemini Flash<br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
+  </div>
+
+  <div class="view-toggle">
+    <button class="active" onclick="setView('treemap')">Treemap</button>
+    <button onclick="setView('scatter')">Exposure vs Outlook</button>
   </div>
 
   <div class="stat-section">
@@ -312,6 +342,25 @@ function exposureColor(score) {
 
 function exposureColorCSS(score, alpha) {
   const [r, g, b] = exposureColor(score);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+function outlookColorCSS(outlook, alpha) {
+  if (outlook == null) return `rgba(128,128,128,${alpha})`;
+  // Clamp to +/-12% for good saturation without overdoing it
+  const t = Math.max(0, Math.min(1, (outlook + 12) / 24));
+  let r, g, b;
+  if (t < 0.5) {
+    const s = t / 0.5;
+    r = Math.round(220 - s * 40);
+    g = Math.round(60 + s * 100);
+    b = Math.round(50 - s * 20);
+  } else {
+    const s = (t - 0.5) / 0.5;
+    r = Math.round(180 - s * 130);
+    g = Math.round(160 + s * 10);
+    b = Math.round(30 + s * 30);
+  }
   return `rgba(${r},${g},${b},${alpha})`;
 }
 
@@ -397,6 +446,7 @@ function worstAspect(row, rowSum, side, totalArea, availableExtent) {
 let data = [];
 let rects = [];
 let hovered = null;
+let currentView = "treemap";
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -404,6 +454,15 @@ let dpr = window.devicePixelRatio || 1;
 
 const MARGIN = 12;
 const GAP = 1.5;
+
+function setView(view) {
+  currentView = view;
+  document.querySelectorAll(".view-toggle button").forEach(b => b.classList.remove("active"));
+  document.querySelector(`.view-toggle button[onclick="setView('${view}')"]`).classList.add("active");
+  hovered = null;
+  hideTooltip();
+  resize();
+}
 
 function layout() {
   const sidebarW = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
@@ -572,6 +631,165 @@ function hideTooltip() {
   document.getElementById("tooltip").classList.remove("visible");
 }
 
+// ── Column view (exposure x outlook) ────────────────────────────────────
+
+let colRects = [];
+
+function layoutColumns() {
+  const sidebarW = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const w = (window.innerWidth - sidebarW);
+  const h = window.innerHeight;
+
+  canvas.width = w * dpr;
+  canvas.height = h * dpr;
+  canvas.style.width = w + "px";
+  canvas.style.height = h + "px";
+
+  const pad = { top: 20, bottom: 24, left: 4, right: 4 };
+  const plotW = w - pad.left - pad.right;
+  const plotH = h - pad.top - pad.bottom;
+  const colGap = 2;
+
+  // Group by exposure score
+  const byExposure = {};
+  let totalJobs = 0;
+  for (const d of data) {
+    if (d.exposure == null) continue;
+    if (!byExposure[d.exposure]) byExposure[d.exposure] = [];
+    byExposure[d.exposure].push(d);
+    totalJobs += d.jobs || 0;
+  }
+
+  // Find which exposure scores exist
+  const scores = Object.keys(byExposure).map(Number).sort((a, b) => a - b);
+  const numCols = scores.length;
+
+  // Column widths proportional to total jobs in that exposure level
+  const colJobTotals = scores.map(s => byExposure[s].reduce((sum, d) => sum + (d.jobs || 0), 0));
+  const totalGap = colGap * (numCols - 1);
+  const availW = plotW - totalGap;
+
+  colRects = [];
+  let cx = pad.left;
+
+  for (let i = 0; i < scores.length; i++) {
+    const score = scores[i];
+    const items = byExposure[score];
+    const colJobs = colJobTotals[i];
+    const colW = (colJobs / totalJobs) * availW;
+
+    // Sort by outlook descending (best outlook at top)
+    items.sort((a, b) => (b.outlook || 0) - (a.outlook || 0));
+
+    let cy = pad.top;
+    for (const d of items) {
+      const jobs = d.jobs || 0;
+      const itemH = colJobs > 0 ? (jobs / colJobs) * plotH : 0;
+      if (itemH < 0.3) { cy += itemH; continue; }
+      colRects.push({ ...d, rx: cx, ry: cy, rw: colW, rh: itemH });
+      cy += itemH;
+    }
+
+    cx += colW + colGap;
+  }
+
+  // Store metadata for axis drawing
+  colRects._meta = { scores, pad, colJobTotals, totalJobs, availW, plotH, colGap };
+}
+
+function drawColumns() {
+  const w = canvas.width;
+  const h = canvas.height;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = "#0a0a0f";
+  ctx.fillRect(0, 0, w / dpr, h / dpr);
+
+  const meta = colRects._meta;
+  if (!meta) return;
+
+  // Draw column headers (exposure scores)
+  ctx.font = "500 11px -apple-system, system-ui, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "bottom";
+
+  let hx = meta.pad.left;
+  for (let i = 0; i < meta.scores.length; i++) {
+    const colW = (meta.colJobTotals[i] / meta.totalJobs) * meta.availW;
+    if (colW > 16) {
+      ctx.fillStyle = exposureColorCSS(meta.scores[i], 0.7);
+      ctx.fillText(meta.scores[i], hx + colW / 2, meta.pad.top - 5);
+    }
+    hx += colW + meta.colGap;
+  }
+
+  // Draw axis label
+  ctx.fillStyle = "rgba(255,255,255,0.4)";
+  ctx.font = "11px -apple-system, system-ui, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "top";
+  const canvasW = w / dpr;
+  ctx.fillText("AI Exposure", meta.pad.left + meta.availW / 2, meta.pad.top + meta.plotH + 6);
+
+  // Draw rectangles
+  const gap = 0.5;
+  for (const r of colRects) {
+    const isHovered = r === hovered;
+    const rx = r.rx + gap;
+    const ry = r.ry + gap;
+    const rw = r.rw - gap * 2;
+    const rh = r.rh - gap * 2;
+    if (rw <= 0 || rh <= 0) continue;
+
+    const fillAlpha = isHovered ? 0.8 : 0.5;
+    ctx.fillStyle = outlookColorCSS(r.outlook, fillAlpha);
+    ctx.fillRect(rx, ry, rw, rh);
+
+    if (isHovered) {
+      ctx.strokeStyle = "#fff";
+      ctx.lineWidth = 2;
+      ctx.strokeRect(rx, ry, rw, rh);
+    }
+
+    // Labels
+    if (rw > 40 && rh > 14) {
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(rx + 3, ry + 1, rw - 6, rh - 2);
+      ctx.clip();
+
+      const fontSize = Math.min(12, Math.max(8, Math.min(rw / 12, rh / 2.5)));
+      ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
+      ctx.fillStyle = isHovered ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.textBaseline = "top";
+      ctx.textAlign = "left";
+      ctx.fillText(r.title, rx + 4, ry + 2);
+
+      if (rh > 28 && rw > 50) {
+        const info = (r.outlook != null ? (r.outlook > 0 ? "+" : "") + r.outlook + "%" : "") +
+                     (r.jobs ? " \u00b7 " + formatNumber(r.jobs) : "");
+        ctx.font = `400 ${Math.max(7, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
+        ctx.fillStyle = "rgba(255,255,255,0.5)";
+        ctx.fillText(info, rx + 4, ry + 2 + fontSize + 1);
+      }
+
+      ctx.restore();
+    }
+  }
+}
+
+function hitTestColumns(mx, my) {
+  const sidebarW = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const cx = mx - sidebarW;
+  const cy = my;
+  for (let i = colRects.length - 1; i >= 0; i--) {
+    const r = colRects[i];
+    if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) {
+      return r;
+    }
+  }
+  return null;
+}
+
 // ── Sidebar stats ──────────────────────────────────────────────────────
 
 function computeStats() {
@@ -709,10 +927,10 @@ function computeStats() {
 // ── Events ─────────────────────────────────────────────────────────────
 
 canvas.addEventListener("mousemove", (e) => {
-  const hit = hitTest(e.clientX, e.clientY);
+  const hit = currentView === "treemap" ? hitTest(e.clientX, e.clientY) : hitTestColumns(e.clientX, e.clientY);
   if (hit !== hovered) {
     hovered = hit;
-    draw();
+    currentView === "treemap" ? draw() : drawColumns();
   }
   if (hovered) {
     showTooltip(hovered, e.clientX, e.clientY);
@@ -724,7 +942,7 @@ canvas.addEventListener("mousemove", (e) => {
 });
 
 canvas.addEventListener("click", (e) => {
-  const hit = hitTest(e.clientX, e.clientY);
+  const hit = currentView === "treemap" ? hitTest(e.clientX, e.clientY) : hitTestColumns(e.clientX, e.clientY);
   if (hit && hit.url) {
     window.open(hit.url, "_blank");
   }
@@ -733,13 +951,18 @@ canvas.addEventListener("click", (e) => {
 canvas.addEventListener("mouseleave", () => {
   hovered = null;
   hideTooltip();
-  draw();
+  currentView === "treemap" ? draw() : drawColumns();
 });
 
 function resize() {
   dpr = window.devicePixelRatio || 1;
-  layout();
-  draw();
+  if (currentView === "treemap") {
+    layout();
+    draw();
+  } else {
+    layoutColumns();
+    drawColumns();
+  }
 }
 
 // ── Legend gradient ────────────────────────────────────────────────────
