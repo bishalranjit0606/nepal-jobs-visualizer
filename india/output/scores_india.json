@@ -1,0 +1,2810 @@
+[
+  {
+    "slug": "agricultural-engineer",
+    "title": "Agricultural Engineer",
+    "exposure": 6,
+    "rationale": "Agricultural engineering involves significant knowledge work in design, data analysis, and optimization, where AI can enhance productivity and change workflows. However, physical fieldwork, site-specific adaptations, and farmer consultations limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "agriculture-engineering-technician",
+    "title": "Agriculture Engineering Technician",
+    "exposure": 4,
+    "rationale": "Agriculture Engineering Technician involves a mix of physical equipment maintenance and technical data analysis. AI can assist with precision agriculture and predictive diagnostics, but core hands-on engineering tasks limit full automation."
+  },
+  {
+    "slug": "agriculture-extension-executive",
+    "title": "Agriculture Extension Executive",
+    "exposure": 4,
+    "rationale": "The role involves significant interpersonal and field-based activities that are difficult to automate, but AI can enhance knowledge dissemination and data analysis for agricultural advice. Core tasks like building trust with farmers and providing contextual guidance limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "agriculture-extension-service-provider",
+    "title": "Agriculture Extension Service Provider",
+    "exposure": 4,
+    "rationale": "This occupation involves knowledge dissemination and interpersonal advising, where AI can assist with data analysis and recommendations but cannot fully replace the human element of trust-building and contextual adaptation. AI tools may enhance productivity, but the core tasks remain mixed between digital and physical interactions."
+  },
+  {
+    "slug": "agriculture-field-officer",
+    "title": "Agriculture Field Officer",
+    "exposure": 3,
+    "rationale": "Agriculture Field Officers primarily conduct physical fieldwork and engage directly with farmers, which limits AI's core impact. AI can assist at the edges with data analysis and precision agriculture tools, but the occupation remains heavily reliant on human presence and interpersonal skills."
+  },
+  {
+    "slug": "agronomist",
+    "title": "Agronomist",
+    "exposure": 5,
+    "rationale": "Agronomists involve a mix of physical fieldwork and knowledge-based tasks like data analysis, where AI can assist with precision agriculture and predictive modeling, but core activities such as soil assessment and farmer advisory rely on human expertise and presence."
+  },
+  {
+    "slug": "agronomy-and-forestry-technicians",
+    "title": "Agronomy and Forestry Technicians",
+    "exposure": 5,
+    "rationale": "Agronomy and forestry technicians involve a mix of physical fieldwork and knowledge-based tasks like data analysis and planning. AI can assist with precision agriculture and predictive analytics, enhancing productivity, but core hands-on activities such as soil sampling and on-site inspections limit full automation."
+  },
+  {
+    "slug": "animal-health-worker",
+    "title": "Animal Health Worker",
+    "exposure": 4,
+    "rationale": "Animal health work involves significant physical care and interpersonal interaction, but AI can assist with knowledge-based tasks like disease diagnosis and health monitoring through data analysis and predictive tools. However, the core hands-on treatment and direct animal handling limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "artificial-breeding-technician",
+    "title": "Artificial-breeding Technician",
+    "exposure": 4,
+    "rationale": "Artificial-breeding Technicians perform physical insemination tasks that require manual skill, but AI can enhance efficiency through data-driven insights in genetics and reproductive health. The occupation blends hands-on work with analytical components, leading to moderate AI exposure."
+  },
+  {
+    "slug": "bamboo-grower",
+    "title": "Bamboo Grower",
+    "exposure": 2,
+    "rationale": "Bamboo growing is a physically intensive agricultural occupation where AI can only provide peripheral support, such as in data analysis for optimal planting conditions or yield prediction. The core tasks of cultivation and harvesting remain manual and location-bound, limiting AI's direct impact."
+  },
+  {
+    "slug": "banana-farmer",
+    "title": "Banana Farmer",
+    "exposure": 2,
+    "rationale": "Banana farming is predominantly physical and location-bound, with AI offering limited support in areas like crop monitoring and yield optimization, but not automating the core manual labor tasks."
+  },
+  {
+    "slug": "bare-foot-technician-bft",
+    "title": "Bare Foot Technician (BFT)",
+    "exposure": 3,
+    "rationale": "The Bare Foot Technician role in agriculture is primarily physical and location-bound, involving hands-on tasks like crop monitoring and basic fieldwork. AI can provide supplementary tools for data analysis or precision farming, but it does not fundamentally replace the core manual labor."
+  },
+  {
+    "slug": "bee-keeper",
+    "title": "Bee-Keeper",
+    "exposure": 2,
+    "rationale": "Bee-keeping is a physical, location-bound occupation centered on hands-on hive management and honey production. AI may assist with monitoring and data analysis at the edges, but it does not significantly reshape the core manual tasks."
+  },
+  {
+    "slug": "broiler-farm-supervisor",
+    "title": "Broiler Farm Supervisor",
+    "exposure": 4,
+    "rationale": "This occupation involves physical supervision and management of poultry farms, where AI can assist with data monitoring and decision support, but core hands-on and interpersonal tasks limit full automation."
+  },
+  {
+    "slug": "broiler-farm-worker",
+    "title": "Broiler Farm Worker",
+    "exposure": 2,
+    "rationale": "Broiler Farm Worker involves primarily physical tasks such as feeding, cleaning, and animal care, with minimal digital components. AI may assist at the edges through monitoring systems or data analysis for farm management, but the core occupation remains manual and location-bound."
+  },
+  {
+    "slug": "budder",
+    "title": "Budder",
+    "exposure": 2,
+    "rationale": "Budding is a manual horticultural task primarily involving physical dexterity and plant handling in agricultural settings. AI may offer indirect support through data analysis for optimal conditions, but the core work is unlikely to be significantly automated or restructured."
+  },
+  {
+    "slug": "bulb-crop-cultivator",
+    "title": "Bulb Crop Cultivator",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical labor in cultivating bulb crops, with AI having minimal impact beyond potential assistance in monitoring and planning. The core tasks remain manual and location-bound."
+  },
+  {
+    "slug": "cane-cutter",
+    "title": "Cane Cutter",
+    "exposure": 1,
+    "rationale": "Cane cutting is a physically intensive agricultural occupation with no reliance on digital information processing. AI exposure is negligible as the core tasks are manual and location-bound, though broader agricultural AI might indirectly influence related workflows."
+  },
+  {
+    "slug": "charcoal-burner-wood",
+    "title": "Charcoal Burner, Wood",
+    "exposure": 0,
+    "rationale": "Charcoal burning is a manual, physical process involving wood handling and fire control, with minimal digital or knowledge-based components. AI has negligible direct impact on core tasks, and any indirect effects through automation or optimization are limited in this traditional occupation."
+  },
+  {
+    "slug": "chemical-engineer-fertilizers",
+    "title": "Chemical Engineer, Fertilizers",
+    "exposure": 6,
+    "rationale": "Chemical engineers in fertilizers perform knowledge-intensive tasks such as process simulation and optimization, where AI can significantly boost productivity and innovation. However, the occupation requires physical oversight, safety management, and creative problem-solving that prevent full automation."
+  },
+  {
+    "slug": "chillies-cultivator",
+    "title": "Chillies Cultivator",
+    "exposure": 1,
+    "rationale": "Chillies Cultivator involves manual agricultural tasks such as planting and harvesting, which are primarily physical and location-bound. AI may offer some indirect assistance in monitoring or planning, but the core occupation remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "citrus-fruit-grower",
+    "title": "Citrus Fruit Grower",
+    "exposure": 2,
+    "rationale": "Citrus fruit growing is primarily a physical, location-bound occupation involving manual labor for planting, maintenance, and harvesting. AI can assist with peripheral tasks like crop monitoring and yield prediction, but it does not replace the core physical work."
+  },
+  {
+    "slug": "civil-engineer-irrigation",
+    "title": "Civil Engineer, Irrigation",
+    "exposure": 6,
+    "rationale": "Civil engineers in irrigation perform knowledge-intensive tasks like design and analysis where AI can enhance efficiency through simulations and data processing. However, human judgment remains essential for site-specific adaptations and project management, preventing full automation."
+  },
+  {
+    "slug": "climate-change-amp-risk-mitigation-manager",
+    "title": "Climate Change &amp; Risk Mitigation Manager",
+    "exposure": 6,
+    "rationale": "This role is knowledge-intensive, involving data analysis, risk assessment, and strategy development for climate change mitigation, which AI can augment through predictive modeling and automation. While human oversight and stakeholder management remain essential, AI is poised to materially enhance output and efficiency in core tasks."
+  },
+  {
+    "slug": "coconut-grower",
+    "title": "Coconut Grower",
+    "exposure": 2,
+    "rationale": "Coconut growing is primarily physical labor with minimal digital components. AI may assist in peripheral tasks like crop monitoring or market analysis, but the core activities remain manual."
+  },
+  {
+    "slug": "coffee-plantation-worker",
+    "title": "Coffee Plantation Worker",
+    "exposure": 1,
+    "rationale": "This occupation involves manual labor in agriculture, which is largely physical and location-bound. AI has minimal direct impact on core tasks like planting and harvesting, though it might assist in ancillary areas like crop monitoring."
+  },
+  {
+    "slug": "community-service-provider",
+    "title": "Community Service Provider",
+    "exposure": 3,
+    "rationale": "Community Service Providers in agriculture primarily engage in hands-on, interpersonal tasks like farmer education and resource distribution. While AI can enhance data-driven decision-making and communication, the occupation's core relies on human interaction and physical presence, resulting in moderate AI exposure."
+  },
+  {
+    "slug": "coral-breaker",
+    "title": "Coral Breaker",
+    "exposure": 1,
+    "rationale": "Coral breaking is a manual, physical task that involves breaking coral into smaller pieces, likely for agricultural use such as soil amendment. It is highly location-bound and requires physical labor, with negligible scope for AI to automate or enhance the core activities."
+  },
+  {
+    "slug": "coriander-cultivator",
+    "title": "Coriander Cultivator",
+    "exposure": 2,
+    "rationale": "Coriander cultivation is primarily a physical, hands-on agricultural task with limited digital components. AI may provide marginal assistance in areas like crop monitoring or yield optimization, but it does not fundamentally alter the core manual labor involved."
+  },
+  {
+    "slug": "cotton-cultivator",
+    "title": "Cotton Cultivator",
+    "exposure": 2,
+    "rationale": "Cotton cultivation is primarily physical labor involving planting, tending, and harvesting crops. AI can assist with precision agriculture techniques like crop monitoring and yield prediction, but it does not replace the core manual tasks, limiting overall exposure."
+  },
+  {
+    "slug": "cultivator-crop",
+    "title": "Cultivator Crop",
+    "exposure": 3,
+    "rationale": "Cultivator Crop involves primarily physical and location-bound tasks in agriculture, where AI can assist with data-driven decisions like pest detection or irrigation scheduling, but the core manual labor remains essential and is not easily automated in the near term."
+  },
+  {
+    "slug": "cultivator-general",
+    "title": "Cultivator General",
+    "exposure": 4,
+    "rationale": "Cultivator General involves primarily physical and location-bound farming tasks, but AI can assist with meaningful aspects like precision agriculture, crop monitoring, and data-driven decision-making. However, the core manual work and dependency on environmental factors limit AI's ability to fully replace or restructure the occupation."
+  },
+  {
+    "slug": "cultivator-vegetables",
+    "title": "Cultivator Vegetables",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical labor in vegetable cultivation, which is location-bound and hands-on. AI technologies like precision agriculture or drones can assist with monitoring and efficiency at the edges, but they do not replace the core manual tasks, resulting in low AI exposure."
+  },
+  {
+    "slug": "cultivator-fruit",
+    "title": "Cultivator, Fruit",
+    "exposure": 4,
+    "rationale": "Fruit cultivation is heavily physical and location-bound, but AI can assist with monitoring, yield prediction, and resource management, enhancing productivity without replacing the core manual labor."
+  },
+  {
+    "slug": "dairy-farm-worker-general",
+    "title": "Dairy Farm Worker, General",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical tasks such as animal handling and farm maintenance, with minimal digital components. AI might offer marginal assistance in areas like health monitoring or record-keeping, but it does not fundamentally alter the core manual labor required."
+  },
+  {
+    "slug": "dairy-farmer",
+    "title": "Dairy Farmer",
+    "exposure": 3,
+    "rationale": "Dairy farming is predominantly physical work centered on animal care and manual tasks, with AI offering peripheral assistance in areas like data analysis and health monitoring. The core labor-intensive activities limit AI's ability to fundamentally reshape the occupation."
+  },
+  {
+    "slug": "dairy-scientist",
+    "title": "Dairy Scientist",
+    "exposure": 6,
+    "rationale": "Dairy Scientists engage in knowledge-intensive research and development, where AI can materially enhance data analysis, predictive modeling, and process optimization. However, the core tasks involving biological experimentation, innovation, and expert judgment remain reliant on human expertise, limiting full automation."
+  },
+  {
+    "slug": "dairy-technologist",
+    "title": "Dairy Technologist",
+    "exposure": 6,
+    "rationale": "Dairy Technologists primarily perform knowledge-intensive tasks such as research, quality control, and process optimization, where AI can materially improve efficiency through data analysis and predictive modeling. However, the occupation retains physical elements like sensory evaluations and hands-on lab work, which moderate the extent of AI-driven restructuring."
+  },
+  {
+    "slug": "dairy-worker",
+    "title": "Dairy Worker",
+    "exposure": 2,
+    "rationale": "Dairy work is predominantly physical, involving manual tasks like milking and animal care, with AI only offering peripheral assistance in areas such as health monitoring or process optimization."
+  },
+  {
+    "slug": "digester-operator-wood",
+    "title": "Digester Operator, Wood",
+    "exposure": 4,
+    "rationale": "This occupation involves hands-on operation and monitoring of industrial wood digesters, requiring physical presence and manual oversight. AI can assist with process optimization and predictive maintenance, but core tasks remain largely physical and location-bound."
+  },
+  {
+    "slug": "distiller-turpentine-and-eucalyptus",
+    "title": "Distiller, Turpentine and Eucalyptus",
+    "exposure": 3,
+    "rationale": "This occupation involves physical distillation processes in agriculture, with core tasks being manual and location-bound. AI may assist at the edges, such as in process optimization or quality monitoring, but is unlikely to fundamentally reshape the role."
+  },
+  {
+    "slug": "diver-chank",
+    "title": "Diver, Chank",
+    "exposure": 1,
+    "rationale": "This occupation involves manual diving and shell collection, which are highly physical and location-bound tasks with minimal scope for AI automation. AI might assist in ancillary areas like site selection or safety monitoring, but the core work remains unaffected."
+  },
+  {
+    "slug": "diver-pearl",
+    "title": "Diver, Pearl",
+    "exposure": 1,
+    "rationale": "Pearl diving is a physically intensive, location-bound occupation focused on manual labor underwater, with minimal digital components. AI has negligible direct impact on core tasks, though it might marginally assist in peripheral areas like environmental monitoring or supply chain management."
+  },
+  {
+    "slug": "elephant-keeper",
+    "title": "Elephant Keeper",
+    "exposure": 1,
+    "rationale": "Elephant keeping is almost entirely physical and location-bound work involving hands-on animal care, with negligible AI impact. AI might offer minor assistance in monitoring or data analysis, but the core tasks resist automation due to the need for human judgment and direct interaction."
+  },
+  {
+    "slug": "estimator-timber",
+    "title": "Estimator, Timber",
+    "exposure": 5,
+    "rationale": "Estimator, Timber involves a mix of physical fieldwork for timber inspection and knowledge-based estimation tasks. AI can assist with data analysis, image recognition for quality assessment, and automated calculations, but human judgment remains important for nuanced evaluations in variable natural environments."
+  },
+  {
+    "slug": "farm-overseer-crop-production",
+    "title": "Farm Overseer, Crop Production",
+    "exposure": 4,
+    "rationale": "AI can assist with data-driven tasks such as crop monitoring and yield prediction, enhancing decision-making efficiency. However, the core of the role involves physical oversight, interpersonal management, and adaptive judgment in variable agricultural conditions, which remain less susceptible to automation. This results in moderate exposure where AI augments rather than replaces key functions."
+  },
+  {
+    "slug": "farmer-fur-bearing-animal",
+    "title": "Farmer, Fur- Bearing Animal",
+    "exposure": 2,
+    "rationale": "This occupation is heavily physical and location-bound, focusing on hands-on animal care and habitat management. AI may provide minor assistance in areas like health monitoring or data analysis, but it cannot replace the core manual tasks required in fur farming."
+  },
+  {
+    "slug": "farmer-livestock",
+    "title": "Farmer, Livestock",
+    "exposure": 3,
+    "rationale": "Livestock farming is predominantly physical and location-bound, with AI primarily aiding in peripheral tasks like health monitoring and data analysis. The core occupation requires direct animal care and manual labor, limiting AI's transformative impact."
+  },
+  {
+    "slug": "farmer-poultry-breeding",
+    "title": "Farmer, Poultry Breeding",
+    "exposure": 4,
+    "rationale": "AI can assist with data-driven tasks like health monitoring and breeding optimization, but the occupation involves significant physical labor and hands-on animal care that limits full automation."
+  },
+  {
+    "slug": "fieldman-agriculture",
+    "title": "Fieldman Agriculture",
+    "exposure": 2,
+    "rationale": "Fieldman Agriculture involves hands-on, physical tasks in crop and livestock management that are difficult to automate directly. AI may provide peripheral assistance through data analysis or monitoring tools, but the core work remains labor-intensive and location-bound."
+  },
+  {
+    "slug": "advance-pattern-maker-cad-cam",
+    "title": "Advance Pattern Maker (CAD/CAM)",
+    "exposure": 6,
+    "rationale": "Advance Pattern Maker (CAD/CAM) involves digital design tasks that AI can automate or enhance, such as pattern generation and optimization. While human creativity and technical skills remain important, AI tools are likely to increase productivity and change workflow dynamics."
+  },
+  {
+    "slug": "assistant-designer-home-furnishing",
+    "title": "Assistant Designer - Home Furnishing",
+    "exposure": 6,
+    "rationale": "This role involves design tasks where AI can materially enhance productivity through automated idea generation, pattern creation, and trend analysis. However, core creative judgment and client-specific customization limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "assistant-designer-madeups",
+    "title": "Assistant Designer - Madeups",
+    "exposure": 5,
+    "rationale": "AI can assist with technical aspects like pattern generation and trend analysis in apparel design, but the creative core of the role remains reliant on human input. As an assistant designer, some routine support tasks may be automated, yet the core design work requires human judgment and artistic sense."
+  },
+  {
+    "slug": "assistant-fashion-designer",
+    "title": "Assistant Fashion Designer",
+    "exposure": 5,
+    "rationale": "Assistant Fashion Designer involves creative and collaborative tasks where AI can assist with trend analysis and design prototyping, but the core requires human creativity and interpersonal skills. AI may automate routine support functions, enhancing productivity without fully replacing the occupation."
+  },
+  {
+    "slug": "boutique-manager",
+    "title": "Boutique Manager",
+    "exposure": 5,
+    "rationale": "Boutique Manager involves a mix of interpersonal, managerial, and operational tasks in a physical retail setting. AI can assist with data-driven aspects like inventory management and sales forecasting, but the core responsibilities of staff leadership and customer interaction require human judgment and are less automatable."
+  },
+  {
+    "slug": "button-hole-maker-machine",
+    "title": "Button Hole Maker, Machine",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on operation of machinery for a specific physical task in garment production. AI can improve machine efficiency and quality control at the edges, but the core work remains manual and location-bound, preventing high exposure."
+  },
+  {
+    "slug": "button-hole-marker",
+    "title": "Button Hole Marker",
+    "exposure": 4,
+    "rationale": "Button Hole Marker is a physical, repetitive task in apparel manufacturing focused on marking fabric for buttonholes. AI can assist by automating this process through computer vision and robotics, but human oversight may still be needed for custom or intricate designs."
+  },
+  {
+    "slug": "button-stitching-machine-operator",
+    "title": "Button Stitching Machine Operator",
+    "exposure": 2,
+    "rationale": "This role is primarily physical and location-bound, involving hands-on operation of button stitching machines in apparel manufacturing. AI may offer marginal assistance through predictive maintenance or quality control sensors, but it does not significantly alter the core manual tasks."
+  },
+  {
+    "slug": "cap-maker",
+    "title": "Cap Maker",
+    "exposure": 2,
+    "rationale": "Cap making is a physically intensive manufacturing role centered on manual assembly and sewing, with little inherent digital component. AI might assist in peripheral tasks such as design or logistics, but the core occupation remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "coat-maker",
+    "title": "Coat Maker",
+    "exposure": 2,
+    "rationale": "Coat making is a hands-on, physical occupation focused on manual assembly of garments, with tasks like cutting and sewing that require dexterity and are not easily automated. AI may assist in peripheral areas such as pattern optimization or quality control, but the core work remains largely unaffected by direct AI intervention."
+  },
+  {
+    "slug": "cushion-maker",
+    "title": "Cushion Maker",
+    "exposure": 2,
+    "rationale": "Cushion making is a physical craft centered on manual tasks like sewing and assembly, with minimal digital components. AI may offer indirect support in areas such as design or supply chain management, but the core occupation remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "cutter-tent",
+    "title": "Cutter Tent",
+    "exposure": 2,
+    "rationale": "Cutter Tent involves manual cutting of tent materials, which is primarily physical labor with minimal digital components. AI may assist in optimizing patterns or reducing waste, but the core task remains hands-on and less susceptible to significant AI-driven restructuring."
+  },
+  {
+    "slug": "cutter-garment-leather",
+    "title": "Cutter, Garment (Leather)",
+    "exposure": 2,
+    "rationale": "The occupation involves manual, physical cutting of leather, which is largely location-bound and requires tactile skills. AI might assist with pattern design or machine automation at the edges, but the core task remains resistant to full automation."
+  },
+  {
+    "slug": "cutter-hand-textile-product",
+    "title": "Cutter, Hand (Textile Product)",
+    "exposure": 1,
+    "rationale": "This occupation is entirely physical and location-bound, involving manual cutting of textiles with minimal digital components. AI has negligible direct impact, though it might indirectly influence related processes like pattern optimization or automation of cutting machinery."
+  },
+  {
+    "slug": "cutter-machine-textile-product",
+    "title": "Cutter, Machine (Textile Product)",
+    "exposure": 3,
+    "rationale": "This role involves operating cutting machines in textile production, which is primarily physical and location-bound. AI can assist with optimizing cutting patterns and reducing waste, but the core task remains manual, limiting AI's transformative impact."
+  },
+  {
+    "slug": "darner",
+    "title": "Darner",
+    "exposure": 2,
+    "rationale": "Darner involves manual sewing and mending tasks that require physical dexterity and are difficult to automate. AI may assist at the edges, such as with fabric analysis or design tools, but the core occupation remains largely unaffected by AI advancements."
+  },
+  {
+    "slug": "designer-garment",
+    "title": "Designer (Garment)",
+    "exposure": 5,
+    "rationale": "AI can assist with design generation, trend analysis, and technical tasks like fabric selection, but the occupation's core relies on human creativity and aesthetic judgment, limiting full automation. This results in moderate exposure where AI augments productivity without fully replacing designers."
+  },
+  {
+    "slug": "dress-maker",
+    "title": "Dress Maker",
+    "exposure": 3,
+    "rationale": "Dress Making is primarily a physical and craft-based occupation involving manual sewing, cutting, and fitting, with AI offering only marginal assistance in areas like pattern design or automated measurements. The core tasks require human skill, creativity, and personal interaction, limiting direct automation."
+  },
+  {
+    "slug": "embroider-machine",
+    "title": "Embroider, Machine",
+    "exposure": 3,
+    "rationale": "Machine embroidery is primarily a physical task involving operating equipment, with AI offering peripheral assistance in design generation and process optimization, but the core work remains hands-on and location-bound."
+  },
+  {
+    "slug": "embroidery-machine-operator-zigzag-machine",
+    "title": "Embroidery Machine Operator (Zigzag Machine)",
+    "exposure": 4,
+    "rationale": "AI can assist with design programming and machine optimization, but the core task of operating the embroidery machine remains physically intensive and requires human oversight. This limits full automation, placing it in the mixed work category where AI aids meaningful parts without replacing the core."
+  },
+  {
+    "slug": "export-assistant",
+    "title": "Export Assistant",
+    "exposure": 6,
+    "rationale": "Export Assistant involves significant digital documentation, logistics coordination, and compliance tasks that AI can automate or enhance, such as through automated document generation and predictive analytics. However, interpersonal communication with clients and regulatory oversight remain key, preventing full automation."
+  },
+  {
+    "slug": "export-executive",
+    "title": "Export Executive",
+    "exposure": 7,
+    "rationale": "Export Executive involves knowledge-heavy tasks like documentation, logistics coordination, and client management, which AI can automate or augment to materially change output. While human judgment remains for strategic decisions, AI tools are likely to restructure workflows in this digital-oriented role."
+  },
+  {
+    "slug": "eyelet-holing-machine-operator",
+    "title": "Eyelet Holing Machine Operator",
+    "exposure": 2,
+    "rationale": "This occupation involves manual operation of a specialized machine in apparel manufacturing, which is primarily physical work. AI exposure is limited to potential enhancements like automated quality checks or process optimization, but the core task remains hands-on."
+  },
+  {
+    "slug": "fabric-checker",
+    "title": "Fabric Checker",
+    "exposure": 3,
+    "rationale": "Fabric checking involves physical inspection of textiles for defects, which is primarily a manual and visual task. While AI-powered computer vision could assist in automating detection, the occupation remains largely hands-on and location-specific, limiting AI's direct impact."
+  },
+  {
+    "slug": "factory-compliance-auditor",
+    "title": "Factory Compliance Auditor",
+    "exposure": 5,
+    "rationale": "This occupation combines physical factory inspections with knowledge-intensive tasks such as document review and compliance reporting. AI can enhance efficiency in data analysis and automate routine checks, but the core requires on-site presence and human judgment, limiting full automation."
+  },
+  {
+    "slug": "fashion-designer",
+    "title": "Fashion Designer",
+    "exposure": 5,
+    "rationale": "Fashion design involves core creative and interpersonal tasks that AI cannot fully replace, but AI tools can significantly assist with trend analysis, design iteration, and technical workflows. This results in a moderate exposure where AI augments productivity without fundamentally altering the occupation's essence."
+  },
+  {
+    "slug": "finisher",
+    "title": "Finisher",
+    "exposure": 2,
+    "rationale": "The finisher role in apparel involves predominantly physical tasks such as pressing, folding, and packaging garments, which require manual dexterity and are resistant to full automation. AI may offer minor support in areas like quality inspection or workflow scheduling, but it does not significantly alter the core manual nature of the occupation."
+  },
+  {
+    "slug": "frame-maker-cap",
+    "title": "Frame Maker, Cap",
+    "exposure": 2,
+    "rationale": "Frame Maker, Cap is a physically intensive occupation centered on manual crafting and assembly in the apparel sector. AI exposure is low as the core tasks are hands-on and location-bound, with AI only potentially aiding in peripheral areas like design optimization or supply chain management."
+  },
+  {
+    "slug": "framer-computerized-embroidery-machine",
+    "title": "Framer-Computerized Embroidery Machine",
+    "exposure": 5,
+    "rationale": "This occupation involves operating computerized embroidery machines, where AI can assist with design optimization and predictive maintenance, but human oversight remains essential for setup and quality control. The mix of technical and physical tasks limits full automation, placing it in a moderate AI exposure category."
+  },
+  {
+    "slug": "garment-cutter",
+    "title": "Garment Cutter",
+    "exposure": 2,
+    "rationale": "Garment cutting is a primarily physical occupation involving manual fabric cutting and pattern handling. While AI can assist with pattern optimization or automated cutting systems, the core tasks remain hands-on and location-bound with limited AI integration in the near term."
+  },
+  {
+    "slug": "hand-embroider-general",
+    "title": "Hand Embroider, General",
+    "exposure": 1,
+    "rationale": "Hand embroidery is a manual, craft-based occupation requiring physical dexterity and creativity, with minimal direct AI automation. AI may assist in peripheral tasks like design or marketing, but the core work remains largely unaffected by AI advancements."
+  },
+  {
+    "slug": "hand-embroiderer-addawala",
+    "title": "Hand Embroiderer (Addawala)",
+    "exposure": 1,
+    "rationale": "Hand embroidery is a craft-based occupation requiring manual dexterity and artistic skill, which are difficult to automate with AI. While AI might assist in peripheral tasks like design generation or market analysis, the core hand-stitching process remains largely unaffected by AI technologies."
+  },
+  {
+    "slug": "hand-embroiderer-zari",
+    "title": "Hand Embroiderer, Zari",
+    "exposure": 1,
+    "rationale": "Hand embroidery is a highly physical and skill-based craft requiring dexterity and artistic judgment, with minimal direct AI automation. AI might assist peripherally in design or logistics, but the core occupation remains largely unaffected by AI technologies."
+  },
+  {
+    "slug": "hat-maker-general",
+    "title": "Hat Maker, General",
+    "exposure": 2,
+    "rationale": "Hat making is primarily a manual craft involving physical manipulation of materials, with AI only offering peripheral support in design or supply chain tasks."
+  },
+  {
+    "slug": "in-line-checker",
+    "title": "In-Line Checker",
+    "exposure": 3,
+    "rationale": "The In-Line Checker role in apparel manufacturing is primarily physical, involving manual inspection for quality control. AI can assist at the edges with tools like computer vision for defect detection, but core tasks rely on human judgment and dexterity, limiting full automation."
+  },
+  {
+    "slug": "industrial-engineer-executive",
+    "title": "Industrial Engineer Executive",
+    "exposure": 6,
+    "rationale": "Industrial Engineer Executives in apparel focus on process optimization and workflow management, where AI can materially improve efficiency through data analysis and automation. However, the executive role involves strategic oversight and human interaction, limiting full automation and keeping exposure in the mid-range."
+  },
+  {
+    "slug": "layerman",
+    "title": "Layerman",
+    "exposure": 2,
+    "rationale": "The occupation involves manual fabric handling and spreading, which is primarily physical labor. AI may assist in optimizing layouts or automating machinery, but the core tasks remain hands-on and location-bound."
+  },
+  {
+    "slug": "line-supervisor-stitching",
+    "title": "Line Supervisor Stitching",
+    "exposure": 4,
+    "rationale": "This occupation involves supervising stitching lines in apparel manufacturing, blending physical oversight with managerial tasks. AI can assist with quality control and production optimization, but core human elements like decision-making and worker management limit full automation."
+  },
+  {
+    "slug": "master-cutter-garment",
+    "title": "Master Cutter (Garment)",
+    "exposure": 3,
+    "rationale": "The occupation involves physical fabric cutting where AI can assist with pattern optimization and automated machines, but the core task relies on manual skill and adaptability, limiting AI's direct replacement potential."
+  },
+  {
+    "slug": "mattress-maker-spring",
+    "title": "Mattress Maker (Spring)",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical and location-bound, involving manual assembly of mattresses with springs. AI may assist at the edges, such as in design optimization or inventory management, but the core tasks are unlikely to be directly automated or significantly reshaped by AI."
+  },
+  {
+    "slug": "measurement-checker",
+    "title": "Measurement Checker",
+    "exposure": 2,
+    "rationale": "This occupation involves manual tailoring and garment construction, which are highly physical and skill-based tasks. AI may assist in areas like design or pattern-making, but the core work remains hands-on and location-bound with minimal direct automation."
+  },
+  {
+    "slug": "mechanic-sewing-machine",
+    "title": "Mechanic, Sewing Machine",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on mechanical repair and maintenance of sewing machines, which is primarily physical work with minimal digital components. AI may provide marginal support through diagnostic tools or inventory systems, but the core tasks require manual skills that are not easily automated."
+  },
+  {
+    "slug": "merchandiser",
+    "title": "Merchandiser",
+    "exposure": 5,
+    "rationale": "Merchandising involves data-driven tasks like sales forecasting and inventory management that AI can significantly improve, but it also requires human elements such as supplier negotiation and creative product selection. AI will augment productivity in analytical areas without fully replacing the core human roles."
+  },
+  {
+    "slug": "merchandiser-made-ups-amp-home-furnishing",
+    "title": "Merchandiser - Made-Ups &amp; Home Furnishing",
+    "exposure": 6,
+    "rationale": "Merchandisers in home furnishing handle data-driven tasks like trend analysis and supply chain coordination, which AI can automate to materially change output. However, interpersonal negotiation and creative decision-making remain essential, limiting full restructuring."
+  },
+  {
+    "slug": "online-sample-designer",
+    "title": "Online Sample Designer",
+    "exposure": 5,
+    "rationale": "This role involves creative design work in apparel, where AI can assist with tasks like pattern generation and trend analysis, but core aesthetic judgment and client-specific customization remain human-driven. AI enhances productivity in digital workflows without fully automating the occupation."
+  },
+  {
+    "slug": "packer",
+    "title": "Packer",
+    "exposure": 2,
+    "rationale": "The occupation involves primarily physical tasks of handling and packing apparel items, with minimal cognitive or digital components. AI may assist in peripheral areas like logistics optimization, but the core manual labor remains largely unaffected by direct AI automation."
+  },
+  {
+    "slug": "pattern-master",
+    "title": "Pattern Master",
+    "exposure": 6,
+    "rationale": "AI can assist with pattern drafting and optimization, materially changing output efficiency, but human expertise is still needed for design nuances and quality control."
+  },
+  {
+    "slug": "pressman",
+    "title": "Pressman",
+    "exposure": 2,
+    "rationale": "Pressman roles involve manual operation of pressing equipment in apparel manufacturing, which is primarily physical and location-bound. AI may assist with machine optimization or quality control at the edges, but the core tasks are not easily automated by current AI technologies."
+  },
+  {
+    "slug": "processing-supervisor-dyeing-amp-printing",
+    "title": "Processing Supervisor (Dyeing &amp; Printing)",
+    "exposure": 5,
+    "rationale": "This supervisory role in apparel manufacturing involves overseeing physical dyeing and printing processes with key human elements like staff management and quality judgment. AI can assist with monitoring, predictive maintenance, and optimization, but the core tasks require on-site presence and interpersonal skills that are not easily automated."
+  },
+  {
+    "slug": "production-supervisor-sewing",
+    "title": "Production Supervisor-Sewing",
+    "exposure": 5,
+    "rationale": "This role involves a mix of physical oversight on the factory floor and administrative tasks like scheduling and quality control. AI can assist with data-driven monitoring and predictive maintenance, but human judgment remains crucial for managing workers and handling dynamic production issues."
+  },
+  {
+    "slug": "ac-specialist",
+    "title": "AC Specialist",
+    "exposure": 2,
+    "rationale": "The AC Specialist role is predominantly physical and location-bound, focusing on manual repairs and maintenance of automotive AC systems. AI may provide marginal assistance in diagnostics or customer interactions, but the core tasks are not easily automated."
+  },
+  {
+    "slug": "accessories-and-vas-sales-executive",
+    "title": "Accessories and VAS Sales Executive",
+    "exposure": 5,
+    "rationale": "This sales role involves significant interpersonal interaction and product knowledge, which AI can augment through data analytics and CRM tools but not fully replace. Core tasks like customer relationship building and nuanced sales negotiations remain human-centric, leading to moderate AI exposure."
+  },
+  {
+    "slug": "accessory-fitter",
+    "title": "Accessory Fitter",
+    "exposure": 2,
+    "rationale": "The occupation involves primarily physical, hands-on installation of vehicle accessories, requiring on-site presence and manual skills. AI may assist with peripheral tasks like inventory management or digital instructions, but the core work remains largely unaffected by direct automation or significant productivity amplification."
+  },
+  {
+    "slug": "ambulance-driver",
+    "title": "Ambulance Driver",
+    "exposure": 2,
+    "rationale": "Ambulance driving is primarily a physical and location-bound task involving manual driving and patient interaction, with minimal digital components. AI may offer peripheral support in areas like route optimization or communication, but the core functions remain heavily reliant on human judgment and physical presence."
+  },
+  {
+    "slug": "area-manager-auto-components",
+    "title": "Area Manager (Auto Components)",
+    "exposure": 5,
+    "rationale": "This managerial role involves a mix of human interaction, strategic planning, and operational oversight in the automotive sector. AI can assist with data analysis and automation of routine tasks, but core responsibilities like team leadership and complex decision-making are less easily automated."
+  },
+  {
+    "slug": "area-parts-manager",
+    "title": "Area Parts Manager",
+    "exposure": 6,
+    "rationale": "Area Parts Manager involves knowledge-heavy tasks like inventory and supply chain management, where AI can automate and optimize processes through predictive analytics and logistics software. While human oversight remains crucial, AI is likely to materially change output by enhancing efficiency and reshaping workflow."
+  },
+  {
+    "slug": "area-service-manager",
+    "title": "Area Service Manager",
+    "exposure": 5,
+    "rationale": "The occupation involves managing automotive service operations, where AI can assist with tasks like scheduling, diagnostics, and data analytics. However, core responsibilities such as team leadership and customer interaction require human judgment, limiting full automation."
+  },
+  {
+    "slug": "area-technical-lead",
+    "title": "Area Technical Lead",
+    "exposure": 6,
+    "rationale": "As a technical leadership role in the automotive sector, it involves significant knowledge work and workflow management where AI can enhance productivity through data analysis and automation support. However, core responsibilities like team leadership and strategic decision-making remain less automatable, placing it in the moderate to high exposure range."
+  },
+  {
+    "slug": "assembler-automobile",
+    "title": "Assembler, Automobile",
+    "exposure": 2,
+    "rationale": "Automobile assembly is a physically intensive occupation centered on manual tasks and hands-on work, with minimal reliance on digital information processing. AI may offer peripheral support in areas like workflow optimization or predictive maintenance, but it does not fundamentally reshape the core assembly activities."
+  },
+  {
+    "slug": "assembler-motor-cycle",
+    "title": "Assembler, Motor Cycle",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on physical assembly of motorcycles, which is primarily manual labor. AI may assist in peripheral tasks like quality inspection or workflow optimization, but the core assembly work remains resistant to full automation in the near term."
+  },
+  {
+    "slug": "assembly-line-machine-setter",
+    "title": "Assembly Line Machine Setter",
+    "exposure": 4,
+    "rationale": "This occupation involves physical setup and adjustment of machinery on assembly lines, where AI can assist with predictive maintenance and process optimization. However, the core tasks require manual intervention and technical skill, limiting full automation."
+  },
+  {
+    "slug": "assembly-line-supervisor",
+    "title": "Assembly Line Supervisor",
+    "exposure": 5,
+    "rationale": "Assembly Line Supervisor involves overseeing physical production and managing workers, where AI can enhance monitoring, scheduling, and quality control but human judgment remains essential for leadership and real-time problem-solving. AI is likely to augment rather than automate the core supervisory functions."
+  },
+  {
+    "slug": "auto-body-painting-technician-l3",
+    "title": "Auto Body Painting Technician L3",
+    "exposure": 2,
+    "rationale": "The occupation is primarily physical, involving manual painting and surface preparation on auto bodies. AI can assist with ancillary tasks like color matching or quality control, but the core work remains hands-on and requires human dexterity and judgment."
+  },
+  {
+    "slug": "auto-body-painting-technician-l4",
+    "title": "Auto Body Painting Technician L4",
+    "exposure": 4,
+    "rationale": "This occupation involves hands-on physical tasks like painting and surface preparation, which are difficult to fully automate. AI can assist with aspects such as color matching and quality control, but the core craftsmanship remains reliant on human skill."
+  },
+  {
+    "slug": "auto-body-repair-technician-denter-level-3",
+    "title": "Auto Body Repair Technician/Denter Level 3",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving hands-on repair of vehicle bodies that requires manual dexterity and adaptability. AI may assist with diagnostics or planning, but the core tasks are not easily automated, limiting overall impact."
+  },
+  {
+    "slug": "auto-body-repair-technician-denter-level-4",
+    "title": "Auto Body Repair Technician/Denter Level 4",
+    "exposure": 2,
+    "rationale": "This occupation is primarily hands-on and physical, involving manual repair of vehicle bodies. AI may assist in ancillary tasks like damage assessment or workflow management, but the core work remains resistant to automation."
+  },
+  {
+    "slug": "auto-component-assembly-fitter",
+    "title": "Auto Component Assembly Fitter",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on, physical assembly of auto components, which is largely manual and location-bound. AI exposure is limited to peripheral assistance, such as quality inspection or process optimization, but does not fundamentally reshape the core tasks in the near term."
+  },
+  {
+    "slug": "auto-engine-repair-technician",
+    "title": "Auto Engine Repair Technician",
+    "exposure": 3,
+    "rationale": "This occupation is primarily physical and hands-on, involving direct mechanical repair of engines. AI may assist with diagnostic tools or information systems, but the core tasks remain manual and location-bound, limiting overall AI impact."
+  },
+  {
+    "slug": "auto-rickshaw-driver",
+    "title": "Auto Rickshaw Driver",
+    "exposure": 2,
+    "rationale": "Auto Rickshaw Driving is primarily a physical and location-bound occupation involving manual driving and direct customer interaction. AI can assist with peripheral tasks like route optimization or digital payments, but the core driving function remains largely unaffected by current AI technologies."
+  },
+  {
+    "slug": "auto-service-technician-two-and-three-wheeler",
+    "title": "Auto Service Technician (Two and Three Wheeler)",
+    "exposure": 2,
+    "rationale": "This occupation is primarily hands-on mechanical work involving physical repairs and maintenance, which AI cannot easily automate. AI may provide marginal assistance through diagnostic tools or efficiency aids, but the core tasks remain location-bound and interpersonal."
+  },
+  {
+    "slug": "auto-service-technician-level-3",
+    "title": "Auto Service Technician Level 3",
+    "exposure": 5,
+    "rationale": "Auto Service Technicians perform hands-on repairs but increasingly use digital diagnostic tools where AI can enhance accuracy and efficiency. The core physical tasks and need for human judgment limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "auto-service-technician-level-4",
+    "title": "Auto Service Technician Level 4",
+    "exposure": 4,
+    "rationale": "Auto Service Technician Level 4 involves hands-on automotive repair and maintenance, where AI can assist with diagnostics and predictive analytics. The core tasks remain physical and require human judgment, limiting full automation but allowing AI to enhance efficiency in meaningful ways."
+  },
+  {
+    "slug": "auto-service-technician-level-5",
+    "title": "Auto Service Technician Level 5",
+    "exposure": 4,
+    "rationale": "Auto service technicians perform hands-on repairs that are difficult to automate, but AI can significantly aid in diagnostics, predictive maintenance, and workflow optimization. The occupation involves a mix of physical and knowledge-based tasks, with AI enhancing efficiency in non-physical aspects without replacing the core manual work."
+  },
+  {
+    "slug": "auto-service-technician-level-6",
+    "title": "Auto Service Technician Level 6",
+    "exposure": 3,
+    "rationale": "Auto Service Technician involves hands-on vehicle repair and maintenance, which is primarily physical and location-bound work. AI can assist with diagnostics and predictive maintenance but does not replace the core manual tasks, keeping exposure moderate."
+  },
+  {
+    "slug": "automation-specialist",
+    "title": "Automation Specialist",
+    "exposure": 7,
+    "rationale": "Automation Specialists engage in knowledge-intensive work involving the design, implementation, and maintenance of automated systems, where AI can materially enhance productivity through predictive analytics, optimization, and AI-assisted programming. This exposure is heightened in the automotive sector, which increasingly integrates AI for smart manufacturing and autonomous technologies, likely restructuring the role towards higher-level oversight and integration."
+  },
+  {
+    "slug": "automobile-designer",
+    "title": "Automobile Designer",
+    "exposure": 6,
+    "rationale": "Automobile design is a knowledge-intensive role where AI can materially enhance productivity through tools like generative design and simulation, but the core creative and strategic decisions remain reliant on human expertise."
+  },
+  {
+    "slug": "automotive-electrician",
+    "title": "Automotive Electrician",
+    "exposure": 4,
+    "rationale": "AI can assist with diagnostic tasks and predictive maintenance, improving efficiency in troubleshooting. However, the core hands-on repair and installation work remains physical and less automatable."
+  },
+  {
+    "slug": "automotive-paint-shop-assistant",
+    "title": "Automotive Paint Shop Assistant",
+    "exposure": 3,
+    "rationale": "This occupation involves mostly physical tasks such as paint application and surface preparation, which are increasingly augmented by AI in automated systems for efficiency and quality control. However, human assistants are still needed for complex areas, maintenance, and adaptive work, limiting AI's transformative impact."
+  },
+  {
+    "slug": "automotive-sales-lead-retail",
+    "title": "Automotive Sales Lead (Retail)",
+    "exposure": 4,
+    "rationale": "AI can assist with customer data analysis, inventory management, and administrative automation, but the core tasks of sales leadership and interpersonal relationship building remain human-centric. This results in moderate exposure where AI augments rather than replaces key functions."
+  },
+  {
+    "slug": "body-builder-automobile",
+    "title": "Body Builder, Automobile",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving hands-on assembly and customization of automobile bodies, which is difficult to automate with AI. AI may assist at the edges, such as in design or quality control, but the core tasks remain manual and location-bound."
+  },
+  {
+    "slug": "body-builder-other-vehicles",
+    "title": "Body Builder, Other Vehicles",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on physical construction and assembly of vehicle bodies, which is largely manual and location-bound. AI might offer minor support in design optimization or tool automation, but it does not replace the core physical tasks."
+  },
+  {
+    "slug": "body-shop-in-charge",
+    "title": "Body Shop In-Charge",
+    "exposure": 2,
+    "rationale": "The role involves hands-on automotive repair supervision and customer interaction, which are primarily physical and interpersonal. AI can assist with diagnostic tools and administrative tasks but is unlikely to replace the core managerial and repair oversight functions."
+  },
+  {
+    "slug": "body-technician-level-3",
+    "title": "Body Technician Level 3",
+    "exposure": 3,
+    "rationale": "Body Technician Level 3 involves primarily physical tasks such as dent repair and panel replacement, which require manual dexterity and craftsmanship. AI can assist at the edges with diagnostics or precision tools, but the core work is not easily automated, keeping exposure low."
+  },
+  {
+    "slug": "body-technician-level-4",
+    "title": "Body Technician Level 4",
+    "exposure": 2,
+    "rationale": "Body Technician Level 4 is primarily a physical occupation involving hands-on vehicle repair, which is difficult to automate fully. AI may assist at the edges with diagnostics or efficiency tools, but the core tasks remain manual and location-bound."
+  },
+  {
+    "slug": "brake-specialist",
+    "title": "Brake Specialist",
+    "exposure": 3,
+    "rationale": "The role is predominantly physical, involving hands-on mechanical repair of brake systems, which limits direct AI automation. AI could enhance diagnostics and efficiency at the edges, but the core tasks remain manual and location-specific."
+  },
+  {
+    "slug": "brazer",
+    "title": "Brazer",
+    "exposure": 2,
+    "rationale": "Brazing is a hands-on, physical occupation requiring manual skill and adaptability, with minimal direct AI automation. AI may assist indirectly through process optimization or quality control, but the core tasks are largely unaffected."
+  },
+  {
+    "slug": "cnc-operator",
+    "title": "CNC Operator",
+    "exposure": 5,
+    "rationale": "CNC Operators work with computer-controlled machines, allowing AI to assist with programming, monitoring, and predictive maintenance. However, the core tasks involving physical setup, quality control, and exception handling still require human intervention, leading to a mixed exposure where AI enhances but does not fully replace the role."
+  },
+  {
+    "slug": "cnc-operator-or-machining-technician-level-3",
+    "title": "CNC Operator or Machining Technician Level 3",
+    "exposure": 5,
+    "rationale": "CNC operators work with computer-controlled machines, enabling AI to assist with programming, optimization, and predictive maintenance. However, the physical aspects of setup, troubleshooting, and quality control still require human expertise, making full automation unlikely in the near term."
+  },
+  {
+    "slug": "casting-line-in-charge",
+    "title": "Casting Line In-charge",
+    "exposure": 4,
+    "rationale": "This role involves supervising physical casting processes in automotive manufacturing, with AI likely to assist in monitoring, predictive maintenance, and quality control. However, core tasks like workforce management and on-site decision-making remain reliant on human oversight, limiting full automation."
+  },
+  {
+    "slug": "casting-line-supervisor",
+    "title": "Casting Line Supervisor",
+    "exposure": 4,
+    "rationale": "This supervisory role in automotive manufacturing involves overseeing physical casting processes and managing workers, where AI can assist with monitoring, quality control, and scheduling, but core human oversight and interpersonal tasks limit full automation."
+  },
+  {
+    "slug": "casting-techician-sand-moulding",
+    "title": "Casting Techician Sand Moulding",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving manual sand moulding for metal casting, which is resistant to full automation. AI may provide marginal support in areas like quality control or process efficiency, but the core tasks remain hands-on and location-bound."
+  },
+  {
+    "slug": "casting-technician-l3",
+    "title": "Casting Technician L3",
+    "exposure": 2,
+    "rationale": "Casting Technician L3 involves hands-on metal casting processes that are primarily physical and location-bound. AI may assist with peripheral tasks like quality control or predictive maintenance, but the core occupation remains manual and not significantly reshaped by AI."
+  },
+  {
+    "slug": "casting-or-foundry-assistant-helper",
+    "title": "Casting or Foundry Assistant/Helper",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving manual tasks like material handling and assisting in casting processes in a foundry. AI may offer minor improvements through process monitoring or safety enhancements, but the core work remains hands-on and location-bound with minimal direct automation."
+  },
+  {
+    "slug": "chauffeur",
+    "title": "Chauffeur",
+    "exposure": 4,
+    "rationale": "AI can assist with navigation, safety features, and route optimization, but the core physical driving and interpersonal customer service aspects limit full automation in the near term. In the Indian context, adoption of autonomous vehicles is gradual, so AI reshapes tasks without completely replacing the occupation yet."
+  },
+  {
+    "slug": "chauffeur-level-5",
+    "title": "Chauffeur Level 5",
+    "exposure": 3,
+    "rationale": "Chauffeur work is primarily physical driving with interpersonal elements, where AI currently assists at the edges through navigation and safety features. While future autonomous vehicles could increase exposure, the core task remains human-driven for now."
+  },
+  {
+    "slug": "cleaner-motor-vehicle",
+    "title": "Cleaner Motor Vehicle",
+    "exposure": 1,
+    "rationale": "This occupation is almost entirely physical, involving hands-on cleaning of vehicles with minimal digital components. AI may only assist in peripheral tasks like scheduling or inventory management, leaving the core manual work largely unaffected."
+  },
+  {
+    "slug": "cleaner-window",
+    "title": "Cleaner, Window",
+    "exposure": 1,
+    "rationale": "Window cleaning is a physically intensive, location-bound occupation with minimal digital or knowledge-based tasks. AI may offer peripheral assistance in areas like route optimization or safety monitoring, but the core manual labor is unlikely to be significantly automated or reshaped by AI."
+  },
+  {
+    "slug": "clutch-specialist",
+    "title": "Clutch Specialist",
+    "exposure": 2,
+    "rationale": "The occupation involves hands-on mechanical work on vehicle clutches, which is primarily physical and location-bound. AI may assist with diagnostics or provide information, but the core tasks require manual skill and are not easily automated."
+  },
+  {
+    "slug": "coding-machine-operator",
+    "title": "Coding Machine Operator",
+    "exposure": 4,
+    "rationale": "This occupation involves operating coding machines in automotive manufacturing, blending physical tasks with digital interfaces. AI can enhance efficiency through predictive maintenance and automated quality checks, but the core role remains hands-on and supervisory."
+  },
+  {
+    "slug": "commercial-executive-or-officer",
+    "title": "Commercial Executive Or Officer",
+    "exposure": 5,
+    "rationale": "This role involves a mix of interpersonal, strategic, and administrative tasks in the automotive sector. AI can automate data analysis and routine workflows, enhancing productivity, but core functions like client relationship management and decision-making remain reliant on human skills."
+  },
+  {
+    "slug": "accountant",
+    "title": "Accountant",
+    "exposure": 7,
+    "rationale": "Accountants perform knowledge-intensive tasks involving data analysis, compliance, and financial reporting, which AI can significantly automate and enhance through tools for data processing and predictive analytics. This will materially change output and productivity, shifting the occupation towards more strategic advisory functions while reducing routine manual work."
+  },
+  {
+    "slug": "accounts-executive-accounts-payable-amp-receivables",
+    "title": "Accounts Executive (Accounts Payable &amp; Receivables)",
+    "exposure": 9,
+    "rationale": "This occupation involves routine digital tasks such as invoice processing, reconciliation, and payment tracking, which are highly susceptible to AI automation. AI can handle core functions efficiently, likely restructuring the role by reducing manual labor and shifting focus to exception handling and oversight."
+  },
+  {
+    "slug": "accounts-executive-payroll",
+    "title": "Accounts Executive (Payroll)",
+    "exposure": 7,
+    "rationale": "Payroll processing involves routine data handling and rule-based calculations that are highly automatable with AI, leading to substantial changes in workflow efficiency and error reduction. While AI can materially transform core tasks, human judgment may still be needed for complex exceptions, compliance updates, and employee interactions."
+  },
+  {
+    "slug": "accounts-executive-recording-amp-reporting",
+    "title": "Accounts Executive (Recording &amp; Reporting)",
+    "exposure": 9,
+    "rationale": "Accounts Executive roles involve routine digital tasks like data recording and report generation, which are highly automatable with AI. AI tools can significantly enhance productivity and accuracy, potentially reducing the need for manual intervention in these processes."
+  },
+  {
+    "slug": "accounts-executive-statutory-compliance",
+    "title": "Accounts Executive (Statutory Compliance)",
+    "exposure": 7,
+    "rationale": "This role involves knowledge-intensive compliance tasks in the digital realm, where AI can automate routine checks, monitor regulatory changes, and enhance accuracy, materially changing output. However, human judgment remains crucial for interpreting complex regulations and handling exceptions, limiting full automation."
+  },
+  {
+    "slug": "actuary",
+    "title": "Actuary",
+    "exposure": 8,
+    "rationale": "Actuaries engage in highly digital tasks like data analysis and risk modeling, which AI can automate and enhance, potentially restructuring the occupation. However, elements of professional judgment and client interaction mitigate full automation, keeping exposure below the highest level."
+  },
+  {
+    "slug": "audit-clerk",
+    "title": "Audit Clerk",
+    "exposure": 8,
+    "rationale": "Audit clerks perform routine digital tasks such as data verification and record-keeping in the BFSI sector, which AI can automate through anomaly detection and compliance tools. This high exposure reflects how AI is likely to restructure the occupation by reducing manual clerical work and enhancing efficiency."
+  },
+  {
+    "slug": "auditor",
+    "title": "Auditor",
+    "exposure": 6,
+    "rationale": "Auditors engage in knowledge-heavy tasks like data analysis and compliance checks, which AI can materially enhance through automation and anomaly detection. However, human judgment for contextual interpretation and ethical oversight remains crucial, preventing full replacement."
+  },
+  {
+    "slug": "bank-clerk",
+    "title": "Bank Clerk",
+    "exposure": 7,
+    "rationale": "Bank clerks perform routine administrative and customer service tasks that are highly susceptible to automation by AI, such as transaction processing and inquiry handling. AI is materially changing output in the BFSI sector by enabling chatbots and automated systems, which reduces manual workload and restructures occupational roles."
+  },
+  {
+    "slug": "bill-collector",
+    "title": "Bill Collector",
+    "exposure": 7,
+    "rationale": "Bill collecting involves significant communication and data management tasks that AI can automate or enhance, such as through predictive analytics and automated messaging. However, complex negotiations and customer interactions may still require human judgment, limiting full automation."
+  },
+  {
+    "slug": "bill-processing-clerk",
+    "title": "Bill Processing Clerk",
+    "exposure": 9,
+    "rationale": "This occupation involves routine digital tasks such as data entry and verification, which are highly susceptible to automation through AI technologies like OCR and machine learning. In the BFSI sector, AI can significantly reduce the need for manual processing, restructuring the role towards oversight and exception handling."
+  },
+  {
+    "slug": "bill-and-accounts-collector",
+    "title": "Bill and Accounts Collector",
+    "exposure": 5,
+    "rationale": "This occupation involves a mix of administrative tasks like data management and interpersonal communication for collections. AI can automate routine processes such as payment reminders and provide predictive analytics, but human judgment remains important for negotiation and handling complex cases."
+  },
+  {
+    "slug": "book-keeping-machine-operator",
+    "title": "Book Keeping Machine Operator",
+    "exposure": 8,
+    "rationale": "Bookkeeping is primarily routine digital information processing, which AI can automate through software and algorithms, reducing the need for manual machine operation. As AI advances in the BFSI sector, this occupation is likely to be restructured with fewer operators needed for data entry and record-keeping tasks."
+  },
+  {
+    "slug": "broker-share-market",
+    "title": "Broker, Share Market",
+    "exposure": 8,
+    "rationale": "Share market brokering is highly digital and involves data-intensive tasks that AI can automate, such as trade execution and market analysis. AI is likely to restructure the occupation by reducing the need for manual processes and enhancing decision-making with predictive analytics."
+  },
+  {
+    "slug": "budget-analyst",
+    "title": "Budget Analyst",
+    "exposure": 7,
+    "rationale": "Budget Analysts perform knowledge-intensive tasks involving data analysis, forecasting, and reporting, which AI can significantly automate and enhance. While human judgment remains important for strategic decisions, AI is likely to materially change output by handling routine analytical workflows."
+  },
+  {
+    "slug": "business-correspondent",
+    "title": "Business Correspondent",
+    "exposure": 2,
+    "rationale": "The role is predominantly physical and interpersonal, requiring on-site presence and customer trust-building in remote areas, with AI only aiding in peripheral tasks like data entry or verification. Core functions such as face-to-face service delivery and travel are minimally impacted by AI automation."
+  },
+  {
+    "slug": "cashier",
+    "title": "Cashier",
+    "exposure": 8,
+    "rationale": "In the BFSI sector, cashier roles involve routine digital transaction processing that AI can automate through self-service kiosks and digital payment systems. This will likely restructure the occupation by reducing demand for human cashiers and shifting focus to exception handling and customer service."
+  },
+  {
+    "slug": "clerk-cost-accounting",
+    "title": "Clerk, Cost Accounting",
+    "exposure": 8,
+    "rationale": "This occupation centers on routine digital data processing and analysis in cost accounting, which AI can automate or greatly enhance. As part of the BFSI sector, AI tools are likely to restructure workflows, minimizing manual tasks and shifting the role towards oversight and complex decision-making."
+  },
+  {
+    "slug": "clerk-enquiry",
+    "title": "Clerk, Enquiry",
+    "exposure": 7,
+    "rationale": "Clerk, Enquiry in BFSI involves knowledge-based customer interactions and information processing, which AI can automate for routine queries and enhance for complex cases. This will materially change workflow and output, potentially restructuring the role towards handling exceptions rather than standard inquiries."
+  },
+  {
+    "slug": "clerk-general",
+    "title": "Clerk, General",
+    "exposure": 9,
+    "rationale": "General clerks primarily perform routine digital tasks like data entry, record-keeping, and basic customer service, which are highly automatable by AI. In the BFSI sector, AI can restructure this occupation by automating most administrative functions, significantly reducing the need for human workers and amplifying productivity."
+  },
+  {
+    "slug": "commission-agent",
+    "title": "Commission Agent",
+    "exposure": 4,
+    "rationale": "Commission agents in BFSI involve sales and relationship management where AI can assist with data analysis, lead generation, and administrative automation. However, the core tasks rely on interpersonal trust and nuanced negotiation, limiting full AI replacement and keeping exposure moderate."
+  },
+  {
+    "slug": "computer-operator",
+    "title": "Computer Operator",
+    "exposure": 9,
+    "rationale": "Computer Operator tasks are primarily routine digital monitoring and control, which are highly susceptible to AI automation. In the BFSI sector, AI-driven systems can manage operations with minimal human intervention, likely restructuring or reducing the need for this role."
+  },
+  {
+    "slug": "cost-accountant",
+    "title": "Cost Accountant",
+    "exposure": 6,
+    "rationale": "Cost accounting is a knowledge-intensive role where AI can automate data processing, variance analysis, and reporting, materially enhancing efficiency and accuracy. However, human judgment is crucial for strategic decision-making, cost optimization advice, and interpreting complex financial contexts."
+  },
+  {
+    "slug": "debt-recovery-agent",
+    "title": "Debt Recovery Agent",
+    "exposure": 4,
+    "rationale": "Debt recovery agents rely on interpersonal skills for negotiation and conflict resolution, which AI cannot fully replace. However, AI can automate routine tasks like follow-ups, data analysis, and predictive modeling, significantly improving efficiency without eliminating the core human role."
+  },
+  {
+    "slug": "director-bank",
+    "title": "Director, Bank",
+    "exposure": 6,
+    "rationale": "The Director, Bank role involves strategic decision-making and oversight in a knowledge-intensive sector, where AI can materially enhance data analysis and risk assessment. However, core leadership and interpersonal responsibilities limit full automation, resulting in moderate to high exposure."
+  },
+  {
+    "slug": "director-insurance",
+    "title": "Director, Insurance",
+    "exposure": 6,
+    "rationale": "As a senior management role in BFSI, the Director's work involves strategic decision-making and oversight, which AI can enhance through advanced analytics and automation of routine processes. However, core responsibilities like leadership, stakeholder engagement, and complex judgment are less automatable, leading to material changes in output without full replacement."
+  },
+  {
+    "slug": "equity-dealer",
+    "title": "Equity Dealer",
+    "exposure": 8,
+    "rationale": "Equity dealing is highly digital and knowledge-intensive, with AI capable of automating tasks like market analysis, trade execution, and risk management through algorithmic trading and predictive analytics. While client interaction and complex decision-making retain some human elements, AI is likely to restructure the occupation by enhancing productivity and reducing manual roles."
+  },
+  {
+    "slug": "field-officer-insurance",
+    "title": "Field Officer, Insurance",
+    "exposure": 5,
+    "rationale": "AI can assist with data analysis, risk assessment, and customer management in insurance, but the field officer role requires physical presence and interpersonal skills that are less automatable. This leads to a moderate exposure where AI augments rather than replaces core functions."
+  },
+  {
+    "slug": "finance-agent",
+    "title": "Finance Agent",
+    "exposure": 6,
+    "rationale": "Finance agents engage in knowledge-intensive tasks such as data analysis, risk assessment, and client advisory, where AI can automate routine processes and provide advanced insights, materially changing output. However, interpersonal elements like trust-building and complex decision-making may sustain a need for human involvement."
+  },
+  {
+    "slug": "financial-analyst",
+    "title": "Financial Analyst",
+    "exposure": 7,
+    "rationale": "Financial Analysts engage in knowledge-intensive tasks like data analysis and forecasting, which AI can substantially enhance by automating routine processes and generating predictive insights. However, human judgment and interpersonal skills remain essential for strategic decision-making and client advisory, limiting full automation."
+  },
+  {
+    "slug": "financial-examiner",
+    "title": "Financial Examiner",
+    "exposure": 7,
+    "rationale": "Financial Examiners perform knowledge-intensive tasks involving data analysis, compliance checks, and risk assessment, which AI can materially enhance through automation and pattern recognition. However, human judgment remains essential for interpreting complex regulations and handling nuanced cases, preventing complete automation."
+  },
+  {
+    "slug": "general-manager-bank",
+    "title": "General Manager, Bank",
+    "exposure": 6,
+    "rationale": "This role involves strategic decision-making and oversight in banking, where AI can materially enhance data analysis, risk assessment, and operational efficiency. However, core leadership, interpersonal skills, and complex judgment tasks limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "general-manager-insurance",
+    "title": "General Manager, Insurance",
+    "exposure": 6,
+    "rationale": "General managers in insurance primarily perform knowledge-based tasks like strategic planning and decision-making, which AI can significantly augment through data analytics and process automation, materially changing output. However, the role's core involves leadership and human judgment that are less automatable, preventing full restructuring."
+  },
+  {
+    "slug": "insurance-adjuster-examiner-surveyor-and-investigator",
+    "title": "Insurance Adjuster, Examiner, Surveyor and Investigator",
+    "exposure": 6,
+    "rationale": "AI can significantly assist with data analysis, fraud detection, and claims processing, automating routine tasks and enhancing efficiency. However, human judgment remains essential for on-site inspections, complex case evaluations, and interpersonal interactions, limiting full automation."
+  },
+  {
+    "slug": "insurance-agent",
+    "title": "Insurance Agent",
+    "exposure": 5,
+    "rationale": "Insurance agents involve mixed tasks where AI can automate administrative duties and enhance data analysis, but the core interpersonal and advisory functions remain human-centric. AI will assist in efficiency and personalization without fully replacing the occupation's relational aspects."
+  },
+  {
+    "slug": "jobber-share-market",
+    "title": "Jobber, Share Market",
+    "exposure": 8,
+    "rationale": "This occupation involves highly digital tasks such as trading and data analysis in financial markets, where AI is already automating routine processes like trade execution and predictive analytics. AI exposure is high as it can restructure the role by enabling algorithmic decision-making, significantly reducing the need for human intervention in core activities."
+  },
+  {
+    "slug": "ledger-clerk",
+    "title": "Ledger Clerk",
+    "exposure": 8,
+    "rationale": "Ledger Clerk involves routine digital tasks like data entry and reconciliation, which are highly automatable by AI tools such as RPA and machine learning. This will significantly restructure the occupation by reducing manual workload and enabling fewer workers to handle larger volumes with greater accuracy."
+  },
+  {
+    "slug": "loan-approval-officer",
+    "title": "Loan Approval Officer",
+    "exposure": 7,
+    "rationale": "Loan Approval Officers engage in knowledge-intensive tasks like risk assessment and data analysis, which AI can automate or significantly enhance. AI is already reshaping credit evaluation in BFSI, reducing manual intervention and improving decision efficiency."
+  },
+  {
+    "slug": "manager-bank",
+    "title": "Manager, Bank",
+    "exposure": 6,
+    "rationale": "Bank managers engage in knowledge-intensive tasks like decision-making and workflow management that AI can materially enhance through data analysis and automation. However, core interpersonal, leadership, and strategic functions remain reliant on human judgment, preventing full replacement."
+  },
+  {
+    "slug": "manager-insurance",
+    "title": "Manager, Insurance",
+    "exposure": 6,
+    "rationale": "Insurance management involves knowledge-intensive tasks like risk assessment and workflow oversight, where AI can automate data analysis and routine decisions, materially changing output. However, core strategic leadership and interpersonal aspects still require human judgment, preventing full automation."
+  },
+  {
+    "slug": "mutual-fund-agent",
+    "title": "Mutual Fund Agent",
+    "exposure": 5,
+    "rationale": "AI can automate routine tasks like portfolio analysis and customer inquiries, enhancing agent productivity. However, the core advisory role requiring personalized client interaction and trust-building remains less susceptible to full automation."
+  },
+  {
+    "slug": "operation-research-analyst",
+    "title": "Operation Research Analyst",
+    "exposure": 8,
+    "rationale": "Operation Research Analysts perform data analysis, modeling, and optimization, which are core tasks that AI can automate or significantly augment. This highly digital role in the BFSI sector is likely to be restructured by AI, enhancing productivity and changing traditional workflows."
+  },
+  {
+    "slug": "personal-secretary",
+    "title": "Personal Secretary",
+    "exposure": 8,
+    "rationale": "Personal Secretaries perform highly digital, knowledge-intensive tasks such as scheduling, correspondence, and document management, which AI can automate and enhance through tools like virtual assistants and automated workflows. This exposure is likely to restructure the occupation by reducing routine workload and shifting focus towards strategic support, especially in the BFSI sector where data handling is prevalent."
+  },
+  {
+    "slug": "private-secretary",
+    "title": "Private Secretary",
+    "exposure": 6,
+    "rationale": "Private Secretary roles involve significant administrative and knowledge-based tasks such as scheduling, correspondence, and document management, which are increasingly automated by AI tools. While interpersonal and judgment-based aspects remain, AI is likely to materially enhance productivity and reshape the occupation."
+  },
+  {
+    "slug": "reception-clerk",
+    "title": "Reception Clerk",
+    "exposure": 5,
+    "rationale": "Reception clerks handle a blend of interpersonal and digital tasks, including visitor management and appointment scheduling. AI can automate routine functions like phone systems and basic inquiries, but human interaction remains crucial for nuanced customer service in BFSI settings."
+  },
+  {
+    "slug": "risk-management-analyst",
+    "title": "Risk Management Analyst",
+    "exposure": 7,
+    "rationale": "Risk Management Analysts perform knowledge-intensive tasks like data analysis and risk modeling, which AI can significantly enhance through automation and predictive analytics. However, human expertise remains essential for interpreting complex scenarios, making strategic decisions, and ensuring regulatory compliance."
+  },
+  {
+    "slug": "statistical-clerks",
+    "title": "Statistical Clerks",
+    "exposure": 9,
+    "rationale": "Statistical clerks primarily perform routine digital tasks like data entry, verification, and basic analysis, which are highly automatable by AI. AI can process large datasets, perform calculations, and generate reports with greater speed and accuracy, significantly reducing the need for human labor in these roles."
+  },
+  {
+    "slug": "statistician",
+    "title": "Statistician",
+    "exposure": 7,
+    "rationale": "Statisticians engage in knowledge-intensive data analysis that AI can substantially enhance by automating routine tasks and improving predictive modeling. However, human expertise remains essential for study design, contextual interpretation, and ethical oversight, preventing full automation."
+  },
+  {
+    "slug": "statistician-applied",
+    "title": "Statistician, Applied",
+    "exposure": 8,
+    "rationale": "Applied statisticians in BFSI perform data-intensive tasks like predictive modeling and risk analysis, which AI can automate and optimize significantly. This high exposure stems from AI's ability to restructure workflows and amplify productivity, though human expertise remains essential for interpretation and oversight."
+  },
+  {
+    "slug": "teller-bank",
+    "title": "Teller Bank",
+    "exposure": 7,
+    "rationale": "Bank tellers perform routine transaction processing and customer service tasks that are highly susceptible to automation via AI-driven digital banking, chatbots, and fraud detection systems. AI is materially changing output by reducing the need for human tellers and enhancing efficiency, though some physical cash handling and interpersonal elements remain."
+  },
+  {
+    "slug": "aesthetician",
+    "title": "Aesthetician",
+    "exposure": 2,
+    "rationale": "Aesthetician work is highly physical and client-focused, involving manual treatments and personal interaction. AI may assist with administrative tasks or diagnostic tools, but it does not replace the core hands-on services."
+  },
+  {
+    "slug": "assistant-beautician",
+    "title": "Assistant Beautician",
+    "exposure": 2,
+    "rationale": "The occupation involves hands-on beauty services and direct client interaction, which are difficult to automate fully. AI may assist with ancillary tasks like scheduling or product recommendations, but the core work remains physical and interpersonal."
+  },
+  {
+    "slug": "assistant-beauty-wellness-consultant",
+    "title": "Assistant Beauty/Wellness Consultant",
+    "exposure": 3,
+    "rationale": "The occupation involves hands-on physical treatments and personalized client interactions that are resistant to full automation. AI can assist with tasks like product recommendations, skin analysis, and scheduling, but it primarily enhances rather than replaces the core human elements of the role."
+  },
+  {
+    "slug": "assistant-hair-stylist",
+    "title": "Assistant Hair Stylist",
+    "exposure": 2,
+    "rationale": "The occupation is predominantly physical and interpersonal, involving hands-on hair care and client interaction. AI may offer minor assistance in areas like appointment scheduling or style recommendations, but it does not significantly alter the core manual tasks."
+  },
+  {
+    "slug": "assistant-nail-technician",
+    "title": "Assistant Nail Technician",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on, physical tasks and direct client interaction, which are difficult to automate. AI may assist with scheduling or design ideas, but the core service remains human-dependent."
+  },
+  {
+    "slug": "assistant-spa-therapist",
+    "title": "Assistant Spa Therapist",
+    "exposure": 2,
+    "rationale": "The role is primarily physical and interpersonal, involving hands-on spa treatments and direct client care that are difficult to automate. AI may assist with peripheral tasks like appointment scheduling or product recommendations, but the core service delivery remains human-dependent."
+  },
+  {
+    "slug": "assistant-tattoo-artist",
+    "title": "Assistant Tattoo Artist",
+    "exposure": 2,
+    "rationale": "The occupation is primarily physical and interpersonal, involving hands-on tattooing and direct client engagement. AI may offer minor assistance in design or scheduling but cannot replace the core manual and artistic skills."
+  },
+  {
+    "slug": "barber",
+    "title": "Barber",
+    "exposure": 2,
+    "rationale": "Barbering is primarily a physical and interpersonal occupation involving manual hair cutting and client interaction. AI may assist with ancillary tasks like scheduling or trend analysis, but the core work remains resistant to automation."
+  },
+  {
+    "slug": "bath-attendant",
+    "title": "Bath Attendant",
+    "exposure": 2,
+    "rationale": "Bath attendant roles are highly physical and client-focused, requiring direct human interaction and manual tasks. AI may assist with administrative aspects like scheduling or inventory, but it does not significantly alter the core responsibilities of providing personal care services."
+  },
+  {
+    "slug": "beautician",
+    "title": "Beautician",
+    "exposure": 3,
+    "rationale": "Beauticians primarily perform physical, hands-on services that require personal interaction and manual skills, making the core tasks resistant to automation. AI can assist with peripheral aspects like scheduling, customer management, or virtual try-ons, but it only helps at the edges without reshaping the occupation fundamentally."
+  },
+  {
+    "slug": "beauty-advisor",
+    "title": "Beauty Advisor",
+    "exposure": 4,
+    "rationale": "Beauty Advisors primarily engage in customer interaction and product demonstration, tasks that require human touch and empathy. AI can assist with information retrieval and personalized suggestions, but it is unlikely to replace the core advisory functions."
+  },
+  {
+    "slug": "beauty-therapist",
+    "title": "Beauty Therapist",
+    "exposure": 2,
+    "rationale": "Beauty therapy is a hands-on, interpersonal service where core tasks like skincare treatments and massages require physical presence and human touch, making them resistant to automation. AI may assist at the edges with tools for diagnostics or customer management, but it does not fundamentally reshape the occupation."
+  },
+  {
+    "slug": "bridal-fashion-and-photographic-make-up-artist",
+    "title": "Bridal Fashion and Photographic Make-Up Artist",
+    "exposure": 2,
+    "rationale": "This occupation is predominantly physical and interpersonal, involving hands-on make-up application and client customization, with AI offering only marginal assistance in areas like virtual try-ons or scheduling. The core creative and manual skills remain largely insulated from direct automation."
+  },
+  {
+    "slug": "category-expert",
+    "title": "Category Expert",
+    "exposure": 3,
+    "rationale": "The occupation is in the Beauty and Wellness sector, which relies heavily on physical skills and personal interaction for client services. AI may assist with peripheral tasks like appointment scheduling or trend analysis, but the core hands-on work remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "cosmetic-dermatology-technician",
+    "title": "Cosmetic Dermatology Technician",
+    "exposure": 2,
+    "rationale": "The role is primarily hands-on with physical procedures and direct client interaction, which are difficult to automate. AI may assist with peripheral tasks like skin analysis or scheduling, but the core work remains largely unaffected by AI."
+  },
+  {
+    "slug": "cosmetic-dermatology-trainer",
+    "title": "Cosmetic Dermatology Trainer",
+    "exposure": 3,
+    "rationale": "This occupation primarily involves interpersonal training and hands-on demonstrations in cosmetic dermatology, which are resistant to full automation. AI may support with content delivery or virtual tools, but the core human-centric aspects of teaching and mentorship remain dominant."
+  },
+  {
+    "slug": "dresser-stage-and-studio",
+    "title": "Dresser, Stage and Studio",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on, physical tasks like costume fitting and quick changes, which are not easily automated by AI. AI may assist in peripheral areas such as inventory management or design suggestions, but the core role remains human-centric and location-bound."
+  },
+  {
+    "slug": "hair-advisor",
+    "title": "Hair Advisor",
+    "exposure": 3,
+    "rationale": "Hair advising is primarily an interpersonal and physical service role where AI can only assist at the edges, such as through digital tools for style recommendations or customer management. The core tasks of personal consultation and hands-on assessment are not easily automated."
+  },
+  {
+    "slug": "hair-care-trainer",
+    "title": "Hair Care Trainer",
+    "exposure": 2,
+    "rationale": "Hair Care Trainer is a hands-on, interpersonal occupation focused on practical skills and direct training, making it resistant to automation. AI may offer minor support in areas like educational content or scheduling, but the core work remains physical and human-dependent."
+  },
+  {
+    "slug": "hair-dresser-ladies",
+    "title": "Hair Dresser (Ladies)",
+    "exposure": 2,
+    "rationale": "Hair dressing is a hands-on, service-oriented occupation that relies heavily on manual skills and personal interaction. AI may assist with administrative tasks or style recommendations, but it cannot replace the core physical and interpersonal elements of the job."
+  },
+  {
+    "slug": "hair-stylist",
+    "title": "Hair Stylist",
+    "exposure": 2,
+    "rationale": "Hair styling is a hands-on, client-facing profession where the primary tasks involve physical skill and personal interaction. AI may assist with peripheral functions like appointment booking or style recommendations, but it does not significantly alter the core occupation."
+  },
+  {
+    "slug": "institute-head",
+    "title": "Institute Head",
+    "exposure": 5,
+    "rationale": "The role involves significant managerial and interpersonal duties that are less susceptible to automation. AI can assist with administrative tasks and data-driven decision-making, but the core leadership and human interaction aspects remain essential."
+  },
+  {
+    "slug": "intern",
+    "title": "Intern",
+    "exposure": 2,
+    "rationale": "Interns in Beauty and Wellness primarily perform hands-on, interpersonal tasks that require physical presence and human interaction. AI may assist with peripheral administrative duties or training aids, but it does not significantly alter the core learning and service delivery aspects of the role."
+  },
+  {
+    "slug": "junior-faculty",
+    "title": "Junior Faculty",
+    "exposure": 4,
+    "rationale": "As a teaching role in beauty and wellness, AI can assist with content creation, personalized learning, and administrative tasks, but the core hands-on training and student interaction limit full automation. The mixed nature of knowledge dissemination and practical skill demonstration aligns with moderate AI exposure."
+  },
+  {
+    "slug": "make-up-man",
+    "title": "Make-Up Man",
+    "exposure": 3,
+    "rationale": "The occupation involves hands-on makeup application and direct client interaction, which are physical and creative tasks resistant to full automation. AI may assist with auxiliary functions like virtual try-ons or trend forecasting, but the core work remains interpersonal and skill-based."
+  },
+  {
+    "slug": "make-up-trainer",
+    "title": "Make-Up Trainer",
+    "exposure": 3,
+    "rationale": "Make-Up Trainer involves hands-on, interpersonal teaching and creative demonstration, which are resistant to full automation. AI may assist with digital tools for training aids or administrative tasks, but the core occupation relies on human judgment and physical interaction."
+  },
+  {
+    "slug": "manicurist",
+    "title": "Manicurist",
+    "exposure": 2,
+    "rationale": "The occupation involves primarily physical and interpersonal tasks such as nail care and client consultation, with minimal digital components. AI may assist in ancillary areas like design inspiration or scheduling, but core services remain manual and human-dependent."
+  },
+  {
+    "slug": "mehendi-specialist",
+    "title": "Mehendi Specialist",
+    "exposure": 2,
+    "rationale": "The occupation is primarily physical and artistic, requiring manual dexterity and client interaction that are resistant to automation. AI may offer minor assistance in design generation or business operations, but it does not reshape the core task of applying Mehendi."
+  },
+  {
+    "slug": "nail-technician",
+    "title": "Nail Technician",
+    "exposure": 2,
+    "rationale": "The core tasks are highly physical and interpersonal, requiring manual skill and client interaction, with AI only offering peripheral assistance in areas like appointment management or design tools."
+  },
+  {
+    "slug": "nails-trainer",
+    "title": "Nails Trainer",
+    "exposure": 2,
+    "rationale": "Nails Trainer involves hands-on skill development and personal instruction, which are resistant to full automation. AI may assist with administrative tasks or provide supplementary digital content, but the core training remains human-dependent."
+  },
+  {
+    "slug": "pedicurist-and-manicurist",
+    "title": "Pedicurist and Manicurist",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical and interpersonal, involving hands-on nail care and customer interaction. AI might assist with scheduling or marketing, but the core tasks remain resistant to automation."
+  },
+  {
+    "slug": "senior-barber",
+    "title": "Senior Barber",
+    "exposure": 2,
+    "rationale": "Senior Barber is a hands-on, physical occupation centered on client interaction and manual grooming skills, with minimal digital components. AI may assist peripherally through scheduling apps or style recommendation tools, but it is unlikely to automate or significantly reshape the core services in the foreseeable future."
+  },
+  {
+    "slug": "senior-beauty-therapist",
+    "title": "Senior Beauty Therapist",
+    "exposure": 2,
+    "rationale": "The core tasks involve physical beauty treatments and direct client interaction, which are resistant to automation. AI may provide peripheral support through scheduling or personalized recommendations, but it does not fundamentally reshape the occupation."
+  },
+  {
+    "slug": "senior-cosmetic-dermatology-technician",
+    "title": "Senior Cosmetic Dermatology Technician",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on cosmetic procedures and direct client interaction, which are difficult to automate. AI may assist with diagnostic tools or administrative tasks, but the core work remains physical and skill-based."
+  },
+  {
+    "slug": "senior-faculty",
+    "title": "Senior Faculty",
+    "exposure": 4,
+    "rationale": "Senior Faculty in Beauty and Wellness primarily involves hands-on teaching and interpersonal training, which are resistant to full automation. AI can assist with administrative tasks, curriculum development, and digital learning tools, but the core occupation relies on physical demonstration and human interaction."
+  },
+  {
+    "slug": "senior-nail-technician",
+    "title": "Senior Nail Technician",
+    "exposure": 2,
+    "rationale": "The occupation is primarily hands-on and interpersonal, requiring physical skills and creativity that are not easily automated. AI may assist with peripheral tasks like scheduling or design ideas, but the core service delivery remains largely unaffected by AI."
+  },
+  {
+    "slug": "senior-prosthetic-and-media-make-up-artist",
+    "title": "Senior Prosthetic and Media Make-Up Artist",
+    "exposure": 2,
+    "rationale": "This occupation is heavily reliant on manual dexterity, artistic creativity, and direct interpersonal collaboration for applying prosthetics, which are difficult to automate with AI. While AI could assist in design or planning phases, the core tasks remain physical and location-bound, limiting AI's impact to peripheral support."
+  },
+  {
+    "slug": "senior-spa-therapist",
+    "title": "Senior Spa Therapist",
+    "exposure": 2,
+    "rationale": "The role is heavily centered on physical therapy and interpersonal client interactions, which are resistant to automation. AI might enhance peripheral tasks like scheduling or customer insights, but it will not fundamentally alter the core hands-on work."
+  },
+  {
+    "slug": "senior-stylist",
+    "title": "Senior Stylist",
+    "exposure": 2,
+    "rationale": "The core tasks of a Senior Stylist involve hands-on, creative work and direct client interaction, which are resistant to automation. AI may assist with peripheral tasks like scheduling or trend analysis, but it does not fundamentally change the occupation."
+  },
+  {
+    "slug": "skin-care-specialist",
+    "title": "Skin Care Specialist",
+    "exposure": 2,
+    "rationale": "Skin Care Specialist work is primarily hands-on and client-facing, involving physical treatments and personal interaction. AI can assist with diagnostic tools and administrative tasks, but the core occupation remains resistant to full automation."
+  },
+  {
+    "slug": "skincare-trainer",
+    "title": "Skincare Trainer",
+    "exposure": 3,
+    "rationale": "Skincare Trainer involves hands-on demonstrations and interpersonal training, where AI can assist with information delivery and personalized recommendations but is unlikely to replace the core human interaction and physical guidance required."
+  },
+  {
+    "slug": "spa-therapist",
+    "title": "Spa Therapist",
+    "exposure": 2,
+    "rationale": "Spa Therapists primarily perform hands-on physical treatments and require direct client interaction, making the core of their work resistant to automation. AI may assist with peripheral tasks such as appointment scheduling or client data management, but it is unlikely to significantly reshape the occupation."
+  },
+  {
+    "slug": "spa-trainer",
+    "title": "Spa Trainer",
+    "exposure": 4,
+    "rationale": "Spa Trainer involves interpersonal training and physical demonstrations in spa and wellness, which are highly personal and require human touch. AI can assist with online modules, virtual simulations, or automated assessments, but core activities depend on human adaptability and empathy."
+  },
+  {
+    "slug": "tattoo-artist",
+    "title": "Tattoo Artist",
+    "exposure": 3,
+    "rationale": "Tattoo artists perform manual, artistic work that requires physical presence and client interaction, making the core tasks resistant to automation. AI could assist with design generation or business management, but it only helps at the edges without reshaping the occupation."
+  },
+  {
+    "slug": "tattoo-trainer",
+    "title": "Tattoo Trainer",
+    "exposure": 2,
+    "rationale": "Tattoo training is fundamentally a hands-on and interpersonal occupation requiring physical demonstration and personalized mentorship. AI can support with digital design aids or administrative efficiency, but it does not significantly alter the core training process."
+  },
+  {
+    "slug": "technical-head",
+    "title": "Technical Head",
+    "exposure": 4,
+    "rationale": "The Technical Head role in Beauty and Wellness involves managerial and technical oversight that can be assisted by AI for training, analytics, and administrative tasks. However, the core responsibilities depend on human judgment and interpersonal skills, preventing full automation."
+  },
+  {
+    "slug": "theatrical-and-media-make-up-artist",
+    "title": "Theatrical and Media Make-Up Artist",
+    "exposure": 3,
+    "rationale": "Theatrical and media make-up artistry is primarily a hands-on, creative profession requiring physical application and interpersonal collaboration. AI may assist with design inspiration or administrative tasks, but the core work remains resistant to automation due to its artistic and human-centric nature."
+  },
+  {
+    "slug": "wigman",
+    "title": "Wigman",
+    "exposure": 2,
+    "rationale": "The occupation involves physical craftsmanship and direct client interaction, with AI potentially aiding in design tools or administrative tasks but not replacing the core manual work. It is mostly physical and interpersonal, aligning with the lower end of AI exposure."
+  },
+  {
+    "slug": "aoi-machine-operator",
+    "title": "AOI Machine Operator",
+    "exposure": 5,
+    "rationale": "The AOI Machine Operator role involves overseeing AI-driven inspection systems, requiring both physical setup and interpretative skills. AI enhances defect detection but does not eliminate the need for human intervention in machine operation and quality control."
+  },
+  {
+    "slug": "access-controls-installation-technician",
+    "title": "Access Controls Installation Technician",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on, physical installation of hardware, making it largely location-bound with minimal AI impact. AI may assist at the edges, such as in system diagnostics or planning, but does not replace the core manual tasks."
+  },
+  {
+    "slug": "area-sales-officer",
+    "title": "Area Sales Officer",
+    "exposure": 5,
+    "rationale": "AI can automate data analysis, lead scoring, and administrative tasks, enhancing productivity in sales operations. However, the core functions of relationship building, negotiation, and strategic decision-making remain human-centric and less exposed to full automation."
+  },
+  {
+    "slug": "assembler-precision-instrument",
+    "title": "Assembler Precision Instrument",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving manual assembly of precision instruments with minimal digital components. AI may assist at the edges, such as in quality control or process optimization, but does not fundamentally reshape the core tasks."
+  },
+  {
+    "slug": "assembler-refrigerator-and-air-conditioning-unit",
+    "title": "Assembler, Refrigerator and Air Conditioning Unit",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical assembly of refrigerators and air conditioning units, with tasks that are hands-on and location-bound. AI may assist at the edges, such as in quality control or process optimization, but it does not fundamentally reshape the core manual work."
+  },
+  {
+    "slug": "assembly-line-operator",
+    "title": "Assembly Line Operator",
+    "exposure": 7,
+    "rationale": "Assembly line operations are highly susceptible to AI-driven automation through robotics and intelligent systems, which can perform repetitive physical tasks with greater efficiency and precision. This will materially reduce the demand for human operators and shift the occupation towards monitoring and maintaining automated processes."
+  },
+  {
+    "slug": "assembly-operator-radio-manufacturing",
+    "title": "Assembly Operator (Radio Manufacturing)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual assembly of electronic components, which is primarily physical and location-bound. AI may assist in quality control or automation of repetitive tasks, but the core work remains hands-on and less susceptible to direct AI replacement."
+  },
+  {
+    "slug": "assembly-operator-telephone-equipment-manufacturing",
+    "title": "Assembly Operator (Telephone Equipment Manufacturing)",
+    "exposure": 5,
+    "rationale": "Assembly operators perform physical tasks that AI and robotics can automate or augment, particularly in quality control and workflow optimization, but human dexterity and judgment may still be required for non-routine aspects."
+  },
+  {
+    "slug": "assembly-operator-capacitor",
+    "title": "Assembly Operator \u2013 Capacitor",
+    "exposure": 3,
+    "rationale": "Assembly Operator \u2013 Capacitor involves primarily physical tasks in manufacturing electronic components. AI can enhance automation and quality control but is unlikely to fully replace the need for human oversight in complex assemblies."
+  },
+  {
+    "slug": "assembly-operator-energy-meter",
+    "title": "Assembly Operator \u2013 Energy Meter",
+    "exposure": 3,
+    "rationale": "Assembly Operator \u2013 Energy Meter primarily involves manual, physical tasks in assembling electronic components, with AI offering peripheral assistance in areas like quality control or process optimization. The core work remains hands-on and location-bound, limiting AI's transformative impact compared to more knowledge-intensive roles."
+  },
+  {
+    "slug": "assembly-operator-pmd-and-x-ray",
+    "title": "Assembly Operator \u2013 PMD and X-Ray",
+    "exposure": 4,
+    "rationale": "This occupation involves physical assembly and equipment operation in electronics manufacturing, with AI potentially assisting in quality control via X-ray analysis. However, the core tasks remain manual, limiting full automation and keeping AI impact at a moderate level."
+  },
+  {
+    "slug": "assembly-operator-tv",
+    "title": "Assembly Operator \u2013 TV",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on, physical assembly of television components, which is primarily manual labor. AI may assist at the edges with tasks like quality inspection or workflow optimization, but the core assembly work remains largely unaffected by direct AI automation."
+  },
+  {
+    "slug": "assembly-operator-plc",
+    "title": "Assembly Operator-PLC",
+    "exposure": 3,
+    "rationale": "This occupation centers on physical assembly and monitoring of PLC-controlled systems, with AI primarily aiding in peripheral tasks like predictive maintenance and process optimization. The core manual and operational duties remain less susceptible to direct AI automation."
+  },
+  {
+    "slug": "assembly-supervisor",
+    "title": "Assembly Supervisor",
+    "exposure": 4,
+    "rationale": "Assembly Supervisors oversee physical assembly processes and manage worker teams, involving significant interpersonal and decision-making duties. AI can assist with predictive maintenance, quality control automation, and workflow optimization, but the core role of human supervision and real-time problem-solving remains essential."
+  },
+  {
+    "slug": "auto-tester-capacitor",
+    "title": "Auto-tester Capacitor",
+    "exposure": 5,
+    "rationale": "This occupation involves operating automated testing equipment for electronic components, blending physical setup with data monitoring. AI can enhance efficiency through predictive analytics and optimized testing protocols, but human oversight for equipment handling and anomaly resolution remains essential."
+  },
+  {
+    "slug": "automated-optical-inspection-operator",
+    "title": "Automated_Optical_Inspection_Operator",
+    "exposure": 6,
+    "rationale": "This occupation involves monitoring and interpreting data from automated inspection systems, where AI can significantly enhance defect detection and reduce manual analysis. AI is likely to transform the role by automating decision-making tasks, reshaping it towards more supervisory functions."
+  },
+  {
+    "slug": "bare-board-testing-operator",
+    "title": "Bare Board Testing Operator",
+    "exposure": 6,
+    "rationale": "Bare Board Testing Operator involves repetitive testing tasks in electronics manufacturing, which can be automated or enhanced by AI for improved accuracy and efficiency. AI can analyze test data and control equipment, potentially reducing the need for manual intervention and reshaping the occupation."
+  },
+  {
+    "slug": "box-assembly-operator",
+    "title": "Box Assembly Operator",
+    "exposure": 2,
+    "rationale": "The occupation is centered on manual, physical assembly tasks with minimal digital components. AI may assist in peripheral areas like quality control or logistics, but the core work remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "box-building-assembly-technician",
+    "title": "Box-building Assembly Technician",
+    "exposure": 5,
+    "rationale": "This role involves physical assembly in electronics manufacturing, where AI can automate repetitive tasks and improve efficiency through robotics and quality control systems. However, the need for human dexterity and adaptability in handling diverse components and custom assemblies prevents complete automation, leading to moderate AI exposure."
+  },
+  {
+    "slug": "business-development-executive",
+    "title": "Business Development Executive",
+    "exposure": 6,
+    "rationale": "Business Development Executive involves knowledge-heavy tasks such as market analysis and lead generation where AI can materially enhance output through data insights and automation. However, core interpersonal skills like relationship building and negotiation remain less automatable, balancing the exposure."
+  },
+  {
+    "slug": "cctv-installation-technician",
+    "title": "CCTV Installation Technician",
+    "exposure": 3,
+    "rationale": "The occupation is primarily physical, involving hands-on installation and wiring of CCTV systems, which are not easily automated by AI. AI may assist with system configuration, diagnostics, or smart features, but it only impacts peripheral tasks without replacing the core manual work."
+  },
+  {
+    "slug": "cable-jointer",
+    "title": "Cable Jointer",
+    "exposure": 2,
+    "rationale": "Cable Jointing is a physically intensive occupation focused on manual cable installation and repair, with AI having minimal direct impact on core tasks. AI might enhance efficiency in areas like fault detection or scheduling, but the occupation's essence remains hands-on and location-specific."
+  },
+  {
+    "slug": "cable-maker-rack-wiring-telephone-equipment-manufacturing",
+    "title": "Cable Maker, Rack Wiring (Telephone Equipment Manufacturing)",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on physical tasks in manufacturing, such as cable assembly and rack wiring, which are primarily manual and location-bound. AI may assist indirectly through quality control or process optimization, but the core work remains resistant to full automation due to the need for dexterity and adaptability."
+  },
+  {
+    "slug": "cable-television-installer",
+    "title": "Cable Television Installer",
+    "exposure": 2,
+    "rationale": "Cable Television Installers perform hands-on, physical work that requires on-site presence and manual skills. AI can only help at the periphery, such as in route planning or basic troubleshooting, but does not significantly alter the core installation tasks."
+  },
+  {
+    "slug": "calibration-engineer",
+    "title": "Calibration Engineer",
+    "exposure": 6,
+    "rationale": "Calibration engineering involves data analysis and precision adjustments where AI can materially enhance efficiency and accuracy through automation and optimization. However, the occupation requires hands-on hardware interaction and expert judgment that limit full automation, keeping it in the mixed to knowledge-heavy range."
+  },
+  {
+    "slug": "capping-operator",
+    "title": "Capping Operator",
+    "exposure": 4,
+    "rationale": "Capping Operator involves manual tasks in electronics manufacturing, where AI can assist with quality control, process optimization, and predictive maintenance, but the core work remains physical and location-bound. The role has mixed elements, with AI providing meaningful support without fully replacing the operator."
+  },
+  {
+    "slug": "carrier-attendant-telephone",
+    "title": "Carrier Attendant (Telephone)",
+    "exposure": 8,
+    "rationale": "Carrier Attendant (Telephone) involves routine telephone communication tasks that are highly automatable by AI systems like virtual assistants and automated call distributors. AI is likely to restructure this occupation by replacing human roles in handling inquiries and optimizing network operations."
+  },
+  {
+    "slug": "circuit-imaging-operator",
+    "title": "Circuit Imaging Operator",
+    "exposure": 4,
+    "rationale": "This occupation involves hands-on operation of imaging equipment for circuit manufacturing, with physical tasks that AI can assist through automation and quality control, but core human oversight remains essential."
+  },
+  {
+    "slug": "coating-curing-and-marking-operator",
+    "title": "Coating, Curing and Marking Operator",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on physical tasks in manufacturing, such as applying coatings, curing materials, and marking products. AI may assist with process optimization and quality monitoring, but the core work remains manual and location-bound, limiting significant AI-driven restructuring."
+  },
+  {
+    "slug": "component-preparation-operator",
+    "title": "Component Preparation Operator",
+    "exposure": 3,
+    "rationale": "Component Preparation Operator involves primarily physical tasks in electronics manufacturing, such as handling and preparing components. AI may assist at the edges with quality control or process optimization, but the core manual work limits significant AI impact."
+  },
+  {
+    "slug": "customer-care-executive",
+    "title": "Customer Care Executive",
+    "exposure": 7,
+    "rationale": "AI can automate routine inquiries and assist with data-driven tasks, materially changing output efficiency in customer care. Yet, the occupation's reliance on interpersonal skills and complex issue resolution limits full automation, keeping human roles essential."
+  },
+  {
+    "slug": "customer-inspection-technician",
+    "title": "Customer Inspection Technician",
+    "exposure": 4,
+    "rationale": "Customer Inspection Technician involves hands-on product checks in electronics and hardware, where AI can assist with tasks like automated defect detection, but core physical inspection and customer interaction require human oversight, limiting full replacement."
+  },
+  {
+    "slug": "cutting-crimping-and-connector-assembly-operator",
+    "title": "Cutting, Crimping and Connector Assembly Operator",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical tasks such as cutting and crimping, which are minimally impacted by AI directly. AI may assist indirectly through quality control or process optimization, but the core work remains hands-on and location-bound."
+  },
+  {
+    "slug": "das-set-top-box-installer-and-service-technician",
+    "title": "DAS Set-top Box Installer and Service Technician",
+    "exposure": 2,
+    "rationale": "The occupation involves primarily physical installation and service tasks for set-top boxes, requiring hands-on work and customer interaction. AI may assist with diagnostics or scheduling but is unlikely to replace the core manual and interpersonal aspects."
+  },
+  {
+    "slug": "dth-set-top-box-installer-and-service-technician",
+    "title": "DTH Set-top-box Installer and Service Technician",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on installation and repair of set-top boxes, which are largely physical and location-bound tasks. AI can assist at the edges with remote diagnostics or scheduling optimization, but the core work requires manual intervention and customer interaction."
+  },
+  {
+    "slug": "design-engineer",
+    "title": "Design Engineer",
+    "exposure": 6,
+    "rationale": "Design Engineers in electronics and hardware perform knowledge-intensive tasks like circuit design and simulation, where AI can materially improve efficiency and output through tools for optimization and automation. However, the core of the role involves human creativity and problem-solving that AI currently augments rather than replaces."
+  },
+  {
+    "slug": "design-for-manufacture-engineer",
+    "title": "Design-for-Manufacture_Engineer",
+    "exposure": 6,
+    "rationale": "Design-for-Manufacture Engineers engage in complex, knowledge-based tasks that AI can augment through advanced design and simulation software. While AI may automate certain analytical aspects, the core requires human creativity and cross-functional collaboration, limiting full automation."
+  },
+  {
+    "slug": "design-for-test-engineer",
+    "title": "Design-for-Test Engineer",
+    "exposure": 6,
+    "rationale": "This role is knowledge-intensive and workflow-heavy, with AI capable of automating test generation and analysis to materially change output. However, core design decisions and innovative problem-solving still require human expertise, limiting full automation."
+  },
+  {
+    "slug": "die-bonding-operator",
+    "title": "Die Bonding Operator",
+    "exposure": 3,
+    "rationale": "Die Bonding Operator work is primarily physical, involving hands-on operation of die bonding equipment in electronics manufacturing. AI may assist with process optimization or automated quality checks, but the core tasks require manual dexterity and on-site presence, limiting significant AI-driven restructuring."
+  },
+  {
+    "slug": "disk-duplicator",
+    "title": "Disk Duplicator",
+    "exposure": 2,
+    "rationale": "The occupation involves primarily physical tasks such as operating duplication machinery and handling storage media, which are largely mechanical. AI may assist at the edges with process optimization or quality control, but it does not fundamentally reshape the core manual operations."
+  },
+  {
+    "slug": "draftsman",
+    "title": "Draftsman",
+    "exposure": 7,
+    "rationale": "Drafting is a knowledge-intensive digital task where AI can automate design processes, generate technical drawings, and optimize workflows, materially changing output. While human expertise remains essential for accuracy and complex decision-making, AI tools are likely to reshape the occupation by reducing manual effort and enhancing productivity."
+  },
+  {
+    "slug": "drilling-operator",
+    "title": "Drilling Operator",
+    "exposure": 2,
+    "rationale": "Drilling Operator is a physically intensive role focused on operating machinery, with AI likely to assist in monitoring, optimization, and predictive maintenance but not replace the core hands-on tasks. The occupation's exposure to AI is limited to peripheral enhancements rather than fundamental restructuring."
+  },
+  {
+    "slug": "electrical-assembly-operator-control-panel",
+    "title": "Electrical Assembly Operator-Control Panel",
+    "exposure": 2,
+    "rationale": "This occupation involves manual assembly of electrical control panels, which is primarily physical work with minimal digital components. AI may assist at the edges, such as in quality inspection or supply chain optimization, but the core tasks are not significantly reshaped by AI."
+  },
+  {
+    "slug": "electrical-design-developer",
+    "title": "Electrical Design Developer",
+    "exposure": 6,
+    "rationale": "Electrical Design Developer involves knowledge-intensive tasks such as schematic design and circuit simulation, where AI tools can automate routine aspects and enhance productivity through optimization and error checking. However, core creative and engineering decisions still require human expertise, limiting full automation but allowing AI to materially change output."
+  },
+  {
+    "slug": "electrical-technician",
+    "title": "Electrical Technician",
+    "exposure": 2,
+    "rationale": "Electrical Technician work is predominantly hands-on and location-bound, involving physical installation and repair of electrical systems. AI may assist in diagnostics or predictive maintenance, but the core tasks require human intervention and are not easily automated."
+  },
+  {
+    "slug": "electronic-engineer",
+    "title": "Electronic Engineer",
+    "exposure": 6,
+    "rationale": "Electronic engineering involves knowledge-heavy tasks like circuit design and simulation, where AI can enhance productivity and materially change output through automation and optimization. However, the core requires human creativity and judgment, limiting full automation and restructuring."
+  },
+  {
+    "slug": "electronic-hardware-design-engineer",
+    "title": "Electronic Hardware Design Engineer",
+    "exposure": 8,
+    "rationale": "This occupation is highly digital, involving design, simulation, and analysis using software tools. AI can automate routine tasks, optimize circuits, and enhance productivity, likely restructuring how hardware design is performed."
+  },
+  {
+    "slug": "electronic-mechanic",
+    "title": "Electronic Mechanic",
+    "exposure": 4,
+    "rationale": "Electronic Mechanic involves hands-on repair and maintenance of hardware, where AI can assist with diagnostics and predictive analytics but cannot replace the core physical tasks. This results in mixed work with AI enhancing knowledge-based aspects without restructuring the occupation."
+  },
+  {
+    "slug": "electronic-sub-assembly-technician",
+    "title": "Electronic Sub-Assembly Technician",
+    "exposure": 3,
+    "rationale": "This occupation involves primarily physical tasks such as assembling electronic components, with AI likely to assist only in peripheral areas like quality control or process optimization. The core manual work limits direct automation, keeping AI exposure moderate."
+  },
+  {
+    "slug": "administrator-hospital",
+    "title": "Administrator, Hospital",
+    "exposure": 6,
+    "rationale": "Hospital administration involves knowledge-heavy tasks like data management and workflow optimization, where AI can materially improve efficiency and decision-making. However, core responsibilities requiring human judgment, leadership, and interpersonal skills limit full automation."
+  },
+  {
+    "slug": "allergy-specialist",
+    "title": "Allergy Specialist",
+    "exposure": 5,
+    "rationale": "AI can assist with diagnostic tasks and data analysis, but the occupation relies heavily on patient interaction, physical examinations, and clinical judgment that are not easily automated. This results in mixed exposure where AI augments rather than replaces core functions."
+  },
+  {
+    "slug": "anaesthesia-technician",
+    "title": "Anaesthesia Technician",
+    "exposure": 5,
+    "rationale": "AI can significantly assist with monitoring patient vitals and providing decision support, automating routine data analysis. However, the core tasks involving hands-on equipment setup, patient interaction, and emergency response require human judgment and physical presence, limiting full automation."
+  },
+  {
+    "slug": "anaesthetist",
+    "title": "Anaesthetist",
+    "exposure": 5,
+    "rationale": "Anaesthetists perform complex, real-time tasks requiring human judgment, patient interaction, and physical presence, which AI cannot fully automate. However, AI can meaningfully assist with monitoring, data analysis, and decision support, enhancing productivity without replacing the core occupation."
+  },
+  {
+    "slug": "anatomist-medical",
+    "title": "Anatomist, Medical",
+    "exposure": 3,
+    "rationale": "Anatomists primarily engage in hands-on dissection and teaching, which are physical and interpersonal tasks. AI may assist with peripheral aspects like medical imaging analysis or research data, but the core work remains resistant to automation."
+  },
+  {
+    "slug": "animal-geneticist",
+    "title": "Animal Geneticist",
+    "exposure": 6,
+    "rationale": "Animal Geneticists perform knowledge-intensive tasks involving data analysis and research, where AI can automate genome sequencing and predictive modeling to materially change output. However, core elements like experimental design, ethical judgment, and hands-on lab work still require human expertise, limiting full automation."
+  },
+  {
+    "slug": "animal-keeper",
+    "title": "Animal Keeper",
+    "exposure": 2,
+    "rationale": "Animal keeping is primarily physical and interpersonal work involving direct care, feeding, and health monitoring of animals. AI may assist at the edges with automated systems or data analysis, but it does not fundamentally reshape the core tasks that require human presence and judgment."
+  },
+  {
+    "slug": "animal-nutritionist",
+    "title": "Animal Nutritionist",
+    "exposure": 6,
+    "rationale": "Animal Nutritionists engage in data-driven tasks like diet formulation and research, where AI can materially enhance efficiency through predictive analytics and optimization. However, the occupation retains elements of expert judgment and hands-on animal assessment that limit full automation."
+  },
+  {
+    "slug": "animal-pathologist",
+    "title": "Animal Pathologist",
+    "exposure": 5,
+    "rationale": "Animal pathology involves a mix of hands-on laboratory work and knowledge-intensive diagnostic tasks. AI can assist with image analysis and data processing to enhance efficiency, but core diagnostic judgment and physical procedures still rely on human expertise."
+  },
+  {
+    "slug": "assistant-physiotherapist",
+    "title": "Assistant Physiotherapist",
+    "exposure": 3,
+    "rationale": "Assistant physiotherapists focus on hands-on patient care and interpersonal interactions, which are resistant to full automation. AI may enhance efficiency in administrative tasks and data-driven insights, but the core physical and empathetic elements of the role remain minimally impacted."
+  },
+  {
+    "slug": "ayah-institutional",
+    "title": "Ayah, Institutional",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical and interpersonal, involving hands-on patient care and emotional support that are resistant to automation. AI might aid in ancillary tasks such as monitoring or administrative duties, but it does not fundamentally reshape the core responsibilities."
+  },
+  {
+    "slug": "biomedical-equipment-technician",
+    "title": "Biomedical Equipment Technician",
+    "exposure": 4,
+    "rationale": "Biomedical Equipment Technicians perform hands-on physical maintenance and repair of medical devices, which is resistant to full automation. AI can assist with predictive diagnostics, equipment monitoring, and workflow optimization, enhancing productivity but not replacing the core physical tasks."
+  },
+  {
+    "slug": "blood-bank-technician",
+    "title": "Blood Bank Technician",
+    "exposure": 5,
+    "rationale": "AI can automate blood testing processes and enhance data management, improving accuracy and efficiency in the laboratory. However, physical sample handling, patient interaction, and the need for expert judgment in critical decisions limit the extent of AI replacement."
+  },
+  {
+    "slug": "blood-donor-unit-assistant",
+    "title": "Blood Donor Unit Assistant",
+    "exposure": 4,
+    "rationale": "The role involves significant interpersonal and physical tasks that are difficult to automate, such as donor interaction and hands-on assistance. However, AI can assist with administrative duties like record-keeping, eligibility screening, and workflow optimization, enhancing efficiency without replacing the core human elements."
+  },
+  {
+    "slug": "cardiac-care-technician",
+    "title": "Cardiac Care Technician",
+    "exposure": 5,
+    "rationale": "AI can assist with data analysis and diagnostic support in cardiac monitoring, but the occupation involves significant hands-on patient care and equipment operation that are less automatable. This results in mixed exposure where AI augments rather than replaces core tasks."
+  },
+  {
+    "slug": "cardiologist",
+    "title": "Cardiologist",
+    "exposure": 7,
+    "rationale": "Cardiologists' work is heavily knowledge-based, with AI capable of materially enhancing diagnostic accuracy and treatment planning through image analysis and data interpretation. However, the occupation retains significant physical and interpersonal elements, such as procedures and patient care, which limit full automation."
+  },
+  {
+    "slug": "chemist-pharmaceutical",
+    "title": "Chemist, Pharmaceutical",
+    "exposure": 5,
+    "rationale": "Pharmaceutical chemists perform mixed tasks involving hands-on lab work and knowledge-intensive research. AI can assist with data analysis and drug discovery simulations, but core activities like experimental design and quality control rely on human expertise."
+  },
+  {
+    "slug": "child-care-worker",
+    "title": "Child Care Worker",
+    "exposure": 2,
+    "rationale": "Child care work is fundamentally hands-on and requires human interaction, empathy, and physical presence for tasks like supervision and emotional support. AI can only assist with peripheral activities such as scheduling or educational content, but cannot replace the core caregiving functions."
+  },
+  {
+    "slug": "chiropodist",
+    "title": "Chiropodist",
+    "exposure": 3,
+    "rationale": "Chiropodists primarily perform hands-on physical care and direct patient interaction, which are difficult to automate. AI may assist in diagnostic imaging analysis or administrative tasks, but it does not replace the core manual procedures."
+  },
+  {
+    "slug": "clinical-psychologist",
+    "title": "Clinical Psychologist",
+    "exposure": 4,
+    "rationale": "Clinical Psychology involves deep interpersonal skills and nuanced human judgment that are difficult for AI to replicate. However, AI can assist with diagnostic tools, data analysis, and administrative tasks, moderately enhancing productivity but not replacing the core therapeutic relationship."
+  },
+  {
+    "slug": "dental-assistant",
+    "title": "Dental Assistant",
+    "exposure": 3,
+    "rationale": "Dental assistants primarily engage in physical and interpersonal tasks like assisting in procedures and patient care, which are less susceptible to AI automation. AI can enhance efficiency in administrative areas such as record-keeping and scheduling, but it does not fundamentally alter the core role."
+  },
+  {
+    "slug": "dentist",
+    "title": "Dentist",
+    "exposure": 5,
+    "rationale": "AI can assist with diagnostics, treatment planning, and administrative tasks in dentistry, but the core procedures require hands-on skills and patient interaction that limit full automation. This results in moderate exposure where AI augments rather than replaces the occupation."
+  },
+  {
+    "slug": "dermatologist",
+    "title": "Dermatologist",
+    "exposure": 5,
+    "rationale": "Dermatologists engage in physical examinations and patient interactions that are central to the role, but AI can meaningfully assist with diagnostic tasks through image analysis and data processing. This combination of hands-on and knowledge-based work results in moderate AI exposure."
+  },
+  {
+    "slug": "diabetes-educator",
+    "title": "Diabetes Educator",
+    "exposure": 4,
+    "rationale": "AI can assist with data tracking, personalized education plans, and routine follow-ups, improving efficiency. However, the core of the role involves empathetic patient interaction and tailored counseling that are challenging to automate fully."
+  },
+  {
+    "slug": "dialysis-technician",
+    "title": "Dialysis Technician",
+    "exposure": 4,
+    "rationale": "Dialysis Technicians perform hands-on patient care and operate specialized equipment, which requires human intervention and limits full automation. AI can assist with monitoring, data analysis, and administrative tasks, but the core interpersonal and physical aspects of the job remain essential."
+  },
+  {
+    "slug": "dietician-assistant",
+    "title": "Dietician Assistant",
+    "exposure": 4,
+    "rationale": "Dietician Assistant involves mixed tasks including data recording, meal planning support, and patient education, where AI can assist with efficiency in analysis and automation. However, the core interpersonal and adaptive aspects of patient care limit full replacement, keeping exposure moderate."
+  },
+  {
+    "slug": "dietician-general",
+    "title": "Dietician, General",
+    "exposure": 4,
+    "rationale": "AI can assist dieticians with data analysis, meal planning algorithms, and nutritional tracking, enhancing productivity in routine tasks. However, the core of the occupation involves personalized patient counseling, empathy, and adapting to individual health needs, which require human judgment and limit full automation."
+  },
+  {
+    "slug": "dresser",
+    "title": "Dresser",
+    "exposure": 2,
+    "rationale": "The occupation involves direct physical care and interpersonal interaction, which are difficult to automate. AI may assist with peripheral tasks like scheduling or documentation, but the core duties remain human-centric."
+  },
+  {
+    "slug": "ear-nose-and-throat-specialist",
+    "title": "Ear, Nose and Throat Specialist",
+    "exposure": 5,
+    "rationale": "AI can assist with diagnostic imaging analysis and data management, enhancing efficiency in knowledge-based tasks. However, the core of the occupation involves physical examinations, surgical procedures, and direct patient interactions, which remain less susceptible to automation."
+  },
+  {
+    "slug": "emergency-medical-technician-advanced",
+    "title": "Emergency Medical Technician_Advanced",
+    "exposure": 2,
+    "rationale": "Emergency Medical Technicians perform hands-on, physically intensive medical care and direct patient interaction, which are challenging to automate. AI may provide peripheral support in areas like diagnostic aids or data tracking, but the core occupation relies on human presence and manual skills."
+  },
+  {
+    "slug": "emergency-medical-technician-basic",
+    "title": "Emergency Medical Technician_Basic",
+    "exposure": 3,
+    "rationale": "Emergency Medical Technician_Basic is heavily focused on physical and location-bound tasks like patient care and emergency response, which are difficult to automate. AI may assist at the edges with functions such as diagnostic support or logistics, but the core occupation relies on human presence and adaptability."
+  },
+  {
+    "slug": "frontline-health-worker",
+    "title": "Frontline Health Worker",
+    "exposure": 3,
+    "rationale": "Frontline health workers primarily involve physical patient care and interpersonal interactions, which are challenging to automate. AI may support administrative tasks and data analysis, but it only minimally affects the core duties of direct care and community engagement."
+  },
+  {
+    "slug": "general-duty-assistant",
+    "title": "General Duty Assistant",
+    "exposure": 2,
+    "rationale": "This occupation primarily involves physical patient care and interpersonal support, which are difficult to automate. AI may assist with administrative or monitoring tasks, but the core duties require human presence and empathy."
+  },
+  {
+    "slug": "gynaecologist",
+    "title": "Gynaecologist",
+    "exposure": 4,
+    "rationale": "AI can assist with diagnostics and administrative tasks, improving efficiency, but the hands-on surgical and interpersonal aspects of gynaecology remain largely unaffected. The occupation involves a mix of physical and knowledge work where AI serves as a tool rather than a replacement."
+  },
+  {
+    "slug": "health-officer",
+    "title": "Health Officer",
+    "exposure": 6,
+    "rationale": "Health Officers engage in knowledge-intensive tasks like data analysis, disease surveillance, and policy planning, where AI can materially enhance efficiency and predictive capabilities. However, core responsibilities involving community interaction, leadership, and nuanced decision-making require human judgment, limiting full automation."
+  },
+  {
+    "slug": "histotechnician",
+    "title": "Histotechnician",
+    "exposure": 4,
+    "rationale": "Histotechnicians perform hands-on laboratory tasks requiring manual precision, but AI can assist with image analysis and workflow optimization. The core physical preparation of samples limits full automation, placing it in a mixed category."
+  },
+  {
+    "slug": "home-health-aide",
+    "title": "Home Health Aide",
+    "exposure": 2,
+    "rationale": "Home Health Aide work is primarily physical and interpersonal, involving direct patient care that requires human presence and empathy. AI may assist with scheduling or health monitoring, but it does not replace the essential hands-on tasks."
+  },
+  {
+    "slug": "laboratory-assistant-clinical",
+    "title": "Laboratory Assistant, Clinical",
+    "exposure": 4,
+    "rationale": "Clinical laboratory assistants perform a mix of physical sample handling and knowledge-based tasks like test interpretation. AI can assist with automating analytical processes and data management, but human involvement remains essential for sample preparation, quality control, and complex decision-making."
+  },
+  {
+    "slug": "laboratory-assistant-pharmaceutical",
+    "title": "Laboratory Assistant,Pharmaceutical",
+    "exposure": 5,
+    "rationale": "AI can assist with data analysis, quality control, and optimizing lab workflows, but the occupation involves substantial physical tasks like sample handling and equipment operation that limit full automation. The role is a mix of manual and cognitive work where AI enhances productivity without replacing the core human elements."
+  },
+  {
+    "slug": "laboratory-technician-artificial-breeding",
+    "title": "Laboratory Technician, Artificial Breeding",
+    "exposure": 5,
+    "rationale": "AI can assist with data analysis and process optimization in artificial breeding, enhancing decision-making and efficiency. However, the core tasks involve hands-on laboratory work with biological samples, which limits full automation and keeps exposure moderate."
+  },
+  {
+    "slug": "lady-health-visitor",
+    "title": "Lady Health Visitor",
+    "exposure": 2,
+    "rationale": "Lady Health Visitor roles are centered on interpersonal interactions and physical presence in communities, making them resistant to full automation. AI can assist with administrative tasks and health data analysis, but the essential human elements limit high exposure."
+  },
+  {
+    "slug": "malariologist-medical",
+    "title": "Malariologist, Medical",
+    "exposure": 6,
+    "rationale": "Malariologists engage in research, diagnostics, and data-driven public health planning, where AI can significantly enhance tasks like pattern recognition and predictive modeling. However, core responsibilities involving patient care, ethical decisions, and field interventions maintain a need for human expertise."
+  },
+  {
+    "slug": "masseur",
+    "title": "Masseur",
+    "exposure": 1,
+    "rationale": "The occupation of masseur is almost entirely physical and location-bound, requiring direct human touch and interpersonal skills that AI cannot replicate. AI may only assist with minor administrative tasks, leaving the core work largely unaffected by AI advancements."
+  },
+  {
+    "slug": "mechanic-dental",
+    "title": "Mechanic, Dental",
+    "exposure": 3,
+    "rationale": "Dental mechanics involve hands-on fabrication of dental prosthetics, which is primarily physical work. AI can assist in design and manufacturing processes through CAD/CAM systems, but the core tasks require manual skill and are not easily automated."
+  },
+  {
+    "slug": "medical-equipment-technician",
+    "title": "Medical Equipment Technician",
+    "exposure": 3,
+    "rationale": "This occupation involves primarily physical tasks such as repairing and maintaining medical equipment, with AI likely to assist in areas like predictive maintenance or diagnostics but not replace the core hands-on work. The exposure is limited to enhancing efficiency rather than restructuring the role."
+  },
+  {
+    "slug": "medical-laboratory-technician",
+    "title": "Medical Laboratory Technician",
+    "exposure": 4,
+    "rationale": "Medical Laboratory Technicians perform a mix of physical sample handling and analytical tasks. AI can assist with automating test analyses and improving accuracy, but the core role requires hands-on work and human judgment in quality control."
+  },
+  {
+    "slug": "medical-records-and-health-information-technician",
+    "title": "Medical Records and Health Information Technician",
+    "exposure": 8,
+    "rationale": "This occupation involves routine digital information processing, such as managing electronic health records and medical coding, which AI can automate through natural language processing and data analytics. AI is likely to restructure the role by enhancing accuracy and efficiency, potentially reducing the need for manual data entry and shifting focus to oversight and quality control."
+  },
+  {
+    "slug": "midwife",
+    "title": "Midwife",
+    "exposure": 3,
+    "rationale": "Midwifery is primarily physical and interpersonal, requiring hands-on care and emotional support during childbirth. AI can assist with monitoring and administrative tasks, but the core occupation is resistant to automation."
+  },
+  {
+    "slug": "midwifery-attendant",
+    "title": "Midwifery Attendant",
+    "exposure": 2,
+    "rationale": "Midwifery attendants primarily engage in physical and interpersonal tasks during childbirth, which are resistant to automation. AI may offer peripheral support in data monitoring or administrative duties but does not alter the core human-centric nature of the occupation."
+  },
+  {
+    "slug": "naturopath",
+    "title": "Naturopath",
+    "exposure": 3,
+    "rationale": "Naturopathy relies heavily on personalized patient interaction and holistic assessments, which are difficult to automate. AI may support peripheral tasks like research or data management, but the core therapeutic relationship remains largely unaffected."
+  },
+  {
+    "slug": "assembler-hand",
+    "title": "Assembler Hand",
+    "exposure": 1,
+    "rationale": "This occupation involves manual hand assembly in the leather industry, which is highly physical and location-bound with negligible direct AI impact. AI might only assist indirectly in peripheral tasks like design or logistics, but the core assembly work remains resistant to automation."
+  },
+  {
+    "slug": "bark-pitman-tanning",
+    "title": "Bark Pitman (Tanning)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical labor in traditional tanning processes, with minimal digital or routine information processing tasks. AI could provide minor assistance in areas like process optimization or quality control, but it is unlikely to significantly alter the core hands-on work."
+  },
+  {
+    "slug": "belt-maker",
+    "title": "Belt Maker",
+    "exposure": 2,
+    "rationale": "Belt making is a manual, craft-oriented occupation involving physical tasks like cutting and stitching leather, with minimal digital components. AI may assist peripherally in areas such as design or supply chain management, but the core work remains largely unaffected by direct automation or significant productivity amplification."
+  },
+  {
+    "slug": "buffing-operator",
+    "title": "Buffing Operator",
+    "exposure": 2,
+    "rationale": "Buffing Operator is a manual, physical role in leather processing with minimal digital components. AI may offer marginal improvements in machine efficiency or quality control, but the core tasks are not significantly reshaped by AI."
+  },
+  {
+    "slug": "cadcam-operator-footwear",
+    "title": "CADCAM Operator (Footwear)",
+    "exposure": 7,
+    "rationale": "CADCAM operators in footwear engage in knowledge-intensive digital design and manufacturing, where AI can materially enhance productivity through automation of pattern optimization and process controls. However, human expertise remains essential for creative and complex decision-making, preventing full automation."
+  },
+  {
+    "slug": "case-finisher-leather-product",
+    "title": "Case Finisher (Leather Product)",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on, manual finishing of leather products, which is highly physical and requires tactile skills. AI may assist in peripheral areas like quality inspection or process optimization, but the core tasks are not easily automated."
+  },
+  {
+    "slug": "counter-moulder",
+    "title": "Counter Moulder",
+    "exposure": 2,
+    "rationale": "Counter Moulder involves physical moulding of leather components, which is primarily manual and location-bound. AI may assist at the edges with design optimization or quality control, but the core task remains hands-on and resistant to full automation."
+  },
+  {
+    "slug": "cutter-footwear",
+    "title": "Cutter (Footwear)",
+    "exposure": 2,
+    "rationale": "Cutter (Footwear) is a physically intensive occupation focused on manual material cutting, with AI having negligible direct impact on core tasks. AI may assist indirectly through design optimization or automation, but the role remains largely unchanged by digital technologies."
+  },
+  {
+    "slug": "cutter-goods-and-garments",
+    "title": "Cutter (Goods and Garments)",
+    "exposure": 2,
+    "rationale": "The occupation is primarily physical, involving manual cutting of materials like leather or fabric. AI may assist indirectly through pattern optimization or machine monitoring, but the core tasks remain hands-on with minimal direct automation."
+  },
+  {
+    "slug": "cutter-hand",
+    "title": "Cutter, Hand",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical cutting tasks that are highly location-bound and require dexterity. AI exposure is minimal, with only indirect assistance possible in areas like design or logistics, but the core work remains unaffected by automation."
+  },
+  {
+    "slug": "de-hairer-machine",
+    "title": "De-hairer, Machine",
+    "exposure": 3,
+    "rationale": "This occupation involves physical operation of de-hairing machines in leather processing, with tasks centered on manual handling and machine oversight. AI is likely to assist at the edges, such as through predictive maintenance or quality control optimizations, but the core work remains largely unaffected by direct automation."
+  },
+  {
+    "slug": "dehairer-hand",
+    "title": "Dehairer, Hand",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor to remove hair from animal hides, with no significant digital or knowledge-based components. AI has negligible direct impact, as the tasks are location-bound and rely on hands-on skills."
+  },
+  {
+    "slug": "delimer",
+    "title": "Delimer",
+    "exposure": 2,
+    "rationale": "The occupation involves physical and chemical processes in leather tanning, with minimal digital components. AI could assist in process optimization and monitoring but is unlikely to replace the core manual tasks."
+  },
+  {
+    "slug": "designer-leather-articles",
+    "title": "Designer, Leather Articles",
+    "exposure": 5,
+    "rationale": "This occupation involves creative design work for leather articles, which requires human intuition and aesthetic judgment. AI can assist with tasks like pattern generation and material optimization, but the core design process remains reliant on human creativity, leading to moderate AI exposure."
+  },
+  {
+    "slug": "drum-man-tanning",
+    "title": "Drum Man (Tanning)",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on operation of tanning drums, which is primarily physical labor with minimal digital components. AI could assist at the edges, such as in process monitoring or quality control, but the core tasks are manual and location-bound."
+  },
+  {
+    "slug": "drum-operator",
+    "title": "Drum Operator",
+    "exposure": 2,
+    "rationale": "Drum Operator involves physical operation of machinery in leather processing, which is largely manual and location-bound. AI may assist with peripheral tasks like process optimization or predictive maintenance, but the core work remains hands-on and less susceptible to full automation."
+  },
+  {
+    "slug": "dyer-leather",
+    "title": "Dyer,Leather",
+    "exposure": 2,
+    "rationale": "Leather dyeing is primarily a manual, physical task involving hands-on application of dyes and materials. AI may assist with peripheral aspects like color matching or quality control, but the core occupation remains resistant to significant automation or restructuring."
+  },
+  {
+    "slug": "edge-burnisher",
+    "title": "Edge Burnisher",
+    "exposure": 1,
+    "rationale": "Edge Burnisher is a manual craft occupation in the leather sector, involving physical finishing tasks that are location-bound and skill-based. AI has negligible direct impact, as the core work relies on hands-on expertise with minimal scope for automation or digital augmentation."
+  },
+  {
+    "slug": "edge-setter-machine",
+    "title": "Edge Setter, Machine",
+    "exposure": 4,
+    "rationale": "This occupation involves operating machinery for leather edge setting, which is primarily physical but can benefit from AI in optimizing machine performance and quality control. AI may assist with automation and efficiency gains, but human oversight is likely still required for handling material variations."
+  },
+  {
+    "slug": "embosser-leather",
+    "title": "Embosser, Leather",
+    "exposure": 2,
+    "rationale": "Embossing leather is a manual craft requiring physical dexterity and machine operation, making it largely physical and location-bound. AI might assist at the edges, such as in design automation or quality control, but the core tasks remain hands-on and resistant to full automation."
+  },
+  {
+    "slug": "examiner-footwear",
+    "title": "Examiner, Footwear",
+    "exposure": 2,
+    "rationale": "This occupation is centered on physical inspection of footwear, requiring sensory judgment and manual dexterity. AI may offer support in defect tracking or process optimization, but the fundamental tasks are resistant to full automation."
+  },
+  {
+    "slug": "eyeletting-machine-operator",
+    "title": "Eyeletting Machine Operator",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on operation of eyeletting machinery in a leather manufacturing setting, which is primarily physical and location-bound. AI may assist with peripheral tasks like predictive maintenance or quality monitoring, but the core manual tasks are unlikely to be significantly reshaped by AI in the near term."
+  },
+  {
+    "slug": "flayer",
+    "title": "Flayer",
+    "exposure": 1,
+    "rationale": "The occupation involves manual skinning of animals, which is a physical task with minimal digital components. AI is unlikely to directly automate this work, though it might indirectly affect related processes in the leather industry."
+  },
+  {
+    "slug": "flesher-hand",
+    "title": "Flesher, Hand",
+    "exposure": 1,
+    "rationale": "This occupation involves manual removal of flesh from animal hides, which is a highly physical task with little scope for direct AI intervention. AI might indirectly affect the leather industry through automation in other processes, but the core work remains hands-on and location-bound."
+  },
+  {
+    "slug": "fleshing-operator",
+    "title": "Fleshing Operator",
+    "exposure": 1,
+    "rationale": "The occupation involves hands-on physical tasks in leather processing, such as manually removing flesh from hides, with minimal digital or knowledge-based components. AI's impact is negligible, limited to potential peripheral enhancements in machinery or quality control, not reshaping the core manual work."
+  },
+  {
+    "slug": "fluffer-hand",
+    "title": "Fluffer, Hand",
+    "exposure": 1,
+    "rationale": "This occupation involves manual leather fluffing, a physical task with negligible direct AI automation potential. AI may indirectly affect the leather industry through supply chain optimizations, but the core hands-on work remains largely unchanged."
+  },
+  {
+    "slug": "harness-maker",
+    "title": "Harness Maker",
+    "exposure": 2,
+    "rationale": "Harness making is a manual, physical craft centered on leather work, with minimal digital or knowledge-based tasks. AI could assist peripherally in areas like design or inventory management, but the core occupation remains largely unaffected by automation."
+  },
+  {
+    "slug": "heel-attacher-hand-foot-wear",
+    "title": "Heel Attacher, Hand (Foot Wear)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical assembly of footwear with minimal digital or knowledge-based tasks. AI exposure is low as it primarily relies on human dexterity, though automation in manufacturing may gradually impact such roles."
+  },
+  {
+    "slug": "heel-breaster-machine-foot-wear",
+    "title": "Heel Breaster, Machine (Foot-Wear)",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on machine operation in footwear manufacturing, which is primarily physical and location-bound. AI may assist with peripheral tasks like quality control or maintenance optimization, but the core breasting process remains manual with minimal direct AI impact."
+  },
+  {
+    "slug": "heel-builder-machine-foot-wear",
+    "title": "Heel Builder, Machine (Foot-Wear)",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on machine operation in footwear manufacturing, which is primarily physical. AI can assist with peripheral tasks like process optimization and quality control, but the core manual work is unlikely to be fully automated in the near term."
+  },
+  {
+    "slug": "heel-compressor-machine-foot-wear",
+    "title": "Heel Compressor, Machine (Foot Wear)",
+    "exposure": 2,
+    "rationale": "This occupation is primarily physical, involving the operation of machinery for heel compression in footwear manufacturing. AI may assist at the edges with process optimization or maintenance, but the core tasks remain manual and location-bound, limiting significant AI-driven transformation."
+  },
+  {
+    "slug": "heel-padding-machine-operator",
+    "title": "Heel Padding Machine Operator",
+    "exposure": 3,
+    "rationale": "This occupation involves physical operation of machinery in leather manufacturing, with tasks that are largely manual and location-bound. AI may assist at the edges through predictive maintenance or efficiency optimizations, but it does not fundamentally reshape the core work."
+  },
+  {
+    "slug": "heeler-machine",
+    "title": "Heeler, Machine",
+    "exposure": 4,
+    "rationale": "This occupation involves operating machinery in leather manufacturing, which is primarily physical but could benefit from AI in process optimization and quality control. However, the core task of machine operation may still require human oversight and dexterity, limiting full automation."
+  },
+  {
+    "slug": "helper-finishing-operations",
+    "title": "Helper- Finishing Operations",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical tasks in leather finishing, such as handling materials and assisting with processes, which are not easily automated by AI. AI may provide marginal support through machinery automation or quality control, but the core work remains hands-on with minimal direct AI impact."
+  },
+  {
+    "slug": "helper-bottom-making-footwear",
+    "title": "Helper-Bottom Making (Footwear)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical tasks in footwear manufacturing, such as assembly and material handling, which are largely location-bound and repetitive. AI may offer indirect benefits through improved manufacturing processes or logistics, but the core helper role is unlikely to be significantly reshaped by direct automation in the near term."
+  },
+  {
+    "slug": "helper-dry-operations-finished-leather",
+    "title": "Helper-Dry Operations (Finished Leather)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual handling and basic physical operations in leather processing, which are largely resistant to automation. AI may provide marginal assistance in areas like inventory management or quality monitoring, but the core tasks remain hands-on and location-bound."
+  },
+  {
+    "slug": "helper-finishing-footwear",
+    "title": "Helper-Finishing (Footwear)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual finishing tasks in footwear manufacturing, which are primarily physical and location-bound. AI may assist with peripheral aspects like quality control or workflow management, but the core work remains hands-on and less exposed to direct automation."
+  },
+  {
+    "slug": "helper-finishing-leather-goods-amp-garments",
+    "title": "Helper-Finishing (Leather Goods &amp; Garments)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual finishing tasks in leather goods manufacturing, which are highly physical and require human dexterity. AI has minimal direct impact, with potential assistance only in peripheral areas like inventory or quality control systems."
+  },
+  {
+    "slug": "helper-finishing-operation-finished-leather",
+    "title": "Helper-Finishing Operation-Finished-Leather",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical tasks in leather finishing, such as assisting with manual processes and machinery. AI may have minimal direct impact, potentially aiding in quality control or process efficiency at the edges, but the core work remains manual and location-bound."
+  },
+  {
+    "slug": "helper-parts-making-leather-goods-amp-garments",
+    "title": "Helper-Parts Making (Leather Goods &amp; Garments)",
+    "exposure": 2,
+    "rationale": "This occupation involves primarily physical, hands-on tasks in manufacturing leather goods and garments, with minimal digital or knowledge-based components. AI is likely to have only peripheral effects, such as improving supply chain logistics or quality control, but the core helper functions remain manual and location-bound."
+  },
+  {
+    "slug": "helper-upper-making-footwear",
+    "title": "Helper-Upper Making (Footwear)",
+    "exposure": 2,
+    "rationale": "This occupation involves manual craftsmanship in footwear manufacturing, which is primarily physical and location-bound with minimal digital components. AI may assist indirectly in areas like design or logistics, but the core tasks of cutting, stitching, and assembling are not easily automated due to the need for human dexterity and adaptability."
+  },
+  {
+    "slug": "helper-wet-operations-finished-leather",
+    "title": "Helper-Wet Operations (Finished Leather)",
+    "exposure": 1,
+    "rationale": "This occupation involves manual labor in wet leather processing, which is highly physical and location-bound with minimal digital components. AI has negligible direct impact on core tasks, though it might indirectly influence efficiency in broader manufacturing processes."
+  },
+  {
+    "slug": "hide-splitter-machine",
+    "title": "Hide Splitter, Machine",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on machine operation in leather processing, which is primarily physical and routine. AI could assist with peripheral tasks like predictive maintenance or quality monitoring, but the core work remains manual and location-bound, limiting transformative impact."
+  },
+  {
+    "slug": "hide-and-skin-setter-machine",
+    "title": "Hide and Skin Setter, Machine",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on machine operation in leather processing, which is primarily physical and tactile. AI may assist at the edges with tasks like predictive maintenance or quality monitoring, but the core work remains manual and location-bound."
+  },
+  {
+    "slug": "laster-hand",
+    "title": "Laster, Hand",
+    "exposure": 1,
+    "rationale": "Laster, Hand is a manual trade focused on physical craftsmanship in leatherworking, with tasks that are highly tactile and location-bound. AI has negligible direct impact on the core hand-lasting process, though it may offer minor assistance in peripheral areas like design or inventory management."
+  },
+  {
+    "slug": "lasting-operator",
+    "title": "Lasting Operator",
+    "exposure": 1,
+    "rationale": "The Lasting Operator role is primarily physical and manual, involving hands-on tasks in leather manufacturing such as shaping and attaching materials. AI has negligible direct impact on these core activities, as they are location-bound and require dexterity rather than digital processing."
+  },
+  {
+    "slug": "leather-currier",
+    "title": "Leather Currier",
+    "exposure": 1,
+    "rationale": "Leather currying is a manual, hands-on process involving physical treatment of leather, with minimal digital components. AI is unlikely to significantly automate or reshape this occupation, as it relies on skilled craftsmanship and tactile work."
+  },
+  {
+    "slug": "leather-cutter-hand",
+    "title": "Leather Cutter, Hand",
+    "exposure": 1,
+    "rationale": "Leather Cutter, Hand is a manual craft occupation centered on physical cutting tasks that require dexterity and are difficult to automate with AI. AI may provide minor indirect support in areas like pattern optimization or inventory management, but the core work remains largely unaffected by direct AI intervention."
+  },
+  {
+    "slug": "leather-cutter-machine",
+    "title": "Leather Cutter, Machine",
+    "exposure": 4,
+    "rationale": "Leather Cutter, Machine involves physically operating machinery to cut leather, a task that can be enhanced by AI for precision and efficiency through pattern optimization. However, the hands-on, location-bound nature of the work means AI primarily assists rather than fully automates the core function in the near term."
+  },
+  {
+    "slug": "advertising-sales-agent",
+    "title": "Advertising Sales Agent",
+    "exposure": 5,
+    "rationale": "AI can assist with data-driven tasks like lead generation and ad optimization, improving productivity, but the occupation's core relies on interpersonal skills and negotiation that remain human-centric."
+  },
+  {
+    "slug": "buyer",
+    "title": "Buyer",
+    "exposure": 6,
+    "rationale": "AI can materially enhance data-driven tasks like demand forecasting and inventory optimization, reshaping how buyers make decisions. However, core elements such as supplier negotiations and strategic judgment may remain reliant on human expertise."
+  },
+  {
+    "slug": "canvasser-sales",
+    "title": "Canvasser, Sales",
+    "exposure": 3,
+    "rationale": "The occupation involves significant physical presence and interpersonal skills for direct sales, which are difficult to automate. AI can assist with data analysis and customer targeting, but the core tasks remain human-centric."
+  },
+  {
+    "slug": "cashier-e",
+    "title": "Cashier (E)",
+    "exposure": 8,
+    "rationale": "Cashier tasks are routine and digital, involving transaction processing that AI can automate through self-checkout systems and cashier-less stores, which are increasingly adopted in organised retail. AI is likely to restructure this occupation by reducing the need for human cashiers and shifting roles towards customer service or technical support in India's evolving retail sector."
+  },
+  {
+    "slug": "cashier-general",
+    "title": "Cashier, General",
+    "exposure": 8,
+    "rationale": "Cashier roles are highly exposed to AI due to automation of routine tasks like payment processing and inventory management through self-checkout systems and AI kiosks. While some customer interaction remains, AI is restructuring the occupation by reducing the need for human cashiers in retail settings."
+  },
+  {
+    "slug": "coin-collector",
+    "title": "Coin Collector",
+    "exposure": 4,
+    "rationale": "Coin Collector involves physical handling and specialized knowledge of coins, which AI can assist with through image recognition and database management. However, the core tasks of collection and authentication still require human expertise and interpersonal skills in a retail context."
+  },
+  {
+    "slug": "commercial-traveller-general",
+    "title": "Commercial Traveller, General",
+    "exposure": 3,
+    "rationale": "The role involves extensive physical travel and face-to-face sales interactions, which are difficult to automate fully. AI can assist with tasks like route optimization and customer data analysis, but the core interpersonal and location-bound work limits higher exposure."
+  },
+  {
+    "slug": "complaint-attending-clerk",
+    "title": "Complaint Attending Clerk",
+    "exposure": 4,
+    "rationale": "This occupation involves a mix of interpersonal customer service and administrative tasks in retail. AI can automate complaint logging and provide data-driven insights, but human empathy and judgment are essential for effective resolution."
+  },
+  {
+    "slug": "digital-cataloguer",
+    "title": "Digital Cataloguer",
+    "exposure": 8,
+    "rationale": "Digital Cataloguers perform routine digital information processing tasks such as data entry and categorization, which are highly automatable with AI tools like auto-tagging and content generation. This makes the occupation highly exposed to AI-driven restructuring, as AI can significantly enhance productivity or replace manual efforts in the retail sector."
+  },
+  {
+    "slug": "director-retail-trade",
+    "title": "Director, Retail Trade",
+    "exposure": 6,
+    "rationale": "This role involves strategic decision-making and leadership in retail, where AI can assist with data analysis, forecasting, and operational efficiency, materially changing output in knowledge-heavy tasks. However, the core of human management, vision, and interpersonal skills limits full automation, making AI a powerful augmentative tool rather than a replacement."
+  },
+  {
+    "slug": "director-wholesale-trade",
+    "title": "Director, Wholesale Trade",
+    "exposure": 6,
+    "rationale": "As a high-level managerial role, the Director in Wholesale Trade involves strategic decision-making and relationship management that are augmented by AI tools for data analysis and optimization. AI can significantly enhance productivity and decision-making accuracy, but core leadership and negotiation skills remain human-centric."
+  },
+  {
+    "slug": "general-manager-retail-trade",
+    "title": "General Manager, Retail Trade",
+    "exposure": 5,
+    "rationale": "AI can assist with data-driven tasks like sales forecasting and inventory optimization, but the core managerial functions involve strategic leadership and interpersonal skills that are less automatable. This results in moderate exposure where AI augments productivity without replacing the essential human elements of the role."
+  },
+  {
+    "slug": "general-manager-wholesale-trade",
+    "title": "General Manager, Wholesale Trade",
+    "exposure": 6,
+    "rationale": "AI can materially enhance productivity in data-intensive tasks like demand forecasting and supply chain optimization, but the core managerial responsibilities of strategic decision-making and human leadership remain less automatable. This leads to significant workflow changes without complete occupation restructuring."
+  },
+  {
+    "slug": "home-deliveryman",
+    "title": "Home Deliveryman",
+    "exposure": 2,
+    "rationale": "Home Deliveryman is primarily a physical, location-bound occupation focused on transporting goods, with minimal direct AI automation. AI can assist peripherally with route optimization and logistics management, but the core tasks remain hands-on and resistant to full replacement."
+  },
+  {
+    "slug": "manager-export",
+    "title": "Manager, Export",
+    "exposure": 6,
+    "rationale": "Manager, Export involves knowledge-intensive tasks such as logistics coordination, documentation, and market analysis, where AI can automate routine processes and provide data-driven insights, materially enhancing productivity. However, core managerial functions like strategic planning and relationship management remain reliant on human judgment, limiting full automation."
+  },
+  {
+    "slug": "manager-retail-trade",
+    "title": "Manager, Retail Trade",
+    "exposure": 5,
+    "rationale": "Manager, Retail Trade involves a mix of operational oversight, staff management, and customer interaction that relies on human judgment. AI can assist with tasks like inventory optimization and sales analytics, but the core managerial functions remain interpersonal and decision-driven."
+  },
+  {
+    "slug": "manager-wholesale-trade",
+    "title": "Manager, Wholesale Trade",
+    "exposure": 5,
+    "rationale": "AI can significantly assist with data-driven tasks like inventory optimization, sales forecasting, and customer analytics in wholesale trade management. However, the core responsibilities involve human judgment, strategic planning, and interpersonal leadership, which are less susceptible to full automation, making AI a supportive tool rather than a replacement."
+  },
+  {
+    "slug": "milkman",
+    "title": "Milkman",
+    "exposure": 2,
+    "rationale": "The occupation is primarily physical, involving milk delivery and direct customer interaction, with AI only offering peripheral assistance like route optimization or digital payment systems. Core tasks remain manual and location-bound, resulting in low AI exposure."
+  },
+  {
+    "slug": "newspaper-boy",
+    "title": "Newspaper Boy",
+    "exposure": 1,
+    "rationale": "The occupation involves physical delivery and direct customer interaction, with minimal digital tasks; AI's impact is negligible for core activities, though it may indirectly reduce demand through digital news alternatives."
+  },
+  {
+    "slug": "order-supplier",
+    "title": "Order Supplier",
+    "exposure": 7,
+    "rationale": "The occupation likely involves digital order processing and supply chain coordination in organised retail, where AI can automate routine tasks, predict demand, and optimize logistics, materially changing output. However, some human oversight or interpersonal coordination may remain, limiting full restructuring."
+  },
+  {
+    "slug": "other-sales-supervisor",
+    "title": "Other Sales Supervisor",
+    "exposure": 6,
+    "rationale": "AI can automate routine administrative and analytical tasks like inventory tracking and sales reporting, enhancing efficiency. However, the core supervisory and interpersonal aspects, such as staff management and customer relations, remain less susceptible to full automation."
+  },
+  {
+    "slug": "purchasing-agent",
+    "title": "Purchasing Agent",
+    "exposure": 6,
+    "rationale": "Purchasing Agents perform knowledge-intensive tasks like data analysis and supplier management, where AI can automate routine processes and provide predictive insights, materially changing output. However, core negotiation and strategic decision-making still rely on human judgment, preventing full automation."
+  },
+  {
+    "slug": "sales-associate",
+    "title": "Sales Associate",
+    "exposure": 4,
+    "rationale": "Sales Associates in organised retail perform a mix of interpersonal and physical tasks. AI can assist with inventory management and transaction processing, but the core customer service role remains human-centric."
+  },
+  {
+    "slug": "sales-manager-retail-trade",
+    "title": "Sales Manager (Retail Trade)",
+    "exposure": 6,
+    "rationale": "Sales Managers in retail handle knowledge-intensive tasks like data analysis and strategic planning, which AI can materially enhance through forecasting and automation. However, the core responsibilities of team leadership and customer relationship management rely on human skills that AI supports but does not replace."
+  },
+  {
+    "slug": "sales-manager-wholesale-trade",
+    "title": "Sales Manager (Wholesale Trade)",
+    "exposure": 5,
+    "rationale": "AI can automate data analysis for sales forecasting and customer insights, enhancing productivity in knowledge-heavy tasks. However, core responsibilities like team leadership, strategic decision-making, and relationship building remain reliant on human skills, limiting full automation."
+  },
+  {
+    "slug": "sales-supervisor-wholesale-trade",
+    "title": "Sales Supervisor, Wholesale Trade",
+    "exposure": 5,
+    "rationale": "AI can assist with data analysis, sales forecasting, and inventory management, enhancing productivity in wholesale trade. However, the core supervisory and interpersonal tasks, such as team oversight and client relationships, require human judgment and are less automatable."
+  },
+  {
+    "slug": "shop-assistant",
+    "title": "Shop Assistant",
+    "exposure": 4,
+    "rationale": "Shop assistants perform a mix of physical tasks and customer interactions, with AI assisting in areas like inventory management and automated checkouts. However, the core role of personal service and problem-solving remains heavily reliant on human skills, preventing full automation."
+  },
+  {
+    "slug": "shop-attendant",
+    "title": "Shop Attendant",
+    "exposure": 4,
+    "rationale": "Shop Attendants involve a mix of physical tasks and customer interaction, where AI can assist with automation in areas like checkout and inventory management. However, the core role relies on human presence for service and adaptability, preventing full replacement."
+  },
+  {
+    "slug": "store-ops-assistant",
+    "title": "Store Ops Assistant",
+    "exposure": 4,
+    "rationale": "Store Ops Assistant involves a mix of physical tasks like stocking and customer interaction, which AI can support but not fully automate. AI tools for inventory management and sales analytics can enhance productivity, but the core role relies on human presence and adaptability in a retail environment."
+  },
+  {
+    "slug": "telemarketing-sales-person",
+    "title": "Telemarketing Sales Person",
+    "exposure": 8,
+    "rationale": "Telemarketing involves routine digital communication and sales tasks that AI can automate through chatbots and voice assistants, reducing the need for human intervention. AI also enhances productivity by personalizing interactions and analyzing customer data, significantly restructuring the occupation."
+  },
+  {
+    "slug": "trainee-associate",
+    "title": "Trainee Associate",
+    "exposure": 3,
+    "rationale": "Trainee Associates in organised retail primarily perform physical and interpersonal tasks such as customer service and stocking, with AI providing only peripheral support like inventory tracking or training aids. The occupation's core remains hands-on and location-bound, resulting in limited direct AI impact."
+  },
+  {
+    "slug": "vending-machine-attendant",
+    "title": "Vending Machine Attendant",
+    "exposure": 3,
+    "rationale": "The role is primarily physical, involving restocking, cash handling, and on-site maintenance, which have low direct automation potential. AI can assist at the edges with inventory optimization and remote monitoring, but the core tasks remain location-bound and interpersonal."
+  },
+  {
+    "slug": "working-proprietor-retail-trade",
+    "title": "Working Proprietor, Retail Trade",
+    "exposure": 5,
+    "rationale": "The occupation involves mixed tasks including physical store management and strategic decision-making. AI can assist with data-driven aspects like inventory optimization and customer analytics, but the core proprietorship role relies on human judgment and interpersonal skills that are not fully automatable."
+  },
+  {
+    "slug": "working-proprietor-wholesale-trade",
+    "title": "Working Proprietor, Wholesale Trade",
+    "exposure": 6,
+    "rationale": "This role involves managing wholesale operations with tasks like inventory management and sales forecasting that AI can significantly enhance through data analysis and automation. While interpersonal and strategic elements persist, AI can materially change output in workflow-heavy aspects."
+  },
+  {
+    "slug": "bathroom-and-kitchen-designer",
+    "title": "Bathroom and Kitchen Designer",
+    "exposure": 6,
+    "rationale": "This design role involves knowledge-heavy tasks like spatial planning and material selection, where AI can enhance productivity through automated layouts and simulations. However, core creative judgment and client interaction limit full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "electrical-supervisor-wiring",
+    "title": "Electrical Supervisor, Wiring",
+    "exposure": 4,
+    "rationale": "This occupation involves supervising electrical wiring work, requiring technical expertise and on-site decision-making. AI can assist with design, compliance checks, and monitoring, but the core supervisory and interpersonal tasks are less susceptible to automation."
+  },
+  {
+    "slug": "fire-protection-systems-design-engineer",
+    "title": "Fire Protection Systems Design Engineer",
+    "exposure": 6,
+    "rationale": "This occupation is knowledge-intensive, involving design, calculations, and compliance with safety codes, where AI can automate routine tasks and optimize systems, materially changing output. However, human judgment remains essential for creative design and handling complex, site-specific requirements."
+  },
+  {
+    "slug": "groundwater-engineer",
+    "title": "Groundwater Engineer",
+    "exposure": 5,
+    "rationale": "Groundwater Engineering involves a mix of physical fieldwork and knowledge-intensive tasks such as data analysis, modeling, and design. AI can significantly assist with predictive modeling and data interpretation, improving efficiency, but core activities like site investigations and expert judgment remain reliant on human expertise."
+  },
+  {
+    "slug": "municipal-water-and-sewage-assessor",
+    "title": "Municipal Water and Sewage Assessor",
+    "exposure": 5,
+    "rationale": "This occupation involves physical inspections and assessments of water and sewage infrastructure, which are location-bound and require human judgment. AI can assist with data analysis from sensors and automate reporting, but the core tasks of on-site evaluation remain largely manual."
+  },
+  {
+    "slug": "plumber-after-sales-service",
+    "title": "Plumber (After Sales Service)",
+    "exposure": 2,
+    "rationale": "Plumbing involves primarily physical tasks like installation and repair, which are difficult to automate due to manual dexterity and varied environments. AI may assist with peripheral functions such as scheduling or diagnostics, but the core work remains hands-on and interpersonal."
+  },
+  {
+    "slug": "plumber-general",
+    "title": "Plumber (General)",
+    "exposure": 2,
+    "rationale": "Plumbing is primarily a physical, location-bound occupation involving manual installation and repair tasks that AI cannot easily automate. AI may offer minor assistance in areas like system diagnostics or inventory management, but it does not significantly reshape the core hands-on work."
+  },
+  {
+    "slug": "plumber-general-ii",
+    "title": "Plumber (General) - II",
+    "exposure": 2,
+    "rationale": "Plumbing is a hands-on, physical trade where AI has minimal direct impact on core tasks like installation and repair. AI may assist with ancillary functions such as scheduling or diagnostics, but the occupation remains largely manual and location-bound."
+  },
+  {
+    "slug": "plumber-general-assistant",
+    "title": "Plumber (General) Assistant",
+    "exposure": 2,
+    "rationale": "This occupation is heavily focused on physical, hands-on tasks that require on-site presence and manual skills, with AI only offering marginal assistance in areas like planning or diagnostics. The core work remains resistant to automation due to its location-bound and adaptive nature."
+  },
+  {
+    "slug": "plumber-general-helper",
+    "title": "Plumber (General) Helper",
+    "exposure": 1,
+    "rationale": "This occupation is almost entirely physical, involving manual labor and on-site assistance with negligible AI impact. AI may only help at the edges with tools like scheduling apps, but it does not reshape the core tasks."
+  },
+  {
+    "slug": "plumber-maintenance-amp-servicing",
+    "title": "Plumber (Maintenance &amp; Servicing)",
+    "exposure": 2,
+    "rationale": "Plumbing is primarily physical and location-bound work, with core tasks like installation and repair requiring manual intervention. AI may provide marginal assistance in diagnostics or planning, but it does not significantly reshape the occupation's fundamental nature."
+  },
+  {
+    "slug": "plumber-maintenance-amp-servicing-assistant",
+    "title": "Plumber (Maintenance &amp; Servicing) Assistant",
+    "exposure": 2,
+    "rationale": "This occupation is heavily physical and location-bound, focusing on manual tasks like assisting in repairs and installations. AI may offer minor support through diagnostic tools or scheduling, but it does not significantly impact the core hands-on work."
+  },
+  {
+    "slug": "plumber-operations",
+    "title": "Plumber (Operations)",
+    "exposure": 2,
+    "rationale": "Plumbing is a hands-on, physical occupation where AI has limited direct application. AI may assist with ancillary tasks like scheduling or diagnostics, but the core work remains manual and location-bound."
+  },
+  {
+    "slug": "plumber-pumps-amp-em-mechanic",
+    "title": "Plumber (Pumps &amp; EM Mechanic)",
+    "exposure": 2,
+    "rationale": "Plumbing is primarily physical and location-bound work requiring manual skills for installation and repair. AI might assist with diagnostics or logistics, but the core tasks remain resistant to automation."
+  },
+  {
+    "slug": "plumber-sanitary-fixtures-fitter-assistant",
+    "title": "Plumber (Sanitary Fixtures Fitter Assistant)",
+    "exposure": 2,
+    "rationale": "Plumbing is a highly physical occupation involving manual installation and repair of fixtures, with AI having minimal direct impact on core tasks. AI might offer some support in planning or diagnostics, but the work remains predominantly hands-on and location-bound."
+  },
+  {
+    "slug": "plumber-welder",
+    "title": "Plumber (Welder)",
+    "exposure": 2,
+    "rationale": "The occupation involves hands-on, physical tasks such as installing and repairing plumbing systems and welding, which are difficult to automate fully. AI may assist in areas like design optimization or predictive maintenance, but the core work requires human skill and presence."
+  },
+  {
+    "slug": "plumber-welder-assistant",
+    "title": "Plumber (Welder) Assistant",
+    "exposure": 2,
+    "rationale": "This occupation is predominantly physical and location-bound, involving manual assistance in plumbing and welding tasks with negligible digital components. AI may provide marginal support through tools or training aids, but the core work remains unaffected by automation."
+  },
+  {
+    "slug": "plumber-foreman",
+    "title": "Plumber Foreman",
+    "exposure": 3,
+    "rationale": "The role is primarily physical and supervisory, with AI offering marginal assistance in areas like scheduling or diagnostics. Core tasks remain hands-on plumbing and team management, limiting AI's transformative impact."
+  },
+  {
+    "slug": "plumber-mason",
+    "title": "Plumber Mason",
+    "exposure": 2,
+    "rationale": "Plumber Mason involves hands-on physical tasks like pipe fitting and masonry that are location-bound and difficult to automate. AI can assist at the edges with planning, diagnostics, or inventory management, but the core work remains manual and interpersonal."
+  },
+  {
+    "slug": "plumber-pipeline",
+    "title": "Plumber Pipeline",
+    "exposure": 2,
+    "rationale": "Plumbing is a physically intensive occupation where AI's role is limited to supporting tasks like diagnostics or scheduling, with minimal impact on core hands-on work. The reliance on human dexterity and on-site problem-solving keeps AI exposure low, primarily affecting peripheral efficiency gains."
+  },
+  {
+    "slug": "plumbing-draftsman",
+    "title": "Plumbing Draftsman",
+    "exposure": 7,
+    "rationale": "Plumbing Draftsmen primarily perform digital design and drafting tasks, which are highly susceptible to AI-driven automation and optimization through tools like CAD and generative design. While human expertise remains essential for regulatory compliance and practical integration, AI can substantially reshape workflows and output efficiency."
+  },
+  {
+    "slug": "plumbing-products-sales-assistant",
+    "title": "Plumbing Products Sales Assistant",
+    "exposure": 4,
+    "rationale": "This occupation involves customer interaction and product knowledge, where AI can assist with tasks like inventory management and information retrieval, but the core sales process and personalized service are less likely to be fully automated in the near term."
+  },
+  {
+    "slug": "plumbing-products-sales-officer",
+    "title": "Plumbing Products Sales Officer",
+    "exposure": 4,
+    "rationale": "This sales role involves interpersonal interactions and product expertise, where AI can assist with tasks like lead generation and data analysis but is unlikely to replace the core relationship-building and negotiation aspects. In the plumbing industry, human trust and technical knowledge remain essential, moderating AI's impact."
+  },
+  {
+    "slug": "plumbing-site-engineer",
+    "title": "Plumbing Site Engineer",
+    "exposure": 4,
+    "rationale": "This occupation involves a mix of on-site supervision, technical planning, and physical oversight, where AI can assist with design optimization and project management but cannot replace the need for hands-on problem-solving and location-bound work."
+  },
+  {
+    "slug": "plumbing-supervisor",
+    "title": "Plumbing Supervisor",
+    "exposure": 4,
+    "rationale": "Plumbing Supervisor combines physical oversight and managerial duties, where AI can assist with administrative tasks like scheduling and data analysis but has limited impact on core on-site supervision and hands-on problem-solving. The role's mix of interpersonal and knowledge-based work allows for AI augmentation without full automation of the essential human elements."
+  },
+  {
+    "slug": "pneumatic-chipper",
+    "title": "Pneumatic Chipper",
+    "exposure": 2,
+    "rationale": "This occupation involves hands-on operation of pneumatic tools in plumbing, which is primarily physical labor. AI may assist indirectly through improved tool design or safety systems, but the core tasks remain manual and location-bound."
+  },
+  {
+    "slug": "public-health-system-design-engineer",
+    "title": "Public Health System Design Engineer",
+    "exposure": 6,
+    "rationale": "This role involves designing public health systems, which is knowledge-intensive and can leverage AI for tasks like simulation and optimization. However, human judgment is essential for ensuring safety and regulatory compliance, limiting full automation."
+  },
+  {
+    "slug": "puncher-metal",
+    "title": "Puncher, Metal",
+    "exposure": 2,
+    "rationale": "This occupation involves manual metal punching tasks that are primarily physical and location-bound, with minimal digital components. AI may offer indirect benefits through process optimization or predictive maintenance, but the core work remains hands-on and largely unaffected by direct AI automation."
+  },
+  {
+    "slug": "retail-dealer",
+    "title": "Retail Dealer",
+    "exposure": 4,
+    "rationale": "Retail dealers involve a mix of customer interaction, sales, and inventory management, which can be partially automated by AI through digital platforms and inventory systems. However, physical handling of goods and in-person customer service elements limit full AI replacement, keeping exposure moderate."
+  },
+  {
+    "slug": "salesman",
+    "title": "Salesman",
+    "exposure": 4,
+    "rationale": "The role involves significant interpersonal interaction and technical product knowledge in plumbing sales, where AI can assist with tasks like customer relationship management and data analysis. However, the core of building relationships and understanding nuanced customer needs limits full automation, keeping exposure moderate."
+  },
+  {
+    "slug": "selling-agent",
+    "title": "Selling Agent",
+    "exposure": 4,
+    "rationale": "AI can automate administrative tasks and provide data-driven insights for sales, but the occupation relies on human interaction and technical knowledge in plumbing that AI supports rather than replaces."
+  },
+  {
+    "slug": "stockist",
+    "title": "Stockist",
+    "exposure": 4,
+    "rationale": "Stockist roles in plumbing involve physical inventory handling and manual stock management, with AI offering assistance in areas like demand forecasting and automated ordering. However, the core tasks remain largely physical, limiting full automation."
+  },
+  {
+    "slug": "straightening-machine-operator",
+    "title": "Straightening Machine Operator",
+    "exposure": 3,
+    "rationale": "This occupation involves hands-on operation of machinery for straightening materials, which is primarily physical and location-bound. AI may help at the edges with tasks like predictive maintenance or quality inspection, but the core manual work remains largely unaffected."
+  },
+  {
+    "slug": "supervisor-and-foreman-plumbing-and-pipe-fitting-1",
+    "title": "Supervisor and Foreman Plumbing and Pipe Fitting 1",
+    "exposure": 4,
+    "rationale": "This occupation involves supervising physical plumbing work and coordinating teams, where AI can assist with scheduling, documentation, and resource management but cannot replace the core need for on-site human oversight and technical judgment."
+  },
+  {
+    "slug": "supervisor-and-foreman-insulation",
+    "title": "Supervisor and Foreman, Insulation",
+    "exposure": 4,
+    "rationale": "This role involves supervisory and managerial tasks that require human judgment and on-site presence, but AI can assist with planning, scheduling, and data analysis to improve efficiency. However, the core physical and interpersonal aspects limit full automation."
+  },
+  {
+    "slug": "wastewater-systems-design-engineer",
+    "title": "Wastewater Systems Design Engineer",
+    "exposure": 7,
+    "rationale": "This role involves knowledge-intensive design and simulation tasks where AI can enhance efficiency and accuracy in system planning. However, human expertise is still essential for navigating regulatory complexities and site-specific adaptations."
+  },
+  {
+    "slug": "wholesale-dealer",
+    "title": "Wholesale Dealer",
+    "exposure": 6,
+    "rationale": "Wholesale dealing in plumbing involves knowledge-intensive tasks like inventory management, sales forecasting, and logistics, which AI can significantly enhance through automation and data analytics. However, core human elements such as supplier negotiations and customer relationships remain essential, limiting full automation."
+  },
+  {
+    "slug": "work-supervisor-construction",
+    "title": "Work Supervisor, Construction",
+    "exposure": 4,
+    "rationale": "This occupation involves significant physical oversight and interpersonal management, with AI primarily assisting in planning, scheduling, and safety monitoring. While AI can enhance efficiency, the core supervisory role remains dependent on human judgment and presence."
+  }
+]

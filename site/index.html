@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Exposure of the US Job Market</title>
+<title>AI Exposure of India's Occupations</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -255,28 +255,28 @@ canvas#canvas {
 
 <div id="sidebar">
   <div>
-    <h1>AI Exposure of the US Job Market</h1>
-    <div class="subtitle">342 occupations &middot; color = AI exposure<br>Data from <a href="https://www.bls.gov/ooh/">BLS</a>, scored by Gemini Flash<br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
+    <h1>AI Exposure of India's Occupations</h1>
+    <div class="subtitle">India-specific occupation map &middot; color = AI exposure<br>Data from <a href="https://www.ncs.gov.in/">NCS</a> and <a href="https://www.mospi.gov.in/">MoSPI / PLFS</a><br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
   </div>
 
   <div class="view-toggle">
     <button class="active" onclick="setView('treemap')">Treemap</button>
-    <button onclick="setView('scatter')">Exposure vs Outlook</button>
+    <button onclick="setView('scatter')">Exposure vs Pay</button>
   </div>
 
   <div class="stat-section">
-    <h3>Total jobs</h3>
+    <h3 id="statTotalLabel">Workforce represented</h3>
     <div class="stat-big" id="statTotalJobs">—</div>
   </div>
 
   <div class="stat-section">
     <h3>Weighted avg. exposure</h3>
     <div class="stat-big" id="statAvgExposure">—</div>
-    <div class="stat-label">job-weighted, 0–10 scale</div>
+    <div class="stat-label" id="statAvgExposureDesc">size-weighted, 0–10 scale</div>
   </div>
 
   <div class="stat-section">
-    <h3>Jobs by exposure (weighted by employment)</h3>
+    <h3 id="histogramTitle">Workforce by exposure</h3>
     <div class="histogram" id="histogram"></div>
     <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>
   </div>
@@ -294,12 +294,13 @@ canvas#canvas {
   <div class="stat-section">
     <h3>Exposure by education</h3>
     <div class="hbar-chart" id="eduChart"></div>
+    <div class="stat-label" id="eduChartDesc">official education coverage —</div>
   </div>
 
   <div class="stat-section">
-    <h3>Wages exposed</h3>
+    <h3>High-Exposure Pay</h3>
     <div class="stat-big" id="statWages">—</div>
-    <div class="stat-label" id="statWagesDesc">annual wages in high-exposure jobs (7+)</div>
+    <div class="stat-label" id="statWagesDesc">avg annual pay in high-exposure occupations (7+)</div>
   </div>
 
   <div class="gradient-legend">
@@ -345,10 +346,10 @@ function exposureColorCSS(score, alpha) {
   return `rgba(${r},${g},${b},${alpha})`;
 }
 
-function outlookColorCSS(outlook, alpha) {
-  if (outlook == null) return `rgba(128,128,128,${alpha})`;
-  // Clamp to +/-12% for good saturation without overdoing it
-  const t = Math.max(0, Math.min(1, (outlook + 12) / 24));
+function payColorCSS(pay, alpha) {
+  if (pay == null) return `rgba(128,128,128,${alpha})`;
+  const maxPay = Math.max(...data.map(d => d.pay || 0), 1);
+  const t = Math.max(0, Math.min(1, pay / maxPay));
   let r, g, b;
   if (t < 0.5) {
     const s = t / 0.5;
@@ -488,8 +489,8 @@ function layout() {
 
   const categories = Object.keys(byCategory).map(cat => ({
     cat,
-    items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
-    value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
+    items: byCategory[cat].sort((a, b) => sizeValue(b) - sizeValue(a)),
+    value: byCategory[cat].reduce((s, d) => s + (sizeValue(d) || 1), 0),
   })).sort((a, b) => b.value - a.value);
 
   const catRects = squarify(categories, tx, ty, tw, th);
@@ -497,7 +498,7 @@ function layout() {
   rects = [];
   for (const cr of catRects) {
     const innerGap = GAP;
-    const items = cr.items.map(d => ({ ...d, value: d.jobs || 1 }));
+    const items = cr.items.map(d => ({ ...d, value: sizeValue(d) || 1 }));
     const innerRects = squarify(items,
       cr.rx + innerGap, cr.ry + innerGap,
       cr.rw - innerGap * 2, cr.rh - innerGap * 2
@@ -552,7 +553,7 @@ function draw() {
 
       if (rh > 34 && rw > 60) {
         const info = (r.exposure != null ? r.exposure + "/10" : "") +
-                     (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
+                     (sizeValue(r) ? " \u00b7 " + formatSize(sizeValue(r)) + (usingEmploymentShare() ? " share" : " jobs") : "");
         ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
         ctx.fillStyle = "rgba(255,255,255,0.5)";
         ctx.fillText(info, rx + 5, ry + 4 + fontSize + 2);
@@ -585,7 +586,23 @@ function formatNumber(n) {
 
 function formatPay(n) {
   if (n == null) return "\u2014";
-  return "$" + n.toLocaleString();
+  return "₹" + n.toLocaleString("en-IN");
+}
+
+function sizeValue(d) {
+  if (d.jobs != null) return d.jobs;
+  if (d.employment_share != null) return d.employment_share;
+  return 0;
+}
+
+function usingEmploymentShare() {
+  return data.some(d => d.jobs == null && d.employment_share != null);
+}
+
+function formatSize(n) {
+  if (n == null) return "\u2014";
+  if (usingEmploymentShare()) return n.toFixed(2) + "%";
+  return formatNumber(n);
 }
 
 function showTooltip(d, mx, my) {
@@ -606,10 +623,10 @@ function showTooltip(d, mx, my) {
   }
 
   tt.querySelector(".tt-stats").innerHTML = `
-    <span class="label">Median pay</span><span class="value">${formatPay(d.pay)}</span>
-    <span class="label">Jobs (2024)</span><span class="value">${formatNumber(d.jobs)}</span>
-    <span class="label">Outlook</span><span class="value">${d.outlook != null ? d.outlook + '%' : '\u2014'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
-    <span class="label">Education</span><span class="value">${d.education || '\u2014'}</span>
+    <span class="label">Annual pay</span><span class="value">${formatPay(d.pay)}</span>
+    <span class="label">Monthly pay</span><span class="value">${formatPay(d.pay_monthly)}</span>
+    <span class="label">${usingEmploymentShare() ? 'Workforce share' : 'Jobs'}</span><span class="value">${formatSize(usingEmploymentShare() ? d.employment_share : d.jobs)}</span>
+    <span class="label">Education</span><span class="value">${d.education || 'Not available in current India sources'}</span>
   `;
 
   tt.querySelector(".tt-rationale").textContent =
@@ -631,7 +648,7 @@ function hideTooltip() {
   document.getElementById("tooltip").classList.remove("visible");
 }
 
-// ── Column view (exposure x outlook) ────────────────────────────────────
+// ── Column view (exposure x pay) ────────────────────────────────────────
 
 let colRects = [];
 
@@ -652,20 +669,19 @@ function layoutColumns() {
 
   // Group by exposure score
   const byExposure = {};
-  let totalJobs = 0;
+  let totalSize = 0;
   for (const d of data) {
     if (d.exposure == null) continue;
     if (!byExposure[d.exposure]) byExposure[d.exposure] = [];
     byExposure[d.exposure].push(d);
-    totalJobs += d.jobs || 0;
+    totalSize += sizeValue(d);
   }
 
   // Find which exposure scores exist
   const scores = Object.keys(byExposure).map(Number).sort((a, b) => a - b);
   const numCols = scores.length;
 
-  // Column widths proportional to total jobs in that exposure level
-  const colJobTotals = scores.map(s => byExposure[s].reduce((sum, d) => sum + (d.jobs || 0), 0));
+  const colSizeTotals = scores.map(s => byExposure[s].reduce((sum, d) => sum + sizeValue(d), 0));
   const totalGap = colGap * (numCols - 1);
   const availW = plotW - totalGap;
 
@@ -675,16 +691,15 @@ function layoutColumns() {
   for (let i = 0; i < scores.length; i++) {
     const score = scores[i];
     const items = byExposure[score];
-    const colJobs = colJobTotals[i];
-    const colW = (colJobs / totalJobs) * availW;
+    const colSize = colSizeTotals[i];
+    const colW = totalSize > 0 ? (colSize / totalSize) * availW : 0;
 
-    // Sort by outlook descending (best outlook at top)
-    items.sort((a, b) => (b.outlook || 0) - (a.outlook || 0));
+    items.sort((a, b) => (b.pay || 0) - (a.pay || 0));
 
     let cy = pad.top;
     for (const d of items) {
-      const jobs = d.jobs || 0;
-      const itemH = colJobs > 0 ? (jobs / colJobs) * plotH : 0;
+      const itemSize = sizeValue(d);
+      const itemH = colSize > 0 ? (itemSize / colSize) * plotH : 0;
       if (itemH < 0.3) { cy += itemH; continue; }
       colRects.push({ ...d, rx: cx, ry: cy, rw: colW, rh: itemH });
       cy += itemH;
@@ -694,7 +709,7 @@ function layoutColumns() {
   }
 
   // Store metadata for axis drawing
-  colRects._meta = { scores, pad, colJobTotals, totalJobs, availW, plotH, colGap };
+  colRects._meta = { scores, pad, colSizeTotals, totalSize, availW, plotH, colGap };
 }
 
 function drawColumns() {
@@ -714,7 +729,7 @@ function drawColumns() {
 
   let hx = meta.pad.left;
   for (let i = 0; i < meta.scores.length; i++) {
-    const colW = (meta.colJobTotals[i] / meta.totalJobs) * meta.availW;
+    const colW = meta.totalSize > 0 ? (meta.colSizeTotals[i] / meta.totalSize) * meta.availW : 0;
     if (colW > 16) {
       ctx.fillStyle = exposureColorCSS(meta.scores[i], 0.7);
       ctx.fillText(meta.scores[i], hx + colW / 2, meta.pad.top - 5);
@@ -741,7 +756,7 @@ function drawColumns() {
     if (rw <= 0 || rh <= 0) continue;
 
     const fillAlpha = isHovered ? 0.8 : 0.5;
-    ctx.fillStyle = outlookColorCSS(r.outlook, fillAlpha);
+    ctx.fillStyle = payColorCSS(r.pay, fillAlpha);
     ctx.fillRect(rx, ry, rw, rh);
 
     if (isHovered) {
@@ -765,8 +780,8 @@ function drawColumns() {
       ctx.fillText(r.title, rx + 4, ry + 2);
 
       if (rh > 28 && rw > 50) {
-        const info = (r.outlook != null ? (r.outlook > 0 ? "+" : "") + r.outlook + "%" : "") +
-                     (r.jobs ? " \u00b7 " + formatNumber(r.jobs) : "");
+        const info = (r.pay != null ? formatPay(r.pay) : "") +
+                     (sizeValue(r) ? " \u00b7 " + formatSize(sizeValue(r)) : "");
         ctx.font = `400 ${Math.max(7, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
         ctx.fillStyle = "rgba(255,255,255,0.5)";
         ctx.fillText(info, rx + 4, ry + 2 + fontSize + 1);
@@ -793,23 +808,25 @@ function hitTestColumns(mx, my) {
 // ── Sidebar stats ──────────────────────────────────────────────────────
 
 function computeStats() {
-  const totalJobs = data.reduce((s, d) => s + (d.jobs || 0), 0);
+  const totalSize = data.reduce((s, d) => s + sizeValue(d), 0);
 
-  // Job-weighted average exposure
+  // Size-weighted average exposure
   let weightedSum = 0, weightedCount = 0;
   for (const d of data) {
-    if (d.exposure != null && d.jobs) {
-      weightedSum += d.exposure * d.jobs;
-      weightedCount += d.jobs;
+    const size = sizeValue(d);
+    if (d.exposure != null && size) {
+      weightedSum += d.exposure * size;
+      weightedCount += size;
     }
   }
   const weightedAvg = weightedCount > 0 ? weightedSum / weightedCount : 0;
 
-  // Histogram: jobs per exposure score 0-10
+  // Histogram: represented size per exposure score 0-10
   const histogram = new Array(11).fill(0);
   for (const d of data) {
-    if (d.exposure != null && d.jobs) {
-      histogram[d.exposure] += d.jobs;
+    const size = sizeValue(d);
+    if (d.exposure != null && size) {
+      histogram[d.exposure] += size;
     }
   }
 
@@ -824,25 +841,29 @@ function computeStats() {
   for (const tier of tiers) {
     tier.jobs = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs &&
+      const size = sizeValue(d);
+      if (d.exposure != null && size &&
           d.exposure >= tier.range[0] && d.exposure <= tier.range[1]) {
-        tier.jobs += d.jobs;
+        tier.jobs += size;
       }
     }
-    tier.pct = totalJobs > 0 ? (tier.jobs / totalJobs * 100) : 0;
+    tier.pct = totalSize > 0 ? (tier.jobs / totalSize * 100) : 0;
   }
 
-  // Wages exposed (jobs with exposure >= 7, weighted by pay)
+  // Average pay among high-exposure occupations, weighted by represented size
   let wagesExposed = 0;
+  let wagesWeight = 0;
   for (const d of data) {
-    if (d.exposure != null && d.exposure >= 7 && d.jobs && d.pay) {
-      wagesExposed += d.jobs * d.pay;
+    const size = sizeValue(d);
+    if (d.exposure != null && d.exposure >= 7 && size && d.pay) {
+      wagesExposed += size * d.pay;
+      wagesWeight += size;
     }
   }
 
   // Render
   document.getElementById("statTotalJobs").textContent =
-    (totalJobs / 1e6).toFixed(0) + "M";
+    usingEmploymentShare() ? totalSize.toFixed(1) + "%" : (totalSize / 1e6).toFixed(0) + "M";
   document.getElementById("statAvgExposure").innerHTML =
     `<span style="color:${exposureColorCSS(weightedAvg, 1)}">${weightedAvg.toFixed(1)}</span>`;
 
@@ -851,7 +872,7 @@ function computeStats() {
   const histEl = document.getElementById("histogram");
   histEl.innerHTML = histogram.map((count, i) => {
     const h = maxHist > 0 ? (count / maxHist * 100) : 0;
-    return `<div class="bar" style="height:${Math.max(2, h)}%;background:${exposureColorCSS(i, 0.7)}" title="${i}: ${formatNumber(count)} jobs"></div>`;
+    return `<div class="bar" style="height:${Math.max(2, h)}%;background:${exposureColorCSS(i, 0.7)}" title="${i}: ${formatSize(count)}"></div>`;
   }).join("");
 
   // Tier breakdown
@@ -860,27 +881,28 @@ function computeStats() {
     `<div class="tier-row">
       <div class="tier-color" style="background:${t.color}"></div>
       <span class="tier-name">${t.name} (${t.range[0]}-${t.range[1]})</span>
-      <span class="tier-jobs">${formatNumber(t.jobs)}</span>
+      <span class="tier-jobs">${formatSize(t.jobs)}</span>
       <span class="tier-pct">${t.pct.toFixed(0)}%</span>
     </div>`
   ).join("");
 
   // Exposure by pay band
   const payBands = [
-    { label: "<$35K", min: 0, max: 35000 },
-    { label: "$35–50K", min: 35000, max: 50000 },
-    { label: "$50–75K", min: 50000, max: 75000 },
-    { label: "$75–100K", min: 75000, max: 100000 },
-    { label: "$100K+", min: 100000, max: Infinity },
+    { label: "<₹2L", min: 0, max: 200000 },
+    { label: "₹2–4L", min: 200000, max: 400000 },
+    { label: "₹4–6L", min: 400000, max: 600000 },
+    { label: "₹6–10L", min: 600000, max: 1000000 },
+    { label: "₹10L+", min: 1000000, max: Infinity },
   ];
   const payChartEl = document.getElementById("payChart");
   payChartEl.innerHTML = payBands.map(band => {
     let wSum = 0, wCount = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs && d.pay != null &&
+      const size = sizeValue(d);
+      if (d.exposure != null && size && d.pay != null &&
           d.pay >= band.min && d.pay < band.max) {
-        wSum += d.exposure * d.jobs;
-        wCount += d.jobs;
+        wSum += d.exposure * size;
+        wCount += size;
       }
     }
     const avg = wCount > 0 ? wSum / wCount : 0;
@@ -892,36 +914,48 @@ function computeStats() {
     </div>`;
   }).join("");
 
-  // Exposure by education
+  // Exposure by official education bucket
   const eduGroups = [
-    { label: "No degree/HS", match: ["No formal educational credential", "High school diploma or equivalent"] },
-    { label: "Postsec/Assoc", match: ["Postsecondary nondegree award", "Some college, no degree", "Associate's degree"] },
-    { label: "Bachelor's", match: ["Bachelor's degree"] },
-    { label: "Master's", match: ["Master's degree"] },
-    { label: "Doctoral/Prof", match: ["Doctoral or professional degree"] },
+    { label: "Up to middle", code: "Up to middle" },
+    { label: "10th", code: "Secondary (10th)" },
+    { label: "12th", code: "Higher secondary (12th)" },
+    { label: "Diploma/ITI", code: "Diploma / ITI / Certificate" },
+    { label: "Graduate", code: "Graduate" },
+    { label: "Postgraduate+", code: "Postgraduate+" },
   ];
   const eduChartEl = document.getElementById("eduChart");
+  let eduCoverageRows = 0;
+  let eduCoverageSize = 0;
   eduChartEl.innerHTML = eduGroups.map(grp => {
     let wSum = 0, wCount = 0;
+    let rowCount = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs && grp.match.includes(d.education)) {
-        wSum += d.exposure * d.jobs;
-        wCount += d.jobs;
+      const size = sizeValue(d);
+      if (d.exposure != null && size && d.education_bucket === grp.code) {
+        wSum += d.exposure * size;
+        wCount += size;
+        rowCount += 1;
       }
+    }
+    if (wCount > 0) {
+      eduCoverageRows += rowCount;
+      eduCoverageSize += wCount;
     }
     const avg = wCount > 0 ? wSum / wCount : 0;
     const pct = avg / 10 * 100;
     return `<div class="hbar-row">
       <span class="hbar-label">${grp.label}</span>
       <div class="hbar-track"><div class="hbar-fill" style="width:${pct}%;background:${exposureColorCSS(avg, 0.8)}"></div></div>
-      <span class="hbar-val">${avg.toFixed(1)}</span>
+      <span class="hbar-val">${wCount > 0 ? avg.toFixed(1) : '—'}</span>
     </div>`;
   }).join("");
+  document.getElementById("eduChartDesc").textContent =
+    eduCoverageSize > 0
+      ? `official NQR coverage ${eduCoverageRows} occupations, ${formatSize(eduCoverageSize)} represented`
+      : "official education coverage not available yet";
 
-  // Wages
-  const trillions = wagesExposed / 1e12;
   document.getElementById("statWages").textContent =
-    "$" + trillions.toFixed(1) + "T";
+    wagesWeight > 0 ? formatPay(Math.round(wagesExposed / wagesWeight)) : "\u2014";
 }
 
 // ── Events ─────────────────────────────────────────────────────────────

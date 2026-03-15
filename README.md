@@ -1,97 +1,170 @@
-# AI Exposure of the US Job Market
+# AI Exposure of India's Occupations
 
-Analyzing how susceptible every occupation in the US economy is to AI and automation, using data from the Bureau of Labor Statistics [Occupational Outlook Handbook](https://www.bls.gov/ooh/) (OOH).
+An India-specific adaptation of the original jobs project: a static treemap that shows which occupations are likely to be reshaped by AI, how large those occupations are in the labor market, and why they received their scores.
 
-**Live demo: [karpathy.ai/jobs](https://karpathy.ai/jobs/)**
+## Purpose
 
-![AI Exposure Treemap](jobs.png)
+The project is meant to answer three questions visually:
 
-## What's here
+1. Which occupations are most exposed to AI?
+2. How large are those occupations in the labor market?
+3. What is the reasoning behind each score?
 
-The BLS OOH covers **342 occupations** spanning every sector of the US economy, with detailed data on job duties, work environment, education requirements, pay, and employment projections. We scraped all of it, scored each occupation's AI exposure using an LLM, and built an interactive treemap visualization.
+The main view is still a treemap:
+- area = labor-market size proxy
+- color = AI exposure
+- hover = pay, occupation metadata, and scoring rationale
 
-## Data pipeline
+## India source stack
 
-1. **Scrape** (`scrape.py`) — Playwright (non-headless, BLS blocks bots) downloads raw HTML for all 342 occupation pages into `html/`.
-2. **Parse** (`parse_detail.py`, `process.py`) — BeautifulSoup converts raw HTML into clean Markdown files in `pages/`.
-3. **Tabulate** (`make_csv.py`) — Extracts structured fields (pay, education, job count, growth outlook, SOC code) into `occupations.csv`.
-4. **Score** (`score.py`) — Sends each occupation's Markdown description to an LLM (Gemini Flash via OpenRouter) with a scoring rubric. Each occupation gets an AI Exposure score from 0-10 with a rationale. Results saved to `scores.json`.
-5. **Build site data** (`build_site_data.py`) — Merges CSV stats and AI exposure scores into a compact `site/data.json` for the frontend.
-6. **Website** (`site/index.html`) — Interactive treemap visualization where area = employment and color = AI exposure (green to red).
+The India version currently uses:
+
+- `NCS (National Career Service)` for occupation titles, NCO codes, and source pages  
+  https://www.ncs.gov.in/
+- `NCO 2015` as the occupation taxonomy  
+  https://labour.gov.in/sites/default/files/National%20Classification%20of%20Occupations%20_Vol%20I-%202015.pdf
+- `PLFS / MoSPI Annual Report 2023-24` for:
+  - occupation-group workforce share from `Table 25`
+  - occupation-division wage data from `Table 50`
+  https://www.mospi.gov.in/
+  https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf
+- `NQR / NCVET` for official qualification pages and minimum eligibility criteria used in the education field where a reliable occupation match exists  
+  https://www.nqr.gov.in/  
+  https://ncvet.gov.in/national-qualifications-register/
+
+## Current status
+
+This repo is now wired for an India workflow, but it is still a `v1 / WIP` data product.
+
+What is working:
+- India occupation list ingestion
+- India markdown page generation
+- India stats normalization
+- India scoring pipeline
+- India site data build
+- India-specific frontend copy and sizing logic
+
+Current limitations:
+- many NCS detail pages only yield metadata-first markdown, not rich descriptions
+- labor-market size is currently an `employment_share` proxy, not absolute job counts
+- pay is a PLFS-based occupation-division estimate, not a perfect occupation-level wage
+- education is only shown where a conservative NCS-to-NQR match succeeded; unmatched occupations stay blank by design
+
+## India pipeline
+
+1. `india/build_occupations.py`
+   Builds the India occupation master list from cached NCS sector pages.
+
+2. `india/fetch_descriptions.py`
+   Creates markdown pages in `india/output/pages/` for scoring. When rich NCS text is unavailable, it still writes stable metadata pages so the pipeline can continue.
+
+3. `india/build_stats.py`
+   Normalizes PLFS 2023-24 table data into `india/output/occupations_india.csv`.
+
+4. `india/fetch_education.py`
+   Matches occupations to official NQR qualifications and extracts minimum eligibility text and education buckets where a reliable government match exists.
+
+5. `india/score_india.py`
+   Scores occupations with OpenRouter, caches each success immediately, retries failures, and refreshes `site/data.json` after every saved score.
+
+6. `india/build_site_data.py`
+   Merges India stats and India scores into `site/data.json`.
+
+7. `site/index.html`
+   Static frontend for the India dataset.
 
 ## Key files
 
 | File | Description |
 |------|-------------|
-| `occupations.json` | Master list of 342 occupations with title, URL, category, slug |
-| `occupations.csv` | Summary stats: pay, education, job count, growth projections |
-| `scores.json` | AI exposure scores (0-10) with rationales for all 342 occupations |
-| `prompt.md` | All data in a single file, designed to be pasted into an LLM for analysis |
-| `html/` | Raw HTML pages from BLS (source of truth, ~40MB) |
-| `pages/` | Clean Markdown versions of each occupation page |
-| `site/` | Static website (treemap visualization) |
-
-## AI exposure scoring
-
-Each occupation is scored on a single **AI Exposure** axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed).
-
-A key signal is whether the job's work product is fundamentally digital — if the job can be done entirely from a home office on a computer, AI exposure is inherently high. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction have a natural barrier.
-
-**Calibration examples from the dataset:**
-
-| Score | Meaning | Examples |
-|-------|---------|---------|
-| 0-1 | Minimal | Roofers, janitors, construction laborers |
-| 2-3 | Low | Electricians, plumbers, nurses aides, firefighters |
-| 4-5 | Moderate | Registered nurses, retail workers, physicians |
-| 6-7 | High | Teachers, managers, accountants, engineers |
-| 8-9 | Very high | Software developers, paralegals, data analysts, editors |
-| 10 | Maximum | Medical transcriptionists |
-
-Average exposure across all 342 occupations: **5.3/10**.
-
-## Visualization
-
-The main visualization is an interactive **treemap** where:
-- **Area** of each rectangle is proportional to employment (number of jobs)
-- **Color** indicates AI exposure on a green (safe) to red (exposed) scale
-- **Layout** groups occupations by BLS category
-- **Hover** shows detailed tooltip with pay, jobs, outlook, education, exposure score, and LLM rationale
-
-## LLM prompt
-
-[`prompt.md`](prompt.md) packages all the data — aggregate statistics, tier breakdowns, exposure by pay/education, BLS growth projections, and all 342 occupations with their scores and rationales — into a single file (~45K tokens) designed to be pasted into an LLM. This lets you have a data-grounded conversation about AI's impact on the job market without needing to run any code. Regenerate it with `uv run python make_prompt.py`.
+| `india/output/occupations_india.json` | India occupation master list from NCS |
+| `india/output/pages/` | Markdown pages used as scoring inputs |
+| `india/output/education_india.json` | Official NQR-based education matches and buckets |
+| `india/output/occupations_india.csv` | India stats table with pay and employment share |
+| `india/output/scores_india.json` | Cached AI exposure scores for India occupations |
+| `site/data.json` | Final frontend dataset |
+| `site/index.html` | Static treemap frontend |
 
 ## Setup
 
-```
-uv sync
-uv run playwright install chromium
+Create [.env](/home/subhajit/project/jobs/.env) with:
+
+```env
+OPENROUTER_API_KEY=your_key_here
+OPENROUTER_MODEL=your/model-name
 ```
 
-Requires an OpenRouter API key in `.env`:
-```
-OPENROUTER_API_KEY=your_key_here
-```
+`OPENROUTER_MODEL` is optional. If omitted, the scorer falls back to its default model.
 
 ## Usage
 
 ```bash
-# Scrape BLS pages (only needed once, results are cached in html/)
-uv run python scrape.py
+# Build India occupation list
+python3 india/build_occupations.py
 
-# Generate Markdown from HTML
-uv run python process.py
+# Generate India markdown pages
+python3 india/fetch_descriptions.py
 
-# Generate CSV summary
-uv run python make_csv.py
+# Fetch official education matches from NQR
+python3 india/fetch_education.py
 
-# Score AI exposure (uses OpenRouter API)
-uv run python score.py
+# Build India stats from cached PLFS source
+python3 india/build_stats.py
 
-# Build website data
-uv run python build_site_data.py
+# Score occupations incrementally
+python3 india/score_india.py --delay 0.1 --retry-delay 5 --max-retries 20
+
+# Rebuild site data explicitly if needed
+python3 india/build_site_data.py
 
 # Serve the site locally
-cd site && python -m http.server 8000
+cd site && python3 -m http.server 8000
 ```
+
+## GitHub Pages
+
+This site can be hosted directly on GitHub Pages because the frontend is fully static.
+
+Deploy steps:
+
+1. Push the repo to GitHub.
+2. Open `Settings -> Pages`.
+3. Choose `Deploy from a branch`.
+4. Select your main branch.
+5. Select the `/site` folder.
+6. Save.
+
+Notes:
+- GitHub Pages only needs the built static files under `site/`.
+- No `.env` is needed for hosting the already-generated website.
+- The site reads `data.json` with a relative path, so it works under the normal GitHub Pages repo URL structure.
+
+## Incremental scoring workflow
+
+The scorer is designed for long-running, resumable use:
+
+- it skips already-scored occupations
+- it retries transient failures
+- it writes `india/output/scores_india.json` after each successful score
+- it rebuilds `site/data.json` after each successful score
+
+That means the website can always show the latest completed India scores, and you can rerun the scorer later to continue from cache.
+
+## Verification
+
+Useful checks:
+
+```bash
+python3 -m unittest india/test_build_occupations.py \
+  india/test_fetch_descriptions.py \
+  india/test_fetch_education.py \
+  india/test_build_stats.py \
+  india/test_build_site_data.py \
+  india/test_score_india.py -v
+
+python3 -m compileall india
+```
+
+## Legacy note
+
+The original U.S.-specific scripts are still in the repo for reference, but the active workflow for this project is now the India pipeline under `india/`.

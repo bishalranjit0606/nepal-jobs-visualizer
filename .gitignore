@@ -21,3 +21,12 @@ embeddings.json
 
 # macOS
 .DS_Store
+
+# Temporary India source investigation files
+india/raw/nqr.cookies
+india/raw/nqr-search-agricultural-engineer.html
+india/raw/nqr-sector-3.html
+india/raw/nqr-sectors-more.html
+india/raw/nqr-summary.xlsx
+india/raw/nqr-qualification-1284.html
+india/raw/labour-ministry-test-page.html

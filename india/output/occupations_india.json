@@ -1,0 +1,5183 @@
+[
+  {
+    "title": "Agricultural Engineer",
+    "slug": "agricultural-engineer",
+    "nco_code": "2141.0900",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3295"
+  },
+  {
+    "title": "Agriculture Engineering Technician",
+    "slug": "agriculture-engineering-technician",
+    "nco_code": "7233.2800",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3296"
+  },
+  {
+    "title": "Agriculture Extension Executive",
+    "slug": "agriculture-extension-executive",
+    "nco_code": "6116.0101",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3297"
+  },
+  {
+    "title": "Agriculture Extension Service Provider",
+    "slug": "agriculture-extension-service-provider",
+    "nco_code": "6116.0102",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3298"
+  },
+  {
+    "title": "Agriculture Field Officer",
+    "slug": "agriculture-field-officer",
+    "nco_code": "2412.0501",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3299"
+  },
+  {
+    "title": "Agronomist",
+    "slug": "agronomist",
+    "nco_code": "2132.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3300"
+  },
+  {
+    "title": "Agronomy and Forestry Technicians",
+    "slug": "agronomy-and-forestry-technicians",
+    "nco_code": "3142.9900",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3301"
+  },
+  {
+    "title": "Animal Health Worker",
+    "slug": "animal-health-worker",
+    "nco_code": "6130.0301",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "6396"
+  },
+  {
+    "title": "Artificial-breeding Technician",
+    "slug": "artificial-breeding-technician",
+    "nco_code": "6130.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3302"
+  },
+  {
+    "title": "Bamboo Grower",
+    "slug": "bamboo-grower",
+    "nco_code": "6112.0701",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3303"
+  },
+  {
+    "title": "Banana Farmer",
+    "slug": "banana-farmer",
+    "nco_code": "6111.0901",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3304"
+  },
+  {
+    "title": "Bare Foot Technician (BFT)",
+    "slug": "bare-foot-technician-bft",
+    "nco_code": "3142.0201",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5354"
+  },
+  {
+    "title": "Bee-Keeper",
+    "slug": "bee-keeper",
+    "nco_code": "6123.0101",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3305"
+  },
+  {
+    "title": "Broiler Farm Supervisor",
+    "slug": "broiler-farm-supervisor",
+    "nco_code": "6122.0101",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3306"
+  },
+  {
+    "title": "Broiler Farm Worker",
+    "slug": "broiler-farm-worker",
+    "nco_code": "6122.0301",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3307"
+  },
+  {
+    "title": "Budder",
+    "slug": "budder",
+    "nco_code": "6112.0400",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3308"
+  },
+  {
+    "title": "Bulb Crop Cultivator",
+    "slug": "bulb-crop-cultivator",
+    "nco_code": "6111.1401",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3309"
+  },
+  {
+    "title": "Cane Cutter",
+    "slug": "cane-cutter",
+    "nco_code": "6210.0800",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3310"
+  },
+  {
+    "title": "Charcoal Burner, Wood",
+    "slug": "charcoal-burner-wood",
+    "nco_code": "6210.1700",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3311"
+  },
+  {
+    "title": "Chemical Engineer, Fertilizers",
+    "slug": "chemical-engineer-fertilizers",
+    "nco_code": "2145.0600",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3312"
+  },
+  {
+    "title": "Chillies Cultivator",
+    "slug": "chillies-cultivator",
+    "nco_code": "6111.1801",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3313"
+  },
+  {
+    "title": "Citrus Fruit Grower",
+    "slug": "citrus-fruit-grower",
+    "nco_code": "6111.1101",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3314"
+  },
+  {
+    "title": "Civil Engineer, Irrigation",
+    "slug": "civil-engineer-irrigation",
+    "nco_code": "2142.0400",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3315"
+  },
+  {
+    "title": "Climate Change &amp; Risk Mitigation Manager",
+    "slug": "climate-change-amp-risk-mitigation-manager",
+    "nco_code": "1223.0301",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "6397"
+  },
+  {
+    "title": "Coconut Grower",
+    "slug": "coconut-grower",
+    "nco_code": "6111.0851",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5480"
+  },
+  {
+    "title": "Coffee Plantation Worker",
+    "slug": "coffee-plantation-worker",
+    "nco_code": "6112.0601",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3316"
+  },
+  {
+    "title": "Community Service Provider",
+    "slug": "community-service-provider",
+    "nco_code": "6116.0112",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5482"
+  },
+  {
+    "title": "Coral Breaker",
+    "slug": "coral-breaker",
+    "nco_code": "7541.0300",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5760"
+  },
+  {
+    "title": "Coriander Cultivator",
+    "slug": "coriander-cultivator",
+    "nco_code": "6111.1901",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3317"
+  },
+  {
+    "title": "Cotton Cultivator",
+    "slug": "cotton-cultivator",
+    "nco_code": "6111.0601",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3318"
+  },
+  {
+    "title": "Cultivator Crop",
+    "slug": "cultivator-crop",
+    "nco_code": "6111.0200",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3319"
+  },
+  {
+    "title": "Cultivator General",
+    "slug": "cultivator-general",
+    "nco_code": "6111.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3320"
+  },
+  {
+    "title": "Cultivator Vegetables",
+    "slug": "cultivator-vegetables",
+    "nco_code": "6111.1300",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3321"
+  },
+  {
+    "title": "Cultivator, Fruit",
+    "slug": "cultivator-fruit",
+    "nco_code": "6111.0800",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3322"
+  },
+  {
+    "title": "Dairy Farm Worker, General",
+    "slug": "dairy-farm-worker-general",
+    "nco_code": "6121.0601",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3323"
+  },
+  {
+    "title": "Dairy Farmer",
+    "slug": "dairy-farmer",
+    "nco_code": "6121.0201",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3324"
+  },
+  {
+    "title": "Dairy Scientist",
+    "slug": "dairy-scientist",
+    "nco_code": "2132.0700",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3325"
+  },
+  {
+    "title": "Dairy Technologist",
+    "slug": "dairy-technologist",
+    "nco_code": "2141.1900",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3326"
+  },
+  {
+    "title": "Dairy Worker",
+    "slug": "dairy-worker",
+    "nco_code": "6121.0901",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3327"
+  },
+  {
+    "title": "Digester Operator, Wood",
+    "slug": "digester-operator-wood",
+    "nco_code": "6210.1800",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3328"
+  },
+  {
+    "title": "Distiller, Turpentine and Eucalyptus",
+    "slug": "distiller-turpentine-and-eucalyptus",
+    "nco_code": "6210.1900",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3329"
+  },
+  {
+    "title": "Diver, Chank",
+    "slug": "diver-chank",
+    "nco_code": "7541.0200",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5759"
+  },
+  {
+    "title": "Diver, Pearl",
+    "slug": "diver-pearl",
+    "nco_code": "7541.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "5758"
+  },
+  {
+    "title": "Elephant Keeper",
+    "slug": "elephant-keeper",
+    "nco_code": "6121.1100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3330"
+  },
+  {
+    "title": "Estimator, Timber",
+    "slug": "estimator-timber",
+    "nco_code": "6210.1400",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3331"
+  },
+  {
+    "title": "Farm Overseer, Crop Production",
+    "slug": "farm-overseer-crop-production",
+    "nco_code": "2132.1000",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3332"
+  },
+  {
+    "title": "Farmer, Fur- Bearing Animal",
+    "slug": "farmer-fur-bearing-animal",
+    "nco_code": "6129.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3333"
+  },
+  {
+    "title": "Farmer, Livestock",
+    "slug": "farmer-livestock",
+    "nco_code": "6121.0100",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3334"
+  },
+  {
+    "title": "Farmer, Poultry Breeding",
+    "slug": "farmer-poultry-breeding",
+    "nco_code": "6122.0200",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3335"
+  },
+  {
+    "title": "Fieldman Agriculture",
+    "slug": "fieldman-agriculture",
+    "nco_code": "6111.2000",
+    "category": "Agriculture",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Agriculture",
+      "ncs-sector-agriculture.html"
+    ],
+    "ncs_id": "3336"
+  },
+  {
+    "title": "Advance Pattern Maker (CAD/CAM)",
+    "slug": "advance-pattern-maker-cad-cam",
+    "nco_code": "7532.0902",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3442"
+  },
+  {
+    "title": "Assistant Designer - Home Furnishing",
+    "slug": "assistant-designer-home-furnishing",
+    "nco_code": "2163.0602",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6806"
+  },
+  {
+    "title": "Assistant Designer - Madeups",
+    "slug": "assistant-designer-madeups",
+    "nco_code": "2163.0603",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6807"
+  },
+  {
+    "title": "Assistant Fashion Designer",
+    "slug": "assistant-fashion-designer",
+    "nco_code": "2163.0502",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6808"
+  },
+  {
+    "title": "Boutique Manager",
+    "slug": "boutique-manager",
+    "nco_code": "1221.0701",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6809"
+  },
+  {
+    "title": "Button Hole Maker, Machine",
+    "slug": "button-hole-maker-machine",
+    "nco_code": "8153.0200",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4184"
+  },
+  {
+    "title": "Button Hole Marker",
+    "slug": "button-hole-marker",
+    "nco_code": "7532.1200",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4185"
+  },
+  {
+    "title": "Button Stitching Machine Operator",
+    "slug": "button-stitching-machine-operator",
+    "nco_code": "8153.0400",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4186"
+  },
+  {
+    "title": "Cap Maker",
+    "slug": "cap-maker",
+    "nco_code": "7531.0900",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4187"
+  },
+  {
+    "title": "Coat Maker",
+    "slug": "coat-maker",
+    "nco_code": "7531.0300",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4188"
+  },
+  {
+    "title": "Cushion Maker",
+    "slug": "cushion-maker",
+    "nco_code": "7534.0400",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4189"
+  },
+  {
+    "title": "Cutter Tent",
+    "slug": "cutter-tent",
+    "nco_code": "7532.1300",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4190"
+  },
+  {
+    "title": "Cutter, Garment (Leather)",
+    "slug": "cutter-garment-leather",
+    "nco_code": "7532.1000",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4191"
+  },
+  {
+    "title": "Cutter, Hand (Textile Product)",
+    "slug": "cutter-hand-textile-product",
+    "nco_code": "7532.0700",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4192"
+  },
+  {
+    "title": "Cutter, Machine (Textile Product)",
+    "slug": "cutter-machine-textile-product",
+    "nco_code": "7532.0900",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4193"
+  },
+  {
+    "title": "Darner",
+    "slug": "darner",
+    "nco_code": "7533.0600",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4194"
+  },
+  {
+    "title": "Designer (Garment)",
+    "slug": "designer-garment",
+    "nco_code": "7532.0100",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4195"
+  },
+  {
+    "title": "Dress Maker",
+    "slug": "dress-maker",
+    "nco_code": "7531.0200",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4196"
+  },
+  {
+    "title": "Embroider, Machine",
+    "slug": "embroider-machine",
+    "nco_code": "8153.0500",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4197"
+  },
+  {
+    "title": "Embroidery Machine Operator (Zigzag Machine)",
+    "slug": "embroidery-machine-operator-zigzag-machine",
+    "nco_code": "8153.0601",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3443"
+  },
+  {
+    "title": "Export Assistant",
+    "slug": "export-assistant",
+    "nco_code": "3322.6011",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3444"
+  },
+  {
+    "title": "Export Executive",
+    "slug": "export-executive",
+    "nco_code": "3322.6001",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "5390"
+  },
+  {
+    "title": "Eyelet Holing Machine Operator",
+    "slug": "eyelet-holing-machine-operator",
+    "nco_code": "8153.0300",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4198"
+  },
+  {
+    "title": "Fabric Checker",
+    "slug": "fabric-checker",
+    "nco_code": "7543.0101",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3445"
+  },
+  {
+    "title": "Factory Compliance Auditor",
+    "slug": "factory-compliance-auditor",
+    "nco_code": "7543.4001",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "5763"
+  },
+  {
+    "title": "Fashion Designer",
+    "slug": "fashion-designer",
+    "nco_code": "2163.0501",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3446"
+  },
+  {
+    "title": "Finisher",
+    "slug": "finisher",
+    "nco_code": "7532.1401",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6810"
+  },
+  {
+    "title": "Frame Maker, Cap",
+    "slug": "frame-maker-cap",
+    "nco_code": "7532.0500",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4199"
+  },
+  {
+    "title": "Framer-Computerized Embroidery Machine",
+    "slug": "framer-computerized-embroidery-machine",
+    "nco_code": "8153.0701",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3447"
+  },
+  {
+    "title": "Garment Cutter",
+    "slug": "garment-cutter",
+    "nco_code": "7532.0901",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3448"
+  },
+  {
+    "title": "Hand Embroider, General",
+    "slug": "hand-embroider-general",
+    "nco_code": "7533.0201",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3449"
+  },
+  {
+    "title": "Hand Embroiderer (Addawala)",
+    "slug": "hand-embroiderer-addawala",
+    "nco_code": "7533.0211",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6823"
+  },
+  {
+    "title": "Hand Embroiderer, Zari",
+    "slug": "hand-embroiderer-zari",
+    "nco_code": "7533.0300",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4200"
+  },
+  {
+    "title": "Hat Maker, General",
+    "slug": "hat-maker-general",
+    "nco_code": "7531.0700",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4201"
+  },
+  {
+    "title": "In-Line Checker",
+    "slug": "in-line-checker",
+    "nco_code": "7543.0302",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3450"
+  },
+  {
+    "title": "Industrial Engineer Executive",
+    "slug": "industrial-engineer-executive",
+    "nco_code": "2141.0301",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "5127"
+  },
+  {
+    "title": "Layerman",
+    "slug": "layerman",
+    "nco_code": "7532.0903",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3451"
+  },
+  {
+    "title": "Line Supervisor Stitching",
+    "slug": "line-supervisor-stitching",
+    "nco_code": "3122.3552",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6811"
+  },
+  {
+    "title": "Master Cutter (Garment)",
+    "slug": "master-cutter-garment",
+    "nco_code": "7532.0600",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4202"
+  },
+  {
+    "title": "Mattress Maker (Spring)",
+    "slug": "mattress-maker-spring",
+    "nco_code": "7534.0500",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4203"
+  },
+  {
+    "title": "Measurement Checker",
+    "slug": "measurement-checker",
+    "nco_code": "7543.0301",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3452"
+  },
+  {
+    "title": "Mechanic, Sewing Machine",
+    "slug": "mechanic-sewing-machine",
+    "nco_code": "7233.1801",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "4204"
+  },
+  {
+    "title": "Merchandiser",
+    "slug": "merchandiser",
+    "nco_code": "3323.0102",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3453"
+  },
+  {
+    "title": "Merchandiser - Made-Ups &amp; Home Furnishing",
+    "slug": "merchandiser-made-ups-amp-home-furnishing",
+    "nco_code": "3323.0105",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6812"
+  },
+  {
+    "title": "Online Sample Designer",
+    "slug": "online-sample-designer",
+    "nco_code": "2163.0511",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6813"
+  },
+  {
+    "title": "Packer",
+    "slug": "packer",
+    "nco_code": "9321.0107",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6814"
+  },
+  {
+    "title": "Pattern Master",
+    "slug": "pattern-master",
+    "nco_code": "7532.0111",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6815"
+  },
+  {
+    "title": "Pressman",
+    "slug": "pressman",
+    "nco_code": "8157.0401",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "3454"
+  },
+  {
+    "title": "Processing Supervisor (Dyeing &amp; Printing)",
+    "slug": "processing-supervisor-dyeing-amp-printing",
+    "nco_code": "3122.3553",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "6816"
+  },
+  {
+    "title": "Production Supervisor-Sewing",
+    "slug": "production-supervisor-sewing",
+    "nco_code": "3122.3551",
+    "category": "Apparel",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Apparel",
+      "ncs-sector-apparel.html"
+    ],
+    "ncs_id": "5297"
+  },
+  {
+    "title": "AC Specialist",
+    "slug": "ac-specialist",
+    "nco_code": "7231.0102",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3459"
+  },
+  {
+    "title": "Accessories and VAS Sales Executive",
+    "slug": "accessories-and-vas-sales-executive",
+    "nco_code": "3322.0803",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "6401"
+  },
+  {
+    "title": "Accessory Fitter",
+    "slug": "accessory-fitter",
+    "nco_code": "9329.0701",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3460"
+  },
+  {
+    "title": "Ambulance Driver",
+    "slug": "ambulance-driver",
+    "nco_code": "8322.0301",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3461"
+  },
+  {
+    "title": "Area Manager (Auto Components)",
+    "slug": "area-manager-auto-components",
+    "nco_code": "3322.0801",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3462"
+  },
+  {
+    "title": "Area Parts Manager",
+    "slug": "area-parts-manager",
+    "nco_code": "5222.0101",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3463"
+  },
+  {
+    "title": "Area Service Manager",
+    "slug": "area-service-manager",
+    "nco_code": "1213.0201",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3464"
+  },
+  {
+    "title": "Area Technical Lead",
+    "slug": "area-technical-lead",
+    "nco_code": "5242.0101",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3465"
+  },
+  {
+    "title": "Assembler, Automobile",
+    "slug": "assembler-automobile",
+    "nco_code": "8211.1200",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "5996"
+  },
+  {
+    "title": "Assembler, Motor Cycle",
+    "slug": "assembler-motor-cycle",
+    "nco_code": "8211.1300",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "5997"
+  },
+  {
+    "title": "Assembly Line Machine Setter",
+    "slug": "assembly-line-machine-setter",
+    "nco_code": "7223.0401",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3466"
+  },
+  {
+    "title": "Assembly Line Supervisor",
+    "slug": "assembly-line-supervisor",
+    "nco_code": "3122.0601",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3467"
+  },
+  {
+    "title": "Auto Body Painting Technician L3",
+    "slug": "auto-body-painting-technician-l3",
+    "nco_code": "7132.0203",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3469"
+  },
+  {
+    "title": "Auto Body Painting Technician L4",
+    "slug": "auto-body-painting-technician-l4",
+    "nco_code": "7132.0204",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3470"
+  },
+  {
+    "title": "Auto Body Repair Technician/Denter Level 3",
+    "slug": "auto-body-repair-technician-denter-level-3",
+    "nco_code": "7213.0301",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3479"
+  },
+  {
+    "title": "Auto Body Repair Technician/Denter Level 4",
+    "slug": "auto-body-repair-technician-denter-level-4",
+    "nco_code": "7213.0302",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3480"
+  },
+  {
+    "title": "Auto Component Assembly Fitter",
+    "slug": "auto-component-assembly-fitter",
+    "nco_code": "3139.1501",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3471"
+  },
+  {
+    "title": "Auto Engine Repair Technician",
+    "slug": "auto-engine-repair-technician",
+    "nco_code": "7213.0201",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3472"
+  },
+  {
+    "title": "Auto Rickshaw Driver",
+    "slug": "auto-rickshaw-driver",
+    "nco_code": "8321.0101",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3473"
+  },
+  {
+    "title": "Auto Service Technician (Two and Three Wheeler)",
+    "slug": "auto-service-technician-two-and-three-wheeler",
+    "nco_code": "7231.0501",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3474"
+  },
+  {
+    "title": "Auto Service Technician Level 3",
+    "slug": "auto-service-technician-level-3",
+    "nco_code": "7231.0108",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3475"
+  },
+  {
+    "title": "Auto Service Technician Level 4",
+    "slug": "auto-service-technician-level-4",
+    "nco_code": "7231.0107",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3476"
+  },
+  {
+    "title": "Auto Service Technician Level 5",
+    "slug": "auto-service-technician-level-5",
+    "nco_code": "3115.0601",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3477"
+  },
+  {
+    "title": "Auto Service Technician Level 6",
+    "slug": "auto-service-technician-level-6",
+    "nco_code": "3115.0602",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3478"
+  },
+  {
+    "title": "Automation Specialist",
+    "slug": "automation-specialist",
+    "nco_code": "7412.0101",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3481"
+  },
+  {
+    "title": "Automobile Designer",
+    "slug": "automobile-designer",
+    "nco_code": "2144.0800",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "4220"
+  },
+  {
+    "title": "Automotive Electrician",
+    "slug": "automotive-electrician",
+    "nco_code": "7412.0701",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3482"
+  },
+  {
+    "title": "Automotive Paint Shop Assistant",
+    "slug": "automotive-paint-shop-assistant",
+    "nco_code": "7132.0901",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3483"
+  },
+  {
+    "title": "Automotive Sales Lead (Retail)",
+    "slug": "automotive-sales-lead-retail",
+    "nco_code": "3322.1204",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "6824"
+  },
+  {
+    "title": "Body Builder, Automobile",
+    "slug": "body-builder-automobile",
+    "nco_code": "7522.0600",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "5746"
+  },
+  {
+    "title": "Body Builder, Other Vehicles",
+    "slug": "body-builder-other-vehicles",
+    "nco_code": "7522.0800",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "5748"
+  },
+  {
+    "title": "Body Shop In-Charge",
+    "slug": "body-shop-in-charge",
+    "nco_code": "3115.0104",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3484"
+  },
+  {
+    "title": "Body Technician Level 3",
+    "slug": "body-technician-level-3",
+    "nco_code": "7231.0103",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3485"
+  },
+  {
+    "title": "Body Technician Level 4",
+    "slug": "body-technician-level-4",
+    "nco_code": "7231.0104",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3486"
+  },
+  {
+    "title": "Brake Specialist",
+    "slug": "brake-specialist",
+    "nco_code": "7231.0105",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3487"
+  },
+  {
+    "title": "Brazer",
+    "slug": "brazer",
+    "nco_code": "7212.0500",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "4221"
+  },
+  {
+    "title": "CNC Operator",
+    "slug": "cnc-operator",
+    "nco_code": "7223.5003",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3496"
+  },
+  {
+    "title": "CNC Operator or Machining Technician Level 3",
+    "slug": "cnc-operator-or-machining-technician-level-3",
+    "nco_code": "7223.5002",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3495"
+  },
+  {
+    "title": "Casting Line In-charge",
+    "slug": "casting-line-in-charge",
+    "nco_code": "3122.4401",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3488"
+  },
+  {
+    "title": "Casting Line Supervisor",
+    "slug": "casting-line-supervisor",
+    "nco_code": "3122.4402",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3489"
+  },
+  {
+    "title": "Casting Techician Sand Moulding",
+    "slug": "casting-techician-sand-moulding",
+    "nco_code": "7211.0201",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3491"
+  },
+  {
+    "title": "Casting Technician L3",
+    "slug": "casting-technician-l3",
+    "nco_code": "8121.3801",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3468"
+  },
+  {
+    "title": "Casting or Foundry Assistant/Helper",
+    "slug": "casting-or-foundry-assistant-helper",
+    "nco_code": "8121.3301",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3490"
+  },
+  {
+    "title": "Chauffeur",
+    "slug": "chauffeur",
+    "nco_code": "8322.0102",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3493"
+  },
+  {
+    "title": "Chauffeur Level 5",
+    "slug": "chauffeur-level-5",
+    "nco_code": "8322.0101",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3492"
+  },
+  {
+    "title": "Cleaner Motor Vehicle",
+    "slug": "cleaner-motor-vehicle",
+    "nco_code": "7231.0900",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "4222"
+  },
+  {
+    "title": "Cleaner, Window",
+    "slug": "cleaner-window",
+    "nco_code": "9122.0100",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "4223"
+  },
+  {
+    "title": "Clutch Specialist",
+    "slug": "clutch-specialist",
+    "nco_code": "7231.0106",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3494"
+  },
+  {
+    "title": "Coding Machine Operator",
+    "slug": "coding-machine-operator",
+    "nco_code": "4132.0600",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "4224"
+  },
+  {
+    "title": "Commercial Executive Or Officer",
+    "slug": "commercial-executive-or-officer",
+    "nco_code": "5249.0202",
+    "category": "Automotive",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Automotive",
+      "ncs-sector-automotive.html"
+    ],
+    "ncs_id": "3497"
+  },
+  {
+    "title": "Accountant",
+    "slug": "accountant",
+    "nco_code": "2411.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4271"
+  },
+  {
+    "title": "Accounts Executive (Accounts Payable &amp; Receivables)",
+    "slug": "accounts-executive-accounts-payable-amp-receivables",
+    "nco_code": "4311.0401",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3645"
+  },
+  {
+    "title": "Accounts Executive (Payroll)",
+    "slug": "accounts-executive-payroll",
+    "nco_code": "4313.0101",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3646"
+  },
+  {
+    "title": "Accounts Executive (Recording &amp; Reporting)",
+    "slug": "accounts-executive-recording-amp-reporting",
+    "nco_code": "4311.0101",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3647"
+  },
+  {
+    "title": "Accounts Executive (Statutory Compliance)",
+    "slug": "accounts-executive-statutory-compliance",
+    "nco_code": "4313.0201",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3648"
+  },
+  {
+    "title": "Actuary",
+    "slug": "actuary",
+    "nco_code": "2120.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5123"
+  },
+  {
+    "title": "Audit Clerk",
+    "slug": "audit-clerk",
+    "nco_code": "4311.0500",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4272"
+  },
+  {
+    "title": "Auditor",
+    "slug": "auditor",
+    "nco_code": "2411.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4273"
+  },
+  {
+    "title": "Bank Clerk",
+    "slug": "bank-clerk",
+    "nco_code": "4311.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4274"
+  },
+  {
+    "title": "Bill Collector",
+    "slug": "bill-collector",
+    "nco_code": "4214.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4276"
+  },
+  {
+    "title": "Bill Processing Clerk",
+    "slug": "bill-processing-clerk",
+    "nco_code": "4132.1400",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4277"
+  },
+  {
+    "title": "Bill and Accounts Collector",
+    "slug": "bill-and-accounts-collector",
+    "nco_code": "4311.0700",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4275"
+  },
+  {
+    "title": "Book Keeping Machine Operator",
+    "slug": "book-keeping-machine-operator",
+    "nco_code": "4132.1300",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4278"
+  },
+  {
+    "title": "Broker, Share Market",
+    "slug": "broker-share-market",
+    "nco_code": "3311.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4279"
+  },
+  {
+    "title": "Budget Analyst",
+    "slug": "budget-analyst",
+    "nco_code": "2412.0300",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5179"
+  },
+  {
+    "title": "Business Correspondent",
+    "slug": "business-correspondent",
+    "nco_code": "4419.0102",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3649"
+  },
+  {
+    "title": "Cashier",
+    "slug": "cashier",
+    "nco_code": "4211.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4280"
+  },
+  {
+    "title": "Clerk, Cost Accounting",
+    "slug": "clerk-cost-accounting",
+    "nco_code": "4311.0600",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4281"
+  },
+  {
+    "title": "Clerk, Enquiry",
+    "slug": "clerk-enquiry",
+    "nco_code": "4110.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4282"
+  },
+  {
+    "title": "Clerk, General",
+    "slug": "clerk-general",
+    "nco_code": "4110.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4283"
+  },
+  {
+    "title": "Commission Agent",
+    "slug": "commission-agent",
+    "nco_code": "2412.0600",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5181"
+  },
+  {
+    "title": "Computer Operator",
+    "slug": "computer-operator",
+    "nco_code": "4131.0600",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4284"
+  },
+  {
+    "title": "Cost Accountant",
+    "slug": "cost-accountant",
+    "nco_code": "2411.0300",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4285"
+  },
+  {
+    "title": "Debt Recovery Agent",
+    "slug": "debt-recovery-agent",
+    "nco_code": "4214.0201",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3650"
+  },
+  {
+    "title": "Director, Bank",
+    "slug": "director-bank",
+    "nco_code": "1120.0700",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3567"
+  },
+  {
+    "title": "Director, Insurance",
+    "slug": "director-insurance",
+    "nco_code": "1120.0800",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3597"
+  },
+  {
+    "title": "Equity Dealer",
+    "slug": "equity-dealer",
+    "nco_code": "3311.0201",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3651"
+  },
+  {
+    "title": "Field Officer, Insurance",
+    "slug": "field-officer-insurance",
+    "nco_code": "2433.9900",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4286"
+  },
+  {
+    "title": "Finance Agent",
+    "slug": "finance-agent",
+    "nco_code": "3312.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4287"
+  },
+  {
+    "title": "Financial Analyst",
+    "slug": "financial-analyst",
+    "nco_code": "2412.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5178"
+  },
+  {
+    "title": "Financial Examiner",
+    "slug": "financial-examiner",
+    "nco_code": "2412.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5177"
+  },
+  {
+    "title": "General Manager, Bank",
+    "slug": "general-manager-bank",
+    "nco_code": "1211.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4288"
+  },
+  {
+    "title": "General Manager, Insurance",
+    "slug": "general-manager-insurance",
+    "nco_code": "1211.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4289"
+  },
+  {
+    "title": "Insurance Adjuster, Examiner, Surveyor and Investigator",
+    "slug": "insurance-adjuster-examiner-surveyor-and-investigator",
+    "nco_code": "3321.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4290"
+  },
+  {
+    "title": "Insurance Agent",
+    "slug": "insurance-agent",
+    "nco_code": "3321.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4291"
+  },
+  {
+    "title": "Jobber, Share Market",
+    "slug": "jobber-share-market",
+    "nco_code": "3311.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4292"
+  },
+  {
+    "title": "Ledger Clerk",
+    "slug": "ledger-clerk",
+    "nco_code": "4311.0300",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4293"
+  },
+  {
+    "title": "Loan Approval Officer",
+    "slug": "loan-approval-officer",
+    "nco_code": "3312.0101",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3652"
+  },
+  {
+    "title": "Manager, Bank",
+    "slug": "manager-bank",
+    "nco_code": "1346.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4294"
+  },
+  {
+    "title": "Manager, Insurance",
+    "slug": "manager-insurance",
+    "nco_code": "1346.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4295"
+  },
+  {
+    "title": "Mutual Fund Agent",
+    "slug": "mutual-fund-agent",
+    "nco_code": "3311.0202",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "3653"
+  },
+  {
+    "title": "Operation Research Analyst",
+    "slug": "operation-research-analyst",
+    "nco_code": "2120.0500",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5126"
+  },
+  {
+    "title": "Personal Secretary",
+    "slug": "personal-secretary",
+    "nco_code": "4120.0200",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4296"
+  },
+  {
+    "title": "Private Secretary",
+    "slug": "private-secretary",
+    "nco_code": "4120.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4297"
+  },
+  {
+    "title": "Reception Clerk",
+    "slug": "reception-clerk",
+    "nco_code": "4226.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4298"
+  },
+  {
+    "title": "Risk Management Analyst",
+    "slug": "risk-management-analyst",
+    "nco_code": "2412.0400",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5180"
+  },
+  {
+    "title": "Statistical Clerks",
+    "slug": "statistical-clerks",
+    "nco_code": "4312.0100",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4299"
+  },
+  {
+    "title": "Statistician",
+    "slug": "statistician",
+    "nco_code": "2120.0300",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5124"
+  },
+  {
+    "title": "Statistician, Applied",
+    "slug": "statistician-applied",
+    "nco_code": "2120.0400",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "5125"
+  },
+  {
+    "title": "Teller Bank",
+    "slug": "teller-bank",
+    "nco_code": "4211.0400",
+    "category": "BFSI",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=BFSI",
+      "ncs-sector-bfsi.html"
+    ],
+    "ncs_id": "4300"
+  },
+  {
+    "title": "Aesthetician",
+    "slug": "aesthetician",
+    "nco_code": "5142.0105",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6827"
+  },
+  {
+    "title": "Assistant Beautician",
+    "slug": "assistant-beautician",
+    "nco_code": "5142.0101",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "3642"
+  },
+  {
+    "title": "Assistant Beauty/Wellness Consultant",
+    "slug": "assistant-beauty-wellness-consultant",
+    "nco_code": "5223.0106",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6407"
+  },
+  {
+    "title": "Assistant Hair Stylist",
+    "slug": "assistant-hair-stylist",
+    "nco_code": "5141.0201",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "3643"
+  },
+  {
+    "title": "Assistant Nail Technician",
+    "slug": "assistant-nail-technician",
+    "nco_code": "5142.0202",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6408"
+  },
+  {
+    "title": "Assistant Spa Therapist",
+    "slug": "assistant-spa-therapist",
+    "nco_code": "5142.0802",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6409"
+  },
+  {
+    "title": "Assistant Tattoo Artist",
+    "slug": "assistant-tattoo-artist",
+    "nco_code": "5142.0141",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6848"
+  },
+  {
+    "title": "Barber",
+    "slug": "barber",
+    "nco_code": "5141.0300",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4260"
+  },
+  {
+    "title": "Bath Attendant",
+    "slug": "bath-attendant",
+    "nco_code": "5142.0700",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4261"
+  },
+  {
+    "title": "Beautician",
+    "slug": "beautician",
+    "nco_code": "5142.0100",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4262"
+  },
+  {
+    "title": "Beauty Advisor",
+    "slug": "beauty-advisor",
+    "nco_code": "5142.0103",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6410"
+  },
+  {
+    "title": "Beauty Therapist",
+    "slug": "beauty-therapist",
+    "nco_code": "5142.0102",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6411"
+  },
+  {
+    "title": "Bridal Fashion and Photographic Make-Up Artist",
+    "slug": "bridal-fashion-and-photographic-make-up-artist",
+    "nco_code": "5142.0401",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6412"
+  },
+  {
+    "title": "Category Expert",
+    "slug": "category-expert",
+    "nco_code": "2320.0233",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6846"
+  },
+  {
+    "title": "Cosmetic Dermatology Technician",
+    "slug": "cosmetic-dermatology-technician",
+    "nco_code": "5142.0125",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6839"
+  },
+  {
+    "title": "Cosmetic Dermatology Trainer",
+    "slug": "cosmetic-dermatology-trainer",
+    "nco_code": "2320.0205",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6841"
+  },
+  {
+    "title": "Dresser, Stage and Studio",
+    "slug": "dresser-stage-and-studio",
+    "nco_code": "5142.0500",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4263"
+  },
+  {
+    "title": "Hair Advisor",
+    "slug": "hair-advisor",
+    "nco_code": "5141.0101",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6413"
+  },
+  {
+    "title": "Hair Care Trainer",
+    "slug": "hair-care-trainer",
+    "nco_code": "2320.0211",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6831"
+  },
+  {
+    "title": "Hair Dresser (Ladies)",
+    "slug": "hair-dresser-ladies",
+    "nco_code": "5141.0100",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4264"
+  },
+  {
+    "title": "Hair Stylist",
+    "slug": "hair-stylist",
+    "nco_code": "5141.0202",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4265"
+  },
+  {
+    "title": "Institute Head",
+    "slug": "institute-head",
+    "nco_code": "1120.3911",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6847"
+  },
+  {
+    "title": "Intern",
+    "slug": "intern",
+    "nco_code": "2320.0202",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6842"
+  },
+  {
+    "title": "Junior Faculty",
+    "slug": "junior-faculty",
+    "nco_code": "2320.0231",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6843"
+  },
+  {
+    "title": "Make-Up Man",
+    "slug": "make-up-man",
+    "nco_code": "5142.0400",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4266"
+  },
+  {
+    "title": "Make-Up Trainer",
+    "slug": "make-up-trainer",
+    "nco_code": "2320.0221",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6834"
+  },
+  {
+    "title": "Manicurist",
+    "slug": "manicurist",
+    "nco_code": "5142.0200",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4267"
+  },
+  {
+    "title": "Mehendi Specialist",
+    "slug": "mehendi-specialist",
+    "nco_code": "5142.0211",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6832"
+  },
+  {
+    "title": "Nail Technician",
+    "slug": "nail-technician",
+    "nco_code": "5142.0203",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6836"
+  },
+  {
+    "title": "Nails Trainer",
+    "slug": "nails-trainer",
+    "nco_code": "2320.0225",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6838"
+  },
+  {
+    "title": "Pedicurist and Manicurist",
+    "slug": "pedicurist-and-manicurist",
+    "nco_code": "5142.0201",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "3644"
+  },
+  {
+    "title": "Senior Barber",
+    "slug": "senior-barber",
+    "nco_code": "5141.0303",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6830"
+  },
+  {
+    "title": "Senior Beauty Therapist",
+    "slug": "senior-beauty-therapist",
+    "nco_code": "5142.0104",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6826"
+  },
+  {
+    "title": "Senior Cosmetic Dermatology Technician",
+    "slug": "senior-cosmetic-dermatology-technician",
+    "nco_code": "5142.0126",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6840"
+  },
+  {
+    "title": "Senior Faculty",
+    "slug": "senior-faculty",
+    "nco_code": "2320.0232",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6844"
+  },
+  {
+    "title": "Senior Nail Technician",
+    "slug": "senior-nail-technician",
+    "nco_code": "5142.0204",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6837"
+  },
+  {
+    "title": "Senior Prosthetic and Media Make-Up Artist",
+    "slug": "senior-prosthetic-and-media-make-up-artist",
+    "nco_code": "5142.0411",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6833"
+  },
+  {
+    "title": "Senior Spa Therapist",
+    "slug": "senior-spa-therapist",
+    "nco_code": "5142.0311",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6851"
+  },
+  {
+    "title": "Senior Stylist",
+    "slug": "senior-stylist",
+    "nco_code": "5141.0203",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6829"
+  },
+  {
+    "title": "Skin Care Specialist",
+    "slug": "skin-care-specialist",
+    "nco_code": "5142.0300",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4268"
+  },
+  {
+    "title": "Skincare Trainer",
+    "slug": "skincare-trainer",
+    "nco_code": "2320.0201",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6828"
+  },
+  {
+    "title": "Spa Therapist",
+    "slug": "spa-therapist",
+    "nco_code": "5142.0801",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6414"
+  },
+  {
+    "title": "Spa Trainer",
+    "slug": "spa-trainer",
+    "nco_code": "2320.0251",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6852"
+  },
+  {
+    "title": "Tattoo Artist",
+    "slug": "tattoo-artist",
+    "nco_code": "3435.0101",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4269"
+  },
+  {
+    "title": "Tattoo Trainer",
+    "slug": "tattoo-trainer",
+    "nco_code": "2320.0261",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6850"
+  },
+  {
+    "title": "Technical Head",
+    "slug": "technical-head",
+    "nco_code": "2320.0241",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6845"
+  },
+  {
+    "title": "Theatrical and Media Make-Up Artist",
+    "slug": "theatrical-and-media-make-up-artist",
+    "nco_code": "5142.0415",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "6835"
+  },
+  {
+    "title": "Wigman",
+    "slug": "wigman",
+    "nco_code": "5142.0600",
+    "category": "Beauty and Wellness",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Beauty and Wellness",
+      "ncs-sector-beauty-and-wellness.html"
+    ],
+    "ncs_id": "4270"
+  },
+  {
+    "title": "AOI Machine Operator",
+    "slug": "aoi-machine-operator",
+    "nco_code": "3113.0803",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3693"
+  },
+  {
+    "title": "Access Controls Installation Technician",
+    "slug": "access-controls-installation-technician",
+    "nco_code": "7411.0101",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3692"
+  },
+  {
+    "title": "Area Sales Officer",
+    "slug": "area-sales-officer",
+    "nco_code": "2433.0101",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3694"
+  },
+  {
+    "title": "Assembler Precision Instrument",
+    "slug": "assembler-precision-instrument",
+    "nco_code": "8212.0700",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4505"
+  },
+  {
+    "title": "Assembler, Refrigerator and Air Conditioning Unit",
+    "slug": "assembler-refrigerator-and-air-conditioning-unit",
+    "nco_code": "8211.0400",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4506"
+  },
+  {
+    "title": "Assembly Line Operator",
+    "slug": "assembly-line-operator",
+    "nco_code": "7422.1901",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3695"
+  },
+  {
+    "title": "Assembly Operator (Radio Manufacturing)",
+    "slug": "assembly-operator-radio-manufacturing",
+    "nco_code": "8212.0900",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4507"
+  },
+  {
+    "title": "Assembly Operator (Telephone Equipment Manufacturing)",
+    "slug": "assembly-operator-telephone-equipment-manufacturing",
+    "nco_code": "8212.0800",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4508"
+  },
+  {
+    "title": "Assembly Operator \u2013 Capacitor",
+    "slug": "assembly-operator-capacitor",
+    "nco_code": "8212.1801",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3696"
+  },
+  {
+    "title": "Assembly Operator \u2013 Energy Meter",
+    "slug": "assembly-operator-energy-meter",
+    "nco_code": "8212.2001",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3697"
+  },
+  {
+    "title": "Assembly Operator \u2013 PMD and X-Ray",
+    "slug": "assembly-operator-pmd-and-x-ray",
+    "nco_code": "8212.2201",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3699"
+  },
+  {
+    "title": "Assembly Operator \u2013 TV",
+    "slug": "assembly-operator-tv",
+    "nco_code": "8212.1401",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3700"
+  },
+  {
+    "title": "Assembly Operator-PLC",
+    "slug": "assembly-operator-plc",
+    "nco_code": "8212.2002",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3698"
+  },
+  {
+    "title": "Assembly Supervisor",
+    "slug": "assembly-supervisor",
+    "nco_code": "3138.0101",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3701"
+  },
+  {
+    "title": "Auto-tester Capacitor",
+    "slug": "auto-tester-capacitor",
+    "nco_code": "7421.1201",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3702"
+  },
+  {
+    "title": "Automated_Optical_Inspection_Operator",
+    "slug": "automated-optical-inspection-operator",
+    "nco_code": "7412.0103",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3703"
+  },
+  {
+    "title": "Bare Board Testing Operator",
+    "slug": "bare-board-testing-operator",
+    "nco_code": "7412.0104",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3704"
+  },
+  {
+    "title": "Box Assembly Operator",
+    "slug": "box-assembly-operator",
+    "nco_code": "8212.2202",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3706"
+  },
+  {
+    "title": "Box-building Assembly Technician",
+    "slug": "box-building-assembly-technician",
+    "nco_code": "8212.1607",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3707"
+  },
+  {
+    "title": "Business Development Executive",
+    "slug": "business-development-executive",
+    "nco_code": "2433.0601",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3708"
+  },
+  {
+    "title": "CCTV Installation Technician",
+    "slug": "cctv-installation-technician",
+    "nco_code": "7411.0102",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3711"
+  },
+  {
+    "title": "Cable Jointer",
+    "slug": "cable-jointer",
+    "nco_code": "7422.0800",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4509"
+  },
+  {
+    "title": "Cable Maker, Rack Wiring (Telephone Equipment Manufacturing)",
+    "slug": "cable-maker-rack-wiring-telephone-equipment-manufacturing",
+    "nco_code": "8212.1100",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4510"
+  },
+  {
+    "title": "Cable Television Installer",
+    "slug": "cable-television-installer",
+    "nco_code": "7422.1200",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4511"
+  },
+  {
+    "title": "Calibration Engineer",
+    "slug": "calibration-engineer",
+    "nco_code": "7311.1002",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3709"
+  },
+  {
+    "title": "Capping Operator",
+    "slug": "capping-operator",
+    "nco_code": "8212.1904",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3710"
+  },
+  {
+    "title": "Carrier Attendant (Telephone)",
+    "slug": "carrier-attendant-telephone",
+    "nco_code": "7422.0700",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4512"
+  },
+  {
+    "title": "Circuit Imaging Operator",
+    "slug": "circuit-imaging-operator",
+    "nco_code": "7321.0802",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3712"
+  },
+  {
+    "title": "Circuit Imaging Operator",
+    "slug": "circuit-imaging-operator",
+    "nco_code": "7321.0801",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3713"
+  },
+  {
+    "title": "Coating, Curing and Marking Operator",
+    "slug": "coating-curing-and-marking-operator",
+    "nco_code": "8212.1804",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3714"
+  },
+  {
+    "title": "Component Preparation Operator",
+    "slug": "component-preparation-operator",
+    "nco_code": "8212.1606",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3715"
+  },
+  {
+    "title": "Customer Care Executive",
+    "slug": "customer-care-executive",
+    "nco_code": "5244.0301",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3716"
+  },
+  {
+    "title": "Customer Inspection Technician",
+    "slug": "customer-inspection-technician",
+    "nco_code": "3113.0701",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3717"
+  },
+  {
+    "title": "Cutting, Crimping and Connector Assembly Operator",
+    "slug": "cutting-crimping-and-connector-assembly-operator",
+    "nco_code": "8212.0401",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3718"
+  },
+  {
+    "title": "DAS Set-top Box Installer and Service Technician",
+    "slug": "das-set-top-box-installer-and-service-technician",
+    "nco_code": "7422.1203",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3719"
+  },
+  {
+    "title": "DTH Set-top-box Installer and Service Technician",
+    "slug": "dth-set-top-box-installer-and-service-technician",
+    "nco_code": "7422.1202",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3727"
+  },
+  {
+    "title": "Design Engineer",
+    "slug": "design-engineer",
+    "nco_code": "2152.0501",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3720"
+  },
+  {
+    "title": "Design-for-Manufacture_Engineer",
+    "slug": "design-for-manufacture-engineer",
+    "nco_code": "2151.0701",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3721"
+  },
+  {
+    "title": "Design-for-Test Engineer",
+    "slug": "design-for-test-engineer",
+    "nco_code": "2152.0502",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3722"
+  },
+  {
+    "title": "Die Bonding Operator",
+    "slug": "die-bonding-operator",
+    "nco_code": "8212.1702",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3723"
+  },
+  {
+    "title": "Disk Duplicator",
+    "slug": "disk-duplicator",
+    "nco_code": "3512.0401",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3724"
+  },
+  {
+    "title": "Draftsman",
+    "slug": "draftsman",
+    "nco_code": "3118.0301",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3725"
+  },
+  {
+    "title": "Drilling Operator",
+    "slug": "drilling-operator",
+    "nco_code": "8212.2502",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3726"
+  },
+  {
+    "title": "Electrical Assembly Operator-Control Panel",
+    "slug": "electrical-assembly-operator-control-panel",
+    "nco_code": "8212.0402",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3728"
+  },
+  {
+    "title": "Electrical Design Developer",
+    "slug": "electrical-design-developer",
+    "nco_code": "2151.0202",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3729"
+  },
+  {
+    "title": "Electrical Technician",
+    "slug": "electrical-technician",
+    "nco_code": "8212.2401",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3730"
+  },
+  {
+    "title": "Electronic Engineer",
+    "slug": "electronic-engineer",
+    "nco_code": "2152.0200",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4514"
+  },
+  {
+    "title": "Electronic Hardware Design Engineer",
+    "slug": "electronic-hardware-design-engineer",
+    "nco_code": "2152.0801",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3731"
+  },
+  {
+    "title": "Electronic Mechanic",
+    "slug": "electronic-mechanic",
+    "nco_code": "7421.0300",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "4515"
+  },
+  {
+    "title": "Electronic Sub-Assembly Technician",
+    "slug": "electronic-sub-assembly-technician",
+    "nco_code": "8212.2601",
+    "category": "Electronics and HW",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Electronics and HW",
+      "ncs-sector-electronics-and-hw.html"
+    ],
+    "ncs_id": "3732"
+  },
+  {
+    "title": "Administrator, Hospital",
+    "slug": "administrator-hospital",
+    "nco_code": "2263.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4555"
+  },
+  {
+    "title": "Allergy Specialist",
+    "slug": "allergy-specialist",
+    "nco_code": "2212.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4556"
+  },
+  {
+    "title": "Anaesthesia Technician",
+    "slug": "anaesthesia-technician",
+    "nco_code": "3212.0301",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3896"
+  },
+  {
+    "title": "Anaesthetist",
+    "slug": "anaesthetist",
+    "nco_code": "2211.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4557"
+  },
+  {
+    "title": "Anatomist, Medical",
+    "slug": "anatomist-medical",
+    "nco_code": "2211.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4558"
+  },
+  {
+    "title": "Animal Geneticist",
+    "slug": "animal-geneticist",
+    "nco_code": "2251.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4559"
+  },
+  {
+    "title": "Animal Keeper",
+    "slug": "animal-keeper",
+    "nco_code": "3240.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4560"
+  },
+  {
+    "title": "Animal Nutritionist",
+    "slug": "animal-nutritionist",
+    "nco_code": "2265.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4561"
+  },
+  {
+    "title": "Animal Pathologist",
+    "slug": "animal-pathologist",
+    "nco_code": "2251.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4562"
+  },
+  {
+    "title": "Assistant Physiotherapist",
+    "slug": "assistant-physiotherapist",
+    "nco_code": "3255.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3897"
+  },
+  {
+    "title": "Ayah, Institutional",
+    "slug": "ayah-institutional",
+    "nco_code": "5311.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4563"
+  },
+  {
+    "title": "Biomedical Equipment Technician",
+    "slug": "biomedical-equipment-technician",
+    "nco_code": "3211.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4564"
+  },
+  {
+    "title": "Blood Bank Technician",
+    "slug": "blood-bank-technician",
+    "nco_code": "3212.0602",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3898"
+  },
+  {
+    "title": "Blood Donor Unit Assistant",
+    "slug": "blood-donor-unit-assistant",
+    "nco_code": "3412.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "5415"
+  },
+  {
+    "title": "Cardiac Care Technician",
+    "slug": "cardiac-care-technician",
+    "nco_code": "3211.0801",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3899"
+  },
+  {
+    "title": "Cardiologist",
+    "slug": "cardiologist",
+    "nco_code": "2212.0500",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4565"
+  },
+  {
+    "title": "Chemist, Pharmaceutical",
+    "slug": "chemist-pharmaceutical",
+    "nco_code": "2262.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4566"
+  },
+  {
+    "title": "Child Care Worker",
+    "slug": "child-care-worker",
+    "nco_code": "5311.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4567"
+  },
+  {
+    "title": "Chiropodist",
+    "slug": "chiropodist",
+    "nco_code": "2264.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4568"
+  },
+  {
+    "title": "Clinical Psychologist",
+    "slug": "clinical-psychologist",
+    "nco_code": "2634.0600",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4569"
+  },
+  {
+    "title": "Dental Assistant",
+    "slug": "dental-assistant",
+    "nco_code": "3251.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3900"
+  },
+  {
+    "title": "Dentist",
+    "slug": "dentist",
+    "nco_code": "2261.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4570"
+  },
+  {
+    "title": "Dermatologist",
+    "slug": "dermatologist",
+    "nco_code": "2212.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4571"
+  },
+  {
+    "title": "Diabetes Educator",
+    "slug": "diabetes-educator",
+    "nco_code": "3253.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3901"
+  },
+  {
+    "title": "Dialysis Technician",
+    "slug": "dialysis-technician",
+    "nco_code": "3212.0201",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3902"
+  },
+  {
+    "title": "Dietician Assistant",
+    "slug": "dietician-assistant",
+    "nco_code": "2265.0201",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3903"
+  },
+  {
+    "title": "Dietician, General",
+    "slug": "dietician-general",
+    "nco_code": "2265.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4572"
+  },
+  {
+    "title": "Dresser",
+    "slug": "dresser",
+    "nco_code": "2241.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4573"
+  },
+  {
+    "title": "Ear, Nose and Throat Specialist",
+    "slug": "ear-nose-and-throat-specialist",
+    "nco_code": "2212.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4574"
+  },
+  {
+    "title": "Emergency Medical Technician_Advanced",
+    "slug": "emergency-medical-technician-advanced",
+    "nco_code": "2241.0502",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3904"
+  },
+  {
+    "title": "Emergency Medical Technician_Basic",
+    "slug": "emergency-medical-technician-basic",
+    "nco_code": "2241.0501",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3905"
+  },
+  {
+    "title": "Frontline Health Worker",
+    "slug": "frontline-health-worker",
+    "nco_code": "3253.0201",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3906"
+  },
+  {
+    "title": "General Duty Assistant",
+    "slug": "general-duty-assistant",
+    "nco_code": "5329.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3907"
+  },
+  {
+    "title": "Gynaecologist",
+    "slug": "gynaecologist",
+    "nco_code": "2212.1200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4575"
+  },
+  {
+    "title": "Health Officer",
+    "slug": "health-officer",
+    "nco_code": "2263.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4576"
+  },
+  {
+    "title": "Histotechnician",
+    "slug": "histotechnician",
+    "nco_code": "3212.0501",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3908"
+  },
+  {
+    "title": "Home Health Aide",
+    "slug": "home-health-aide",
+    "nco_code": "5322.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3909"
+  },
+  {
+    "title": "Laboratory Assistant, Clinical",
+    "slug": "laboratory-assistant-clinical",
+    "nco_code": "2241.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4577"
+  },
+  {
+    "title": "Laboratory Assistant,Pharmaceutical",
+    "slug": "laboratory-assistant-pharmaceutical",
+    "nco_code": "3213.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4578"
+  },
+  {
+    "title": "Laboratory Technician, Artificial Breeding",
+    "slug": "laboratory-technician-artificial-breeding",
+    "nco_code": "3240.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4579"
+  },
+  {
+    "title": "Lady Health Visitor",
+    "slug": "lady-health-visitor",
+    "nco_code": "3222.0300",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4580"
+  },
+  {
+    "title": "Malariologist, Medical",
+    "slug": "malariologist-medical",
+    "nco_code": "2212.1800",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4581"
+  },
+  {
+    "title": "Masseur",
+    "slug": "masseur",
+    "nco_code": "2264.0400",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4582"
+  },
+  {
+    "title": "Mechanic, Dental",
+    "slug": "mechanic-dental",
+    "nco_code": "3214.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4583"
+  },
+  {
+    "title": "Medical Equipment Technician",
+    "slug": "medical-equipment-technician",
+    "nco_code": "3211.0501",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3910"
+  },
+  {
+    "title": "Medical Laboratory Technician",
+    "slug": "medical-laboratory-technician",
+    "nco_code": "3212.0701",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3911"
+  },
+  {
+    "title": "Medical Records and Health Information Technician",
+    "slug": "medical-records-and-health-information-technician",
+    "nco_code": "3252.0101",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "3912"
+  },
+  {
+    "title": "Midwife",
+    "slug": "midwife",
+    "nco_code": "3222.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4585"
+  },
+  {
+    "title": "Midwifery Attendant",
+    "slug": "midwifery-attendant",
+    "nco_code": "3222.0200",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4584"
+  },
+  {
+    "title": "Naturopath",
+    "slug": "naturopath",
+    "nco_code": "2269.0100",
+    "category": "Healthcare",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Healthcare",
+      "ncs-sector-healthcare.html"
+    ],
+    "ncs_id": "4586"
+  },
+  {
+    "title": "Assembler Hand",
+    "slug": "assembler-hand",
+    "nco_code": "7536.2200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4655"
+  },
+  {
+    "title": "Bark Pitman (Tanning)",
+    "slug": "bark-pitman-tanning",
+    "nco_code": "7535.1100",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4656"
+  },
+  {
+    "title": "Belt Maker",
+    "slug": "belt-maker",
+    "nco_code": "7536.2600",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4449"
+  },
+  {
+    "title": "Buffing Operator",
+    "slug": "buffing-operator",
+    "nco_code": "8155.0801",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3989"
+  },
+  {
+    "title": "CADCAM Operator (Footwear)",
+    "slug": "cadcam-operator-footwear",
+    "nco_code": "2166.0403",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "6507"
+  },
+  {
+    "title": "Case Finisher (Leather Product)",
+    "slug": "case-finisher-leather-product",
+    "nco_code": "7532.0300",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "5755"
+  },
+  {
+    "title": "Counter Moulder",
+    "slug": "counter-moulder",
+    "nco_code": "7536.1200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4657"
+  },
+  {
+    "title": "Cutter (Footwear)",
+    "slug": "cutter-footwear",
+    "nco_code": "8156.0701",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3990"
+  },
+  {
+    "title": "Cutter (Goods and Garments)",
+    "slug": "cutter-goods-and-garments",
+    "nco_code": "7532.1001",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3991"
+  },
+  {
+    "title": "Cutter, Garment (Leather)",
+    "slug": "cutter-garment-leather",
+    "nco_code": "7532.8000",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4658"
+  },
+  {
+    "title": "Cutter, Hand",
+    "slug": "cutter-hand",
+    "nco_code": "7536.2000",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4659"
+  },
+  {
+    "title": "De-hairer, Machine",
+    "slug": "de-hairer-machine",
+    "nco_code": "8155.0100",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4660"
+  },
+  {
+    "title": "Dehairer, Hand",
+    "slug": "dehairer-hand",
+    "nco_code": "7535.0400",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4661"
+  },
+  {
+    "title": "Delimer",
+    "slug": "delimer",
+    "nco_code": "7535.0600",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4662"
+  },
+  {
+    "title": "Designer, Leather Articles",
+    "slug": "designer-leather-articles",
+    "nco_code": "7532.0200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "5754"
+  },
+  {
+    "title": "Drum Man (Tanning)",
+    "slug": "drum-man-tanning",
+    "nco_code": "7535.1200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4663"
+  },
+  {
+    "title": "Drum Operator",
+    "slug": "drum-operator",
+    "nco_code": "8155.1101",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3992"
+  },
+  {
+    "title": "Dyer,Leather",
+    "slug": "dyer-leather",
+    "nco_code": "7535.1400",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4664"
+  },
+  {
+    "title": "Edge Burnisher",
+    "slug": "edge-burnisher",
+    "nco_code": "8156.2300",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4665"
+  },
+  {
+    "title": "Edge Setter, Machine",
+    "slug": "edge-setter-machine",
+    "nco_code": "8156.2200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4666"
+  },
+  {
+    "title": "Embosser, Leather",
+    "slug": "embosser-leather",
+    "nco_code": "7535.1500",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4667"
+  },
+  {
+    "title": "Examiner, Footwear",
+    "slug": "examiner-footwear",
+    "nco_code": "7543.0300",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4668"
+  },
+  {
+    "title": "Eyeletting Machine Operator",
+    "slug": "eyeletting-machine-operator",
+    "nco_code": "8156.2500",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4669"
+  },
+  {
+    "title": "Flayer",
+    "slug": "flayer",
+    "nco_code": "7535.0200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4670"
+  },
+  {
+    "title": "Flesher, Hand",
+    "slug": "flesher-hand",
+    "nco_code": "7535.0500",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4671"
+  },
+  {
+    "title": "Fleshing Operator",
+    "slug": "fleshing-operator",
+    "nco_code": "8155.0201",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3993"
+  },
+  {
+    "title": "Fluffer, Hand",
+    "slug": "fluffer-hand",
+    "nco_code": "7535.0900",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4672"
+  },
+  {
+    "title": "Harness Maker",
+    "slug": "harness-maker",
+    "nco_code": "7536.1800",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4673"
+  },
+  {
+    "title": "Heel Attacher, Hand (Foot Wear)",
+    "slug": "heel-attacher-hand-foot-wear",
+    "nco_code": "7536.1600",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4674"
+  },
+  {
+    "title": "Heel Breaster, Machine (Foot-Wear)",
+    "slug": "heel-breaster-machine-foot-wear",
+    "nco_code": "8156.0200",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4675"
+  },
+  {
+    "title": "Heel Builder, Machine (Foot-Wear)",
+    "slug": "heel-builder-machine-foot-wear",
+    "nco_code": "8156.0400",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4676"
+  },
+  {
+    "title": "Heel Compressor, Machine (Foot Wear)",
+    "slug": "heel-compressor-machine-foot-wear",
+    "nco_code": "8156.1900",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4677"
+  },
+  {
+    "title": "Heel Padding Machine Operator",
+    "slug": "heel-padding-machine-operator",
+    "nco_code": "8156.2400",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4678"
+  },
+  {
+    "title": "Heeler, Machine",
+    "slug": "heeler-machine",
+    "nco_code": "8156.1800",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4679"
+  },
+  {
+    "title": "Helper- Finishing Operations",
+    "slug": "helper-finishing-operations",
+    "nco_code": "7535.1311",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "6709"
+  },
+  {
+    "title": "Helper-Bottom Making (Footwear)",
+    "slug": "helper-bottom-making-footwear",
+    "nco_code": "8156.2601",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3994"
+  },
+  {
+    "title": "Helper-Dry Operations (Finished Leather)",
+    "slug": "helper-dry-operations-finished-leather",
+    "nco_code": "8155.1202",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3995"
+  },
+  {
+    "title": "Helper-Finishing (Footwear)",
+    "slug": "helper-finishing-footwear",
+    "nco_code": "8156.2603",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3996"
+  },
+  {
+    "title": "Helper-Finishing (Leather Goods &amp; Garments)",
+    "slug": "helper-finishing-leather-goods-amp-garments",
+    "nco_code": "8153.0703",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3997"
+  },
+  {
+    "title": "Helper-Finishing Operation-Finished-Leather",
+    "slug": "helper-finishing-operation-finished-leather",
+    "nco_code": "8155.1203",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3998"
+  },
+  {
+    "title": "Helper-Parts Making (Leather Goods &amp; Garments)",
+    "slug": "helper-parts-making-leather-goods-amp-garments",
+    "nco_code": "8153.0702",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "3999"
+  },
+  {
+    "title": "Helper-Upper Making (Footwear)",
+    "slug": "helper-upper-making-footwear",
+    "nco_code": "8156.2602",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4000"
+  },
+  {
+    "title": "Helper-Wet Operations (Finished Leather)",
+    "slug": "helper-wet-operations-finished-leather",
+    "nco_code": "8155.1201",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4001"
+  },
+  {
+    "title": "Hide Splitter, Machine",
+    "slug": "hide-splitter-machine",
+    "nco_code": "8155.0500",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4681"
+  },
+  {
+    "title": "Hide and Skin Setter, Machine",
+    "slug": "hide-and-skin-setter-machine",
+    "nco_code": "8155.0400",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4680"
+  },
+  {
+    "title": "Laster, Hand",
+    "slug": "laster-hand",
+    "nco_code": "7536.0800",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4682"
+  },
+  {
+    "title": "Lasting Operator",
+    "slug": "lasting-operator",
+    "nco_code": "8156.1401",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4002"
+  },
+  {
+    "title": "Leather Currier",
+    "slug": "leather-currier",
+    "nco_code": "7535.1300",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4683"
+  },
+  {
+    "title": "Leather Cutter, Hand",
+    "slug": "leather-cutter-hand",
+    "nco_code": "7536.0500",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4684"
+  },
+  {
+    "title": "Leather Cutter, Machine",
+    "slug": "leather-cutter-machine",
+    "nco_code": "8156.0800",
+    "category": "Leather",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Leather",
+      "ncs-sector-leather.html"
+    ],
+    "ncs_id": "4685"
+  },
+  {
+    "title": "Advertising Sales Agent",
+    "slug": "advertising-sales-agent",
+    "nco_code": "5211.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5039"
+  },
+  {
+    "title": "Buyer",
+    "slug": "buyer",
+    "nco_code": "3323.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5040"
+  },
+  {
+    "title": "Canvasser, Sales",
+    "slug": "canvasser-sales",
+    "nco_code": "3322.0300",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5388"
+  },
+  {
+    "title": "Cashier (E)",
+    "slug": "cashier-e",
+    "nco_code": "4211.0301",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "4113"
+  },
+  {
+    "title": "Cashier, General",
+    "slug": "cashier-general",
+    "nco_code": "4211.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "6393"
+  },
+  {
+    "title": "Coin Collector",
+    "slug": "coin-collector",
+    "nco_code": "9623.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "6043"
+  },
+  {
+    "title": "Commercial Traveller, General",
+    "slug": "commercial-traveller-general",
+    "nco_code": "3322.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5387"
+  },
+  {
+    "title": "Complaint Attending Clerk",
+    "slug": "complaint-attending-clerk",
+    "nco_code": "4225.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5041"
+  },
+  {
+    "title": "Digital Cataloguer",
+    "slug": "digital-cataloguer",
+    "nco_code": "5211.0402",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "7000"
+  },
+  {
+    "title": "Director, Retail Trade",
+    "slug": "director-retail-trade",
+    "nco_code": "1120.2200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5042"
+  },
+  {
+    "title": "Director, Wholesale Trade",
+    "slug": "director-wholesale-trade",
+    "nco_code": "1120.2100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5044"
+  },
+  {
+    "title": "General Manager, Retail Trade",
+    "slug": "general-manager-retail-trade",
+    "nco_code": "1420.0500",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5045"
+  },
+  {
+    "title": "General Manager, Wholesale Trade",
+    "slug": "general-manager-wholesale-trade",
+    "nco_code": "1420.0400",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5046"
+  },
+  {
+    "title": "Home Deliveryman",
+    "slug": "home-deliveryman",
+    "nco_code": "5243.0300",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "6395"
+  },
+  {
+    "title": "Manager, Export",
+    "slug": "manager-export",
+    "nco_code": "1420.0300",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5047"
+  },
+  {
+    "title": "Manager, Retail Trade",
+    "slug": "manager-retail-trade",
+    "nco_code": "1420.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5048"
+  },
+  {
+    "title": "Manager, Wholesale Trade",
+    "slug": "manager-wholesale-trade",
+    "nco_code": "1420.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5049"
+  },
+  {
+    "title": "Milkman",
+    "slug": "milkman",
+    "nco_code": "5212.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5465"
+  },
+  {
+    "title": "Newspaper Boy",
+    "slug": "newspaper-boy",
+    "nco_code": "5243.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5050"
+  },
+  {
+    "title": "Order Supplier",
+    "slug": "order-supplier",
+    "nco_code": "5243.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5051"
+  },
+  {
+    "title": "Other Sales Supervisor",
+    "slug": "other-sales-supervisor",
+    "nco_code": "3322.1400",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5389"
+  },
+  {
+    "title": "Purchasing Agent",
+    "slug": "purchasing-agent",
+    "nco_code": "3323.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5052"
+  },
+  {
+    "title": "Sales Associate",
+    "slug": "sales-associate",
+    "nco_code": "5242.0102",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "4114"
+  },
+  {
+    "title": "Sales Manager (Retail Trade)",
+    "slug": "sales-manager-retail-trade",
+    "nco_code": "1221.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5053"
+  },
+  {
+    "title": "Sales Manager (Wholesale Trade)",
+    "slug": "sales-manager-wholesale-trade",
+    "nco_code": "1221.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5054"
+  },
+  {
+    "title": "Sales Supervisor, Wholesale Trade",
+    "slug": "sales-supervisor-wholesale-trade",
+    "nco_code": "3322.0500",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5055"
+  },
+  {
+    "title": "Shop Assistant",
+    "slug": "shop-assistant",
+    "nco_code": "5223.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "6394"
+  },
+  {
+    "title": "Shop Attendant",
+    "slug": "shop-attendant",
+    "nco_code": "5211.0200",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5056"
+  },
+  {
+    "title": "Store Ops Assistant",
+    "slug": "store-ops-assistant",
+    "nco_code": "4321.0501",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "4115"
+  },
+  {
+    "title": "Telemarketing Sales Person",
+    "slug": "telemarketing-sales-person",
+    "nco_code": "5211.0300",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5057"
+  },
+  {
+    "title": "Trainee Associate",
+    "slug": "trainee-associate",
+    "nco_code": "5223.0105",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "4116"
+  },
+  {
+    "title": "Vending Machine Attendant",
+    "slug": "vending-machine-attendant",
+    "nco_code": "9623.0100",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "6042"
+  },
+  {
+    "title": "Working Proprietor, Retail Trade",
+    "slug": "working-proprietor-retail-trade",
+    "nco_code": "1120.2000",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5058"
+  },
+  {
+    "title": "Working Proprietor, Wholesale Trade",
+    "slug": "working-proprietor-wholesale-trade",
+    "nco_code": "1120.1900",
+    "category": "Organised Retail",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Organised Retail",
+      "ncs-sector-organised-retail.html"
+    ],
+    "ncs_id": "5059"
+  },
+  {
+    "title": "Bathroom and Kitchen Designer",
+    "slug": "bathroom-and-kitchen-designer",
+    "nco_code": "3432.0501",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4117"
+  },
+  {
+    "title": "Electrical Supervisor, Wiring",
+    "slug": "electrical-supervisor-wiring",
+    "nco_code": "3123.0400",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4880"
+  },
+  {
+    "title": "Fire Protection Systems Design Engineer",
+    "slug": "fire-protection-systems-design-engineer",
+    "nco_code": "2142.0501",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4118"
+  },
+  {
+    "title": "Groundwater Engineer",
+    "slug": "groundwater-engineer",
+    "nco_code": "2142.1001",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4119"
+  },
+  {
+    "title": "Municipal Water and Sewage Assessor",
+    "slug": "municipal-water-and-sewage-assessor",
+    "nco_code": "9621.0301",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4120"
+  },
+  {
+    "title": "Plumber (After Sales Service)",
+    "slug": "plumber-after-sales-service",
+    "nco_code": "3322.5002",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4121"
+  },
+  {
+    "title": "Plumber (General)",
+    "slug": "plumber-general",
+    "nco_code": "7126.0101",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4125"
+  },
+  {
+    "title": "Plumber (General) - II",
+    "slug": "plumber-general-ii",
+    "nco_code": "7126.0103",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4122"
+  },
+  {
+    "title": "Plumber (General) Assistant",
+    "slug": "plumber-general-assistant",
+    "nco_code": "7126.0105",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4123"
+  },
+  {
+    "title": "Plumber (General) Helper",
+    "slug": "plumber-general-helper",
+    "nco_code": "7126.0104",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4124"
+  },
+  {
+    "title": "Plumber (Maintenance &amp; Servicing)",
+    "slug": "plumber-maintenance-amp-servicing",
+    "nco_code": "7126.0107",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4127"
+  },
+  {
+    "title": "Plumber (Maintenance &amp; Servicing) Assistant",
+    "slug": "plumber-maintenance-amp-servicing-assistant",
+    "nco_code": "7126.0106",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4126"
+  },
+  {
+    "title": "Plumber (Operations)",
+    "slug": "plumber-operations",
+    "nco_code": "7126.0102",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4128"
+  },
+  {
+    "title": "Plumber (Pumps &amp; EM Mechanic)",
+    "slug": "plumber-pumps-amp-em-mechanic",
+    "nco_code": "7233.1301",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4129"
+  },
+  {
+    "title": "Plumber (Sanitary Fixtures Fitter Assistant)",
+    "slug": "plumber-sanitary-fixtures-fitter-assistant",
+    "nco_code": "7126.0301",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4130"
+  },
+  {
+    "title": "Plumber (Welder)",
+    "slug": "plumber-welder",
+    "nco_code": "7212.0101",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4132"
+  },
+  {
+    "title": "Plumber (Welder) Assistant",
+    "slug": "plumber-welder-assistant",
+    "nco_code": "7212.0102",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4131"
+  },
+  {
+    "title": "Plumber Foreman",
+    "slug": "plumber-foreman",
+    "nco_code": "3123.0301",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4133"
+  },
+  {
+    "title": "Plumber Mason",
+    "slug": "plumber-mason",
+    "nco_code": "7112.0201",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4134"
+  },
+  {
+    "title": "Plumber Pipeline",
+    "slug": "plumber-pipeline",
+    "nco_code": "7126.0201",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4135"
+  },
+  {
+    "title": "Plumbing Draftsman",
+    "slug": "plumbing-draftsman",
+    "nco_code": "3118.0201",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4137"
+  },
+  {
+    "title": "Plumbing Products Sales Assistant",
+    "slug": "plumbing-products-sales-assistant",
+    "nco_code": "5223.0104",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4138"
+  },
+  {
+    "title": "Plumbing Products Sales Assistant",
+    "slug": "plumbing-products-sales-assistant",
+    "nco_code": "3322.5003",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "6712"
+  },
+  {
+    "title": "Plumbing Products Sales Officer",
+    "slug": "plumbing-products-sales-officer",
+    "nco_code": "3322.5001",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4139"
+  },
+  {
+    "title": "Plumbing Site Engineer",
+    "slug": "plumbing-site-engineer",
+    "nco_code": "2142.0301",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4140"
+  },
+  {
+    "title": "Plumbing Supervisor",
+    "slug": "plumbing-supervisor",
+    "nco_code": "3123.0302",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4141"
+  },
+  {
+    "title": "Pneumatic Chipper",
+    "slug": "pneumatic-chipper",
+    "nco_code": "7126.0600",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4881"
+  },
+  {
+    "title": "Public Health System Design Engineer",
+    "slug": "public-health-system-design-engineer",
+    "nco_code": "2142.0901",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4142"
+  },
+  {
+    "title": "Puncher, Metal",
+    "slug": "puncher-metal",
+    "nco_code": "7126.0500",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "6392"
+  },
+  {
+    "title": "Retail Dealer",
+    "slug": "retail-dealer",
+    "nco_code": "5249.0500",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4882"
+  },
+  {
+    "title": "Salesman",
+    "slug": "salesman",
+    "nco_code": "5249.0200",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4883"
+  },
+  {
+    "title": "Selling Agent",
+    "slug": "selling-agent",
+    "nco_code": "5249.0600",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4884"
+  },
+  {
+    "title": "Stockist",
+    "slug": "stockist",
+    "nco_code": "5249.0700",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4885"
+  },
+  {
+    "title": "Straightening Machine Operator",
+    "slug": "straightening-machine-operator",
+    "nco_code": "7126.0400",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4886"
+  },
+  {
+    "title": "Supervisor and Foreman Plumbing and Pipe Fitting 1",
+    "slug": "supervisor-and-foreman-plumbing-and-pipe-fitting-1",
+    "nco_code": "3123.0300",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4887"
+  },
+  {
+    "title": "Supervisor and Foreman, Insulation",
+    "slug": "supervisor-and-foreman-insulation",
+    "nco_code": "3123.0200",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4888"
+  },
+  {
+    "title": "Wastewater Systems Design Engineer",
+    "slug": "wastewater-systems-design-engineer",
+    "nco_code": "2142.1002",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4143"
+  },
+  {
+    "title": "Wholesale Dealer",
+    "slug": "wholesale-dealer",
+    "nco_code": "5249.0400",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4889"
+  },
+  {
+    "title": "Work Supervisor, Construction",
+    "slug": "work-supervisor-construction",
+    "nco_code": "3123.0100",
+    "category": "Plumbing",
+    "source_urls": [
+      "https://www.ncs.gov.in/content-repository/Pages/ViewNcos.aspx?FilterField1=Industry_x002F_Sector_x0028_s_x0&FilterValue1=Plumbing",
+      "ncs-sector-plumbing.html"
+    ],
+    "ncs_id": "4890"
+  }
+]

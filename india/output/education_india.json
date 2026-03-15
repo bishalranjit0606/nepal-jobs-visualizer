@@ -1,0 +1,4433 @@
+[
+  {
+    "slug": "agricultural-engineer",
+    "title": "Agricultural Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "agriculture-engineering-technician",
+    "title": "Agriculture Engineering Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "agriculture-extension-executive",
+    "title": "Agriculture Extension Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "agriculture-extension-service-provider",
+    "title": "Agriculture Extension Service Provider",
+    "education": "12th Passed or 10th Passed or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13362",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13362",
+    "nqr_title": "Agriculture Extension Service Provider",
+    "nqr_code": "QG-04-AG-03552-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "agriculture-field-officer",
+    "title": "Agriculture Field Officer",
+    "education": "12th Passed or 10th Passed or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13363",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13363",
+    "nqr_title": "Agriculture Field Officer",
+    "nqr_code": "QG-04-AG-03553-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "agronomist",
+    "title": "Agronomist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "agronomy-and-forestry-technicians",
+    "title": "Agronomy and Forestry Technicians",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "animal-health-worker",
+    "title": "Animal Health Worker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "artificial-breeding-technician",
+    "title": "Artificial-breeding Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bamboo-grower",
+    "title": "Bamboo Grower",
+    "education": "10th Passed or 8th Passed or Previous NSQF qualification of Level 2.5 or Previous NSQF qualification of Level 2",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13324",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13324",
+    "nqr_title": "Bamboo Cultivator",
+    "nqr_code": "QG-03-AG-03533-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "banana-farmer",
+    "title": "Banana Farmer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bare-foot-technician-bft",
+    "title": "Bare Foot Technician (BFT)",
+    "education": "Previous NSQF qualification of Level 3 or Previous NSQF qualification of Level 3.5 or 10th Completed or 12th Completed",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14083",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "14083",
+    "nqr_title": "Barefoot Technician",
+    "nqr_code": "QG-04-AG-03923-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "bee-keeper",
+    "title": "Bee-Keeper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "broiler-farm-supervisor",
+    "title": "Broiler Farm Supervisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "broiler-farm-worker",
+    "title": "Broiler Farm Worker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "budder",
+    "title": "Budder",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "bulb-crop-cultivator",
+    "title": "Bulb Crop Cultivator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cane-cutter",
+    "title": "Cane Cutter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "charcoal-burner-wood",
+    "title": "Charcoal Burner, Wood",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "chemical-engineer-fertilizers",
+    "title": "Chemical Engineer, Fertilizers",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "chillies-cultivator",
+    "title": "Chillies Cultivator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "citrus-fruit-grower",
+    "title": "Citrus Fruit Grower",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "civil-engineer-irrigation",
+    "title": "Civil Engineer, Irrigation",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "climate-change-amp-risk-mitigation-manager",
+    "title": "Climate Change &amp; Risk Mitigation Manager",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "coconut-grower",
+    "title": "Coconut Grower",
+    "education": "12th Passed or 10th Passed or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13330",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13330",
+    "nqr_title": "Coconut Grower cum Primary Processor",
+    "nqr_code": "QG-04-AG-03541-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "coffee-plantation-worker",
+    "title": "Coffee Plantation Worker",
+    "education": "9th Completed or 8th Completed or 5th Completed or Previous NSQF qualification of Level 2 or Previous NSQF qualification of Level 1",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14068",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "14068",
+    "nqr_title": "Coffee Plantation Worker",
+    "nqr_code": "QG-2.5-AG-03910-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "community-service-provider",
+    "title": "Community Service Provider",
+    "education": "12th Completed or 10th Completed or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14115",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "14115",
+    "nqr_title": "Community Service Provider",
+    "nqr_code": "QG-04-AG-03924-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "coral-breaker",
+    "title": "Coral Breaker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "coriander-cultivator",
+    "title": "Coriander Cultivator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cotton-cultivator",
+    "title": "Cotton Cultivator",
+    "education": "10th Passed or 8th Passed or Previous NSQF qualification of Level 2.5 or Previous NSQF qualification of Level 2",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13364",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13364",
+    "nqr_title": "Cotton Cultivator",
+    "nqr_code": "QG-03-AG-03535-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "cultivator-crop",
+    "title": "Cultivator Crop",
+    "education": "12th Passed or 10th Passed or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13360",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13360",
+    "nqr_title": "Organic Grower",
+    "nqr_code": "QG-04-AG-03540-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "cultivator-general",
+    "title": "Cultivator General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cultivator-vegetables",
+    "title": "Cultivator Vegetables",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cultivator-fruit",
+    "title": "Cultivator, Fruit",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dairy-farm-worker-general",
+    "title": "Dairy Farm Worker, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dairy-farmer",
+    "title": "Dairy Farmer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dairy-scientist",
+    "title": "Dairy Scientist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dairy-technologist",
+    "title": "Dairy Technologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dairy-worker",
+    "title": "Dairy Worker",
+    "education": "9th Passed or 8th Passed or 5th Passed or Previous NSQF qualification of Level 2 or Previous NSQF qualification of Level 1",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13350",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13350",
+    "nqr_title": "Dairy Worker",
+    "nqr_code": "QG-2.5-AG-03543-2025-V2-ASCI",
+    "nqr_sector_name": "Agriculture"
+  },
+  {
+    "slug": "digester-operator-wood",
+    "title": "Digester Operator, Wood",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "distiller-turpentine-and-eucalyptus",
+    "title": "Distiller, Turpentine and Eucalyptus",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "diver-chank",
+    "title": "Diver, Chank",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "diver-pearl",
+    "title": "Diver, Pearl",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "elephant-keeper",
+    "title": "Elephant Keeper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "estimator-timber",
+    "title": "Estimator, Timber",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "farm-overseer-crop-production",
+    "title": "Farm Overseer, Crop Production",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "farmer-fur-bearing-animal",
+    "title": "Farmer, Fur- Bearing Animal",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "farmer-livestock",
+    "title": "Farmer, Livestock",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "farmer-poultry-breeding",
+    "title": "Farmer, Poultry Breeding",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "fieldman-agriculture",
+    "title": "Fieldman Agriculture",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "advance-pattern-maker-cad-cam",
+    "title": "Advance Pattern Maker (CAD/CAM)",
+    "education": "Completed 1st year of 3-year/ 4-years UG In relevant field or Previous NSQF qualification of Level 4.5",
+    "education_bucket": "",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10893",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10893",
+    "nqr_title": "Advance Pattern Maker (CAD/CAM)",
+    "nqr_code": "QG-05-AP-01772-2024-V1.1-AMHSSC,  Version 3.0",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "assistant-designer-home-furnishing",
+    "title": "Assistant Designer - Home Furnishing",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assistant-designer-madeups",
+    "title": "Assistant Designer - Madeups",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assistant-fashion-designer",
+    "title": "Assistant Fashion Designer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "boutique-manager",
+    "title": "Boutique Manager",
+    "education": "Diploma In relevant field or UG In relevant field or Previous NSQF qualification of Level 5.5 or Previous NSQF qualification of Level 5",
+    "education_bucket": "Diploma / ITI / Certificate",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12533",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12533",
+    "nqr_title": "Boutique Manager",
+    "nqr_code": "QG-06-AP-03280-2024-V2-AMHSSC",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "button-hole-maker-machine",
+    "title": "Button Hole Maker, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "button-hole-marker",
+    "title": "Button Hole Marker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "button-stitching-machine-operator",
+    "title": "Button Stitching Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cap-maker",
+    "title": "Cap Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "coat-maker",
+    "title": "Coat Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cushion-maker",
+    "title": "Cushion Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-tent",
+    "title": "Cutter Tent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-garment-leather",
+    "title": "Cutter, Garment (Leather)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-hand-textile-product",
+    "title": "Cutter, Hand (Textile Product)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-machine-textile-product",
+    "title": "Cutter, Machine (Textile Product)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "darner",
+    "title": "Darner",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "designer-garment",
+    "title": "Designer (Garment)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dress-maker",
+    "title": "Dress Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "embroider-machine",
+    "title": "Embroider, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "embroidery-machine-operator-zigzag-machine",
+    "title": "Embroidery Machine Operator (Zigzag Machine)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "export-assistant",
+    "title": "Export Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "export-executive",
+    "title": "Export Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "eyelet-holing-machine-operator",
+    "title": "Eyelet Holing Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "fabric-checker",
+    "title": "Fabric Checker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "factory-compliance-auditor",
+    "title": "Factory Compliance Auditor",
+    "education": "Completed 1st year of 3-year/ 4-years UG In relevant field or Previous NSQF qualification of Level 4.5",
+    "education_bucket": "",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10966",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10966",
+    "nqr_title": "Factory Compliance Auditor",
+    "nqr_code": "QG-05-AP-01779-2024-V1.1-AMHSSC,  Version 3.0",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "fashion-designer",
+    "title": "Fashion Designer",
+    "education": "12th In relevant field or 3 year Diploma after 10th In relevant field or Previous NSQF qualification of Level 4 or Diploma Completed",
+    "education_bucket": "Higher secondary (12th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12769",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12769",
+    "nqr_title": "Fashion Designer",
+    "nqr_code": "QG-05-AP-01773-2024-V2-AMHSSC",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "finisher",
+    "title": "Finisher",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "frame-maker-cap",
+    "title": "Frame Maker, Cap",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "framer-computerized-embroidery-machine",
+    "title": "Framer-Computerized Embroidery Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "garment-cutter",
+    "title": "Garment Cutter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hand-embroider-general",
+    "title": "Hand Embroider, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hand-embroiderer-addawala",
+    "title": "Hand Embroiderer (Addawala)",
+    "education": "Ability to read and write N.A.",
+    "education_bucket": "",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10421",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10421",
+    "nqr_title": "Hand Embroiderer (Addawala)",
+    "nqr_code": "QG-02-AP-01865-2024-V1.1-AMHSSC , Version 4.0",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "hand-embroiderer-zari",
+    "title": "Hand Embroiderer, Zari",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hat-maker-general",
+    "title": "Hat Maker, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "in-line-checker",
+    "title": "In-Line Checker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "industrial-engineer-executive",
+    "title": "Industrial Engineer Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "layerman",
+    "title": "Layerman",
+    "education": "Ability to read and write Completed",
+    "education_bucket": "",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10448",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10448",
+    "nqr_title": "Layerman",
+    "nqr_code": "QG-02-AP-01760-2024-V1.1-AMHSSC,  Version 3.0",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "line-supervisor-stitching",
+    "title": "Line Supervisor Stitching",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "master-cutter-garment",
+    "title": "Master Cutter (Garment)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "mattress-maker-spring",
+    "title": "Mattress Maker (Spring)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "measurement-checker",
+    "title": "Measurement Checker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "mechanic-sewing-machine",
+    "title": "Mechanic, Sewing Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "merchandiser",
+    "title": "Merchandiser",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "merchandiser-made-ups-amp-home-furnishing",
+    "title": "Merchandiser - Made-Ups &amp; Home Furnishing",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "online-sample-designer",
+    "title": "Online Sample Designer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "packer",
+    "title": "Packer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "pattern-master",
+    "title": "Pattern Master",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "pressman",
+    "title": "Pressman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "processing-supervisor-dyeing-amp-printing",
+    "title": "Processing Supervisor (Dyeing &amp; Printing)",
+    "education": "12th Passed or UG 2nd year Completed or Previous NSQF qualification of Level 4",
+    "education_bucket": "Higher secondary (12th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13154",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13154",
+    "nqr_title": "Processing Supervisor (Dyeing &Printing)",
+    "nqr_code": "QG-05-AP-03577-2025-V2-AMHSSC",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "production-supervisor-sewing",
+    "title": "Production Supervisor-Sewing",
+    "education": "Diploma In relevant field or UG In relevant field or 12th In relevant field or Previous NSQF qualification of Level 4",
+    "education_bucket": "Higher secondary (12th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12774",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12774",
+    "nqr_title": "Production Supervisor- Sewing",
+    "nqr_code": "QG-05-AP-01777-2024-V2-AMHSSC",
+    "nqr_sector_name": "Apparel"
+  },
+  {
+    "slug": "ac-specialist",
+    "title": "AC Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accessories-and-vas-sales-executive",
+    "title": "Accessories and VAS Sales Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accessory-fitter",
+    "title": "Accessory Fitter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "ambulance-driver",
+    "title": "Ambulance Driver",
+    "education": "10th Passed or 11th Passed or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13216",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13216",
+    "nqr_title": "Ambulance Driver",
+    "nqr_code": "QG-3.5-AU-03593-2025-V2-ASDC",
+    "nqr_sector_name": "Automotive"
+  },
+  {
+    "slug": "area-manager-auto-components",
+    "title": "Area Manager (Auto Components)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "area-parts-manager",
+    "title": "Area Parts Manager",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "area-service-manager",
+    "title": "Area Service Manager",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "area-technical-lead",
+    "title": "Area Technical Lead",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembler-automobile",
+    "title": "Assembler, Automobile",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembler-motor-cycle",
+    "title": "Assembler, Motor Cycle",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-line-machine-setter",
+    "title": "Assembly Line Machine Setter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-line-supervisor",
+    "title": "Assembly Line Supervisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-body-painting-technician-l3",
+    "title": "Auto Body Painting Technician L3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-body-painting-technician-l4",
+    "title": "Auto Body Painting Technician L4",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-body-repair-technician-denter-level-3",
+    "title": "Auto Body Repair Technician/Denter Level 3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-body-repair-technician-denter-level-4",
+    "title": "Auto Body Repair Technician/Denter Level 4",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-component-assembly-fitter",
+    "title": "Auto Component Assembly Fitter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-engine-repair-technician",
+    "title": "Auto Engine Repair Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-rickshaw-driver",
+    "title": "Auto Rickshaw Driver",
+    "education": "8th Passed or 5th Passed or Ability to read and write In relevant field",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12166",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12166",
+    "nqr_title": "Auto Rickshaw Driver",
+    "nqr_code": "QG-2.5-AU-02944-2024-V2-ASDC",
+    "nqr_sector_name": "Automotive"
+  },
+  {
+    "slug": "auto-service-technician-two-and-three-wheeler",
+    "title": "Auto Service Technician (Two and Three Wheeler)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-service-technician-level-3",
+    "title": "Auto Service Technician Level 3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-service-technician-level-4",
+    "title": "Auto Service Technician Level 4",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-service-technician-level-5",
+    "title": "Auto Service Technician Level 5",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-service-technician-level-6",
+    "title": "Auto Service Technician Level 6",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "automation-specialist",
+    "title": "Automation Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "automobile-designer",
+    "title": "Automobile Designer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "automotive-electrician",
+    "title": "Automotive Electrician",
+    "education": "10th Passed or 11th Passed or 12th Passed or Previous NSQF qualification of Level 2.5",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/11208",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "11208",
+    "nqr_title": "Automotive Electrician",
+    "nqr_code": "QG-03-AU-00702-2023-V1.1-ASDC",
+    "nqr_sector_name": "Automotive"
+  },
+  {
+    "slug": "automotive-paint-shop-assistant",
+    "title": "Automotive Paint Shop Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "automotive-sales-lead-retail",
+    "title": "Automotive Sales Lead (Retail)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "body-builder-automobile",
+    "title": "Body Builder, Automobile",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "body-builder-other-vehicles",
+    "title": "Body Builder, Other Vehicles",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "body-shop-in-charge",
+    "title": "Body Shop In-Charge",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "body-technician-level-3",
+    "title": "Body Technician Level 3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "body-technician-level-4",
+    "title": "Body Technician Level 4",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "brake-specialist",
+    "title": "Brake Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "brazer",
+    "title": "Brazer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "cnc-operator",
+    "title": "CNC Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cnc-operator-or-machining-technician-level-3",
+    "title": "CNC Operator or Machining Technician Level 3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "casting-line-in-charge",
+    "title": "Casting Line In-charge",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "casting-line-supervisor",
+    "title": "Casting Line Supervisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "casting-techician-sand-moulding",
+    "title": "Casting Techician Sand Moulding",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "casting-technician-l3",
+    "title": "Casting Technician L3",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "casting-or-foundry-assistant-helper",
+    "title": "Casting or Foundry Assistant/Helper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "chauffeur",
+    "title": "Chauffeur",
+    "education": "12th Passed or 10th Passed or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13232",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13232",
+    "nqr_title": "Chauffeur",
+    "nqr_code": "QG-04-AU-03590-2025-V2-ASDC",
+    "nqr_sector_name": "Automotive"
+  },
+  {
+    "slug": "chauffeur-level-5",
+    "title": "Chauffeur Level 5",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cleaner-motor-vehicle",
+    "title": "Cleaner Motor Vehicle",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cleaner-window",
+    "title": "Cleaner, Window",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "clutch-specialist",
+    "title": "Clutch Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "coding-machine-operator",
+    "title": "Coding Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "commercial-executive-or-officer",
+    "title": "Commercial Executive Or Officer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accountant",
+    "title": "Accountant",
+    "education": "12th In relevant field or 11th Pursuing Continuous Schooling or 11th In relevant field",
+    "education_bucket": "Higher secondary (12th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13132",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13132",
+    "nqr_title": "Accounting Operations & GST Compliances",
+    "nqr_code": "NG-04-BF-03459-2025-V1-VBABSS",
+    "nqr_sector_name": "BFSI"
+  },
+  {
+    "slug": "accounts-executive-accounts-payable-amp-receivables",
+    "title": "Accounts Executive (Accounts Payable &amp; Receivables)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accounts-executive-payroll",
+    "title": "Accounts Executive (Payroll)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accounts-executive-recording-amp-reporting",
+    "title": "Accounts Executive (Recording &amp; Reporting)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "accounts-executive-statutory-compliance",
+    "title": "Accounts Executive (Statutory Compliance)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "actuary",
+    "title": "Actuary",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "audit-clerk",
+    "title": "Audit Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "auditor",
+    "title": "Auditor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "bank-clerk",
+    "title": "Bank Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "bill-collector",
+    "title": "Bill Collector",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "bill-processing-clerk",
+    "title": "Bill Processing Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bill-and-accounts-collector",
+    "title": "Bill and Accounts Collector",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "book-keeping-machine-operator",
+    "title": "Book Keeping Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "broker-share-market",
+    "title": "Broker, Share Market",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "budget-analyst",
+    "title": "Budget Analyst",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "business-correspondent",
+    "title": "Business Correspondent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cashier",
+    "title": "Cashier",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "clerk-cost-accounting",
+    "title": "Clerk, Cost Accounting",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "clerk-enquiry",
+    "title": "Clerk, Enquiry",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "clerk-general",
+    "title": "Clerk, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "commission-agent",
+    "title": "Commission Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "computer-operator",
+    "title": "Computer Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "cost-accountant",
+    "title": "Cost Accountant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "debt-recovery-agent",
+    "title": "Debt Recovery Agent",
+    "education": "11th Passed or 1st Year of Diploma Completed or 10th Passed or 8th Passed or 10th Pursuing Continuous Schooling or Previous NSQF qualification of Level 3 or Previous NSQF qualification of Level 3.5",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12942",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12942",
+    "nqr_title": "Debt Recovery Agent",
+    "nqr_code": "QG-04-BF-02350-2024-V1.1-BFSISSC",
+    "nqr_sector_name": "BFSI"
+  },
+  {
+    "slug": "director-bank",
+    "title": "Director, Bank",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "director-insurance",
+    "title": "Director, Insurance",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "equity-dealer",
+    "title": "Equity Dealer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "field-officer-insurance",
+    "title": "Field Officer, Insurance",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "finance-agent",
+    "title": "Finance Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "financial-analyst",
+    "title": "Financial Analyst",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "financial-examiner",
+    "title": "Financial Examiner",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "general-manager-bank",
+    "title": "General Manager, Bank",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "general-manager-insurance",
+    "title": "General Manager, Insurance",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "insurance-adjuster-examiner-surveyor-and-investigator",
+    "title": "Insurance Adjuster, Examiner, Surveyor and Investigator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "insurance-agent",
+    "title": "Insurance Agent",
+    "education": "11th Passed or 3 year Diploma after 10th Pursuing or 10th Passed or 8th Passed or 10th Pursuing Continuous Schooling or Previous NSQF qualification of Level 3 or Previous NSQF qualification of Level 3.5",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13009",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13009",
+    "nqr_title": "Insurance Agent",
+    "nqr_code": "QG-03-BF-02351-2024-V1.1-BFSISSC",
+    "nqr_sector_name": "BFSI"
+  },
+  {
+    "slug": "jobber-share-market",
+    "title": "Jobber, Share Market",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "ledger-clerk",
+    "title": "Ledger Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "loan-approval-officer",
+    "title": "Loan Approval Officer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "manager-bank",
+    "title": "Manager, Bank",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "manager-insurance",
+    "title": "Manager, Insurance",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "mutual-fund-agent",
+    "title": "Mutual Fund Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "operation-research-analyst",
+    "title": "Operation Research Analyst",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "personal-secretary",
+    "title": "Personal Secretary",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "private-secretary",
+    "title": "Private Secretary",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "reception-clerk",
+    "title": "Reception Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "risk-management-analyst",
+    "title": "Risk Management Analyst",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "statistical-clerks",
+    "title": "Statistical Clerks",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "statistician",
+    "title": "Statistician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "statistician-applied",
+    "title": "Statistician, Applied",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "teller-bank",
+    "title": "Teller Bank",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "aesthetician",
+    "title": "Aesthetician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "assistant-beautician",
+    "title": "Assistant Beautician",
+    "education": "10th Passed or Previous NSQF qualification of Level 2.5",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13704",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13704",
+    "nqr_title": "Assistant Beautician",
+    "nqr_code": "QG-03-BW-02858-2024-V1-WBSC",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "assistant-beauty-wellness-consultant",
+    "title": "Assistant Beauty/Wellness Consultant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assistant-hair-stylist",
+    "title": "Assistant Hair Stylist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assistant-nail-technician",
+    "title": "Assistant Nail Technician",
+    "education": "8th Pursuing Continuous Schooling or 8th Passed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/3971",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "3971",
+    "nqr_title": "Assistant Nail Technician",
+    "nqr_code": "2022/BW/BWSSC/06581",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "assistant-spa-therapist",
+    "title": "Assistant Spa Therapist",
+    "education": "8th Pursuing Continuous Schooling or 8th Passed or 8th N.A.",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/3972",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "3972",
+    "nqr_title": "Assistant Spa Therapist",
+    "nqr_code": "2022/BW/BWSSC/06585",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "assistant-tattoo-artist",
+    "title": "Assistant Tattoo Artist",
+    "education": "10th Passed or 8th Completed or 9th Passed or 8th Passed or Previous NSQF qualification of Level 2.5 or Previous NSQF qualification of Level 2",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12214",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12214",
+    "nqr_title": "Assistant Tattoo Artist",
+    "nqr_code": "QG-03-BW-02861-2024-V1-BWSSC",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "barber",
+    "title": "Barber",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bath-attendant",
+    "title": "Bath Attendant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "beautician",
+    "title": "Beautician",
+    "education": "10th Passed or 8th Passed or Previous NSQF qualification of Level 2.5",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13768",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13768",
+    "nqr_title": "Beautician",
+    "nqr_code": "QG-03-BW-04315-2025-V1-BWSSC",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "beauty-advisor",
+    "title": "Beauty Advisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "beauty-therapist",
+    "title": "Beauty Therapist",
+    "education": "10th Pursuing Continuous Schooling or 10th Passed or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/3973",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "3973",
+    "nqr_title": "Beauty Therapist",
+    "nqr_code": "2022/BW/BWSSC/06576",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "bridal-fashion-and-photographic-make-up-artist",
+    "title": "Bridal Fashion and Photographic Make-Up Artist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "category-expert",
+    "title": "Category Expert",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "cosmetic-dermatology-technician",
+    "title": "Cosmetic Dermatology Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cosmetic-dermatology-trainer",
+    "title": "Cosmetic Dermatology Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dresser-stage-and-studio",
+    "title": "Dresser, Stage and Studio",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hair-advisor",
+    "title": "Hair Advisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hair-care-trainer",
+    "title": "Hair Care Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hair-dresser-ladies",
+    "title": "Hair Dresser (Ladies)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hair-stylist",
+    "title": "Hair Stylist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "institute-head",
+    "title": "Institute Head",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "intern",
+    "title": "Intern",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "junior-faculty",
+    "title": "Junior Faculty",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "make-up-man",
+    "title": "Make-Up Man",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "make-up-trainer",
+    "title": "Make-Up Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "manicurist",
+    "title": "Manicurist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "mehendi-specialist",
+    "title": "Mehendi Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "nail-technician",
+    "title": "Nail Technician",
+    "education": "10th Passed or 11th Passed or Previous NSQF qualification of Level 3 or Previous NSQF qualification of Level 3.5",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14848",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "14848",
+    "nqr_title": "Nail Technician",
+    "nqr_code": "QG-04-BW-065822025-V2-BWSSC",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "nails-trainer",
+    "title": "Nails Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "pedicurist-and-manicurist",
+    "title": "Pedicurist and Manicurist",
+    "education": "8th Passed or Previous NSQF qualification of Level 2 or Previous NSQF qualification of Level 2.5",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14849",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "14849",
+    "nqr_title": "Pedicurist and Manicurist",
+    "nqr_code": "QG-03-BW-065832025-V2-BWSSC",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "senior-barber",
+    "title": "Senior Barber",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-beauty-therapist",
+    "title": "Senior Beauty Therapist",
+    "education": "Previous NSQF qualification of Level 4 or 10th Passed or 12th Passed or Diploma Pursuing or UG 1st year Completed",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/3983",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "3983",
+    "nqr_title": "Senior Beauty Therapist",
+    "nqr_code": "2022/BW/BWSSC/06577",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "senior-cosmetic-dermatology-technician",
+    "title": "Senior Cosmetic Dermatology Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-faculty",
+    "title": "Senior Faculty",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-nail-technician",
+    "title": "Senior Nail Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-prosthetic-and-media-make-up-artist",
+    "title": "Senior Prosthetic and Media Make-Up Artist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-spa-therapist",
+    "title": "Senior Spa Therapist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "senior-stylist",
+    "title": "Senior Stylist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "skin-care-specialist",
+    "title": "Skin Care Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "skincare-trainer",
+    "title": "Skincare Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "spa-therapist",
+    "title": "Spa Therapist",
+    "education": "10th Passed or 10th Pursuing Continuous Schooling or Previous NSQF qualification of Level 3",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/3985",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "3985",
+    "nqr_title": "Spa Therapist",
+    "nqr_code": "2022/BW/BWSSC/06586",
+    "nqr_sector_name": "Beauty & Wellness"
+  },
+  {
+    "slug": "spa-trainer",
+    "title": "Spa Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "tattoo-artist",
+    "title": "Tattoo Artist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "tattoo-trainer",
+    "title": "Tattoo Trainer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "technical-head",
+    "title": "Technical Head",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "theatrical-and-media-make-up-artist",
+    "title": "Theatrical and Media Make-Up Artist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "wigman",
+    "title": "Wigman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "aoi-machine-operator",
+    "title": "AOI Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "access-controls-installation-technician",
+    "title": "Access Controls Installation Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "area-sales-officer",
+    "title": "Area Sales Officer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembler-precision-instrument",
+    "title": "Assembler Precision Instrument",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembler-refrigerator-and-air-conditioning-unit",
+    "title": "Assembler, Refrigerator and Air Conditioning Unit",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-line-operator",
+    "title": "Assembly Line Operator",
+    "education": "10th Completed or 8th Passed or 8th Completed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/2925",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "2925",
+    "nqr_title": "Assembly Line Operator",
+    "nqr_code": "2022/EHW/ESSC/05387",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "assembly-operator-radio-manufacturing",
+    "title": "Assembly Operator (Radio Manufacturing)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-operator-telephone-equipment-manufacturing",
+    "title": "Assembly Operator (Telephone Equipment Manufacturing)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-operator-capacitor",
+    "title": "Assembly Operator \u2013 Capacitor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-operator-energy-meter",
+    "title": "Assembly Operator \u2013 Energy Meter",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-operator-pmd-and-x-ray",
+    "title": "Assembly Operator \u2013 PMD and X-Ray",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-operator-tv",
+    "title": "Assembly Operator \u2013 TV",
+    "education": "8th Completed or 12th Completed or 10th Completed or Previous NSQF qualification of Level 3",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/2737",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "2737",
+    "nqr_title": "Assembly Operator - TV",
+    "nqr_code": "2022/EHW/ESSC/05383",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "assembly-operator-plc",
+    "title": "Assembly Operator-PLC",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembly-supervisor",
+    "title": "Assembly Supervisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "auto-tester-capacitor",
+    "title": "Auto-tester Capacitor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "automated-optical-inspection-operator",
+    "title": "Automated_Optical_Inspection_Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bare-board-testing-operator",
+    "title": "Bare Board Testing Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "box-assembly-operator",
+    "title": "Box Assembly Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "box-building-assembly-technician",
+    "title": "Box-building Assembly Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "business-development-executive",
+    "title": "Business Development Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cctv-installation-technician",
+    "title": "CCTV Installation Technician",
+    "education": "10th Completed or 12th Completed or 3 year Diploma after 10th Completed or Previous NSQF qualification of Level 3.5",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13749",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13749",
+    "nqr_title": "CCTV Installation Technician",
+    "nqr_code": "QG-04-EH-03967-2025-V4-ESSCI",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "cable-jointer",
+    "title": "Cable Jointer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cable-maker-rack-wiring-telephone-equipment-manufacturing",
+    "title": "Cable Maker, Rack Wiring (Telephone Equipment Manufacturing)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cable-television-installer",
+    "title": "Cable Television Installer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "calibration-engineer",
+    "title": "Calibration Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "capping-operator",
+    "title": "Capping Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "carrier-attendant-telephone",
+    "title": "Carrier Attendant (Telephone)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "circuit-imaging-operator",
+    "title": "Circuit Imaging Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "circuit-imaging-operator",
+    "title": "Circuit Imaging Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "coating-curing-and-marking-operator",
+    "title": "Coating, Curing and Marking Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "component-preparation-operator",
+    "title": "Component Preparation Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "customer-care-executive",
+    "title": "Customer Care Executive",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "customer-inspection-technician",
+    "title": "Customer Inspection Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutting-crimping-and-connector-assembly-operator",
+    "title": "Cutting, Crimping and Connector Assembly Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "das-set-top-box-installer-and-service-technician",
+    "title": "DAS Set-top Box Installer and Service Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dth-set-top-box-installer-and-service-technician",
+    "title": "DTH Set-top-box Installer and Service Technician",
+    "education": "12th Completed or 10th Completed or Previous NSQF qualification of Level 3 or 8th Passed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/2286",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "2286",
+    "nqr_title": "DTH Set-top Box Installer and Service Technician",
+    "nqr_code": "2022/EHW/ESSC/05125",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "design-engineer",
+    "title": "Design Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "design-for-manufacture-engineer",
+    "title": "Design-for-Manufacture_Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "design-for-test-engineer",
+    "title": "Design-for-Test Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "die-bonding-operator",
+    "title": "Die Bonding Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "disk-duplicator",
+    "title": "Disk Duplicator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "draftsman",
+    "title": "Draftsman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "drilling-operator",
+    "title": "Drilling Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electrical-assembly-operator-control-panel",
+    "title": "Electrical Assembly Operator-Control Panel",
+    "education": "8th Completed or 10th Completed or 5th Completed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/2739",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "2739",
+    "nqr_title": "Electrical Assembly Operator - Control Panel",
+    "nqr_code": "2022/EHW/ESSC/05380",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "electrical-design-developer",
+    "title": "Electrical Design Developer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electrical-technician",
+    "title": "Electrical Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electronic-engineer",
+    "title": "Electronic Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electronic-hardware-design-engineer",
+    "title": "Electronic Hardware Design Engineer",
+    "education": "UG Diploma Completed or 3 year Diploma after 10th Completed or Previous NSQF qualification of Level 4.5",
+    "education_bucket": "Diploma / ITI / Certificate",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/13901",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "13901",
+    "nqr_title": "Electronic Hardware Design Engineer",
+    "nqr_code": "QG-05-EH-03980-2025-V4-ESSCI",
+    "nqr_sector_name": "Electronics & HW"
+  },
+  {
+    "slug": "electronic-mechanic",
+    "title": "Electronic Mechanic",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electronic-sub-assembly-technician",
+    "title": "Electronic Sub-Assembly Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "administrator-hospital",
+    "title": "Administrator, Hospital",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "allergy-specialist",
+    "title": "Allergy Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "anaesthesia-technician",
+    "title": "Anaesthesia Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "anaesthetist",
+    "title": "Anaesthetist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "anatomist-medical",
+    "title": "Anatomist, Medical",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "animal-geneticist",
+    "title": "Animal Geneticist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "animal-keeper",
+    "title": "Animal Keeper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "animal-nutritionist",
+    "title": "Animal Nutritionist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "animal-pathologist",
+    "title": "Animal Pathologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "assistant-physiotherapist",
+    "title": "Assistant Physiotherapist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "ayah-institutional",
+    "title": "Ayah, Institutional",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "biomedical-equipment-technician",
+    "title": "Biomedical Equipment Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "blood-bank-technician",
+    "title": "Blood Bank Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "blood-donor-unit-assistant",
+    "title": "Blood Donor Unit Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cardiac-care-technician",
+    "title": "Cardiac Care Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cardiologist",
+    "title": "Cardiologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "chemist-pharmaceutical",
+    "title": "Chemist, Pharmaceutical",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "child-care-worker",
+    "title": "Child Care Worker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "chiropodist",
+    "title": "Chiropodist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "clinical-psychologist",
+    "title": "Clinical Psychologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "dental-assistant",
+    "title": "Dental Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dentist",
+    "title": "Dentist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "dermatologist",
+    "title": "Dermatologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "diabetes-educator",
+    "title": "Diabetes Educator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dialysis-technician",
+    "title": "Dialysis Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dietician-assistant",
+    "title": "Dietician Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dietician-general",
+    "title": "Dietician, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dresser",
+    "title": "Dresser",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "ear-nose-and-throat-specialist",
+    "title": "Ear, Nose and Throat Specialist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "emergency-medical-technician-advanced",
+    "title": "Emergency Medical Technician_Advanced",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "emergency-medical-technician-basic",
+    "title": "Emergency Medical Technician_Basic",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "frontline-health-worker",
+    "title": "Frontline Health Worker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "general-duty-assistant",
+    "title": "General Duty Assistant",
+    "education": "8th Pursuing Continuous Schooling or Previous NSQF qualification of Level 2.5 or 10th Passed or 8th Passed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10156",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10156",
+    "nqr_title": "General Duty Assistant",
+    "nqr_code": "QG-04-HE-00656-2023-V1.1-HSSC",
+    "nqr_sector_name": "Healthcare"
+  },
+  {
+    "slug": "gynaecologist",
+    "title": "Gynaecologist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "health-officer",
+    "title": "Health Officer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "histotechnician",
+    "title": "Histotechnician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "home-health-aide",
+    "title": "Home Health Aide",
+    "education": "8th Passed or 10th Passed or 8th Pursuing Continuous Schooling or Previous NSQF qualification of Level 2.5",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/10160",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "10160",
+    "nqr_title": "Home Health Aide",
+    "nqr_code": "QG-03-HE-00658-2023-V1.1-HSSC",
+    "nqr_sector_name": "Healthcare"
+  },
+  {
+    "slug": "laboratory-assistant-clinical",
+    "title": "Laboratory Assistant, Clinical",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "laboratory-assistant-pharmaceutical",
+    "title": "Laboratory Assistant,Pharmaceutical",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "laboratory-technician-artificial-breeding",
+    "title": "Laboratory Technician, Artificial Breeding",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "lady-health-visitor",
+    "title": "Lady Health Visitor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "malariologist-medical",
+    "title": "Malariologist, Medical",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "masseur",
+    "title": "Masseur",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "mechanic-dental",
+    "title": "Mechanic, Dental",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "medical-equipment-technician",
+    "title": "Medical Equipment Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "medical-laboratory-technician",
+    "title": "Medical Laboratory Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "medical-records-and-health-information-technician",
+    "title": "Medical Records and Health Information Technician",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "midwife",
+    "title": "Midwife",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "midwifery-attendant",
+    "title": "Midwifery Attendant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "naturopath",
+    "title": "Naturopath",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "assembler-hand",
+    "title": "Assembler Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "bark-pitman-tanning",
+    "title": "Bark Pitman (Tanning)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "belt-maker",
+    "title": "Belt Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "buffing-operator",
+    "title": "Buffing Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cadcam-operator-footwear",
+    "title": "CADCAM Operator (Footwear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "case-finisher-leather-product",
+    "title": "Case Finisher (Leather Product)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "counter-moulder",
+    "title": "Counter Moulder",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "cutter-footwear",
+    "title": "Cutter (Footwear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-goods-and-garments",
+    "title": "Cutter (Goods and Garments)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-garment-leather",
+    "title": "Cutter, Garment (Leather)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cutter-hand",
+    "title": "Cutter, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "de-hairer-machine",
+    "title": "De-hairer, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "dehairer-hand",
+    "title": "Dehairer, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "delimer",
+    "title": "Delimer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "designer-leather-articles",
+    "title": "Designer, Leather Articles",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "drum-man-tanning",
+    "title": "Drum Man (Tanning)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "drum-operator",
+    "title": "Drum Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "dyer-leather",
+    "title": "Dyer,Leather",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "edge-burnisher",
+    "title": "Edge Burnisher",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "edge-setter-machine",
+    "title": "Edge Setter, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "embosser-leather",
+    "title": "Embosser, Leather",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "examiner-footwear",
+    "title": "Examiner, Footwear",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "eyeletting-machine-operator",
+    "title": "Eyeletting Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "flayer",
+    "title": "Flayer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "flesher-hand",
+    "title": "Flesher, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "fleshing-operator",
+    "title": "Fleshing Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "fluffer-hand",
+    "title": "Fluffer, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "harness-maker",
+    "title": "Harness Maker",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "heel-attacher-hand-foot-wear",
+    "title": "Heel Attacher, Hand (Foot Wear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "heel-breaster-machine-foot-wear",
+    "title": "Heel Breaster, Machine (Foot-Wear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "heel-builder-machine-foot-wear",
+    "title": "Heel Builder, Machine (Foot-Wear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "heel-compressor-machine-foot-wear",
+    "title": "Heel Compressor, Machine (Foot Wear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "heel-padding-machine-operator",
+    "title": "Heel Padding Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "heeler-machine",
+    "title": "Heeler, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "helper-finishing-operations",
+    "title": "Helper- Finishing Operations",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-bottom-making-footwear",
+    "title": "Helper-Bottom Making (Footwear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-dry-operations-finished-leather",
+    "title": "Helper-Dry Operations (Finished Leather)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-finishing-footwear",
+    "title": "Helper-Finishing (Footwear)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-finishing-leather-goods-amp-garments",
+    "title": "Helper-Finishing (Leather Goods &amp; Garments)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-finishing-operation-finished-leather",
+    "title": "Helper-Finishing Operation-Finished-Leather",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-parts-making-leather-goods-amp-garments",
+    "title": "Helper-Parts Making (Leather Goods &amp; Garments)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "helper-upper-making-footwear",
+    "title": "Helper-Upper Making (Footwear)",
+    "education": "Ability to read and write",
+    "education_bucket": "",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/14735",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "high-similarity",
+    "nqr_qualification_id": "14735",
+    "nqr_title": "Helper \u2013 Footwear Upper Making",
+    "nqr_code": "QG-02-LT-046072025-V2 LSSC",
+    "nqr_sector_name": "Leather"
+  },
+  {
+    "slug": "helper-wet-operations-finished-leather",
+    "title": "Helper-Wet Operations (Finished Leather)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "hide-splitter-machine",
+    "title": "Hide Splitter, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "hide-and-skin-setter-machine",
+    "title": "Hide and Skin Setter, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "laster-hand",
+    "title": "Laster, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "lasting-operator",
+    "title": "Lasting Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "leather-currier",
+    "title": "Leather Currier",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "leather-cutter-hand",
+    "title": "Leather Cutter, Hand",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "leather-cutter-machine",
+    "title": "Leather Cutter, Machine",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "advertising-sales-agent",
+    "title": "Advertising Sales Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "buyer",
+    "title": "Buyer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "canvasser-sales",
+    "title": "Canvasser, Sales",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cashier-e",
+    "title": "Cashier (E)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "cashier-general",
+    "title": "Cashier, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "coin-collector",
+    "title": "Coin Collector",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "commercial-traveller-general",
+    "title": "Commercial Traveller, General",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "complaint-attending-clerk",
+    "title": "Complaint Attending Clerk",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "digital-cataloguer",
+    "title": "Digital Cataloguer",
+    "education": "3 year Diploma after 10th In relevant field or 12th or 10th or Previous NSQF qualification of Level 3.5 or Previous NSQF qualification of Level 4",
+    "education_bucket": "Secondary (10th)",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/11905",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "11905",
+    "nqr_title": "Digital Cataloguer",
+    "nqr_code": "QG-4.5-OR-02433-2024-V2-RASCI.",
+    "nqr_sector_name": "Retail"
+  },
+  {
+    "slug": "director-retail-trade",
+    "title": "Director, Retail Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "director-wholesale-trade",
+    "title": "Director, Wholesale Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "general-manager-retail-trade",
+    "title": "General Manager, Retail Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "general-manager-wholesale-trade",
+    "title": "General Manager, Wholesale Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "home-deliveryman",
+    "title": "Home Deliveryman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "manager-export",
+    "title": "Manager, Export",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "manager-retail-trade",
+    "title": "Manager, Retail Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "manager-wholesale-trade",
+    "title": "Manager, Wholesale Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "milkman",
+    "title": "Milkman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "newspaper-boy",
+    "title": "Newspaper Boy",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "order-supplier",
+    "title": "Order Supplier",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "other-sales-supervisor",
+    "title": "Other Sales Supervisor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "purchasing-agent",
+    "title": "Purchasing Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "sales-associate",
+    "title": "Sales Associate",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "sales-manager-retail-trade",
+    "title": "Sales Manager (Retail Trade)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "sales-manager-wholesale-trade",
+    "title": "Sales Manager (Wholesale Trade)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "sales-supervisor-wholesale-trade",
+    "title": "Sales Supervisor, Wholesale Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "shop-assistant",
+    "title": "Shop Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "shop-attendant",
+    "title": "Shop Attendant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "store-ops-assistant",
+    "title": "Store Ops Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "telemarketing-sales-person",
+    "title": "Telemarketing Sales Person",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "trainee-associate",
+    "title": "Trainee Associate",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "vending-machine-attendant",
+    "title": "Vending Machine Attendant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "working-proprietor-retail-trade",
+    "title": "Working Proprietor, Retail Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "working-proprietor-wholesale-trade",
+    "title": "Working Proprietor, Wholesale Trade",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "bathroom-and-kitchen-designer",
+    "title": "Bathroom and Kitchen Designer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "electrical-supervisor-wiring",
+    "title": "Electrical Supervisor, Wiring",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "fire-protection-systems-design-engineer",
+    "title": "Fire Protection Systems Design Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "groundwater-engineer",
+    "title": "Groundwater Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "municipal-water-and-sewage-assessor",
+    "title": "Municipal Water and Sewage Assessor",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-after-sales-service",
+    "title": "Plumber (After Sales Service)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-general",
+    "title": "Plumber (General)",
+    "education": "12th Passed or 3rd Year of 3 Year Diploma after 10th Pursuing or 10th Passed or 8th Passed or Previous NSQF qualification of Level 3",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12957",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "12957",
+    "nqr_title": "Plumber - General",
+    "nqr_code": "QG-04-PL-03441-2024-V2-WMPS",
+    "nqr_sector_name": "Plumbing"
+  },
+  {
+    "slug": "plumber-general-ii",
+    "title": "Plumber (General) - II",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-general-assistant",
+    "title": "Plumber (General) Assistant",
+    "education": "10th Passed or 8th Passed or 5th Passed",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/12958",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "high-similarity",
+    "nqr_qualification_id": "12958",
+    "nqr_title": "Assistant Plumber - General",
+    "nqr_code": "QG-03-PL-03440-2024-V2-WMPS",
+    "nqr_sector_name": "Plumbing"
+  },
+  {
+    "slug": "plumber-general-helper",
+    "title": "Plumber (General) Helper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-maintenance-amp-servicing",
+    "title": "Plumber (Maintenance &amp; Servicing)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-maintenance-amp-servicing-assistant",
+    "title": "Plumber (Maintenance &amp; Servicing) Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-operations",
+    "title": "Plumber (Operations)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-pumps-amp-em-mechanic",
+    "title": "Plumber (Pumps &amp; EM Mechanic)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-sanitary-fixtures-fitter-assistant",
+    "title": "Plumber (Sanitary Fixtures Fitter Assistant)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-welder",
+    "title": "Plumber (Welder)",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-welder-assistant",
+    "title": "Plumber (Welder) Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-foreman",
+    "title": "Plumber Foreman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-mason",
+    "title": "Plumber Mason",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumber-pipeline",
+    "title": "Plumber Pipeline",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-draftsman",
+    "title": "Plumbing Draftsman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-products-sales-assistant",
+    "title": "Plumbing Products Sales Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-products-sales-assistant",
+    "title": "Plumbing Products Sales Assistant",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-products-sales-officer",
+    "title": "Plumbing Products Sales Officer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-site-engineer",
+    "title": "Plumbing Site Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "plumbing-supervisor",
+    "title": "Plumbing Supervisor",
+    "education": "3 year Diploma after 10th Completed or 8th Completed or 12th Completed or Previous NSQF qualification of Level 4",
+    "education_bucket": "Up to middle",
+    "education_source_url": "https://www.nqr.gov.in/qualifications/2512",
+    "education_source_type": "NQR eligibility criteria",
+    "match_type": "exact",
+    "nqr_qualification_id": "2512",
+    "nqr_title": "Plumbing Supervisor",
+    "nqr_code": "2022/PLUM/WMPS/05462",
+    "nqr_sector_name": "Plumbing"
+  },
+  {
+    "slug": "pneumatic-chipper",
+    "title": "Pneumatic Chipper",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "public-health-system-design-engineer",
+    "title": "Public Health System Design Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "puncher-metal",
+    "title": "Puncher, Metal",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "retail-dealer",
+    "title": "Retail Dealer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "salesman",
+    "title": "Salesman",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "selling-agent",
+    "title": "Selling Agent",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "stockist",
+    "title": "Stockist",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "straightening-machine-operator",
+    "title": "Straightening Machine Operator",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "supervisor-and-foreman-plumbing-and-pipe-fitting-1",
+    "title": "Supervisor and Foreman Plumbing and Pipe Fitting 1",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "supervisor-and-foreman-insulation",
+    "title": "Supervisor and Foreman, Insulation",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "wastewater-systems-design-engineer",
+    "title": "Wastewater Systems Design Engineer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  },
+  {
+    "slug": "wholesale-dealer",
+    "title": "Wholesale Dealer",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "no-sector-match"
+  },
+  {
+    "slug": "work-supervisor-construction",
+    "title": "Work Supervisor, Construction",
+    "education": "",
+    "education_bucket": "",
+    "education_source_url": "",
+    "education_source_type": "",
+    "match_type": "unmatched"
+  }
+]
