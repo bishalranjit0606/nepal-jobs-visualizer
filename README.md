@@ -129,10 +129,8 @@ Deploy steps:
 
 1. Push the repo to GitHub.
 2. Open `Settings -> Pages`.
-3. Choose `Deploy from a branch`.
-4. Select your main branch.
-5. Select the `/site` folder.
-6. Save.
+3. Set `Source` to `GitHub Actions`.
+4. The workflow in `.github/workflows/pages.yml` will deploy the `site/` folder automatically on each push to `master`.
 
 Notes:
 - GitHub Pages only needs the built static files under `site/`.
