@@ -56,7 +56,12 @@ def load_scores() -> dict[str, dict[str, object]]:
         return {}
     with SCORES_PATH.open() as handle:
         rows = json.load(handle)
-    return {row["slug"]: row for row in rows}
+    scores: dict[str, dict[str, object]] = {}
+    for row in rows:
+        occupation_id = row.get("occupation_id") or row.get("slug")
+        if occupation_id:
+            scores[str(occupation_id)] = row
+    return scores
 
 
 def build_site_rows(
@@ -65,9 +70,11 @@ def build_site_rows(
 ) -> list[dict[str, object]]:
     data: list[dict[str, object]] = []
     for row in stats_rows:
-        score = scores.get(row["slug"], {})
+        occupation_id = row.get("occupation_id") or row["slug"]
+        score = scores.get(str(occupation_id), {})
         data.append(
             {
+                "occupation_id": occupation_id,
                 "title": row["title"],
                 "slug": row["slug"],
                 "category": row.get("category", ""),

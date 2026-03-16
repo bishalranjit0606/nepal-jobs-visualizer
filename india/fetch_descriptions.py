@@ -53,6 +53,10 @@ def build_detail_url(record: dict[str, object]) -> str:
     return BASE_DETAIL_URL.format(ncs_id=ncs_id)
 
 
+def record_page_stem(record: dict[str, object]) -> str:
+    return str(record.get("occupation_id") or record["slug"])
+
+
 def clean_html_text(text: str) -> str:
     text = TAG_PATTERN.sub(" ", text)
     text = unescape(text)
@@ -133,10 +137,14 @@ def build_markdown(record: dict[str, object], detail_url: str, sections: list[di
     lines.append("")
     if record.get("nco_code"):
         lines.append(f"- **NCO Code:** {record['nco_code']}")
+    if record.get("occupation_id"):
+        lines.append(f"- **Occupation ID:** {record['occupation_id']}")
     if record.get("category"):
         lines.append(f"- **Category:** {record['category']}")
     if record.get("ncs_id"):
         lines.append(f"- **NCS ID:** {record['ncs_id']}")
+    if record.get("source_type"):
+        lines.append(f"- **Source Type:** {record['source_type']}")
     source_urls = record.get("source_urls") or []
     if source_urls:
         lines.append(f"- **Sector Sources:** {', '.join(source_urls)}")
@@ -148,6 +156,11 @@ def build_markdown(record: dict[str, object], detail_url: str, sections: list[di
             lines.append("")
             lines.append(section["body"])
             lines.append("")
+    elif record.get("nco_description"):
+        lines.append("## NCO Description")
+        lines.append("")
+        lines.append(str(record["nco_description"]))
+        lines.append("")
     else:
         lines.append("## Source Notes")
         lines.append("")
@@ -233,11 +246,12 @@ def process_record(record: dict[str, object], force: bool) -> dict[str, object]:
     if cache_status in {"cached", "fetched"} and not sections:
         cache_status = f"{cache_status}-shell"
     markdown = build_markdown(record, detail_url, sections)
-    page_path = PAGES_DIR / f"{record['slug']}.md"
+    page_path = PAGES_DIR / f"{record_page_stem(record)}.md"
     page_path.parent.mkdir(parents=True, exist_ok=True)
     page_path.write_text(markdown)
 
     return {
+        "occupation_id": record.get("occupation_id", ""),
         "slug": record["slug"],
         "title": record["title"],
         "nco_code": record.get("nco_code"),
@@ -254,28 +268,28 @@ def process_record(record: dict[str, object], force: bool) -> dict[str, object]:
 
 def merge_with_existing_pages(
     pages: list[dict[str, object]],
-    all_source_slugs: set[str],
+    all_source_ids: set[str],
     preserve_unprocessed: bool,
 ) -> list[dict[str, object]]:
-    existing_by_slug: dict[str, dict[str, object]] = {}
+    existing_by_id: dict[str, dict[str, object]] = {}
     if OUTPUT_PATH.exists():
         try:
             existing = json.loads(OUTPUT_PATH.read_text())
-            existing_by_slug = {
-                entry["slug"]: entry
+            existing_by_id = {
+                str(entry["occupation_id"]): entry
                 for entry in existing
-                if entry.get("slug") in all_source_slugs
+                if entry.get("occupation_id") in all_source_ids
             }
         except json.JSONDecodeError:
-            existing_by_slug = {}
+            existing_by_id = {}
 
     if not preserve_unprocessed:
-        existing_by_slug = {}
+        existing_by_id = {}
 
     for page in pages:
-        existing_by_slug[page["slug"]] = page
+        existing_by_id[str(page["occupation_id"])] = page
 
-    return [existing_by_slug[slug] for slug in sorted(existing_by_slug)]
+    return [existing_by_id[occupation_id] for occupation_id in sorted(existing_by_id)]
 
 
 def main() -> None:
@@ -286,7 +300,7 @@ def main() -> None:
     args = parser.parse_args()
 
     all_occupations = load_occupations()
-    all_source_slugs = {str(record["slug"]) for record in all_occupations}
+    all_source_ids = {str(record["occupation_id"]) for record in all_occupations}
     occupations = all_occupations
     if args.limit is not None:
         occupations = occupations[: args.limit]
@@ -321,7 +335,7 @@ def main() -> None:
 
     merged_pages = merge_with_existing_pages(
         pages,
-        all_source_slugs=all_source_slugs,
+        all_source_ids=all_source_ids,
         preserve_unprocessed=args.limit is not None,
     )
     OUTPUT_PATH.write_text(json.dumps(merged_pages, indent=2))

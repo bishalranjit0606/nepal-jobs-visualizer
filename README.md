@@ -1,19 +1,27 @@
-# AI Exposure of India's Occupations
+# India Occupation Visualizer
 
-An India-specific adaptation of the original jobs project: a static treemap that shows which occupations are likely to be reshaped by AI, how large those occupations are in the labor market, and why they received their scores.
+A research tool for visually exploring how AI may reshape occupations in India. This repo adapts the original `jobs` project to India-specific public data sources and turns them into an interactive treemap and comparison view for occupations, pay, education coverage, and Digital AI Exposure.
 
-## Purpose
+**Live demo:** GitHub Pages deploys the static site from [`site/`](/home/subhajit/project/jobs/site)
 
-The project is meant to answer three questions visually:
+## What's here
 
-1. Which occupations are most exposed to AI?
-2. How large are those occupations in the labor market?
-3. What is the reasoning behind each score?
+The India version currently covers **471 occupations** sourced from the National Career Service (`NCS`). Each rectangle's **area** represents the best available labor-market size proxy for that occupation, while **color** can be switched between:
 
-The main view is still a treemap:
-- area = labor-market size proxy
-- color = AI exposure
-- hover = pay, occupation metadata, and scoring rationale
+- `Digital AI Exposure`
+- `Annual Pay`
+- `Education`
+
+The site also includes an `Exposure vs Pay` view to compare where occupations sit in the wage distribution once grouped by AI exposure.
+
+## LLM-powered coloring
+
+The repo includes a full India pipeline for generating occupation pages, matching education data from government qualification records, and scoring occupations with an LLM. The current "Digital AI Exposure" layer is only one example. The same workflow can be reused for other questions such as robotics exposure, outsourcing risk, climate sensitivity, or modernization pressure.
+
+**What "AI Exposure" is NOT:**
+- It does **not** predict that an occupation disappears.
+- It does **not** model demand elasticity, regulation, or social preference for human work.
+- It is a rough LLM estimate intended for exploration, not a final labor-economics forecast.
 
 ## India source stack
 
@@ -34,7 +42,7 @@ The India version currently uses:
 
 ## Current status
 
-This repo is now wired for an India workflow, but it is still a `v1 / WIP` data product.
+This repo is wired for an India workflow, but it is still a `v1 / WIP` data product.
 
 What is working:
 - India occupation list ingestion
@@ -42,11 +50,11 @@ What is working:
 - India stats normalization
 - India scoring pipeline
 - India site data build
-- India-specific frontend copy and sizing logic
+- India-specific frontend with treemap, exposure-vs-pay view, and multi-layer coloring
 
 Current limitations:
 - many NCS detail pages only yield metadata-first markdown, not rich descriptions
-- labor-market size is currently an `employment_share` proxy, not absolute job counts
+- labor-market size is currently an `employment_share` proxy for much of the dataset, not absolute job counts
 - pay is a PLFS-based occupation-division estimate, not a perfect occupation-level wage
 - education is only shown where a conservative NCS-to-NQR match succeeded; unmatched occupations stay blank by design
 
@@ -71,7 +79,7 @@ Current limitations:
    Merges India stats and India scores into `site/data.json`.
 
 7. `site/index.html`
-   Static frontend for the India dataset.
+   Static frontend with treemap, exposure-vs-pay columns, and Karpathy-style top-header controls adapted for India metrics.
 
 ## Key files
 

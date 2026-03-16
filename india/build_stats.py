@@ -186,6 +186,7 @@ def build_stats_rows(
 
         rows.append(
             {
+                "occupation_id": occupation.get("occupation_id") or occupation["slug"],
                 "title": occupation["title"],
                 "slug": occupation["slug"],
                 "nco_code": nco_code or "",
@@ -221,6 +222,7 @@ def main() -> None:
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     fieldnames = [
+        "occupation_id",
         "title",
         "slug",
         "nco_code",

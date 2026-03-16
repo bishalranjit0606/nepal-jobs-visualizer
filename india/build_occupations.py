@@ -4,6 +4,7 @@ Build a first-pass India occupation list from downloaded NCS source pages.
 Inputs:
 - india/raw/ncs-browse-by-sectors.html
 - any india/raw/ncs-sector-*.html files
+- india/output/occupations_nco_master.json (optional)
 
 Output:
 - india/output/occupations_india.json
@@ -23,6 +24,7 @@ BASE_URL = "https://www.ncs.gov.in"
 INDIA_DIR = Path(__file__).resolve().parent
 RAW_DIR = INDIA_DIR / "raw"
 OUTPUT_PATH = INDIA_DIR / "output" / "occupations_india.json"
+NCO_MASTER_PATH = INDIA_DIR / "output" / "occupations_nco_master.json"
 SECTOR_LINK_PATTERN = re.compile(
     r"<a href='([^']*ViewNcos\.aspx[^']*)'[^>]*><img[^>]*alt='([^']+)'",
     re.IGNORECASE,
@@ -36,6 +38,21 @@ def slugify(text: str) -> str:
     ascii_text = ascii_text.lower()
     ascii_text = re.sub(r"[^a-z0-9]+", "-", ascii_text)
     return ascii_text.strip("-")
+
+
+def normalize_nco_code(value: object) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"[^0-9]+", "", str(value))
+
+
+def make_occupation_id(title: str, nco_code: object, ncs_id: object) -> str:
+    code = normalize_nco_code(nco_code)
+    if code:
+        return code
+    if ncs_id:
+        return f"ncs-{ncs_id}"
+    return slugify(title)
 
 
 def parse_sector_links(html: str) -> List[Dict[str, str]]:
@@ -120,7 +137,8 @@ def normalize_record(
     record = {
         "title": row["title"],
         "slug": row["slug"],
-        "nco_code": row["nco_code"] or None,
+        "occupation_id": make_occupation_id(row["title"], row["nco_code"], row["ncs_id"]),
+        "nco_code": normalize_nco_code(row["nco_code"]) or None,
         "category": row["category"] or (sector_info["category"] if sector_info else None),
         "source_urls": source_urls,
         "ncs_id": row["ncs_id"],
@@ -130,18 +148,77 @@ def normalize_record(
 
 def dedupe_records(records: Iterable[Dict[str, object]]) -> List[Dict[str, object]]:
     deduped: List[Dict[str, object]] = []
-    seen = set()
+    seen: dict[object, Dict[str, object]] = {}
+    seen_codes: dict[str, Dict[str, object]] = {}
     for record in records:
+        normalized_code = normalize_nco_code(record.get("nco_code"))
+        record["nco_code"] = normalized_code or None
+        record["occupation_id"] = make_occupation_id(
+            str(record["title"]),
+            normalized_code,
+            record.get("ncs_id"),
+        )
         dedupe_key = record["ncs_id"] or (
             str(record["title"]).lower(),
-            record["nco_code"] or "",
+            normalized_code,
         )
-        if dedupe_key in seen:
+        existing = None
+        if normalized_code and normalized_code in seen_codes:
+            existing = seen_codes[normalized_code]
+        elif dedupe_key in seen:
+            existing = seen[dedupe_key]
+
+        if existing is not None:
+            existing_urls = list(existing.get("source_urls", []))
+            for url in record.get("source_urls", []):
+                if url not in existing_urls:
+                    existing_urls.append(url)
+            existing["source_urls"] = existing_urls
+
+            for field in ("nco_description", "source_type", "ncs_id"):
+                if not existing.get(field) and record.get(field):
+                    existing[field] = record[field]
+
+            # Prefer the category from the richer NCS record when present.
+            if existing.get("ncs_id") and record.get("ncs_id"):
+                pass
+            elif not existing.get("ncs_id") and record.get("ncs_id"):
+                existing["category"] = record.get("category")
+            elif not existing.get("category") and record.get("category"):
+                existing["category"] = record.get("category")
             continue
-        seen.add(dedupe_key)
+
+        seen[dedupe_key] = record
+        if normalized_code:
+            seen_codes[normalized_code] = record
         deduped.append(record)
     deduped.sort(key=lambda item: (str(item["category"] or ""), str(item["title"])))
     return deduped
+
+
+def load_nco_master_records() -> List[Dict[str, object]]:
+    if not NCO_MASTER_PATH.exists():
+        return []
+    rows = json.loads(NCO_MASTER_PATH.read_text())
+    normalized: List[Dict[str, object]] = []
+    for row in rows:
+        normalized.append(
+            {
+                "title": row["title"],
+                "slug": row["slug"],
+                "occupation_id": row.get(
+                    "occupation_id",
+                    make_occupation_id(row["title"], row.get("nco_code"), row.get("ncs_id")),
+                ),
+                "nco_code": normalize_nco_code(row.get("nco_code")) or None,
+                "category": row.get("category"),
+                "source_urls": row.get("source_urls", [NCO_MASTER_PATH.name]),
+                "ncs_id": row.get("ncs_id"),
+                "nco_description": row.get("nco_description", ""),
+                "source_type": row.get("source_type", "nco_2015"),
+            }
+        )
+    return normalized
 
 
 def collect_occupations() -> Dict[str, object]:
@@ -165,6 +242,8 @@ def collect_occupations() -> Dict[str, object]:
         for row in rows:
             records.append(normalize_record(row, sector_info, path))
 
+    nco_master_records = load_nco_master_records()
+    records.extend(nco_master_records)
     deduped = dedupe_records(records)
     return {
         "meta": {
@@ -172,6 +251,7 @@ def collect_occupations() -> Dict[str, object]:
             "sector_pages": len(sector_files),
             "invalid_sector_pages": invalid_sector_pages,
             "sector_links": len(sector_links),
+            "nco_master_records": len(nco_master_records),
             "occupations": len(deduped),
         },
         "occupations": deduped,
@@ -186,11 +266,13 @@ def main() -> None:
     meta = result["meta"]
     print(
         "Wrote {occupations} occupations from {sector_pages} downloaded sector page(s) "
-        "({invalid_sector_pages} invalid) and {sector_links} sector link(s) to {path}".format(
+        "({invalid_sector_pages} invalid), {sector_links} sector link(s), and "
+        "{nco_master_records} NCO master record(s) to {path}".format(
             occupations=meta["occupations"],
             sector_pages=meta["sector_pages"],
             invalid_sector_pages=meta["invalid_sector_pages"],
             sector_links=meta["sector_links"],
+            nco_master_records=meta["nco_master_records"],
             path=OUTPUT_PATH.relative_to(INDIA_DIR.parent),
         )
     )

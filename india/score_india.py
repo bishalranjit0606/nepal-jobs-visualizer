@@ -8,6 +8,7 @@ an LLM, and writes cached results to india/output/scores_india.json.
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import importlib.util
 import json
 import os
@@ -127,11 +128,41 @@ def load_occupations() -> list[dict[str, object]]:
     return json.loads(OCCUPATIONS_PATH.read_text())
 
 
-def load_scores(force: bool) -> dict[str, dict[str, object]]:
+def load_scores(force: bool, occupations: list[dict[str, object]]) -> dict[str, dict[str, object]]:
     if not OUTPUT_PATH.exists() or force:
         return {}
     rows = json.loads(OUTPUT_PATH.read_text())
-    return {row["slug"]: row for row in rows}
+    occupations_by_id = {
+        str(occupation.get("occupation_id") or occupation["slug"]): occupation
+        for occupation in occupations
+    }
+    slug_counts = Counter(str(occupation["slug"]) for occupation in occupations)
+    unique_slug_lookup = {
+        str(occupation["slug"]): occupation
+        for occupation in occupations
+        if slug_counts[str(occupation["slug"])] == 1
+    }
+
+    migrated: dict[str, dict[str, object]] = {}
+    for row in rows:
+        occupation_id = row.get("occupation_id")
+        if occupation_id and str(occupation_id) in occupations_by_id:
+            occupation = occupations_by_id[str(occupation_id)]
+        else:
+            occupation = unique_slug_lookup.get(str(row.get("slug") or ""))
+            if occupation is None:
+                continue
+            occupation_id = occupation.get("occupation_id") or occupation["slug"]
+
+        migrated[str(occupation_id)] = {
+            "occupation_id": str(occupation_id),
+            "slug": occupation["slug"],
+            "title": occupation["title"],
+            "nco_code": occupation.get("nco_code"),
+            "exposure": row.get("exposure"),
+            "rationale": row.get("rationale"),
+        }
+    return migrated
 
 
 def refresh_site_data() -> None:
@@ -156,20 +187,21 @@ def main() -> None:
 
     model = resolve_model_name(args.model, os.environ.get(DEFAULT_MODEL_ENV))
     occupations = load_occupations()[args.start : args.end]
-    scores = load_scores(args.force)
+    scores = load_scores(args.force, occupations)
     errors: list[str] = []
 
     print(f"Scoring {len(occupations)} India occupations with {model}")
     print(f"Already cached: {len(scores)}")
 
     for index, occupation in enumerate(occupations, start=1):
+        occupation_id = str(occupation.get("occupation_id") or occupation["slug"])
         slug = occupation["slug"]
-        if slug in scores:
+        if occupation_id in scores:
             continue
 
-        page_path = PAGES_DIR / f"{slug}.md"
+        page_path = PAGES_DIR / f"{occupation_id}.md"
         if not page_path.exists():
-            print(f"  [{index}] SKIP {slug} (no markdown)")
+            print(f"  [{index}] SKIP {occupation_id} (no markdown)")
             continue
 
         text = page_path.read_text()
@@ -180,9 +212,11 @@ def main() -> None:
                 max_retries=args.max_retries,
                 retry_delay=args.retry_delay,
             )
-            scores[slug] = {
+            scores[occupation_id] = {
+                "occupation_id": occupation_id,
                 "slug": slug,
                 "title": occupation["title"],
+                "nco_code": occupation.get("nco_code"),
                 **result,
             }
             print(f"exposure={result['exposure']}")
