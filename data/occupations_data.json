@@ -1,0 +1,470 @@
+[
+  {
+    "title": "Legislators",
+    "nsco_code": "111",
+    "workforce_size": 2500,
+    "avg_salary_npr": 85000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.28,
+    "rationale": "Legislation requires political negotiation, constituency representation, and judgment rooted in social context that AI cannot replace, though AI may assist with drafting and research."
+  },
+  {
+    "title": "Government Senior Officials",
+    "nsco_code": "112",
+    "workforce_size": 15000,
+    "avg_salary_npr": 72000,
+    "min_education": "Master's Degree",
+    "ai_exposure_score": 0.32,
+    "rationale": "Policy formulation and governance require human accountability and political discretion, but document drafting, report generation, and data analysis are significantly automatable."
+  },
+  {
+    "title": "Directors and Chief Executives",
+    "nsco_code": "121",
+    "workforce_size": 45000,
+    "avg_salary_npr": 185000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.35,
+    "rationale": "Strategic leadership and organizational vision depend on human trust and contextual judgment, though AI tools increasingly assist executives with analytics, reporting, and decision support."
+  },
+  {
+    "title": "Production and Operations Managers",
+    "nsco_code": "122",
+    "workforce_size": 65000,
+    "avg_salary_npr": 95000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.45,
+    "rationale": "Operations scheduling, logistics optimization, and performance monitoring are increasingly automated by AI, though direct human oversight of workforce and machinery remains necessary."
+  },
+  {
+    "title": "Physicists and Chemists",
+    "nsco_code": "211",
+    "workforce_size": 8000,
+    "avg_salary_npr": 65000,
+    "min_education": "Master's Degree",
+    "ai_exposure_score": 0.40,
+    "rationale": "AI assists in hypothesis generation, literature review, and data analysis, but experimental design and scientific reasoning still depend heavily on trained human expertise."
+  },
+  {
+    "title": "Computing Professionals (Software Engineers)",
+    "nsco_code": "213",
+    "workforce_size": 120000,
+    "avg_salary_npr": 85000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.72,
+    "rationale": "Code generation, debugging, and boilerplate writing are heavily assisted by LLMs, making routine programming tasks highly automatable, though system design and architecture require human judgment."
+  },
+  {
+    "title": "Architects and Civil Engineers",
+    "nsco_code": "214",
+    "workforce_size": 85000,
+    "avg_salary_npr": 75000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.42,
+    "rationale": "AI can assist with design generation and structural calculations, but site-specific engineering judgment, regulatory compliance, and ground-level inspections remain human-dependent in Nepal."
+  },
+  {
+    "title": "Life Science Professionals (Biologists)",
+    "nsco_code": "221",
+    "workforce_size": 12000,
+    "avg_salary_npr": 58000,
+    "min_education": "Master's Degree",
+    "ai_exposure_score": 0.45,
+    "rationale": "AI accelerates genomic analysis, literature review, and data modelling, but laboratory experimentation and fieldwork in Nepal's diverse ecological zones require human presence."
+  },
+  {
+    "title": "Health Professionals (Doctors)",
+    "nsco_code": "222",
+    "workforce_size": 35000,
+    "avg_salary_npr": 120000,
+    "min_education": "MBBS",
+    "ai_exposure_score": 0.30,
+    "rationale": "AI assists in diagnostic imaging and medical record analysis, but patient-facing diagnosis, surgical procedures, and clinical decisions in Nepal's resource-constrained setting remain firmly human."
+  },
+  {
+    "title": "Nursing Professionals",
+    "nsco_code": "223",
+    "workforce_size": 95000,
+    "avg_salary_npr": 45000,
+    "min_education": "Bachelor's in Nursing",
+    "ai_exposure_score": 0.22,
+    "rationale": "Nursing is deeply physical and relational — involving patient care, monitoring, and bedside empathy — which AI cannot replicate, especially across Nepal's under-resourced health facilities."
+  },
+  {
+    "title": "University and Higher Education Teachers",
+    "nsco_code": "231",
+    "workforce_size": 42000,
+    "avg_salary_npr": 70000,
+    "min_education": "Master's Degree",
+    "ai_exposure_score": 0.55,
+    "rationale": "AI can deliver lectures, grade papers, and generate content, but nuanced mentorship, classroom management, and academic supervision in Nepal's universities still require human educators."
+  },
+  {
+    "title": "Secondary Education Teachers",
+    "nsco_code": "232",
+    "workforce_size": 110000,
+    "avg_salary_npr": 48000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.48,
+    "rationale": "AI tutoring tools can supplement instruction and grading, but classroom delivery in Nepal's diverse rural and urban schools, with variable digital access, remains human-led."
+  },
+  {
+    "title": "Business Professionals (Accountants)",
+    "nsco_code": "241",
+    "workforce_size": 150000,
+    "avg_salary_npr": 55000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.78,
+    "rationale": "Bookkeeping, financial reporting, and tax computation are highly repetitive and rule-based tasks that LLMs and accounting AI can largely automate, significantly impacting this occupation in Nepal."
+  },
+  {
+    "title": "Legal Professionals (Lawyers)",
+    "nsco_code": "242",
+    "workforce_size": 25000,
+    "avg_salary_npr": 65000,
+    "min_education": "Bachelor of Laws (LLB)",
+    "ai_exposure_score": 0.52,
+    "rationale": "Legal research, contract drafting, and document review are highly automatable by LLMs, though court representation and judicial discretion in Nepal's legal system still require human lawyers."
+  },
+  {
+    "title": "Physical and Engineering Science Technicians",
+    "nsco_code": "311",
+    "workforce_size": 180000,
+    "avg_salary_npr": 42000,
+    "min_education": "Diploma / +2",
+    "ai_exposure_score": 0.38,
+    "rationale": "Field testing, equipment calibration, and hands-on technical work are difficult to automate, though AI supports data logging and diagnostic interpretation."
+  },
+  {
+    "title": "Computer Associate Professionals (IT Support)",
+    "nsco_code": "312",
+    "workforce_size": 75000,
+    "avg_salary_npr": 38000,
+    "min_education": "Diploma in IT",
+    "ai_exposure_score": 0.65,
+    "rationale": "Routine IT troubleshooting, helpdesk support, and system setup tasks are increasingly handled by AI chatbots and automated tools, reducing demand for lower-tier IT support roles."
+  },
+  {
+    "title": "Modern Health Associate Professionals (Lab Technicians)",
+    "nsco_code": "322",
+    "workforce_size": 55000,
+    "avg_salary_npr": 35000,
+    "min_education": "Diploma in Health Science",
+    "ai_exposure_score": 0.33,
+    "rationale": "Lab sample handling and specimen preparation require physical presence, though AI assists in test result interpretation and anomaly detection."
+  },
+  {
+    "title": "Finance and Sales Associate Professionals",
+    "nsco_code": "341",
+    "workforce_size": 250000,
+    "avg_salary_npr": 32000,
+    "min_education": "+2 (Proficiency Level)",
+    "ai_exposure_score": 0.68,
+    "rationale": "Sales data analysis, customer outreach scripting, and financial reporting are automatable, but face-to-face client relationships remain important in Nepal's trust-based financial culture."
+  },
+  {
+    "title": "Secretaries and Office Assistants",
+    "nsco_code": "411",
+    "workforce_size": 320000,
+    "avg_salary_npr": 28000,
+    "min_education": "SEE / +2",
+    "ai_exposure_score": 0.80,
+    "rationale": "Scheduling, email management, document formatting, and data entry are among the most automatable office tasks for LLMs, making administrative assistant roles highly exposed to AI."
+  },
+  {
+    "title": "Numerical Clerks (Cashiers / Bank Tellers)",
+    "nsco_code": "412",
+    "workforce_size": 180000,
+    "avg_salary_npr": 35000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.72,
+    "rationale": "Routine transactions, balance inquiries, and record-keeping are rapidly being automated by banking apps and AI in Nepal's expanding digital financial sector."
+  },
+  {
+    "title": "Travel Attendants and Guides",
+    "nsco_code": "511",
+    "workforce_size": 45000,
+    "avg_salary_npr": 30000,
+    "min_education": "SEE / Training",
+    "ai_exposure_score": 0.25,
+    "rationale": "Trekking guides and tour operators in Nepal provide physical accompaniment, safety, and cultural interpretation in remote terrain where AI tools have limited real-world applicability."
+  },
+  {
+    "title": "Housekeeping and Restaurant Service Workers",
+    "nsco_code": "512",
+    "workforce_size": 450000,
+    "avg_salary_npr": 22000,
+    "min_education": "SEE / Training",
+    "ai_exposure_score": 0.12,
+    "rationale": "Physical cleaning, table service, and hospitality work in Nepal's hotels and restaurants require manual dexterity and human interaction that AI robotics cannot yet replace affordably."
+  },
+  {
+    "title": "Shop Salespersons",
+    "nsco_code": "521",
+    "workforce_size": 850000,
+    "avg_salary_npr": 21000,
+    "min_education": "SEE",
+    "ai_exposure_score": 0.35,
+    "rationale": "Retail selling in Nepal is relationship- and trust-driven, especially in bazaars and local markets, limiting AI displacement despite growing e-commerce automation potential."
+  },
+  {
+    "title": "Street Vendors",
+    "nsco_code": "522",
+    "workforce_size": 350000,
+    "avg_salary_npr": 19550,
+    "min_education": "None",
+    "ai_exposure_score": 0.08,
+    "rationale": "Street vending is an entirely physical, informal, and socially embedded economic activity in Nepal, where AI tools have near-zero direct automation applicability."
+  },
+  {
+    "title": "Market-Oriented Crop Growers",
+    "nsco_code": "611",
+    "workforce_size": 2500000,
+    "avg_salary_npr": 25000,
+    "min_education": "Vocational Training",
+    "ai_exposure_score": 0.15,
+    "rationale": "Subsistence and commercial farming in Nepal relies on land management, irrigation, and seasonal labor — physical activities largely beyond current AI automation reach in the local context."
+  },
+  {
+    "title": "Skilled Livestock and Poultry Producers",
+    "nsco_code": "612",
+    "workforce_size": 1800000,
+    "avg_salary_npr": 28000,
+    "min_education": "Vocational Training",
+    "ai_exposure_score": 0.18,
+    "rationale": "Animal husbandry requires hands-on physical care, disease monitoring, and local ecological knowledge in Nepal's predominantly rural settings where AI agri-tech adoption is still nascent."
+  },
+  {
+    "title": "Skilled Forestry and Related Workers",
+    "nsco_code": "613",
+    "workforce_size": 150000,
+    "avg_salary_npr": 24000,
+    "min_education": "Training",
+    "ai_exposure_score": 0.14,
+    "rationale": "Forest management, planting, and conservation work in Nepal requires on-ground physical activity and ecological awareness that remains largely beyond practical AI automation."
+  },
+  {
+    "title": "Miners and Stone Cutters",
+    "nsco_code": "711",
+    "workforce_size": 45000,
+    "avg_salary_npr": 22000,
+    "min_education": "Basic Training",
+    "ai_exposure_score": 0.10,
+    "rationale": "Extraction, cutting, and carving of stone and minerals is physical hazardous labor in Nepal that requires human presence in unstructured, remote environments."
+  },
+  {
+    "title": "Building Frame Workers (Carpenters/Masons)",
+    "nsco_code": "712",
+    "workforce_size": 350000,
+    "avg_salary_npr": 35000,
+    "min_education": "Vocational Training",
+    "ai_exposure_score": 0.13,
+    "rationale": "Construction craft work requires manual dexterity, physical strength, and real-time adaptation to site conditions — tasks that remain highly resistant to AI automation in Nepal."
+  },
+  {
+    "title": "Metal Molders and Welders",
+    "nsco_code": "721",
+    "workforce_size": 120000,
+    "avg_salary_npr": 32000,
+    "min_education": "Vocational Training",
+    "ai_exposure_score": 0.15,
+    "rationale": "Welding and metal molding are skilled manual trades dependent on physical precision and sensory judgment, with AI playing only peripheral roles in quality inspection."
+  },
+  {
+    "title": "Machinery Mechanics and Fitters",
+    "nsco_code": "723",
+    "workforce_size": 150000,
+    "avg_salary_npr": 38000,
+    "min_education": "Diploma",
+    "ai_exposure_score": 0.20,
+    "rationale": "Mechanical repair and fitting require physical diagnostics and hands-on intervention, with AI-assisted diagnostics supporting but not replacing the mechanic in Nepal's informal repair economy."
+  },
+  {
+    "title": "Precision Workers in Metal and Jewelry",
+    "nsco_code": "731",
+    "workforce_size": 85000,
+    "avg_salary_npr": 45000,
+    "min_education": "Apprenticeship",
+    "ai_exposure_score": 0.17,
+    "rationale": "Jewelry craftsmanship in Nepal (particularly Newari metalwork) is a culturally valued artisan skill requiring manual precision and creative tradition that AI cannot authentically replicate."
+  },
+  {
+    "title": "Food Processing Workers (Butchers / Bakers)",
+    "nsco_code": "741",
+    "workforce_size": 180000,
+    "avg_salary_npr": 28000,
+    "min_education": "Training",
+    "ai_exposure_score": 0.12,
+    "rationale": "Food processing in Nepal is predominantly manual and informal, carried out in small-scale shops and homes, making large-scale AI-driven automation economically and logistically unfeasible."
+  },
+  {
+    "title": "Wood Treaters and Cabinetmakers",
+    "nsco_code": "742",
+    "workforce_size": 95000,
+    "avg_salary_npr": 30000,
+    "min_education": "Training",
+    "ai_exposure_score": 0.14,
+    "rationale": "Woodworking trades in Nepal involve artisan skill and hand-tool craftsmanship; AI can assist with design, but physical production remains manual."
+  },
+  {
+    "title": "Mining and Mineral Plant Operators",
+    "nsco_code": "811",
+    "workforce_size": 35000,
+    "avg_salary_npr": 28000,
+    "min_education": "Technical Training",
+    "ai_exposure_score": 0.22,
+    "rationale": "Plant operation involves physical machinery handling in challenging environments; AI assists in monitoring and predictive maintenance but cannot replace operators in Nepal's small-scale mining sector."
+  },
+  {
+    "title": "Metal-Processing Plant Operators",
+    "nsco_code": "812",
+    "workforce_size": 25000,
+    "avg_salary_npr": 30000,
+    "min_education": "Technical Training",
+    "ai_exposure_score": 0.25,
+    "rationale": "Metal processing requires physical machine operation and quality control, though AI-enabled sensors and automation are beginning to penetrate Nepal's industrial zones incrementally."
+  },
+  {
+    "title": "Chemical-Products Machine Operators",
+    "nsco_code": "822",
+    "workforce_size": 15000,
+    "avg_salary_npr": 32000,
+    "min_education": "Technical Training",
+    "ai_exposure_score": 0.28,
+    "rationale": "Process control for chemical production can be partially automated, though Nepal's small manufacturing base limits large-scale deployment of AI-driven automation in this sector."
+  },
+  {
+    "title": "Motor Vehicle Drivers (Bus / Truck)",
+    "nsco_code": "832",
+    "workforce_size": 450000,
+    "avg_salary_npr": 35000,
+    "min_education": "Professional License",
+    "ai_exposure_score": 0.18,
+    "rationale": "Autonomous driving is technologically distant from Nepal's hilly terrain, narrow mountain roads, and unpredictable traffic patterns, meaning human drivers remain essential for the foreseeable future."
+  },
+  {
+    "title": "Agricultural and Mobile Plant Operators",
+    "nsco_code": "833",
+    "workforce_size": 85000,
+    "avg_salary_npr": 32000,
+    "min_education": "Professional License",
+    "ai_exposure_score": 0.20,
+    "rationale": "Operating tractors and harvesters across Nepal's diverse terrains requires real-time human judgment, with AI-guided machinery not yet financially or practically viable at scale."
+  },
+  {
+    "title": "Street Food Vendors",
+    "nsco_code": "911",
+    "workforce_size": 250000,
+    "avg_salary_npr": 24000,
+    "min_education": "None",
+    "ai_exposure_score": 0.07,
+    "rationale": "Street food vending is an informal, physical, and socially interactive economic activity central to Nepal's urban economy, with essentially zero direct AI automation exposure."
+  },
+  {
+    "title": "Domestic Helpers and Cleaners",
+    "nsco_code": "913",
+    "workforce_size": 850000,
+    "avg_salary_npr": 20000,
+    "min_education": "None",
+    "ai_exposure_score": 0.06,
+    "rationale": "Domestic work in Nepal involves highly physical, relational, and context-dependent tasks in private households that are practically impossible to automate with current AI or robotics."
+  },
+  {
+    "title": "Building Caretakers and Watchmen",
+    "nsco_code": "914",
+    "workforce_size": 150000,
+    "avg_salary_npr": 21000,
+    "min_education": "None",
+    "ai_exposure_score": 0.20,
+    "rationale": "Security surveillance can be partially augmented by AI cameras, but gate-keeping, physical intervention, and on-site duties in Nepal still require human guards due to cost and technology barriers."
+  },
+  {
+    "title": "Messengers and Luggage Porters",
+    "nsco_code": "915",
+    "workforce_size": 95000,
+    "avg_salary_npr": 19550,
+    "min_education": "None",
+    "ai_exposure_score": 0.10,
+    "rationale": "Porterage in Nepal (especially in Himalayan trekking regions) is a physically demanding, terrain-specific role deeply embedded in the local economy that AI cannot realistically replace."
+  },
+  {
+    "title": "Agricultural and Fishery Labourers",
+    "nsco_code": "921",
+    "workforce_size": 1200000,
+    "avg_salary_npr": 19550,
+    "min_education": "None",
+    "ai_exposure_score": 0.10,
+    "rationale": "Subsistence-level farm labor in Nepal's informal agricultural sector involves entirely physical tasks in environments where AI agri-tech infrastructure does not yet exist at scale."
+  },
+  {
+    "title": "Mining and Construction Labourers",
+    "nsco_code": "931",
+    "workforce_size": 650000,
+    "avg_salary_npr": 22000,
+    "min_education": "None",
+    "ai_exposure_score": 0.09,
+    "rationale": "Construction and mining labor in Nepal is unstructured, physically intensive, and dependent on human adaptability in conditions that make AI automation prohibitively difficult and expensive."
+  },
+  {
+    "title": "Manufacturing Labourers",
+    "nsco_code": "932",
+    "workforce_size": 450000,
+    "avg_salary_npr": 21000,
+    "min_education": "None",
+    "ai_exposure_score": 0.22,
+    "rationale": "Repetitive assembly-line tasks in Nepal's garment and carpet factories have moderate automation potential, but low labor costs and small factory scales limit practical AI/robotics adoption."
+  },
+  {
+    "title": "Transport Labourers and Freight Handlers",
+    "nsco_code": "933",
+    "workforce_size": 180000,
+    "avg_salary_npr": 22000,
+    "min_education": "None",
+    "ai_exposure_score": 0.12,
+    "rationale": "Loading, unloading, and manual freight handling require physical strength and real-time adaptability; Nepal's informal logistics sector has very limited exposure to warehouse automation."
+  },
+  {
+    "title": "Armed Forces Officers",
+    "nsco_code": "011",
+    "workforce_size": 15000,
+    "avg_salary_npr": 65000,
+    "min_education": "Bachelor's Degree",
+    "ai_exposure_score": 0.25,
+    "rationale": "Military command requires situational judgment, leadership, and ethical accountability; AI assists in intelligence analysis and logistics planning but decision-making authority remains strictly human."
+  },
+  {
+    "title": "Non-commissioned Officers and Soldiers",
+    "nsco_code": "012",
+    "workforce_size": 85000,
+    "avg_salary_npr": 35000,
+    "min_education": "SEE / +2",
+    "ai_exposure_score": 0.12,
+    "rationale": "Frontline military and peacekeeping roles involve physical engagement and unpredictable real-world scenarios where AI tools serve only as support systems, not replacements."
+  },
+  {
+    "title": "Writers and Artists",
+    "nsco_code": "243",
+    "workforce_size": 45000,
+    "avg_salary_npr": 35000,
+    "min_education": "Bachelor's Degree / Talent",
+    "ai_exposure_score": 0.58,
+    "rationale": "AI can generate text and visual art, posing a moderate threat to freelance writers and graphic designers in Nepal, though culturally specific Nepali literature and traditional art retain strong human authenticity."
+  },
+  {
+    "title": "Traditional Medicine Practitioners",
+    "nsco_code": "224",
+    "workforce_size": 65000,
+    "avg_salary_npr": 30000,
+    "min_education": "Traditional Training",
+    "ai_exposure_score": 0.15,
+    "rationale": "Ayurvedic and traditional healing in Nepal is deeply embedded in cultural trust, oral tradition, and physical treatment practices that AI cannot replicate or earn legitimacy in."
+  },
+  {
+    "title": "Primary Education Teachers (Associate)",
+    "nsco_code": "331",
+    "workforce_size": 180000,
+    "avg_salary_npr": 32000,
+    "min_education": "+2 in Education",
+    "ai_exposure_score": 0.38,
+    "rationale": "Primary teaching involves child development, classroom management, and community engagement; while AI tutoring apps exist, rural Nepal's low digital connectivity limits their practical impact."
+  }
+]

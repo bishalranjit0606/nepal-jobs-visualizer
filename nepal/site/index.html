@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nepal Occupation Visualizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0f0d11;--surface:#18151c;--surface2:#211d27;--border:rgba(255,255,255,0.07);
+  --fg:#edeaf0;--fg2:#8a8494;--fg3:#5a5462;
+  --accent:#c0253f;--accent-dim:rgba(192,37,63,0.15);
+  --blue:#2a4f80;--font:'Inter',system-ui,sans-serif;
+}
+html,body{height:100%;overflow:hidden;}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:14px;display:flex;flex-direction:column;}
+
+/* TOP BAR */
+.topbar{display:flex;align-items:center;gap:16px;padding:14px 24px;border-bottom:1px solid var(--border);background:var(--surface);flex-shrink:0;}
+.topbar-logo{display:flex;align-items:center;gap:10px;}
+.topbar-logo span{font-size:22px;}
+.topbar-title{font-size:15px;font-weight:700;letter-spacing:-0.01em;}
+.topbar-sub{font-size:11px;color:var(--fg3);margin-top:1px;}
+.topbar-divider{width:1px;height:32px;background:var(--border);}
+.topbar-stat{display:flex;flex-direction:column;gap:1px;}
+.topbar-stat-val{font-size:14px;font-weight:600;}
+.topbar-stat-lbl{font-size:10px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.06em;}
+.topbar-search{flex:1;max-width:320px;margin-left:auto;display:flex;align-items:center;gap:8px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:0 12px;}
+.topbar-search svg{color:var(--fg3);flex-shrink:0;}
+.topbar-search input{background:none;border:none;outline:none;color:var(--fg);font-family:var(--font);font-size:13px;width:100%;padding:9px 0;}
+.topbar-search input::placeholder{color:var(--fg3);}
+
+/* LAYOUT */
+.main{display:flex;flex:1;overflow:hidden;}
+
+/* LEFT */
+.left{width:300px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;}
+.filter-bar{padding:10px 12px;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:5px;}
+.chip{padding:4px 10px;border-radius:20px;font-size:11px;font-weight:500;border:1px solid var(--border);color:var(--fg2);cursor:pointer;background:transparent;transition:all 0.15s;font-family:var(--font);}
+.chip:hover{background:var(--surface2);color:var(--fg);}
+.chip.active{background:var(--accent-dim);border-color:var(--accent);color:var(--fg);}
+.occ-list{flex:1;overflow-y:auto;padding:8px;}
+.occ-list::-webkit-scrollbar{width:4px;}
+.occ-list::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.occ-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;cursor:pointer;transition:background 0.12s;border:1px solid transparent;margin-bottom:2px;}
+.occ-item:hover{background:var(--surface2);}
+.occ-item.active{background:var(--accent-dim);border-color:rgba(192,37,63,0.3);}
+.occ-score-dot{width:32px;height:32px;border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;}
+.occ-info{flex:1;min-width:0;}
+.occ-name{font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.occ-meta{font-size:11px;color:var(--fg3);margin-top:1px;}
+.occ-count{font-size:11px;color:var(--fg3);flex-shrink:0;}
+.no-results{padding:32px 16px;text-align:center;color:var(--fg3);font-size:13px;}
+
+/* RIGHT */
+.right{flex:1;overflow-y:auto;padding:28px 32px;}
+.right::-webkit-scrollbar{width:4px;}
+.right::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--fg3);text-align:center;gap:12px;}
+.empty-state .icon{font-size:48px;opacity:0.25;}
+.empty-state h2{font-size:16px;font-weight:600;color:var(--fg2);}
+.empty-state p{font-size:13px;max-width:300px;line-height:1.6;}
+
+/* DETAIL */
+.detail{display:none;}
+.detail.visible{display:block;}
+.detail-header{margin-bottom:24px;}
+.detail-nsco{font-size:11px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:5px;}
+.detail-title{font-size:26px;font-weight:700;letter-spacing:-0.02em;line-height:1.2;margin-bottom:8px;}
+.detail-sector{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--fg2);background:var(--surface2);border:1px solid var(--border);border-radius:20px;padding:3px 10px;}
+
+/* METRIC GRID */
+.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px;}
+.metric-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;}
+.metric-label{font-size:10px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:7px;}
+.metric-value{font-size:22px;font-weight:700;letter-spacing:-0.02em;}
+.metric-sub{font-size:11px;color:var(--fg3);margin-top:3px;}
+
+/* AI EXPOSURE */
+.exposure-section{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:16px;}
+.section-label{font-size:10px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:12px;}
+.exposure-row{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;}
+.exposure-score{font-size:40px;font-weight:700;letter-spacing:-0.03em;}
+.exposure-max{font-size:16px;color:var(--fg3);}
+.exposure-tier{display:inline-flex;align-items:center;font-size:12px;font-weight:500;padding:3px 10px;border-radius:6px;}
+.exposure-bar-track{height:8px;background:var(--surface2);border-radius:6px;overflow:hidden;margin-bottom:14px;}
+.exposure-bar-fill{height:100%;border-radius:6px;transition:width 0.6s cubic-bezier(0.4,0,0.2,1);}
+.exposure-rationale{font-size:13px;line-height:1.65;color:var(--fg2);}
+
+/* CHARTS ROW */
+.charts-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;}
+.chart-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.big-val{font-size:22px;font-weight:700;letter-spacing:-0.02em;margin-bottom:3px;}
+.context-text{font-size:12px;color:var(--fg2);margin-bottom:14px;}
+.sbar-row{display:flex;align-items:center;gap:8px;margin-bottom:7px;font-size:11px;}
+.sbar-name{width:72px;flex-shrink:0;color:var(--fg3);text-align:right;}
+.sbar-track{flex:1;height:7px;background:var(--surface2);border-radius:4px;overflow:hidden;}
+.sbar-fill{height:100%;border-radius:4px;transition:width 0.5s;}
+.sbar-val{width:72px;flex-shrink:0;color:var(--fg3);}
+.wpill{display:flex;align-items:center;gap:8px;background:var(--surface2);border-radius:7px;padding:9px 11px;margin-bottom:7px;}
+.wpip{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.wtext{font-size:12px;color:var(--fg2);}
+
+/* EDUCATION */
+.edu-section{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px;display:flex;align-items:center;gap:16px;margin-bottom:16px;}
+.edu-icon{font-size:28px;}
+.edu-label{font-size:10px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;}
+.edu-value{font-size:16px;font-weight:600;}
+.edu-bucket{font-size:12px;color:var(--fg2);margin-top:2px;}
+
+@media(max-width:860px){
+  .left{width:240px;}
+  .metric-grid{grid-template-columns:1fr 1fr;}
+  .charts-row{grid-template-columns:1fr;}
+  .right{padding:18px;}
+}
+@media(max-width:640px){
+  html,body{overflow:auto;}
+  .main{flex-direction:column;overflow:visible;}
+  .left{width:100%;border-right:none;border-bottom:1px solid var(--border);max-height:240px;}
+  .metric-grid{grid-template-columns:1fr;}
+  .topbar{flex-wrap:wrap;}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-logo">
+    <span>🇳🇵</span>
+    <div>
+      <div class="topbar-title">Nepal Occupation Visualizer</div>
+      <div class="topbar-sub">AI Exposure &amp; Labor Market · NSCO 2021</div>
+    </div>
+  </div>
+  <div class="topbar-divider"></div>
+  <div class="topbar-stat">
+    <div class="topbar-stat-val" id="statTotal">52</div>
+    <div class="topbar-stat-lbl">Occupations</div>
+  </div>
+  <div class="topbar-stat">
+    <div class="topbar-stat-val">13.9M</div>
+    <div class="topbar-stat-lbl">Workforce</div>
+  </div>
+  <div class="topbar-stat">
+    <div class="topbar-stat-val" id="statAvgExposure">2.3<span style="font-size:11px;color:var(--fg3);">/10</span></div>
+    <div class="topbar-stat-lbl">Avg AI Exposure</div>
+  </div>
+  <div class="topbar-search">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="searchInput" placeholder="Search occupation…" autocomplete="off">
+  </div>
+</header>
+
+<div class="main">
+  <aside class="left">
+    <div class="filter-bar" id="filterBar">
+      <button class="chip active" data-sector="All">All</button>
+    </div>
+    <div class="occ-list" id="occList"></div>
+  </aside>
+
+  <main class="right">
+    <div class="empty-state" id="emptyState">
+      <div class="icon">🔍</div>
+      <h2>Select an occupation</h2>
+      <p>Use the search bar or browse the list on the left to explore AI exposure, salary, and education data for any Nepali occupation.</p>
+    </div>
+
+    <div class="detail" id="detailPanel">
+      <div class="detail-header">
+        <div class="detail-nsco" id="dNsco"></div>
+        <div class="detail-title" id="dTitle"></div>
+        <span class="detail-sector" id="dSector"></span>
+      </div>
+
+      <div class="metric-grid">
+        <div class="metric-card">
+          <div class="metric-label">Monthly Salary</div>
+          <div class="metric-value" id="dSalary"></div>
+          <div class="metric-sub">Average, NPR</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Workforce Size</div>
+          <div class="metric-value" id="dSize"></div>
+          <div class="metric-sub" id="dSizeSub"></div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">AI Exposure</div>
+          <div class="metric-value" id="dExpSmall"></div>
+          <div class="metric-sub">out of 10</div>
+        </div>
+      </div>
+
+      <div class="exposure-section">
+        <div class="section-label">AI Exposure Score — How much can AI reshape this job?</div>
+        <div class="exposure-row">
+          <div class="exposure-score" id="dScore"></div>
+          <div class="exposure-max">/10</div>
+          <div class="exposure-tier" id="dTier"></div>
+        </div>
+        <div class="exposure-bar-track"><div class="exposure-bar-fill" id="dBar"></div></div>
+        <div class="exposure-rationale" id="dRationale"></div>
+      </div>
+
+      <div class="charts-row">
+        <div class="chart-card">
+          <div class="section-label">Salary Comparison</div>
+          <div class="big-val" id="dSalBig"></div>
+          <div class="context-text" id="dSalCtx"></div>
+          <div id="dSalBars"></div>
+        </div>
+        <div class="chart-card">
+          <div class="section-label">Workforce Breakdown</div>
+          <div class="big-val" id="dWfBig"></div>
+          <div class="context-text" id="dWfCtx"></div>
+          <div id="dWfPills"></div>
+        </div>
+      </div>
+
+      <div class="edu-section">
+        <div class="edu-icon" id="dEduIcon"></div>
+        <div>
+          <div class="edu-label">Minimum Education Required</div>
+          <div class="edu-value" id="dEduVal"></div>
+          <div class="edu-bucket" id="dEduBucket"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+const OCCUPATIONS = [{"occupation_id":"1","title":"Legislators","slug":"legislators","category":"Managers","nsco_division_code":"1","nsco_division_name":"Managers","nsco_code":"111","pay":1020000,"pay_monthly":85000,"jobs":2500,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":3,"exposure_raw":0.28,"exposure_rationale":"Legislation requires political negotiation, constituency representation, and judgment rooted in social context that AI cannot replace, though AI may assist with drafting and research.","url":""},{"occupation_id":"2","title":"Government Senior Officials","slug":"government-senior-officials","category":"Managers","nsco_division_code":"1","nsco_division_name":"Managers","nsco_code":"112","pay":864000,"pay_monthly":72000,"jobs":15000,"employment_share":null,"education":"Master's Degree","education_bucket":"Master's Degree or above","sector":"","exposure":3,"exposure_raw":0.32,"exposure_rationale":"Policy formulation and governance require human accountability and political discretion, but document drafting, report generation, and data analysis are significantly automatable.","url":""},{"occupation_id":"3","title":"Directors and Chief Executives","slug":"directors-and-chief-executives","category":"Managers","nsco_division_code":"1","nsco_division_name":"Managers","nsco_code":"121","pay":2220000,"pay_monthly":185000,"jobs":45000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":4,"exposure_raw":0.35,"exposure_rationale":"Strategic leadership and organizational vision depend on human trust and contextual judgment, though AI tools increasingly assist executives with analytics, reporting, and decision support.","url":""},{"occupation_id":"4","title":"Production and Operations Managers","slug":"production-and-operations-managers","category":"Managers","nsco_division_code":"1","nsco_division_name":"Managers","nsco_code":"122","pay":1140000,"pay_monthly":95000,"jobs":65000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":4,"exposure_raw":0.45,"exposure_rationale":"Operations scheduling, logistics optimization, and performance monitoring are increasingly automated by AI, though direct human oversight of workforce and machinery remains necessary.","url":""},{"occupation_id":"5","title":"Physicists and Chemists","slug":"physicists-and-chemists","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"211","pay":780000,"pay_monthly":65000,"jobs":8000,"employment_share":null,"education":"Master's Degree","education_bucket":"Master's Degree or above","sector":"","exposure":4,"exposure_raw":0.4,"exposure_rationale":"AI assists in hypothesis generation, literature review, and data analysis, but experimental design and scientific reasoning still depend heavily on trained human expertise.","url":""},{"occupation_id":"6","title":"Computing Professionals (Software Engineers)","slug":"computing-professionals-software-engineers","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"213","pay":1020000,"pay_monthly":85000,"jobs":120000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":7,"exposure_raw":0.72,"exposure_rationale":"Code generation, debugging, and boilerplate writing are heavily assisted by LLMs, making routine programming tasks highly automatable, though system design and architecture require human judgment.","url":""},{"occupation_id":"7","title":"Architects and Civil Engineers","slug":"architects-and-civil-engineers","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"214","pay":900000,"pay_monthly":75000,"jobs":85000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":4,"exposure_raw":0.42,"exposure_rationale":"AI can assist with design generation and structural calculations, but site-specific engineering judgment, regulatory compliance, and ground-level inspections remain human-dependent in Nepal.","url":""},{"occupation_id":"8","title":"Life Science Professionals (Biologists)","slug":"life-science-professionals-biologists","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"221","pay":696000,"pay_monthly":58000,"jobs":12000,"employment_share":null,"education":"Master's Degree","education_bucket":"Master's Degree or above","sector":"","exposure":4,"exposure_raw":0.45,"exposure_rationale":"AI accelerates genomic analysis, literature review, and data modelling, but laboratory experimentation and fieldwork in Nepal's diverse ecological zones require human presence.","url":""},{"occupation_id":"9","title":"Health Professionals (Doctors)","slug":"health-professionals-doctors","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"222","pay":1440000,"pay_monthly":120000,"jobs":35000,"employment_share":null,"education":"MBBS","education_bucket":"Bachelor's Degree","sector":"","exposure":3,"exposure_raw":0.3,"exposure_rationale":"AI assists in diagnostic imaging and medical record analysis, but patient-facing diagnosis, surgical procedures, and clinical decisions in Nepal's resource-constrained setting remain firmly human.","url":""},{"occupation_id":"10","title":"Nursing Professionals","slug":"nursing-professionals","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"223","pay":540000,"pay_monthly":45000,"jobs":95000,"employment_share":null,"education":"Bachelor's in Nursing","education_bucket":"Bachelor's Degree","sector":"","exposure":2,"exposure_raw":0.22,"exposure_rationale":"Nursing is deeply physical and relational — involving patient care, monitoring, and bedside empathy — which AI cannot replicate, especially across Nepal's under-resourced health facilities.","url":""},{"occupation_id":"11","title":"University and Higher Education Teachers","slug":"university-and-higher-education-teachers","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"231","pay":840000,"pay_monthly":70000,"jobs":42000,"employment_share":null,"education":"Master's Degree","education_bucket":"Master's Degree or above","sector":"","exposure":6,"exposure_raw":0.55,"exposure_rationale":"AI can deliver lectures, grade papers, and generate content, but nuanced mentorship, classroom management, and academic supervision in Nepal's universities still require human educators.","url":""},{"occupation_id":"12","title":"Secondary Education Teachers","slug":"secondary-education-teachers","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"232","pay":576000,"pay_monthly":48000,"jobs":110000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":5,"exposure_raw":0.48,"exposure_rationale":"AI tutoring tools can supplement instruction and grading, but classroom delivery in Nepal's diverse rural and urban schools, with variable digital access, remains human-led.","url":""},{"occupation_id":"13","title":"Business Professionals (Accountants)","slug":"business-professionals-accountants","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"241","pay":660000,"pay_monthly":55000,"jobs":150000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":8,"exposure_raw":0.78,"exposure_rationale":"Bookkeeping, financial reporting, and tax computation are highly repetitive and rule-based tasks that LLMs and accounting AI can largely automate, significantly impacting this occupation in Nepal.","url":""},{"occupation_id":"14","title":"Legal Professionals (Lawyers)","slug":"legal-professionals-lawyers","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"242","pay":780000,"pay_monthly":65000,"jobs":25000,"employment_share":null,"education":"Bachelor of Laws (LLB)","education_bucket":"Bachelor's Degree","sector":"","exposure":5,"exposure_raw":0.52,"exposure_rationale":"Legal research, contract drafting, and document review are highly automatable by LLMs, though court representation and judicial discretion in Nepal's legal system still require human lawyers.","url":""},{"occupation_id":"15","title":"Physical and Engineering Science Technicians","slug":"physical-and-engineering-science-technicians","category":"Technicians and Associates","nsco_division_code":"3","nsco_division_name":"Technicians and Associates","nsco_code":"311","pay":504000,"pay_monthly":42000,"jobs":180000,"employment_share":null,"education":"Diploma / +2","education_bucket":"Diploma","sector":"","exposure":4,"exposure_raw":0.38,"exposure_rationale":"Field testing, equipment calibration, and hands-on technical work are difficult to automate, though AI supports data logging and diagnostic interpretation.","url":""},{"occupation_id":"16","title":"Computer Associate Professionals (IT Support)","slug":"computer-associate-professionals-it-support","category":"Technicians and Associates","nsco_division_code":"3","nsco_division_name":"Technicians and Associates","nsco_code":"312","pay":456000,"pay_monthly":38000,"jobs":75000,"employment_share":null,"education":"Diploma in IT","education_bucket":"Diploma","sector":"","exposure":6,"exposure_raw":0.65,"exposure_rationale":"Routine IT troubleshooting, helpdesk support, and system setup tasks are increasingly handled by AI chatbots and automated tools, reducing demand for lower-tier IT support roles.","url":""},{"occupation_id":"17","title":"Modern Health Associate Professionals (Lab Technicians)","slug":"modern-health-associate-professionals-lab-technicians","category":"Technicians and Associates","nsco_division_code":"3","nsco_division_name":"Technicians and Associates","nsco_code":"322","pay":420000,"pay_monthly":35000,"jobs":55000,"employment_share":null,"education":"Diploma in Health Science","education_bucket":"Diploma","sector":"","exposure":3,"exposure_raw":0.33,"exposure_rationale":"Lab sample handling and specimen preparation require physical presence, though AI assists in test result interpretation and anomaly detection.","url":""},{"occupation_id":"18","title":"Finance and Sales Associate Professionals","slug":"finance-and-sales-associate-professionals","category":"Technicians and Associates","nsco_division_code":"3","nsco_division_name":"Technicians and Associates","nsco_code":"341","pay":384000,"pay_monthly":32000,"jobs":250000,"employment_share":null,"education":"+2 (Proficiency Level)","education_bucket":"+2 / Proficiency","sector":"","exposure":7,"exposure_raw":0.68,"exposure_rationale":"Sales data analysis, customer outreach scripting, and financial reporting are automatable, but face-to-face client relationships remain important in Nepal's trust-based financial culture.","url":""},{"occupation_id":"19","title":"Secretaries and Office Assistants","slug":"secretaries-and-office-assistants","category":"Clerical Support","nsco_division_code":"4","nsco_division_name":"Clerical Support","nsco_code":"411","pay":336000,"pay_monthly":28000,"jobs":320000,"employment_share":null,"education":"SEE / +2","education_bucket":"SEE (Grade 10)","sector":"","exposure":8,"exposure_raw":0.8,"exposure_rationale":"Scheduling, email management, document formatting, and data entry are among the most automatable office tasks for LLMs, making administrative assistant roles highly exposed to AI.","url":""},{"occupation_id":"20","title":"Numerical Clerks (Cashiers / Bank Tellers)","slug":"numerical-clerks-cashiers---bank-tellers","category":"Clerical Support","nsco_division_code":"4","nsco_division_name":"Clerical Support","nsco_code":"412","pay":420000,"pay_monthly":35000,"jobs":180000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":7,"exposure_raw":0.72,"exposure_rationale":"Routine transactions, balance inquiries, and record-keeping are rapidly being automated by banking apps and AI in Nepal's expanding digital financial sector.","url":""},{"occupation_id":"21","title":"Travel Attendants and Guides","slug":"travel-attendants-and-guides","category":"Service and Sales","nsco_division_code":"5","nsco_division_name":"Service and Sales","nsco_code":"511","pay":360000,"pay_monthly":30000,"jobs":45000,"employment_share":null,"education":"SEE / Training","education_bucket":"SEE (Grade 10)","sector":"","exposure":2,"exposure_raw":0.25,"exposure_rationale":"Trekking guides and tour operators in Nepal provide physical accompaniment, safety, and cultural interpretation in remote terrain where AI tools have limited real-world applicability.","url":""},{"occupation_id":"22","title":"Housekeeping and Restaurant Service Workers","slug":"housekeeping-and-restaurant-service-workers","category":"Service and Sales","nsco_division_code":"5","nsco_division_name":"Service and Sales","nsco_code":"512","pay":264000,"pay_monthly":22000,"jobs":450000,"employment_share":null,"education":"SEE / Training","education_bucket":"SEE (Grade 10)","sector":"","exposure":1,"exposure_raw":0.12,"exposure_rationale":"Physical cleaning, table service, and hospitality work in Nepal's hotels and restaurants require manual dexterity and human interaction that AI robotics cannot yet replace affordably.","url":""},{"occupation_id":"23","title":"Shop Salespersons","slug":"shop-salespersons","category":"Service and Sales","nsco_division_code":"5","nsco_division_name":"Service and Sales","nsco_code":"521","pay":252000,"pay_monthly":21000,"jobs":850000,"employment_share":null,"education":"SEE","education_bucket":"SEE (Grade 10)","sector":"","exposure":4,"exposure_raw":0.35,"exposure_rationale":"Retail selling in Nepal is relationship- and trust-driven, especially in bazaars and local markets, limiting AI displacement despite growing e-commerce automation potential.","url":""},{"occupation_id":"24","title":"Street Vendors","slug":"street-vendors","category":"Service and Sales","nsco_division_code":"5","nsco_division_name":"Service and Sales","nsco_code":"522","pay":234600,"pay_monthly":19550,"jobs":350000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.08,"exposure_rationale":"Street vending is an entirely physical, informal, and socially embedded economic activity in Nepal, where AI tools have near-zero direct automation applicability.","url":""},{"occupation_id":"25","title":"Market-Oriented Crop Growers","slug":"market-oriented-crop-growers","category":"Skilled Agricultural","nsco_division_code":"6","nsco_division_name":"Skilled Agricultural","nsco_code":"611","pay":300000,"pay_monthly":25000,"jobs":2500000,"employment_share":null,"education":"Vocational Training","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.15,"exposure_rationale":"Subsistence and commercial farming in Nepal relies on land management, irrigation, and seasonal labor — physical activities largely beyond current AI automation reach in the local context.","url":""},{"occupation_id":"26","title":"Skilled Livestock and Poultry Producers","slug":"skilled-livestock-and-poultry-producers","category":"Skilled Agricultural","nsco_division_code":"6","nsco_division_name":"Skilled Agricultural","nsco_code":"612","pay":336000,"pay_monthly":28000,"jobs":1800000,"employment_share":null,"education":"Vocational Training","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.18,"exposure_rationale":"Animal husbandry requires hands-on physical care, disease monitoring, and local ecological knowledge in Nepal's predominantly rural settings where AI agri-tech adoption is still nascent.","url":""},{"occupation_id":"27","title":"Skilled Forestry and Related Workers","slug":"skilled-forestry-and-related-workers","category":"Skilled Agricultural","nsco_division_code":"6","nsco_division_name":"Skilled Agricultural","nsco_code":"613","pay":288000,"pay_monthly":24000,"jobs":150000,"employment_share":null,"education":"Training","education_bucket":"Vocational / Training","sector":"","exposure":1,"exposure_raw":0.14,"exposure_rationale":"Forest management, planting, and conservation work in Nepal requires on-ground physical activity and ecological awareness that remains largely beyond practical AI automation.","url":""},{"occupation_id":"28","title":"Miners and Stone Cutters","slug":"miners-and-stone-cutters","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"711","pay":264000,"pay_monthly":22000,"jobs":45000,"employment_share":null,"education":"Basic Training","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.1,"exposure_rationale":"Extraction, cutting, and carving of stone and minerals is physical hazardous labor in Nepal that requires human presence in unstructured, remote environments.","url":""},{"occupation_id":"29","title":"Building Frame Workers (Carpenters/Masons)","slug":"building-frame-workers-carpenters-masons","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"712","pay":420000,"pay_monthly":35000,"jobs":350000,"employment_share":null,"education":"Vocational Training","education_bucket":"Vocational / Training","sector":"","exposure":1,"exposure_raw":0.13,"exposure_rationale":"Construction craft work requires manual dexterity, physical strength, and real-time adaptation to site conditions — tasks that remain highly resistant to AI automation in Nepal.","url":""},{"occupation_id":"30","title":"Metal Molders and Welders","slug":"metal-molders-and-welders","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"721","pay":384000,"pay_monthly":32000,"jobs":120000,"employment_share":null,"education":"Vocational Training","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.15,"exposure_rationale":"Welding and metal molding are skilled manual trades dependent on physical precision and sensory judgment, with AI playing only peripheral roles in quality inspection.","url":""},{"occupation_id":"31","title":"Machinery Mechanics and Fitters","slug":"machinery-mechanics-and-fitters","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"723","pay":456000,"pay_monthly":38000,"jobs":150000,"employment_share":null,"education":"Diploma","education_bucket":"Diploma","sector":"","exposure":2,"exposure_raw":0.2,"exposure_rationale":"Mechanical repair and fitting require physical diagnostics and hands-on intervention, with AI-assisted diagnostics supporting but not replacing the mechanic in Nepal's informal repair economy.","url":""},{"occupation_id":"32","title":"Precision Workers in Metal and Jewelry","slug":"precision-workers-in-metal-and-jewelry","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"731","pay":540000,"pay_monthly":45000,"jobs":85000,"employment_share":null,"education":"Apprenticeship","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.17,"exposure_rationale":"Jewelry craftsmanship in Nepal (particularly Newari metalwork) is a culturally valued artisan skill requiring manual precision and creative tradition that AI cannot authentically replicate.","url":""},{"occupation_id":"33","title":"Food Processing Workers (Butchers / Bakers)","slug":"food-processing-workers-butchers---bakers","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"741","pay":336000,"pay_monthly":28000,"jobs":180000,"employment_share":null,"education":"Training","education_bucket":"Vocational / Training","sector":"","exposure":1,"exposure_raw":0.12,"exposure_rationale":"Food processing in Nepal is predominantly manual and informal, carried out in small-scale shops and homes, making large-scale AI-driven automation economically and logistically unfeasible.","url":""},{"occupation_id":"34","title":"Wood Treaters and Cabinetmakers","slug":"wood-treaters-and-cabinetmakers","category":"Craft and Trades","nsco_division_code":"7","nsco_division_name":"Craft and Trades","nsco_code":"742","pay":360000,"pay_monthly":30000,"jobs":95000,"employment_share":null,"education":"Training","education_bucket":"Vocational / Training","sector":"","exposure":1,"exposure_raw":0.14,"exposure_rationale":"Woodworking trades in Nepal involve artisan skill and hand-tool craftsmanship; AI can assist with design, but physical production remains manual.","url":""},{"occupation_id":"35","title":"Mining and Mineral Plant Operators","slug":"mining-and-mineral-plant-operators","category":"Plant and Machine Operators","nsco_division_code":"8","nsco_division_name":"Plant and Machine Operators","nsco_code":"811","pay":336000,"pay_monthly":28000,"jobs":35000,"employment_share":null,"education":"Technical Training","education_bucket":"Diploma","sector":"","exposure":2,"exposure_raw":0.22,"exposure_rationale":"Plant operation involves physical machinery handling in challenging environments; AI assists in monitoring and predictive maintenance but cannot replace operators in Nepal's small-scale mining sector.","url":""},{"occupation_id":"36","title":"Metal-Processing Plant Operators","slug":"metal-processing-plant-operators","category":"Plant and Machine Operators","nsco_division_code":"8","nsco_division_name":"Plant and Machine Operators","nsco_code":"812","pay":360000,"pay_monthly":30000,"jobs":25000,"employment_share":null,"education":"Technical Training","education_bucket":"Diploma","sector":"","exposure":2,"exposure_raw":0.25,"exposure_rationale":"Metal processing requires physical machine operation and quality control, though AI-enabled sensors and automation are beginning to penetrate Nepal's industrial zones incrementally.","url":""},{"occupation_id":"37","title":"Chemical-Products Machine Operators","slug":"chemical-products-machine-operators","category":"Plant and Machine Operators","nsco_division_code":"8","nsco_division_name":"Plant and Machine Operators","nsco_code":"822","pay":384000,"pay_monthly":32000,"jobs":15000,"employment_share":null,"education":"Technical Training","education_bucket":"Diploma","sector":"","exposure":3,"exposure_raw":0.28,"exposure_rationale":"Process control for chemical production can be partially automated, though Nepal's small manufacturing base limits large-scale deployment of AI-driven automation in this sector.","url":""},{"occupation_id":"38","title":"Motor Vehicle Drivers (Bus / Truck)","slug":"motor-vehicle-drivers-bus---truck","category":"Plant and Machine Operators","nsco_division_code":"8","nsco_division_name":"Plant and Machine Operators","nsco_code":"832","pay":420000,"pay_monthly":35000,"jobs":450000,"employment_share":null,"education":"Professional License","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.18,"exposure_rationale":"Autonomous driving is technologically distant from Nepal's hilly terrain, narrow mountain roads, and unpredictable traffic patterns, meaning human drivers remain essential for the foreseeable future.","url":""},{"occupation_id":"39","title":"Agricultural and Mobile Plant Operators","slug":"agricultural-and-mobile-plant-operators","category":"Plant and Machine Operators","nsco_division_code":"8","nsco_division_name":"Plant and Machine Operators","nsco_code":"833","pay":384000,"pay_monthly":32000,"jobs":85000,"employment_share":null,"education":"Professional License","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.2,"exposure_rationale":"Operating tractors and harvesters across Nepal's diverse terrains requires real-time human judgment, with AI-guided machinery not yet financially or practically viable at scale.","url":""},{"occupation_id":"40","title":"Street Food Vendors","slug":"street-food-vendors","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"911","pay":288000,"pay_monthly":24000,"jobs":250000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.07,"exposure_rationale":"Street food vending is an informal, physical, and socially interactive economic activity central to Nepal's urban economy, with essentially zero direct AI automation exposure.","url":""},{"occupation_id":"41","title":"Domestic Helpers and Cleaners","slug":"domestic-helpers-and-cleaners","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"913","pay":240000,"pay_monthly":20000,"jobs":850000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.06,"exposure_rationale":"Domestic work in Nepal involves highly physical, relational, and context-dependent tasks in private households that are practically impossible to automate with current AI or robotics.","url":""},{"occupation_id":"42","title":"Building Caretakers and Watchmen","slug":"building-caretakers-and-watchmen","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"914","pay":252000,"pay_monthly":21000,"jobs":150000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":2,"exposure_raw":0.2,"exposure_rationale":"Security surveillance can be partially augmented by AI cameras, but gate-keeping, physical intervention, and on-site duties in Nepal still require human guards due to cost and technology barriers.","url":""},{"occupation_id":"43","title":"Messengers and Luggage Porters","slug":"messengers-and-luggage-porters","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"915","pay":234600,"pay_monthly":19550,"jobs":95000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.1,"exposure_rationale":"Porterage in Nepal (especially in Himalayan trekking regions) is a physically demanding, terrain-specific role deeply embedded in the local economy that AI cannot realistically replace.","url":""},{"occupation_id":"44","title":"Agricultural and Fishery Labourers","slug":"agricultural-and-fishery-labourers","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"921","pay":234600,"pay_monthly":19550,"jobs":1200000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.1,"exposure_rationale":"Subsistence-level farm labor in Nepal's informal agricultural sector involves entirely physical tasks in environments where AI agri-tech infrastructure does not yet exist at scale.","url":""},{"occupation_id":"45","title":"Mining and Construction Labourers","slug":"mining-and-construction-labourers","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"931","pay":264000,"pay_monthly":22000,"jobs":650000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.09,"exposure_rationale":"Construction and mining labor in Nepal is unstructured, physically intensive, and dependent on human adaptability in conditions that make AI automation prohibitively difficult and expensive.","url":""},{"occupation_id":"46","title":"Manufacturing Labourers","slug":"manufacturing-labourers","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"932","pay":252000,"pay_monthly":21000,"jobs":450000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":2,"exposure_raw":0.22,"exposure_rationale":"Repetitive assembly-line tasks in Nepal's garment and carpet factories have moderate automation potential, but low labor costs and small factory scales limit practical AI/robotics adoption.","url":""},{"occupation_id":"47","title":"Transport Labourers and Freight Handlers","slug":"transport-labourers-and-freight-handlers","category":"Elementary Occupations","nsco_division_code":"9","nsco_division_name":"Elementary Occupations","nsco_code":"933","pay":264000,"pay_monthly":22000,"jobs":180000,"employment_share":null,"education":"None","education_bucket":"No formal education","sector":"","exposure":1,"exposure_raw":0.12,"exposure_rationale":"Loading, unloading, and manual freight handling require physical strength and real-time adaptability; Nepal's informal logistics sector has very limited exposure to warehouse automation.","url":""},{"occupation_id":"48","title":"Armed Forces Officers","slug":"armed-forces-officers","category":"Armed Forces","nsco_division_code":"0","nsco_division_name":"Armed Forces","nsco_code":"011","pay":780000,"pay_monthly":65000,"jobs":15000,"employment_share":null,"education":"Bachelor's Degree","education_bucket":"Bachelor's Degree","sector":"","exposure":2,"exposure_raw":0.25,"exposure_rationale":"Military command requires situational judgment, leadership, and ethical accountability; AI assists in intelligence analysis and logistics planning but decision-making authority remains strictly human.","url":""},{"occupation_id":"49","title":"Non-commissioned Officers and Soldiers","slug":"non-commissioned-officers-and-soldiers","category":"Armed Forces","nsco_division_code":"0","nsco_division_name":"Armed Forces","nsco_code":"012","pay":420000,"pay_monthly":35000,"jobs":85000,"employment_share":null,"education":"SEE / +2","education_bucket":"SEE (Grade 10)","sector":"","exposure":1,"exposure_raw":0.12,"exposure_rationale":"Frontline military and peacekeeping roles involve physical engagement and unpredictable real-world scenarios where AI tools serve only as support systems, not replacements.","url":""},{"occupation_id":"50","title":"Writers and Artists","slug":"writers-and-artists","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"243","pay":420000,"pay_monthly":35000,"jobs":45000,"employment_share":null,"education":"Bachelor's Degree / Talent","education_bucket":"Bachelor's Degree","sector":"","exposure":6,"exposure_raw":0.58,"exposure_rationale":"AI can generate text and visual art, posing a moderate threat to freelance writers and graphic designers in Nepal, though culturally specific Nepali literature and traditional art retain strong human authenticity.","url":""},{"occupation_id":"51","title":"Traditional Medicine Practitioners","slug":"traditional-medicine-practitioners","category":"Professionals","nsco_division_code":"2","nsco_division_name":"Professionals","nsco_code":"224","pay":360000,"pay_monthly":30000,"jobs":65000,"employment_share":null,"education":"Traditional Training","education_bucket":"Vocational / Training","sector":"","exposure":2,"exposure_raw":0.15,"exposure_rationale":"Ayurvedic and traditional healing in Nepal is deeply embedded in cultural trust, oral tradition, and physical treatment practices that AI cannot replicate or earn legitimacy in.","url":""},{"occupation_id":"52","title":"Primary Education Teachers (Associate)","slug":"primary-education-teachers-associate","category":"Technicians and Associates","nsco_division_code":"3","nsco_division_name":"Technicians and Associates","nsco_code":"331","pay":384000,"pay_monthly":32000,"jobs":180000,"employment_share":null,"education":"+2 in Education","education_bucket":"+2 / Proficiency","sector":"","exposure":4,"exposure_raw":0.38,"exposure_rationale":"Primary teaching involves child development, classroom management, and community engagement; while AI tutoring apps exist, rural Nepal's low digital connectivity limits their practical impact.","url":""}];
+const TOTAL_WF = OCCUPATIONS.reduce((s,d)=>s+(d.jobs||0),0);
+const MIN_WAGE = 19550;
+let selectedId = null, activeFilter = 'All', searchQuery = '';
+
+const SECTORS = [...new Set(OCCUPATIONS.map(d=>d.category))].sort();
+
+function fmtNPR(n){if(n==null)return'—';return'NPR '+n.toLocaleString('en-NP');}
+function fmtNum(n){if(n==null)return'—';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(0)+'K';return n.toLocaleString();}
+
+function expColor(s10){
+  if(s10<=1)return'#22c55e';  // bright green
+  if(s10<=2)return'#4ade80';  // light green
+  if(s10<=3)return'#a3e635';  // lime
+  if(s10<=4)return'#facc15';  // bright yellow
+  if(s10<=5)return'#fb923c';  // bright orange
+  if(s10<=6)return'#f97316';  // deeper orange
+  if(s10<=7)return'#ef4444';  // bright red
+  if(s10<=8)return'#e11d48';  // vivid rose
+  return'#f43f5e';             // hot pink-red
+}
+
+function tierInfo(s10){
+  if(s10<=1)return['Minimal','rgba(34,197,94,0.15)','#22c55e'];
+  if(s10<=3)return['Low','rgba(163,230,53,0.15)','#a3e635'];
+  if(s10<=5)return['Moderate','rgba(251,146,60,0.18)','#fb923c'];
+  if(s10<=7)return['High','rgba(239,68,68,0.18)','#ef4444'];
+  return['Very High','rgba(244,63,94,0.2)','#f43f5e'];
+}
+
+function eduIcon(b){
+  return{
+    'No formal education':'🌾','Vocational / Training':'🔧','SEE (Grade 10)':'📋',
+    '+2 / Proficiency':'📖','Diploma':'📜',"Bachelor's Degree":'🎓',"Master's Degree or above":'🏅'
+  }[b]||'📋';
+}
+
+function sectorEmoji(c){
+  return{'Managers':'🏢','Professionals':'💡','Technicians and Associates':'⚙️',
+    'Clerical Support':'📁','Service and Sales':'🛍️','Skilled Agricultural':'🌾',
+    'Craft and Trades':'🔨','Plant and Machine Operators':'🏭',
+    'Elementary Occupations':'👷','Armed Forces':'🎖️'}[c]||'💼';
+}
+
+// Build sector chips
+(function(){
+  const bar=document.getElementById('filterBar');
+  SECTORS.forEach(s=>{
+    const b=document.createElement('button');
+    b.className='chip'; b.dataset.sector=s; b.textContent=s;
+    bar.appendChild(b);
+  });
+  bar.addEventListener('click',e=>{
+    const chip=e.target.closest('.chip');
+    if(!chip)return;
+    activeFilter=chip.dataset.sector;
+    bar.querySelectorAll('.chip').forEach(c=>c.classList.toggle('active',c.dataset.sector===activeFilter));
+    renderList();
+  });
+})();
+
+function filtered(){
+  let list=OCCUPATIONS;
+  if(activeFilter!=='All')list=list.filter(d=>d.category===activeFilter);
+  if(searchQuery){const q=searchQuery.toLowerCase();list=list.filter(d=>d.title.toLowerCase().includes(q)||d.sector?.toLowerCase().includes(q)||d.nsco_code?.includes(q));}
+  return list.slice().sort((a,b)=>(b.jobs||0)-(a.jobs||0));
+}
+
+function renderList(){
+  const list=filtered();
+  document.getElementById('statTotal').textContent=list.length;
+  const el=document.getElementById('occList');
+  if(!list.length){el.innerHTML='<div class="no-results">No results. Try a different search.</div>';return;}
+  el.innerHTML=list.map(d=>{
+    const col=expColor(d.exposure||0);
+    const rgb=col.slice(1).match(/.{2}/g).map(x=>parseInt(x,16)).join(',');
+    return`<div class="occ-item${d.occupation_id===selectedId?' active':''}" data-id="${d.occupation_id}">
+      <div class="occ-score-dot" style="background:rgba(${rgb},0.15);color:${col};">${d.exposure??'—'}</div>
+      <div class="occ-info">
+        <div class="occ-name">${d.title}</div>
+        <div class="occ-meta">${d.category}</div>
+      </div>
+      <div class="occ-count">${fmtNum(d.jobs)}</div>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('.occ-item').forEach(item=>item.addEventListener('click',()=>selectOcc(item.dataset.id)));
+}
+
+function selectOcc(id){
+  selectedId=id;
+  const d=OCCUPATIONS.find(o=>o.occupation_id===id);
+  document.querySelectorAll('.occ-item').forEach(el=>el.classList.toggle('active',el.dataset.id===id));
+  renderDetail(d);
+}
+
+function renderDetail(d){
+  document.getElementById('emptyState').style.display='none';
+  document.getElementById('detailPanel').classList.add('visible');
+
+  document.getElementById('dNsco').textContent=`NSCO ${d.nsco_code||'—'}  ·  ${d.nsco_division_name||''}`;
+  document.getElementById('dTitle').textContent=d.title;
+  document.getElementById('dSector').innerHTML=`${sectorEmoji(d.category)} ${d.sector||d.category}`;
+
+  document.getElementById('dSalary').textContent=fmtNPR(d.pay_monthly);
+  document.getElementById('dSize').textContent=fmtNum(d.jobs);
+  document.getElementById('dSizeSub').textContent=d.jobs?`${(d.jobs/TOTAL_WF*100).toFixed(1)}% of workforce`:'Estimated';
+  document.getElementById('dExpSmall').textContent=d.exposure??'—';
+
+  const s10=d.exposure??0, col=expColor(s10);
+  const[tlbl,tbg,tcol]=tierInfo(s10);
+  const scoreEl=document.getElementById('dScore');
+  scoreEl.textContent=d.exposure??'—'; scoreEl.style.color=col;
+  const tierEl=document.getElementById('dTier');
+  tierEl.textContent=tlbl; tierEl.style.background=tbg; tierEl.style.color=tcol;
+  const bar=document.getElementById('dBar');
+  bar.style.width='0'; bar.style.background=col;
+  setTimeout(()=>{bar.style.width=(s10*10)+'%';},60);
+  document.getElementById('dRationale').textContent=d.exposure_rationale||'';
+
+  // Salary bars
+  const bmarks=[{n:'Min. Wage',v:MIN_WAGE},{n:'Nat. Avg.',v:30000},{n:'This job',v:d.pay_monthly},{n:'Doctor',v:120000}];
+  const maxP=Math.max(...bmarks.map(b=>b.v||0));
+  document.getElementById('dSalBig').textContent=fmtNPR(d.pay_monthly);
+  const m=d.pay_monthly||0;
+  document.getElementById('dSalCtx').textContent=m>MIN_WAGE?`+${(((m-MIN_WAGE)/MIN_WAGE)*100).toFixed(0)}% above minimum wage`:m===MIN_WAGE?'At minimum wage':`${(((MIN_WAGE-m)/MIN_WAGE)*100).toFixed(0)}% below minimum wage`;
+  document.getElementById('dSalBars').innerHTML=bmarks.map(b=>{
+    const pct=maxP?(b.v/maxP*100):0;
+    const isThis=b.n==='This job';
+    return`<div class="sbar-row">
+      <div class="sbar-name">${b.n}</div>
+      <div class="sbar-track"><div class="sbar-fill" style="width:${pct}%;background:${isThis?col:'#3a3542'}"></div></div>
+      <div class="sbar-val" style="color:${isThis?'var(--fg)':'var(--fg3)'}">${fmtNPR(b.v)}</div>
+    </div>`;
+  }).join('');
+
+  // Workforce pills
+  document.getElementById('dWfBig').textContent=fmtNum(d.jobs);
+  const sh=(d.jobs/TOTAL_WF*100).toFixed(2);
+  document.getElementById('dWfCtx').textContent=`${sh}% of Nepal's 13.9M tracked workforce`;
+  const secTotal=OCCUPATIONS.filter(o=>o.category===d.category).reduce((s,o)=>s+(o.jobs||0),0);
+  const secSh=secTotal?(d.jobs/secTotal*100).toFixed(1):'0';
+  document.getElementById('dWfPills').innerHTML=`
+    <div class="wpill"><div class="wpip" style="background:${col}"></div><div class="wtext"><b>${fmtNum(d.jobs)}</b> workers in this role</div></div>
+    <div class="wpill"><div class="wpip" style="background:#3a6090"></div><div class="wtext"><b>${(d.jobs/TOTAL_WF*100).toFixed(1)}%</b> of total tracked workforce</div></div>
+    <div class="wpill"><div class="wpip" style="background:#5a5462"></div><div class="wtext"><b>${secSh}%</b> of ${d.category} sector (${fmtNum(secTotal)} total)</div></div>
+  `;
+
+  document.getElementById('dEduIcon').textContent=eduIcon(d.education_bucket);
+  document.getElementById('dEduVal').textContent=d.education||'—';
+  document.getElementById('dEduBucket').textContent=d.education_bucket||'';
+}
+
+document.getElementById('searchInput').addEventListener('input',e=>{
+  searchQuery=e.target.value.trim();
+  renderList();
+});
+
+renderList();
+</script>
+</body>
+</html>
