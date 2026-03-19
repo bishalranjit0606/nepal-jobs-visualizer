@@ -174,3 +174,4 @@ python3 -m compileall india
 ## Legacy note
 
 The original U.S.-specific scripts are still in the repo for reference, but the active workflow for this project is now the India pipeline under `india/`.
+# nepal-jobs-visualizer
